@@ -79,7 +79,7 @@ These dates are subject to change.
 * Milestone 2: Semantic Analysis (continued)
    - 23/11: Lab 6: Testing Type Analysis
    - 23/11: Lab 7: Type Analysis
-	 - 30/11: Lab 8: Data-flow Analysis
+   - 30/11: Lab 8: Data-flow Analysis
 * Milestone 3: Code Generation
    - 14/12: Lab 9: Compiling Minimal Programs
    - 21/12: Lab 10: Compiling Expressions and Statements
