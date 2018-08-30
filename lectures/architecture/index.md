@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Compiler Archicture"
-excerpt: "Archicture"
+title: "Compiler Architecture"
+excerpt: "Architecture"
 tags: ["lectures"]
 context: lectures
 subcontext: architecture

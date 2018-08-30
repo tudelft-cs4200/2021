@@ -1,95 +1,98 @@
-# Introduction
+# Architecture
 
 - title: Software Languages
   url: /lectures/introduction/software-languages.html
   context: lectures
-  subcontext: introduction
+  subcontext: architecture
 
 - title: Imperative & Object-Oriented Programming Languages
   url: /lectures/introduction/imperative-oo-pl.html
   context: lectures
-  subcontext: introduction
+  subcontext: architecture
 
 - title: Domain-Specific Languages
   url: /lectures/introduction/domain-specific-languages.html
   context: lectures
-  subcontext: introduction
+  subcontext: architecture
 
-# Language Specification
+# Syntax
 
 - title: Formal Grammars
   url: /lectures/specification/formal-grammars.html
   context: lectures
-  subcontext: specification
+  subcontext: syntax
 
 - title: Syntax Definition
   url: /lectures/specification/syntax-definition.html
   context: lectures
-  subcontext: specification
+  subcontext: syntax
+
+- title: Lexical Analysis
+  url: /lectures/generation/lexical-analysis.html
+  context: lectures
+  subcontext: syntax
+
+- title: LL Parsing
+  url: /lectures/generation/ll-parsing.html
+  context: lectures
+  subcontext: syntax
+
+- title: LR Parsing
+  url: /lectures/generation/lr-parsing.html
+  context: lectures
+  subcontext: syntax
+
+# transformation
 
 - title: Term Rewriting
   url: /lectures/specification/term-rewriting.html
   context: lectures
-  subcontext: specification
+  subcontext: transformation
+
+# statics
 
 - title: Static Analysis
   url: /lectures/specification/static-analysis.html
   context: lectures
-  subcontext: specification
+  subcontext: statics
 
 - title: Name Resolution
   url: /lectures/specification/name-resolution.html
   context: lectures
-  subcontext: specification
+  subcontext: statics
 
 - title: Type Checking
   url: /lectures/specification/type-checking.html
   context: lectures
-  subcontext: specification
-
-- title: Dynamic Semantics
-  url: /lectures/specification/dynamic-semantics.html
-  context: lectures
-  subcontext: specification
-
-# Compiler Techniques
-
-- title: Virtual Machines
-  url: /lectures/techniques/virtual-machines.html
-  context: lectures
-  subcontext: techniques
+  subcontext: statics
 
 - title: Dataflow Analysis
   url: /lectures/techniques/dataflow-analysis.html
   context: lectures
   subcontext: techniques
 
+# dynamics
+
+- title: Dynamic Semantics
+  url: /lectures/specification/dynamic-semantics.html
+  context: lectures
+  subcontext: dynamics
+
+- title: Virtual Machines
+  url: /lectures/techniques/virtual-machines.html
+  context: lectures
+  subcontext: dynamics
+
 - title: Register Allocation
   url: /lectures/techniques/register-allocation.html
   context: lectures
-  subcontext: techniques
+  subcontext: dynamics
 
 - title: Garbage Collection
   url: /lectures/techniques/garbage-collection.html
   context: lectures
-  subcontext: techniques
+  subcontext: dynamics
 
-# Compiler Generation
-
-- title: Lexical Analysis
-  url: /lectures/generation/lexical-analysis.html
-  context: lectures
-  subcontext: generation
-
-- title: LL Parsing
-  url: /lectures/generation/ll-parsing.html
-  context: lectures
-  subcontext: generation
-
-- title: LR Parsing
-  url: /lectures/generation/lr-parsing.html
-  context: lectures
-  subcontext: generation
 
 # Milestone 1
 

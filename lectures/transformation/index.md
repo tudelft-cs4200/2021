@@ -1,10 +1,15 @@
 ---
 layout: page
-title: "Compiler Techniques"
-excerpt: "Compiler Techniques"
+title: "Transformation"
+excerpt: "Transformation"
 tags: ["lecture"]
 context: lectures
-subcontext: techniques
+subcontext: transformation
 ---
 
-In the second topic, we address techniques for the compilation and runtime environments of imperative and object-oriented languages, including dataflow analysis, register allocation, virtual machines, and memory management in detail.
+In this section of the course we study transformations on abstract syntax trees.
+
+Topics
+
+- rewrite rules, rewrite strategies
+- simplification, desugaring

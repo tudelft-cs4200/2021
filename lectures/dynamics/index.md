@@ -1,11 +1,18 @@
 ---
 layout: page
-title: "Compiler Generation"
-excerpt: "Compiler Generation"
+title: "Dynamics"
+excerpt: "Dynamics"
 tags: ["lectures"]
 context: lectures
-subcontext: generation
+subcontext: dynamics
 ---
 
-In the final topic, we take a closer look on the inside working of compiler components and their generators. In particular, we study parsing algorithms and parser generation.
+In the final section of the course we study the execution of programs, or its _dynamics_.
 
+topics
+
+  - dynamic semantics and code generation
+  - operational semantics, program execution
+  - virtual machines, assembly code, byte code
+  - code generation
+  - memory management, garbage collection

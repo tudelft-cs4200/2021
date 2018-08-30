@@ -7,4 +7,15 @@ context: lectures
 subcontext: statics
 ---
 
-The first topic focuses on declarative specification of compiler components as supported by state-of-the-art tools for compiler construction, including lexical syntax, context-free syntax, static semantics, and code generation.
+In this section of the course we look at static analysis of programs. These are analyses that take the abstract syntax tree produced by a parser and perform (context-sensitive) analyses of properties of a program.
+
+Topics
+
+  - static semantics and type checking
+    - name binding, name resolution, scope graphs
+    - types, type checking, type inference, subtyping
+    - unification, constraints
+  - semantic editor services
+  - Data-flow analysis
+    - control-flow, data-flow
+    - monotone frameworks, worklist algorithm
