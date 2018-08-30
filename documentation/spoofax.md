@@ -3,7 +3,7 @@ layout: page
 title: "Spoofax"
 excerpt: "Spoofax"
 tags: ["documentation"]
-context: assign
+context: project
 subcontext: doc
 ---
 
