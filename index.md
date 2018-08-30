@@ -17,7 +17,7 @@ This course studies the architecture of compilers and interactive programming en
 
 The course covers the following topics:
 
-* Syntax and parsing
+* Syntax
   - concrete syntax, abstract syntax
   - context-free grammars
   - derivations, ambiguity, disambiguation, associativity, priority
@@ -30,7 +30,8 @@ The course covers the following topics:
   - rewrite rules, rewrite strategies
 	- simplification, desugaring
 
-* Static semantics and type checking
+* Statics
+  - Static semantics and type checking
   - name binding, name resolution, scope graphs
   - types, type checking, type inference, subtyping
   - unification, constraints
@@ -40,7 +41,8 @@ The course covers the following topics:
   - control-flow, data-flow
   - monotone frameworks, worklist algorithm
 
-* Dynamic semantics and code generation
+* Dynamics
+  - Dynamic semantics and code generation
   - operational semantics, program execution
   - virtual machines, assembly code, byte code
   - code generation
