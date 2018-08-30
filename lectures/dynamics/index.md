@@ -7,11 +7,11 @@ context: lectures
 subcontext: dynamics
 ---
 
-In the final section of the course we study the execution of programs, or its _dynamics_.
+In this section of the course we study dynamic behaviour (execution) of programs and how that is implemented
 
-topics
+Topics
 
-  - dynamic semantics and code generation
+  - dynamic semantics
   - operational semantics, program execution
   - virtual machines, assembly code, byte code
   - code generation
