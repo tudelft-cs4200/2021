@@ -2,8 +2,8 @@
 layout: page
 title: "Milestone 2: Semantic Analysis"
 excerpt: "Milestone 2: Semantic Analysis"
-tags: ["assignment"]
-context: assign
+tags: ["project"]
+context: project
 subcontext: ms2
 ---
 

@@ -2,8 +2,8 @@
 layout: page
 title: "Milestone 2 FAQ"
 excerpt: "Milestone 2 FAQ"
-tags: ["assignment"]
-context: assign
+tags: ["project"]
+context: project
 subcontext: ms2
 ---
 
@@ -16,7 +16,7 @@ resolve. As a workaround you can access the documentation at <http://spoofax.rea
 
 # Debugging
 
-<a name="build-failure"></a> 
+<a name="build-failure"></a>
 
 ### How do I know if building my language failed?
 
@@ -42,7 +42,7 @@ check for this by opening the Stratego file that is generated from the NaBL2 fil
 selecting `Spoofax > Analysis > Generate Stratego` for an NaBL2 file. Make sure that you import your
 MiniJava signatures in the NaBL2 file, or you will also get errors for constructors that *do* exist.
 
-<a name="analysis-failure"></a> 
+<a name="analysis-failure"></a>
 
 ### Why does my analysis crash?
 
@@ -50,11 +50,11 @@ This usually happens because you made an error in your NaBL2 rule definitions. A
 is no static analysis on the NaBL2 files, but some common errors are:
 
 1. A recursive call on a variable that is not bound in the match pattern. For example:
- 
+
    ```
    [[ App(e1,e2) ^ (s) ]] := ..., [[ e ^ (s) ]], ...
    ```
-  
+
    The variable `e` is not bound in the pattern of the rule, and will automatically be a constraint
    variable. In this case recursion on `e1` or `e2` will be correct.
 
@@ -63,7 +63,7 @@ is no static analysis on the NaBL2 files, but some common errors are:
    ```
    [[ ... ^ (s) ]] := ..., s' ---> s, new s2.
    ```
-  
+
    The variable `s'` is used as a scope, but it is not bound, and will be a constraint variable
    instead of a scope. In this example `s` and `s2` can be used in scope position.
 
@@ -78,7 +78,7 @@ is no static analysis on the NaBL2 files, but some common errors are:
    etc. [See here](#result-exceptions) for more info if you get an exception when opening the
    analysis results.
 
-<a name="result-exceptions"></a> 
+<a name="result-exceptions"></a>
 
 ### Why do I get exceptions when hovering the file or trying to show analysis results?
 

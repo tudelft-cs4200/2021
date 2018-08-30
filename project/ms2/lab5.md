@@ -2,8 +2,8 @@
 layout: page
 title: "Lab 5: Name Analysis"
 excerpt: "Lab 5: Name Analysis"
-tags: ["assignment"]
-context: assign
+tags: ["project"]
+context: project
 subcontext: ms2
 ---
 
@@ -54,7 +54,7 @@ scope graph and resolution constraints. The specification should include:
 You need to submit your MiniJava project with a pull request against branch `assignment5` on GitHub.
 The [Git documentation](/documentation/git.html#submitting-an-assignment) explains how to file such a request.
 
-The deadline for submissions is October 27th 2017, 23:59.
+The deadline for submissions is October 26th 2018, 23:59.
 {: .notice .notice-warning}
 
 ### Grading

@@ -2,8 +2,8 @@
 layout: page
 title: "Lab 7: Type Analysis"
 excerpt: "Lab 7: Type Analysis"
-tags: ["assignment"]
-context: assign
+tags: ["project"]
+context: project
 subcontext: ms2
 ---
 
@@ -49,7 +49,7 @@ Specify type analysis for MiniJava in NaBL2. The specification should include:
 You need to submit your MiniJava project with a pull request against branch `assignment7` on GitHub.
 The [Git documentation](/documentation/git.html#submitting-an-assignment) explains how to file such a request.
 
-The deadline for submission is December 6th 2017, 23:59.
+The deadline for submission is November 23 2018, 23:59.
 {: .notice .notice-warning}
 
 ### Grading
@@ -200,7 +200,7 @@ form:
     <Occurrence> : <Type>
 
 At references, where you have a resolution constraint `<Occurrence> |-> <Var>`, you use the same
-constraint, but with the variable, instead of a concrete occurrence, like this: 
+constraint, but with the variable, instead of a concrete occurrence, like this:
 
     <Var> : <Type>
 
@@ -240,7 +240,7 @@ look like this:
         new cs,
         Class{x} ===> cs,
         // ...
- 
+
 Now, using the class declaration of a class type, we can get the class scope by using `<Occurrence>
 ?===> cs`. Note that `cs` will be a variable that is going to be instantiated during constraint
 solving. Create the method reference in a new scope `ms` (any name will do). We connect this scope

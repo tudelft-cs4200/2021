@@ -3,7 +3,7 @@ layout: page
 title: "Milestone 1 FAQ"
 excerpt: "Milestone 1 FAQ"
 tags: ["assignment"]
-context: assign
+context: project
 subcontext: ms1
 ---
 
@@ -36,7 +36,7 @@ Check that INT and ID are defined as `context-free start symbol` (even though th
 
 # Setup
 
-##### After importing the projects into Eclipse I receive several errors that have to do with importing and including files. 
+##### After importing the projects into Eclipse I receive several errors that have to do with importing and including files.
 
 If you get errors after [importing the projects into Eclipse](/assignments/ms1/lab1.html#importing-projects-into-eclipse) you should build the project by choosing *Project > Build All* from the menu.
 

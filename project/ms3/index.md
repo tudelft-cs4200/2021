@@ -2,8 +2,8 @@
 layout: page
 title: "Milestone 3: Code Generation"
 excerpt: "Milestone 3: Code Generation"
-tags: ["assignment"]
-context: assign
+tags: ["project"]
+context: project
 subcontext: ms3
 ---
 

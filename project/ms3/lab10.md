@@ -2,8 +2,8 @@
 layout: page
 title: "Lab 10: More Code Generation"
 excerpt: "Lab 10: More Code Generation"
-tags: ["assignment"]
-context: assign
+tags: ["project"]
+context: project
 subcontext: ms3
 ---
 
@@ -32,7 +32,7 @@ In this lab, you extend your code generator to handle expressions, statements, m
 You need to submit your MiniJava project with a pull request against branch `assignment10` on GitHub.
 The [Git documentation](/documentation/git.html#submitting-an-assignment) explains how to file such a request.
 
-The deadline for submissions is December 22nd 2017, 23:59. The extended deadline is January 12th 2018, 23:59, for a penalty of 1 point.
+The deadline for submissions is December 21 2018, 23:59. The extended deadline is January 11 2019, 23:59, for a penalty of 1 point.
 {: .notice .notice-warning}
 
 ### Grading

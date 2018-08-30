@@ -2,8 +2,8 @@
 layout: page
 title: "Lab 1: Testing Syntax Analysis"
 excerpt: "Lab 1: Testing Syntax Analysis"
-tags: ["assignment"]
-context: assign
+tags: ["project"]
+context: project
 subcontext: ms1
 ---
 
@@ -45,7 +45,7 @@ You need to submit your test project with a pull request against branch `assignm
 The [Git documentation](/documentation/git.html#submitting-an-assignment) explains how to file such a request.
 We expect to find your Spoofax project `minijava` and your test project `minijava.test.syntax` next to each other in the root of the repository.
 
-The deadline for submission is 20th September 2017, 23:59.
+The deadline for submission is 28th September 2018, 23:59.
 {: .notice .notice-warning}
 
 ### Grading

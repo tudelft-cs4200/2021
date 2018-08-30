@@ -3,7 +3,7 @@ layout: page
 title: "Milestone 1: Syntax Analysis"
 excerpt: "Milestone 1: Syntax Analysis"
 tags: ["assignment"]
-context: assign
+context: project
 subcontext: ms1
 ---
 

@@ -2,8 +2,8 @@
 layout: page
 title: "Lab 8: Data-Flow Analysis"
 excerpt: "Lab 8: Data-Flow Analysis"
-tags: ["assignment"]
-context: assign
+tags: ["project"]
+context: project
 subcontext: ms2
 ---
 

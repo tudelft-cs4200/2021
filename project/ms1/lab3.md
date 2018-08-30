@@ -2,8 +2,8 @@
 layout: page
 title: "Lab 3: Simple Term Rewriting"
 excerpt: "Lab 3: Simple Term Rewriting"
-tags: ["assignment"]
-context: assign
+tags: ["project"]
+context: project
 subcontext: ms1
 ---
 
@@ -35,7 +35,7 @@ For grading, it is required to comply with all constructor names, rule names, an
 You need to submit your MiniJava project with a pull request against branch `assignment3` on GitHub.
 The [Git documentation](/documentation/git.html#submitting-an-assignment) explains how to file such a request.
 
-The deadline for submission is October 4th 2017, 23:59.
+The deadline for submission is October 5th 2018, 23:59.
 {: .notice .notice-warning}
 
 ### Grading
@@ -345,7 +345,7 @@ Annotations can be used for different variants of builders:
 * `(openeditor)` from the Syntax menu ensures that a new editor window is opened for the result.
 * Finally, `(source)` tells Spoofax to run the builder on an unanalysed (and also not desugared) AST.
 
-Note that the `editor-desugar` rule uses `desugar-all`. You should implement this strategy as explained in the next section. Until you do, the menu option will not work. 
+Note that the `editor-desugar` rule uses `desugar-all`. You should implement this strategy as explained in the next section. Until you do, the menu option will not work.
 {: .notice .notice-warning}
 
 
@@ -396,5 +396,5 @@ Try changing the `editor-desugar` rule to use `desugar-all` instead of `desugar`
 
 Define a desugaring for octal numbers.
 In Java, octal numbers start with leading zeros.
-Define a rewrite rule which matches such numbers and transforms them to decimal integers. If the number with leading zero is not octal, do not transform it. 
+Define a rewrite rule which matches such numbers and transforms them to decimal integers. If the number with leading zero is not octal, do not transform it.
 See the [API docs](http://releases.strategoxt.org/docs/api/libstratego-lib/stable/docs/) for useful helper strategies.

@@ -2,8 +2,8 @@
 layout: page
 title: "Milestone 3 FAQ"
 excerpt: "Milestone 3 FAQ"
-tags: ["assignment"]
-context: assign
+tags: ["project"]
+context: project
 subcontext: ms3
 ---
 
