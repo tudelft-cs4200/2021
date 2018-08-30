@@ -20,11 +20,11 @@ The course covers the following topics:
 * Syntax and parsing
   - concrete syntax, abstract syntax
   - context-free grammars
-	- derivations, ambiguity, disambiguation, associativity, priority
+  - derivations, ambiguity, disambiguation, associativity, priority
   - parsing, parse trees, abstract syntax trees, terms
   - pretty-printing
   - parser generation
-	- syntactic editor services
+  - syntactic editor services
 
 * Transformation
   - rewrite rules, rewrite strategies
@@ -34,11 +34,11 @@ The course covers the following topics:
   - name binding, name resolution, scope graphs
   - types, type checking, type inference, subtyping
   - unification, constraints
-	- semantic editor services
+  - semantic editor services
 
 * Data-flow analysis
   - control-flow, data-flow
-	- monotone frameworks, worklist algorithm
+  - monotone frameworks, worklist algorithm
 
 * Dynamic semantics and code generation
   - operational semantics, program execution
