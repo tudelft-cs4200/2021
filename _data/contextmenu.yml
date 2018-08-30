@@ -3,11 +3,11 @@
 - title: introduction
   url: /lectures/introduction/
   context: lectures
-  
+
 - title: language specification
   url: /lectures/specification/
   context: lectures
-  
+
 - title: compiler techniques
   url: /lectures/techniques/
   context: lectures
@@ -18,18 +18,18 @@
 
 # Assignments
 
-- title: syntax analysis
-  url: /assignments/ms1/
+- title: syntactic analysis
+  url: /project/ms1/
   context: assign
-  
+
 - title: semantic analysis
-  url: /assignments/ms2/
+  url: /project/ms2/
   context: assign
-  
+
 - title: code generation
-  url: /assignments/ms3/
+  url: /project/ms3/
   context: assign
-  
+
 - title: documentation
   url: /documentation/
   context: assign
