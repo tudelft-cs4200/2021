@@ -4,11 +4,13 @@ title: "Project"
 excerpt: "Project"
 tags: ["project"]
 context: project
+---
+<!--
 image:
    feature: assignments.jpg
    credit: Delft University of Technology
    creditlink: http://repository.tudelft.nl/view/MMP/uuid:785a7433-f8b0-40b8-b420-b59d88fc2254
----
+-->
 
 In the project part of the course (CS4200-B), you build a compiler and IDE for MiniJava, a small subset of Java.
 We split this task into three milestones, each consisting of smaller 'labs':
