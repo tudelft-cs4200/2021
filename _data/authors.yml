@@ -6,35 +6,26 @@
   email: E.Visser@tudelft.nl
   avatar: https://c2.staticflickr.com/8/7443/27739223716_b21b783899_m.jpg
   twitter: eelcovisser
-  
-- name: Hendrik van Antwerpen
-  position: graduate teaching assistant
-  office: Building 28. E4.420
-  hours: Tue 10:15-11:45
-  email: H.vanAntwerpen@tudelft.nl
-  avatar: https://media-exp2.licdn.com/media/p/8/000/260/2fe/33e6db0.jpg
-  
-- name: Eduardo de Souza Amorim
-  position: graduate teaching assistant
-  office: Building 28. E4.420
-  hours: Tue 10:15-11:45
-  email: L.E.DeSouzaAmorim-1@tudelft.nl
-  avatar: https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAXHAAAAJGRmNDQ3ZWVlLWY5MTEtNDBiNi1iNjk1LWQ4ZTEwY2Y4OTcxZQ.jpg
-  
-- name: Gabriël Konat
-  position: graduate teaching assistant
-  office: Building 28. E4.420
-  hours: Tue 10:15-11:45
-  email: G.D.P.Konat@tudelft.nl
-  avatar: bio-photo.jpg
 
+- name: Jasper Denkers
+  position: graduate teaching assistant
+  office: Building 28. E4.420
+  email: j.denkers@tudelft.nl
+  avatar:
+    
 - name: Jeff Smits
   position: graduate teaching assistant
   office: Building 28. E4.420
   email: J.Smits-1@tudelft.nl
   avatar: https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/005/081/09f/286de2d.jpg
 
-- name: Thomas Smith
+- name: Hendrik van Antwerpen
+  position: graduate teaching assistant
+  office: Building 28. E4.420
+  email: H.vanAntwerpen@tudelft.nl
+  avatar: https://media-exp2.licdn.com/media/p/8/000/260/2fe/33e6db0.jpg
+
+- name: Taico Aerts
   position: student teaching assistant
-  email: T.N.Smith@student.tudelft.nl
-  avatar: https://avatars3.githubusercontent.com/u/5946422
+  email: T.V.Aerts@student.tudelft.nl
+  avatar:
