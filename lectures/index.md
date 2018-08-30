@@ -10,12 +10,32 @@ image:
    creditlink: http://repository.tudelft.nl/view/MMP/uuid%3Aa2f25709-c56e-453e-9394-4a05acf603a4/
 ---
 
-The lectures will be renewed this year; the schedule will be updated as we go.
+## (Tentative) Schedule 2018-2019
 
-The lecture notes and slides will be published at http://www.declare-your-language.org
+Q1
 
-For your information, last year's schedule and lecture pages are still included below.
+* Tue Sep 4, 17:45-19:30, EWI Bool: [What is a compiler?](architecture/)
+* Fri Sep 7, 17:45-19:30, EWI Chip: [Syntax Definition](syntax/)
+* Tue Sep 11, 17:45-19:30, EWI Bool: [Syntactic (Editor) Services](syntax/)
+* Tue Sep 18, 17:45-19:30, EWI Bool: [Transformation](transformation/)
+* Tue Oct 25, 17:45-19:30, EWI Bool: [Name Resolution](statics/)
+* Tue Oct 2, 17:45-19:30, EWI Bool: [Type Constraints](statics/)
+* Tue Oct 9, 17:45-19:30, EWI Bool: [Constraint Resolution I](statics/)
+* Tue Oct 16, 17:45-19:30, EWI Bool: [Constraint Resolution II](statics/)
+* Tue Oct 23, 17:45-19:30, EWI Bool: Reserve
 
+Q2
+
+* Tue Nov 13, 10:45-12:30, CT-CZ D: [Data-flow Analysis](statics/)
+* Tue Nov 20, 10:45-12:30, CT-CZ D: [Dynamic Semantics](dynamics/)
+* Tue Nov 27, 10:45-12:30, CT-CZ D: [Virtual Machines & Code Generation](dynamics/)
+* Tue Dec 4, 10:45-12:30, CT-CZ D: [Garbage Collection](dynamics/)
+* Tue Dec 11, 10:45-12:30, CT-CZ D: [Parsing](syntax/)
+* Tue Dec 18, 10:45-12:30, CT-CZ D: [Disambiguation](syntax/)
+* Tue Jan 8, 10:45-12:30, CT-CZ D: Reserve
+* Tue Jan 15, 10:45-12:30, CT-CZ D: Overview
+
+<!--
 ## Schedule 2017-2018
 
 topic schedule is tentative

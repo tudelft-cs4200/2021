@@ -1,19 +1,23 @@
 # Lectures
 
-- title: introduction
-  url: /lectures/introduction/
+- title: architecture
+  url: /lectures/architecture/
   context: lectures
 
-- title: language specification
-  url: /lectures/specification/
+- title: syntax
+  url: /lectures/syntax/
   context: lectures
 
-- title: compiler techniques
-  url: /lectures/techniques/
+- title: transformation
+  url: /lectures/transformation/
   context: lectures
 
-- title: compiler generation
-  url: /lectures/generation/
+- title: statics
+  url: /lectures/statics/
+  context: lectures
+
+- title: dynamics
+  url: /lectures/dynamics/
   context: lectures
 
 # Assignments
