@@ -58,7 +58,7 @@
   url: /lectures/techniques/virtual-machines.html
   context: lectures
   subcontext: techniques
-  
+
 - title: Dataflow Analysis
   url: /lectures/techniques/dataflow-analysis.html
   context: lectures
@@ -136,6 +136,11 @@
   context: assign
   subcontext: ms2
 
+- title: lab 8
+  url: /assignments/ms2/lab8.html
+  context: assign
+  subcontext: ms2
+
 - title: FAQ
   url: /assignments/ms2/faq.html
   context: assign
@@ -144,11 +149,6 @@
 
 # Milestone 3
 
-- title: lab 8
-  url: /assignments/ms3/lab8.html
-  context: assign
-  subcontext: ms3
-
 - title: lab 9
   url: /assignments/ms3/lab9.html
   context: assign
@@ -156,6 +156,11 @@
 
 - title: lab 10
   url: /assignments/ms3/lab10.html
+  context: assign
+  subcontext: ms3
+
+- title: lab 11
+  url: /assignments/ms3/lab11.html
   context: assign
   subcontext: ms3
 
