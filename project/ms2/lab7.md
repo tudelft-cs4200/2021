@@ -49,7 +49,7 @@ Specify type analysis for MiniJava in NaBL2. The specification should include:
 You need to submit your MiniJava project with a pull request against branch `assignment7` on GitHub.
 The [Git documentation](/documentation/git.html#submitting-an-assignment) explains how to file such a request.
 
-The deadline for submission is November 23 2018, 23:59.
+The deadline for submission is November 23, 2018, 23:59.
 {: .notice .notice-warning}
 
 ### Grading

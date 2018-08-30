@@ -12,6 +12,8 @@ subcontext: ms1
 In this lab, you develop a test suite for syntax analysis.
 The test suite consists of positive and negative test cases.
 
+Note: The deadlines for Lab 1 and Lab 2 are at the same date so that you can develop tests and syntax definition together.
+
 ## Overview
 
 ### Objectives
@@ -45,7 +47,7 @@ You need to submit your test project with a pull request against branch `assignm
 The [Git documentation](/documentation/git.html#submitting-an-assignment) explains how to file such a request.
 We expect to find your Spoofax project `minijava` and your test project `minijava.test.syntax` next to each other in the root of the repository.
 
-The deadline for submission is 28th September 2018, 23:59.
+The deadline for submission is 28 September 2018, 23:59.
 {: .notice .notice-warning}
 
 ### Grading
@@ -142,7 +144,7 @@ To read more on SPT, visit the [documentation](http://www.metaborg.org/en/latest
 ### MiniJava Syntax Definition
 
 To write your own test cases, you need to understand MiniJava's syntax.
-You can find the ultimate MiniJava syntax definition in the [*MiniJava Language Reference Manual*](http://www.cambridge.org/us/features/052182060X/mjreference/node1.html).
+You can find the definitive MiniJava syntax definition in the [*MiniJava Language Reference Manual*](http://www.cambridge.org/resources/052182060X/).
 The manual says nothing about reserved words.
 But it states that the meaning of a MiniJava program is given by the meaning as a Java program.
 Therefore, you should treat all reserved words in Java as reserved in MiniJava as well and provide test cases which address this issue.
