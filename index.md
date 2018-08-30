@@ -28,21 +28,20 @@ The course covers the following topics:
 
 * Transformation
   - rewrite rules, rewrite strategies
-	- simplification, desugaring
+  - simplification, desugaring
 
 * Statics
-  - Static semantics and type checking
-  - name binding, name resolution, scope graphs
-  - types, type checking, type inference, subtyping
-  - unification, constraints
+  - static semantics and type checking
+    - name binding, name resolution, scope graphs
+    - types, type checking, type inference, subtyping
+    - unification, constraints
   - semantic editor services
-
-* Data-flow analysis
-  - control-flow, data-flow
-  - monotone frameworks, worklist algorithm
+  - Data-flow analysis
+    - control-flow, data-flow
+    - monotone frameworks, worklist algorithm
 
 * Dynamics
-  - Dynamic semantics and code generation
+  - dynamic semantics and code generation
   - operational semantics, program execution
   - virtual machines, assembly code, byte code
   - code generation
