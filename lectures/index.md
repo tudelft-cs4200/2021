@@ -18,22 +18,22 @@ Q1
 
 * Tue Sep 4, 17:45-19:30, EWI Bool: [What is a compiler?](architecture/)
 * Fri Sep 7, 17:45-19:30, EWI Chip: [Syntax Definition](syntax/)
-* Tue Sep 11, 17:45-19:30, EWI Bool: [Syntactic (Editor) Services](syntax/)
-* Tue Sep 18, 17:45-19:30, EWI Bool: [Transformation](transformation/)
-* Tue Oct 25, 17:45-19:30, EWI Bool: [Name Resolution](statics/)
-* Tue Oct 2, 17:45-19:30, EWI Bool: [Type Constraints](statics/)
-* Tue Oct 9, 17:45-19:30, EWI Bool: [Constraint Resolution I](statics/)
-* Tue Oct 16, 17:45-19:30, EWI Bool: [Constraint Resolution II](statics/)
-* Tue Oct 23, 17:45-19:30, EWI Bool: Reserve
+* Tue Sep 11, 17:45-19:30, EWI Bool: [Parsing](syntax/)
+* Tue Sep 18, 17:45-19:30, EWI Bool: [Syntactic (Editor) Services](syntax/)
+* Tue Oct 25, 17:45-19:30, EWI Bool: [Transformation](transformation/)
+* Tue Oct 2, 17:45-19:30, EWI Bool: [Name Resolution](statics/)
+* Tue Oct 9, 17:45-19:30, EWI Bool: [Type Constraints](statics/)
+* Tue Oct 16, 17:45-19:30, EWI Bool: [Constraint Resolution I](statics/)
+* Tue Oct 23, 17:45-19:30, EWI Bool: [Constraint Resolution II](statics/)
 
 Q2
 
 * Tue Nov 13, 10:45-12:30, CT-CZ D: [Data-flow Analysis](statics/)
-* Tue Nov 20, 10:45-12:30, CT-CZ D: [Dynamic Semantics](dynamics/)
-* Tue Nov 27, 10:45-12:30, CT-CZ D: [Virtual Machines & Code Generation](dynamics/)
+* Tue Nov 20, 10:45-12:30, CT-CZ D: [Virtual Machines & Code Generation](dynamics/)
+* Tue Nov 27, 10:45-12:30, CT-CZ D: [Optimization](dynamics/)
 * Tue Dec 4, 10:45-12:30, CT-CZ D: [Garbage Collection](dynamics/)
-* Tue Dec 11, 10:45-12:30, CT-CZ D: [Parsing](syntax/)
-* Tue Dec 18, 10:45-12:30, CT-CZ D: [Disambiguation](syntax/)
+* Tue Dec 11, 10:45-12:30, CT-CZ D: [Dynamic Semantics & Interpreters](dynamics/)
+* Tue Dec 18, 10:45-12:30, CT-CZ D: Applications
 * Tue Jan 8, 10:45-12:30, CT-CZ D: Reserve
 * Tue Jan 15, 10:45-12:30, CT-CZ D: Overview
 
