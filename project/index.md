@@ -1,17 +1,17 @@
 ---
 layout: page
-title: "Assignments"
-excerpt: "Assignments"
-tags: ["assignment"]
-context: assign
+title: "Project"
+excerpt: "Project"
+tags: ["project"]
+context: project
 image:
    feature: assignments.jpg
    credit: Delft University of Technology
    creditlink: http://repository.tudelft.nl/view/MMP/uuid:785a7433-f8b0-40b8-b420-b59d88fc2254
 ---
 
-In the project part of the course (CS4200-B), you build an IDE for MiniJava, a small subset of Java.
-We split this task into three milestones of (roughly) weekly individual assignments:
+In the project part of the course (CS4200-B), you build a compiler and IDE for MiniJava, a small subset of Java.
+We split this task into three milestones, each consisting of smaller 'labs':
 
 * [Milestone 1: Syntax Analysis](ms1)
   * [Testing Syntax Analysis](ms1/lab1.html)
