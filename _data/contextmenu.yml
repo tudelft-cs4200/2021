@@ -20,16 +20,16 @@
 
 - title: syntactic analysis
   url: /project/ms1/
-  context: assign
+  context: project
 
 - title: semantic analysis
   url: /project/ms2/
-  context: assign
+  context: project
 
 - title: code generation
   url: /project/ms3/
-  context: assign
+  context: project
 
 - title: documentation
   url: /documentation/
-  context: assign
+  context: project
