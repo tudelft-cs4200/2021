@@ -17,7 +17,7 @@ image:
 Q1
 
 * Tue Sep 4, 17:45-19:30, EWI Bool: [What is a compiler?](architecture/)
-* Fri Sep 7, 17:45-19:30, EWI Chip: [Syntax Definition](syntax/)
+* Fri Sep 7, 13:45-15:30, EWI Chip: [Syntax Definition](syntax/)
 * Tue Sep 11, 17:45-19:30, EWI Bool: [Parsing](syntax/)
 * Tue Sep 18, 17:45-19:30, EWI Bool: [Syntactic (Editor) Services](syntax/)
 * Tue Oct 25, 17:45-19:30, EWI Bool: [Transformation](transformation/)
