@@ -25,7 +25,6 @@ Q1
 * Tue Oct 9, 17:45-19:30, EWI Bool: [Type Constraints](statics/)
 * Tue Oct 16, 17:45-19:30, EWI Bool: [Constraint Resolution I](statics/)
 * Tue Oct 23, 17:45-19:30, EWI Bool: [Constraint Resolution II](statics/)
-
 * Thu, Nov 1, 13:30-16:30, LR-CZ J: midterm exam
 
 Q2
@@ -38,8 +37,7 @@ Q2
 * Tue Dec 18, 10:45-12:30, CT-CZ D: Applications
 * Tue Jan 8, 10:45-12:30, CT-CZ D: Reserve
 * Tue Jan 15, 10:45-12:30, CT-CZ D: Overview
-
-* Tue, Jan 29, 18:30-21:30, DW-IZ 1: final exam 
+* Tue, Jan 29, 18:30-21:30, DW-IZ 1: final exam
 
 <!--
 ## Schedule 2017-2018
