@@ -8,3 +8,5 @@ subcontext:
 ---
 
 To study the material of the lectures we provide homework assignments to be completed each week before the next lecture.
+
+* [Week 1.1](week1.1/)
