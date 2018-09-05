@@ -35,7 +35,7 @@ The test suite should provide
 
 ### Submission
 
-You need to submit your test project with a pull request against branch `assignment6` on GitHub.
+You need to submit your test project with a merge request against branch `assignment6-submission` on GitLab.
 The [Git documentation](/documentation/git.html#submitting-an-assignment) explains how to file such
 a request.  We expect to find your Spoofax project `minijava` and your test project
 `minijava.test.types` next to each other in the root of the repository.
@@ -74,7 +74,7 @@ You have 3 early feedback attempts.
 
 You continue with your work from the previous assignment.  See the
 [Git documentation](/documentation/git.html#continue-from-previous-assignment) on how to create the
-`assignment6` branch from your previous work.
+`assignment6-develop` branch from your previous work.
 
 For this lab, you should put all your tests in `minijava.test.types`.
 {: .notice .notice-warning}
