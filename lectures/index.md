@@ -16,15 +16,15 @@ image:
 
 Q1
 
-* Tue Sep 4, 17:45-19:30, EWI Bool: [What is a compiler?](architecture/)
+* Tue Sep 4, 17:45-19:30, EWI Boole: [What is a compiler?](architecture/)
 * Fri Sep 7, 13:45-15:30, EWI Chip: [Syntax Definition](syntax/)
-* Tue Sep 11, 17:45-19:30, EWI Bool: [Parsing](syntax/)
-* Tue Sep 18, 17:45-19:30, EWI Bool: [Syntactic (Editor) Services](syntax/)
-* Tue Oct 25, 17:45-19:30, EWI Bool: [Transformation](transformation/)
-* Tue Oct 2, 17:45-19:30, EWI Bool: [Name Resolution](statics/)
-* Tue Oct 9, 17:45-19:30, EWI Bool: [Type Constraints](statics/)
-* Tue Oct 16, 17:45-19:30, EWI Bool: [Constraint Resolution I](statics/)
-* Tue Oct 23, 17:45-19:30, EWI Bool: [Constraint Resolution II](statics/)
+* Tue Sep 11, 17:45-19:30, EWI Boole: [Parsing](syntax/)
+* Tue Sep 18, 17:45-19:30, EWI Boole: [Syntactic (Editor) Services](syntax/)
+* Tue Oct 25, 17:45-19:30, EWI Boole: [Transformation](transformation/)
+* Tue Oct 2, 17:45-19:30, EWI Boole: [Name Resolution](statics/)
+* Tue Oct 9, 17:45-19:30, EWI Boole: [Type Constraints](statics/)
+* Tue Oct 16, 17:45-19:30, EWI Boole: [Constraint Resolution I](statics/)
+* Tue Oct 23, 17:45-19:30, EWI Boole: [Constraint Resolution II](statics/)
 * Thu, Nov 1, 13:30-16:30, LR-CZ J: midterm exam
 
 Q2
