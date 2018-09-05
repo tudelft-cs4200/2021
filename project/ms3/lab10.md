@@ -32,7 +32,7 @@ In this lab, you extend your code generator to handle expressions, statements, m
 
 ### Submission
 
-You need to submit your MiniJava project with a pull request against branch `assignment10` on GitHub.
+You need to submit your MiniJava project with a merge request against branch `assignment10-submission` on GitLab.
 The [Git documentation](/documentation/git.html#submitting-an-assignment) explains how to file such a request.
 
 The deadline for submissions is December 21, 2018, 23:59. The extended deadline is January 11, 2019, 23:59, for a penalty of 1 point.
@@ -69,7 +69,7 @@ We provide early feedback for the _transformation_ part and the _stack limits_ c
 ### Git Repository
 
 You continue with your work from the previous assignment.
-See the [Git documentation](/documentation/git.html#continue-from-previous-assignment) on how to create the `assignment10` branch from your previous work.
+See the [Git documentation](/documentation/git.html#continue-from-previous-assignment) on how to create the `assignment10-develop` branch from your previous work.
 
 ### Write More Jasmin Code
 

@@ -35,7 +35,7 @@ The test suite should provide
 
 ### Submission
 
-You need to submit your test project with a pull request against branch `assignment4` on GitHub.
+You need to submit your test project with a merge request against branch `assignment4-submission` on GitLab.
 The [Git documentation](/documentation/git.html#submitting-an-assignment) explains how to file such
 a request.  We expect to find your Spoofax project `minijava` and your test project
 `minijava.test.names` next to each other in the root of the repository.
@@ -77,9 +77,9 @@ detecting them. You have 3 early feedback attempts.
 A new version of Spoofax is required for this lab.
 See the [Spoofax documentation](/documentation/spoofax.html#updating) on how to update Spoofax.
 
-#### GitHub Repository
+#### GitLab Repository
 
-We provide you with a template for this assignment in the `assignment4` branch. See the
+We provide you with a template for this assignment in the `assignment4-template` branch. See the
 [Git documentation](/documentation/git.html#template) on how to check out this branch.
 
 The template contains 4 Maven projects:

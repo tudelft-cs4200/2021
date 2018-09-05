@@ -54,7 +54,7 @@ scope graph and resolution constraints. The specification should include:
 
 ### Submission
 
-You need to submit your MiniJava project with a pull request against branch `assignment5` on GitHub.
+You need to submit your MiniJava project with a merge request against branch `assignment5-submission` on GitLab.
 The [Git documentation](/documentation/git.html#submitting-an-assignment) explains how to file such a request.
 
 The deadline for submissions is October 26, 2018, 23:59.
@@ -91,11 +91,11 @@ You have 3 early feedback attempts.
 
 ### Preliminaries
 
-#### GitHub Repository
+#### GitLab Repository
 
 You continue with your work from the previous assignment. See the
 [Git documentation](/documentation/git.html#continue-from-previous-assignment) on
-how to create the `assignment5` branch from your previous work.
+how to create the `assignment5-develop` branch from your previous work.
 
 ### Constraint generation rules
 

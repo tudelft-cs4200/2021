@@ -34,7 +34,7 @@ We split this task into three milestones, each consisting of smaller 'labs':
 
 We rely on GitLab for assignment submissions.
 We assign a private GitLab repository to each student and encourage students to commit and push their work frequently.
-To submit your assignment, you need to file a pull request.
+To submit your assignment, you need to file a merge request.
 
 To check your progress on an assignment, you can submit a *preliminary solution*.
 We will provide limited early feedback on preliminary solutions.
@@ -47,7 +47,7 @@ To ensure fairness and equal chances for all students, grading reports will not 
 We do our best to hand out grading reports as quick as possible, but manual grading can be tedious and might result in longer waiting times for some assignments.
 
 Early feedback and most parts of final grading are automated and supported in GitLab.
-Each pull request triggers the launch of a build job which runs automated feedback and grading for your solution.
+Each merge request triggers the launch of a build job which runs automated feedback and grading for your solution.
 Be aware that feedback might be delayed due to submissions by other students, instance limits, server problems, etc.
 
 ## Grades

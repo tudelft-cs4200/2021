@@ -35,7 +35,7 @@ For grading, it is required to comply with all constructor names, rule names, an
 
 ### Submission
 
-You need to submit your MiniJava project with a pull request against branch `assignment3` on GitHub.
+You need to submit your MiniJava project with a merge request against branch `assignment3-submission` on GitLab.
 The [Git documentation](/documentation/git.html#submitting-an-assignment) explains how to file such a request.
 
 The deadline for submission is October 5, 2018, 23:59.
@@ -64,9 +64,9 @@ You have 3 early feedback attempts.
 
 ### Preliminaries
 
-#### GitHub Repository
+#### GitLab Repository
 
-We provide you with a template for this assignment in the `assignment3` branch.
+We provide you with a template for this assignment in the `assignment3-template` branch.
 See the [Git documentation](/documentation/git.html#template) on how to check out this branch.
 
 ### Anatomy of a Spoofax Project

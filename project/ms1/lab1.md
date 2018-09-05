@@ -46,7 +46,7 @@ The test suite should provide
 
 ### Submission
 
-You need to submit your test project with a pull request against branch `assignment1` on GitHub.
+You need to submit your test project with a merge request against branch `assignment1-submission` on GitLab.
 The [Git documentation](/documentation/git.html#submitting-an-assignment) explains how to file such a request.
 We expect to find your Spoofax project `minijava` and your test project `minijava.test.syntax` next to each other in the root of the repository.
 
@@ -85,7 +85,7 @@ You have 3 early feedback attempts.
 
 #### Git Repository
 
-We provide you with a template for this assignment in the `assignment1` branch.
+We provide you with a template for this assignment in the `assignment1-template` branch.
 See the [Git documentation](/documentation/git.html#template) on how to check out this branch.
 
 The template contains 3 Maven projects:

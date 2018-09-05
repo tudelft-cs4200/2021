@@ -28,7 +28,7 @@ The code generator should include a transformation from MiniJava ASTs to Jasmin 
 
 ### Submission
 
-You need to submit your MiniJava project with a pull request against branch `assignment9` on GitHub.
+You need to submit your MiniJava project with a merge request against branch `assignment9-submission` on GitLab.
 The [Git documentation](/documentation/git.html#submitting-an-assignment) explains how to file such a request.
 
 The deadline for submission is December 14, 2018, 23:59.
@@ -46,9 +46,9 @@ We provide early feedback for the _code generator_. You have 3 early feedback at
 
 ### Preliminaries
 
-#### GitHub Repository
+#### GitLab Repository
 
-We provide you with a template for this assignment in the `assignment9` branch. See the
+We provide you with a template for this assignment in the `assignment9-template` branch. See the
 [Git documentation](/documentation/git.html#template) on how to check out this branch.
 
 The template contains 4 Maven projects:
