@@ -7,7 +7,7 @@ context: assignments
 subcontext: week11
 ---
 
-Submit your answers in [WebLab](https://weblab.tudelft.nl/cs4200/2018-2019/assignment/20428/view) by Friday, September 7, 2018.
+Submit your answers in [WebLab](https://weblab.tudelft.nl/cs4200/2018-2019/) ([Assignment Week 1.1](https://weblab.tudelft.nl/cs4200/2018-2019/assignment/20428/view)) by Friday, September 7, 2018.
 
 ## 1.1.1 Compiler vs Language Workbench
 
@@ -19,7 +19,6 @@ Write a short essay discussing the following questions:
 - What are the commonalities and differences between traditional compilers and language implementations developed using a language workbench?
 - Include a discussion of architecture and features
 
-Submit in [WebLab](https://weblab.tudelft.nl/cs4200/2018-2019/)
 
 ## 1.1.2 Types of Compilers
 
