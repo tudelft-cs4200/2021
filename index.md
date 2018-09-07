@@ -51,13 +51,13 @@ The course covers the following topics:
 
 The course formally consists of two courses.
 
-In course CS4200-A (Compiler Construction) you study the concepts and techniques of compiler construction by reading papers and by making home work assignments that prepare for the exams. The course is examined by exams in November and January. After this course, students should be able to:
+In course CS4200-A (Compiler Construction) students study the concepts and techniques of compiler construction by reading papers and by making home work assignments that prepare for the exams. The course is examined by exams in November and January. After this course, students should be able to:
 
 - Describe the architecture of a compiler and programming environment and the role of each component of that architecture
 - Explain the basic concepts of the formalisms for the definition of the components of a compiler and apply these formalisms to define small languages
 - Explain the algorithms and techniques for the implementation of compiler components and apply these techniques to examples
 
-In course CS4200-B (Compiler Construction Project), in which the concepts and techniques from this course are applied in the construction of a compiler for a small programming language. After this course students students should be able to
+In course CS4200-B (Compiler Construction Project) students apply the concepts and techniques from part A in the construction of a compiler for a small programming language. After this course students students should be able to
 
 - Define the syntax of a programming language using declarative syntax definition that describes the concrete and abstract syntax of a programming language
 - Define transformations on abstract syntax terms to simplify programs
