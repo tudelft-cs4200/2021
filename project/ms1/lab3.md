@@ -35,7 +35,7 @@ For grading, it is required to comply with all constructor names, rule names, an
 
 ### Submission
 
-You need to submit your MiniJava project with a merge request against branch `assignment3-submission` on GitLab.
+You need to submit your MiniJava project with a merge request against branch `assignment-3-submission` on GitLab.
 The [Git documentation](/documentation/git.html#submitting-an-assignment) explains how to file such a request.
 
 The deadline for submission is October 5, 2018, 23:59.
@@ -66,7 +66,7 @@ You have 3 early feedback attempts.
 
 #### GitLab Repository
 
-We provide you with a template for this assignment in the `assignment3-template` branch.
+We provide you with a template for this assignment in the `assignment-3-template` branch.
 See the [Git documentation](/documentation/git.html#template) on how to check out this branch.
 
 ### Anatomy of a Spoofax Project
@@ -104,7 +104,7 @@ You can find more generated files in `src-gen` and `target/metaborg` folders:
 
 #### Initial Editor Project
 
-We provide you with an initial MiniJava project in the branch `assignment3`.
+We provide you with an initial MiniJava project in the branch `assignment-3-template`.
 This project is a common starting point for all of you.
 It includes:
 

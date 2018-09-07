@@ -49,7 +49,7 @@ The definition should include:
 
 ### Submission
 
-You need to submit your MiniJava project with a merge request against branch `assignment2-submission` on GitLab.
+You need to submit your MiniJava project with a merge request against branch `assignment-2-submission` on GitLab.
 The [Git documentation](/documentation/git.html#submitting-an-assignment) explains how to file such a request.
 
 The deadline for submission is September 28 2018, 23:59.
@@ -95,7 +95,7 @@ You have 3 early feedback attempts.
 #### Git Repository
 
 You continue with your work from the previous assignment.
-See the [Git documentation](/documentation/git.html#continue-from-previous-assignment) on how to create the `assignment2-develop` branch from your previous work.
+See the [Git documentation](/documentation/git.html#continue-from-previous-assignment) on how to create the `assignment-2-develop` branch from your previous work.
 
 ### Agile Software Language Engineering
 
