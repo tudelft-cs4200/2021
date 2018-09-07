@@ -30,7 +30,7 @@ In this lab, you complete your code generator to handle arbitrary MiniJava progr
 
 ### Submission
 
-You need to submit your MiniJava project with a merge request against branch `assignment11-submission` on GitLab.
+You need to submit your MiniJava project with a merge request against branch `assignment-11-submission` on GitLab.
 The [Git documentation](/documentation/git.html#submitting-an-assignment) explains how to file such a request.
 
 The deadline for submissions is January 18, 2018, 23:59.
@@ -57,7 +57,7 @@ We provide early feedback only for the _lab 9 functionality_ and _transformation
 ### Git Repository
 
 You continue with your work from the previous assignment.
-See the [Git documentation](/documentation/git.html#continue-from-previous-assignment) on how to create the `assignment11-develop` branch from your previous work.
+See the [Git documentation](/documentation/git.html#continue-from-previous-assignment) on how to create the `assignment-11-develop` branch from your previous work.
 
 ### Write Even More Jasmin Code
 

@@ -65,32 +65,32 @@ Your local repository is set up now! Follow the steps below to work on an assign
 
 ### Starting an assignment
 
-You work on each assignment in its own development branch, named `assignment1-develop`, `assignment2-develop`, etc.
+You work on each assignment in its own development branch, named `assignment-1-develop`, `assignment-2-develop`, etc.
 The correct assignment branch must be checked out in your local Git repository to be able to work on it.
 The steps to check out a branch depend on whether we provide you with a template, or if you continue with work from a previous assignment.
 
 #### Template
 
-If the assignments asks you to check out a template, which for example `assignment1-template` does, use the following steps:
+If the assignments asks you to check out a template, which for example `assignment-1-template` does, use the following steps:
 
 ```shell
 git fetch origin
-git checkout -b assignment1-develop origin/assignment1-template
-git push -u origin assignment1-develop
+git checkout -b assignment-1-develop origin/assignment-1-template
+git push -u origin assignment-1-develop
 ```
 
-This checks out a fresh branch from the upstream repository. It does not contain any of your previous work.
+This checks out a fresh branch from the remote repository. It does not contain any of your previous work.
 
 #### Continue from previous assignment
 
-If the assignment asks you to continue from the previous assignment, which for example `assignment3` does, use the following steps instead:
+If the assignment asks you to continue from the previous assignment, which for example assignment 3 does, use the following steps instead:
 
 ```shell
-git checkout -b assignment3-develop
-git push -u origin assignment3-develop
+git checkout -b assignment-3-develop
+git push -u origin assignment-3-develop
 ```
 
-The new `assignment3-develop` branch will be in an identical state to the `assignment2-develop` branch, but changes will only be committed to the `assignment3-develop` branch, leaving the `assignment2-develop` branch as is.
+The new `assignment-3-develop` branch will be in an identical state to the `assignment-2-develop` branch, but changes will only be committed to the `assignment-3-develop` branch, leaving the `assignment-2-develop` branch as is.
 
 Now you have the assignment branch checked out in your local repository and can start working.
 
@@ -130,17 +130,17 @@ If you'd like to work on an another assignment, for example to fix things for a 
 Be sure to push any changes to your current branch first, then check out the branch for the assignment you wish to switch to:
 
 ```shell
-git checkout assignment1-develop
+git checkout assignment-1-develop
 ```
 
-### Pulling in changes from upstream
+### Pulling in changes from template
 
 If there's something wrong in the template for an assignment, we fix it in the *template* branch, and you have to merge in those changes.
 Use the following commands to merge in changes (use the correct branch!):
 
 ```shell
 git fetch origin
-git merge upstream/assignment1-template
+git merge origin/assignment-1-template
 git push
 ```
 
@@ -167,7 +167,7 @@ You cannot push changes to a remote when that remote has changes that you haven'
 ```shell
 git push
 To ...
- ! [rejected]        assignment3-develop -> assignment3-develop (non-fast-forward)
+ ! [rejected]        assignment-3-develop -> assignment-3-develop (non-fast-forward)
 error: failed to push some refs to '...'
 hint: Updates were rejected because the tip of your current branch is behind
 hint: its remote counterpart. Integrate the remote changes (e.g.
@@ -191,31 +191,6 @@ git commit -m "Message describing your changes"
 
 and then pull changes with `git pull`.
 
-#### No tracking branch
-
-When pulling without a tracking branch being set, you will get the following error:
-
-```shell
-git pull
-There is no tracking information for the current branch.
-Please specify which branch you want to merge with.
-See git-pull(1) for details
-
-    git pull <remote> <branch>
-
-If you wish to set tracking information for this branch you can do so with:
-
-    git branch --set-upstream-to=<remote>/<branch> assignment3
-```
-
-Git already hints to the command that fixes the problem. Since you are pulling/pushing from *origin*, the following command will set the correct tracking branch:
-
-```shell
-git branch --set-upstream-to=origin/assignment3 assignment3
-```
-
-and then pull changes with `git pull`.
-
 ### Cannot automatically merge merge request
 
 If a merge request cannot be automatically merged, your branch is out of date with the *template* branch.
@@ -223,7 +198,7 @@ Merge in changes from the template (use the correct branch!):
 
 ```shell
 git fetch origin
-git merge origin/assignment1-template
+git merge origin/assignment-1-template
 git push
 ```
 
