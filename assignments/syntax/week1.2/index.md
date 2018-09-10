@@ -7,6 +7,9 @@ context: assignments
 subcontext: assignments_syntax
 ---
 
+Submit your answers in [WebLab](https://weblab.tudelft.nl/cs4200/2018-2019/) ([Assignment Week 1.2](https://weblab.tudelft.nl/cs4200/2018-2019/assignment/20429/submission/10847/view)) by Friday, September 14, 2018.
+
+
 ### Java Syntactic Categories
 
 Consider the following Java program (from the [MiniJava Project](http://www.cambridge.org/us/features/052182060X/)). What are the elements (building blocks) of the program and how are they called? What are the syntactic categories of Java programs?
