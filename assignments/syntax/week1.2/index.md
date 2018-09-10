@@ -4,7 +4,7 @@ title: "Homework Assignments Week 1.2"
 excerpt: "Assignments"
 tags: ["assignments"]
 context: assignments
-subcontext: week12
+subcontext: assignments_syntax
 ---
 
 ## Program Structure
@@ -193,6 +193,7 @@ Another example document
 ```
 
 
+<!--
 ### Syntax from Term
 
 Consider the following term, providing the abstract syntax representation of a program in some language. Based on the term reconstruct, the abstract syntax (algebraic signature) of the language. Next create a concrete syntax definition from the abstract syntax.
@@ -200,3 +201,4 @@ Consider the following term, providing the abstract syntax representation of a p
 ```
 
 ```
+-->

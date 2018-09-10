@@ -94,6 +94,25 @@
 #   subcontext: dynamics
 
 
+# Assignments
+
+- title: Week 1.1
+  url: /assignments/syntax/week1.1
+  context: assignments
+  subcontext: assignments_syntax
+
+- title: Week 1.2
+  url: /assignments/syntax/week1.2
+  context: assignments
+  subcontext: assignments_syntax
+
+- title: Week 1.3
+  url: /assignments/syntax/week1.3
+  context: assignments
+  subcontext: assignments_syntax
+
+
+
 # Milestone 1
 
 - title: lab 1

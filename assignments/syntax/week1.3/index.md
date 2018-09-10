@@ -4,7 +4,7 @@ title: "Homework Assignments Week 1.3"
 excerpt: "Assignments"
 tags: ["assignments"]
 context: assignments
-subcontext: week13
+subcontext: assignments_syntax
 ---
 
 ## Ambiguity and Disambiguation
