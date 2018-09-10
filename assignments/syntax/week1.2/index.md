@@ -44,6 +44,17 @@ Answer the following questions:
 - What are the fundamental differences between parse trees and abstract syntax trees?
 - How can we represent trees as terms? Illustrate your explanation with an example.
 
+### Testing Syntax Definition
+
+Read the paper [Integrated language definition testing: enabling test-driven language development.](https://doi.org/10.1145/2076021.2048080) and answer the following questions:
+
+- Why does testing a syntax definition require more than a collection of example programs?
+- What is the use of a domain-specific testing language for syntax definition (e.g. compared to a programmatic unit testing framework)?
+- What does it mean that SPT is language parametric?
+- How does SPT support interactive language design?
+
+Create a Spoofax project with a small syntax definition for arithmetic expressions (e.g. starting with the productions from Lecture 2) and write a small test suite for the language. Can you confirm the ideas presented in the paper? (See also the [SPT documentation](http://www.metaborg.org/en/latest/source/langdev/meta/lang/spt/index.html))
+
 ### Abstract Syntax from Concrete Syntax
 
 Given the following syntax definition, define the algebraic signature defining its abstract syntax.
@@ -189,6 +200,18 @@ Another example document
  </book>
 </catalogue>
 ```
+
+### Syntax of Signatures (Bonus)
+
+Define the syntax of algebraic signatures as defined in Lecture 2.
+
+### Syntax of Syntax (Bonus)
+
+Define the syntax of syntax definitions as defined in Lecture 2.
+
+
+
+
 
 
 <!--
