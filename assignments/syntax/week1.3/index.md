@@ -7,7 +7,7 @@ context: assignments
 subcontext: assignments_syntax
 ---
 
-Submit your answers in [WebLab](https://weblab.tudelft.nl/cs4200/2018-2019/) ([Assignment Week 1.3](https://weblab.tudelft.nl/cs4200/2018-2019/assignment/20444/view)) by Tuesday, September 19, 2018.
+Submit your answers in [WebLab](https://weblab.tudelft.nl/cs4200/2018-2019/) ([Assignment Week 1.3](https://weblab.tudelft.nl/cs4200/2018-2019/assignment/20444/view)) by Tuesday, September 18, 2018.
 
 
 ## Ambiguity and Disambiguation
