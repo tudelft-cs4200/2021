@@ -44,7 +44,7 @@ Answer the following questions:
 - What are the fundamental differences between parse trees and abstract syntax trees?
 - How can we represent trees as terms? Illustrate your explanation with an example.
 
-### Testing Syntax Definition
+### Testing Syntax Definitions
 
 Read the paper [Integrated language definition testing: enabling test-driven language development.](https://doi.org/10.1145/2076021.2048080) and answer the following questions:
 
@@ -205,9 +205,9 @@ Another example document
 
 Define the syntax of algebraic signatures as defined in Lecture 2.
 
-### Syntax of Syntax (Bonus)
+### Syntax of Grammars (Bonus)
 
-Define the syntax of syntax definitions as defined in Lecture 2.
+Define the syntax of context-free grammars as defined in Lecture 2.
 
 
 
