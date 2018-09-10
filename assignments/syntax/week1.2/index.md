@@ -7,8 +7,6 @@ context: assignments
 subcontext: assignments_syntax
 ---
 
-## Program Structure
-
 ### Java Syntactic Categories
 
 Consider the following Java program (from the [MiniJava Project](http://www.cambridge.org/us/features/052182060X/)). What are the elements (building blocks) of the program and how are they called? What are the syntactic categories of Java programs?
@@ -42,9 +40,6 @@ Answer the following questions:
 - Why do we need syntax trees when constructing compilers?
 - What are the fundamental differences between parse trees and abstract syntax trees?
 - How can we represent trees as terms? Illustrate your explanation with an example.
-
-
-## Abstract and Concrete Syntax
 
 ### Abstract Syntax from Concrete Syntax
 

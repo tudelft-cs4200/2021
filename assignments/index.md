@@ -9,19 +9,20 @@ subcontext:
 
 To study the material of the lectures we provide homework assignments to be completed each week before the next lecture and submitted to [WebLab](https://weblab.tudelft.nl/cs4200/2018-2019/)
 
-Syntax
+[Syntax](syntax/)
 
 * [Week 1.1](syntax/week1.1/)
 * [Week 1.2](syntax/week1.2/)
+* [Week 1.3](syntax/week1.3/)
 
-Transformation
-
-* tba
-
-Statics
+[Transformation](transformation/)
 
 * tba
 
-Dynamics
+[Statics](statics/)
+
+* tba
+
+[Dynamics](dynamics/)
 
 * tba
