@@ -4,36 +4,54 @@
   url: /lectures/architecture/
   context: lectures
 
-- title: syntax
+- title: Syntax
   url: /lectures/syntax/
   context: lectures
 
-- title: transformation
+- title: Transformation
   url: /lectures/transformation/
   context: lectures
 
-- title: statics
+- title: Statics
   url: /lectures/statics/
   context: lectures
 
-- title: dynamics
+- title: Dynamics
   url: /lectures/dynamics/
   context: lectures
 
-# Assignments
+# Homework
 
-- title: syntactic analysis
+- title: Syntax
+  url: /assignments/syntax
+  context: assignments
+
+- title: Transformation
+  url: /assignments/transformation
+  context: assignments
+
+- title: Statics
+  url: /assignments/statics
+  context: assignments
+
+- title: Dynamics
+  url: /assignments/dynamics
+  context: assignments
+
+# Project
+
+- title: Syntax
   url: /project/ms1/
   context: project
 
-- title: semantic analysis
+- title: Statics
   url: /project/ms2/
   context: project
 
-- title: code generation
+- title: Dynamics
   url: /project/ms3/
   context: project
 
-- title: documentation
+- title: Documentation
   url: /documentation/
   context: project
