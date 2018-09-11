@@ -126,7 +126,7 @@ signature
     Opt   : RE -> RE
 ```
 
-Fill in the concrete syntax in the tests below such that parsing succeeds and produces the expected abstrac syntax terms.
+Fill in the concrete syntax in the tests below such that parsing succeeds and produces the expected abstract syntax terms.
 
 ```
 module re
