@@ -20,11 +20,11 @@ The generated editors include syntax highlighting, syntax checking, parse error 
 In this lab, we will be using the Spoofax Eclipse plugin.
 You can download an Eclipse installation with the Spoofax Eclipse plugin preinstalled from our build farm:
 
-* [Windows 32-bits](http://buildfarm.metaborg.org/job/metaborg/job/spoofax-releng/job/in4303/lastSuccessfulBuild/artifact/dist/spoofax/eclipse/spoofax-windows-x86-jre.zip)
-* [Windows 64-bits](http://buildfarm.metaborg.org/job/metaborg/job/spoofax-releng/job/in4303/lastSuccessfulBuild/artifact/dist/spoofax/eclipse/spoofax-windows-x64-jre.zip)
-* [Linux 32-bits](http://buildfarm.metaborg.org/job/metaborg/job/spoofax-releng/job/in4303/lastSuccessfulBuild/artifact/dist/spoofax/eclipse/spoofax-linux-x86-jre.tar.gz)
-* [Linux 64-bits](http://buildfarm.metaborg.org/job/metaborg/job/spoofax-releng/job/in4303/lastSuccessfulBuild/artifact/dist/spoofax/eclipse/spoofax-linux-x64-jre.tar.gz)
-* [Mac OS X (Intel only)](http://buildfarm.metaborg.org/job/metaborg/job/spoofax-releng/job/in4303/lastSuccessfulBuild/artifact/dist/spoofax/eclipse/spoofax-macosx-x64-jre.tar.gz)
+* [Windows 32-bits](http://buildfarm.metaborg.org/job/metaborg/job/spoofax-releng/job/cs4200/lastSuccessfulBuild/artifact/dist/spoofax/eclipse/spoofax-windows-x86-jre.zip)
+* [Windows 64-bits](http://buildfarm.metaborg.org/job/metaborg/job/spoofax-releng/job/cs4200/lastSuccessfulBuild/artifact/dist/spoofax/eclipse/spoofax-windows-x64-jre.zip)
+* [Linux 32-bits](http://buildfarm.metaborg.org/job/metaborg/job/spoofax-releng/job/cs4200/lastSuccessfulBuild/artifact/dist/spoofax/eclipse/spoofax-linux-x86-jre.tar.gz)
+* [Linux 64-bits](http://buildfarm.metaborg.org/job/metaborg/job/spoofax-releng/job/cs4200/lastSuccessfulBuild/artifact/dist/spoofax/eclipse/spoofax-linux-x64-jre.tar.gz)
+* [Mac OS X (Intel only)](http://buildfarm.metaborg.org/job/metaborg/job/spoofax-releng/job/cs4200/lastSuccessfulBuild/artifact/dist/spoofax/eclipse/spoofax-macosx-x64-jre.tar.gz)
 
 These are specifically tagged versions of Spoofax, suited for the lab assignments. Please use these versions of Spoofax, instead of the ones found on the Spoofax website.
 {: .notice .notice-warning}
@@ -39,7 +39,7 @@ On Windows, do **not** unpack the Eclipse installation into Program Files, becau
 To update the Spoofax plugin in Eclipse, perform the following steps:
 
 1. go to **Help -> Install New Software...**
-2. in the **Work with** field, enter `http://buildfarm.metaborg.org/job/metaborg/job/spoofax-releng/job/in4303/lastSuccessfulBuild/artifact/dist/spoofax/eclipse/site/`
+2. in the **Work with** field, enter `http://buildfarm.metaborg.org/job/metaborg/job/spoofax-releng/job/cs4200/lastSuccessfulBuild/artifact/dist/spoofax/eclipse/site/`
 3. press enter and wait for the update site to load
 4. press **Select All**
 5. press **Next** and wait for Eclipse to calculate what to install and update

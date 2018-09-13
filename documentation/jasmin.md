@@ -20,7 +20,7 @@ editor which was built with Spoofax.
 To update the Spoofax plugin in Eclipse, perform the following steps:
 
 1. go to **Help -> Install New Software...**
-2. in the **Work with** field, enter `http://buildfarm.metaborg.org/job/metaborgcube/job/spoofax-jasmin/job/in4303/lastSuccessfulBuild/artifact/jasmin.eclipse.updatesite/target/site/`
+2. in the **Work with** field, enter `http://buildfarm.metaborg.org/job/metaborgcube/job/spoofax-jasmin/job/cs4200/lastSuccessfulBuild/artifact/jasmin.eclipse.updatesite/target/site/`
 3. press enter and wait for the update site to load
 4. press **Select All**
 5. press **Next** and wait for Eclipse to calculate what to install and update
