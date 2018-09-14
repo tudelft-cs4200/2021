@@ -9,8 +9,6 @@ subcontext: ms1
 
 {% include _toc.html %}
 
-This lab is under construction. Proceed at own risk.
-{: .notice .notice-warning}
 
 In this lab, you develop a test suite for syntax analysis.
 The test suite consists of positive and negative test cases.
