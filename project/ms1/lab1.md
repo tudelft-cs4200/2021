@@ -164,7 +164,7 @@ Try to focus on corner cases such as
 * mixings of letters and digits (Which kinds of mixing are allowed? Which are not?),
 * underscores in identifiers.
 
-The content for the tests for lexical symbols should no be surrounded by layout.
+The content for the tests for lexical symbols should not be surrounded by layout.
 {: .notice .notice-warning}
 
 Next, you should walk through the whole syntax definition.
