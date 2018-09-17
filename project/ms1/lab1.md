@@ -9,8 +9,6 @@ subcontext: ms1
 
 {% include _toc.html %}
 
-This lab is under construction. Proceed at own risk.
-{: .notice .notice-warning}
 
 In this lab, you develop a test suite for syntax analysis.
 The test suite consists of positive and negative test cases.
@@ -147,7 +145,7 @@ To read more on SPT, visit the [documentation](http://www.metaborg.org/en/latest
 ### MiniJava Syntax Definition
 
 To write your own test cases, you need to understand MiniJava's syntax.
-You can find the definitive MiniJava syntax definition in the [*MiniJava Language Reference Manual*](http://www.cambridge.org/resources/052182060X/).
+You can find the definitive MiniJava syntax definition in the [*MiniJava Language Reference Manual*](http://www.cambridge.org/resources/052182060X/). The grammar definition page of that old website is incomplete, [here is the complete grammar overview](http://www.cs.tufts.edu/~sguyer/classes/comp181-2006/minijava.html). 
 The manual says nothing about reserved words.
 But it states that the meaning of a MiniJava program is given by the meaning as a Java program.
 Therefore, you should treat all reserved words in Java as reserved in MiniJava as well and provide test cases which address this issue.
@@ -166,7 +164,7 @@ Try to focus on corner cases such as
 * mixings of letters and digits (Which kinds of mixing are allowed? Which are not?),
 * underscores in identifiers.
 
-The content for the tests for lexical symbols should no be surrounded by layout.
+The content for the tests for lexical symbols should not be surrounded by layout.
 {: .notice .notice-warning}
 
 Next, you should walk through the whole syntax definition.

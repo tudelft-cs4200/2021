@@ -208,7 +208,7 @@ Unfortunately, Stratego does not have a debugger, so debugging is done by printi
 
 You can use the `debug` strategy to print the current term to the console.
 Furthermore, there are several useful shorthand versions of the debug strategy in the `libspoofax/stratego/debug` file, which is imported into `codegen/classes.str`.
-You can view this library file by Ctrl/Cmd clicking the import, or by having a look at the [online version](https://github.com/metaborg/spoofax/blob/in4303/meta.lib.spoofax/trans/libspoofax/stratego/debug.str).
+You can view this library file by Ctrl/Cmd clicking the import, or by having a look at the [online version](https://github.com/metaborg/spoofax/blob/cs4200/meta.lib.spoofax/trans/libspoofax/stratego/debug.str).
 It contains the following three debugging strategies:
 
 * `debug(|t)` and shorthands (`debug0`-`debug9`, `debuga`-`debugz`) that prefix the message with 0-9 and a-z. For example, `<debug0> SomeTerm()` prints `0: SomeTerm()`.
