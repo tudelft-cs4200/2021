@@ -18,8 +18,8 @@ Q1
 
 * Tue Sep 4, 17:45-19:30, EWI Boole: [What is a compiler?](architecture/)
 * Fri Sep 7, 13:45-15:30, EWI Chip: [Syntax Definition](syntax/)
-* Tue Sep 11, 17:45-19:30, EWI Boole: [Parsing](syntax/)
-* Tue Sep 18, 17:45-19:30, EWI Boole: [Syntactic (Editor) Services](syntax/)
+* Tue Sep 11, 17:45-19:30, EWI Boole: [Syntactic (Editor) Services](syntax/)
+* Tue Sep 18, 17:45-19:30, EWI Boole: [Parsing](syntax/)
 * Tue Oct 25, 17:45-19:30, EWI Boole: [Transformation](transformation/)
 * Tue Oct 2, 17:45-19:30, EWI Boole: [Name Resolution](statics/)
 * Tue Oct 9, 17:45-19:30, EWI Boole: [Type Constraints](statics/)
@@ -35,7 +35,7 @@ Q2
 * Tue Dec 4, 10:45-12:30, CT-CZ D: [Garbage Collection](dynamics/)
 * Tue Dec 11, 10:45-12:30, CT-CZ D: [Dynamic Semantics & Interpreters](dynamics/)
 * Tue Dec 18, 10:45-12:30, CT-CZ D: Applications
-* Tue Jan 8, 10:45-12:30, CT-CZ D: Reserve
+* Tue Jan 8, 10:45-12:30, CT-CZ D: Guest lecture Guido Wachsmuth
 * Tue Jan 15, 10:45-12:30, CT-CZ D: Overview
 * Tue, Jan 29, 18:30-21:30, DW-IZ 1: final exam
 
