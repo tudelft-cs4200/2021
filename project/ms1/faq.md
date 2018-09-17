@@ -16,9 +16,10 @@ subcontext: ms1
 If you get the error "Unable to access the language under test: 'minijava'", then please do the following:
 
 1. Check that you are using the latest version of Spoofax Eclipse (at the moment: 2.6.0.xxxxxxxx-xxxxxx-cs4200, which can be downloaded [here](/documentation/spoofax.html) and **not** on the official Spoofax website) by going to *Help* > *About Eclipse* > *Installation Details* (On MacOS the *About* is under the left-hand menu named *Eclipse*). If you are using an older version, please download the newest version (again) as per the [instructions](/documentation/spoofax.html).
-2. Make sure the path to your Spoofax installation does not contain a space! If this is the case, move your Spoofax installation to a location without a space.
+2. Make sure the path to your Spoofax installation does not contain a whitespace, single quote or any other character that might get converted when encoding the path to a URL! If this is the case, move your Spoofax installation to a location without such a character. Not doing this can cause the *Build All* operation in the next step to hang Eclipse.
 3. Clean and build all projects (through *Project* > *Clean*, *Project* > *Build All*). You can see what's going on by opening the console (*Window* > *Show View* > *Console*).
-4. Finally, close and re-open any test files that were already open.
+4. Check that the root of your project containg a ".mvn" directory. If this is not the case, you likely have to switch to a different branch which has this ".mvn" directory in it. This can be done using "git checkout <branch-here>".
+5. Finally, close and re-open any test files that were already open.
 
 ##### The parser succesfully parses the empty string, even though this is not defined for the given start symbol.
 
