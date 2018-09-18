@@ -58,7 +58,7 @@ context-free syntax
 	E.Neg = "-" E
   E.Add = E "+" E
   E.Sub = E "-" E
-  E.Mul = E "/" E
+  E.Div = E "/" E
   E.Mul = E "*" E
   E.Pow = E "^" E
   E.Par = "(" E ")"
