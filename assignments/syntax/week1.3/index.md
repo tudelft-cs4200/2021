@@ -44,7 +44,7 @@ context-free syntax
 
 - Describe the language defined by this syntax definition in English.
 - Give a left-most derivation for the sentence `f(x, x, x)`.
-- Use `f(x, x)` as an example to explain why the syntax definitio is ambiguous.
+- Use `f(x, x)` as an example to explain why the syntax definition is ambiguous.
 
 ### Disambiguation by Rules
 
