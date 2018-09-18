@@ -13,4 +13,4 @@ Syntax
 
 * [Week 1.1](week1.1/)
 * [Week 1.2](week1.2/)
-* [Week 1.2](week1.3/)
+* [Week 1.3](week1.3/)
