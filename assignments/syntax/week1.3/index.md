@@ -37,9 +37,9 @@ Consider the following syntax definition,
 sorts S P ID
 context-free syntax
   S.S = "f" "(" P ")"
-	P.V = ID
-	P.C = P "," ID
-	P.R = ID "," P
+  P.V = ID
+  P.C = P "," ID
+  P.R = ID "," P
 ```
 
 - Describe the language defined by this syntax definition in English.
@@ -55,7 +55,7 @@ sorts S E ID
 context-free syntax
   S.S   = E
   E.Var = ID
-	E.Neg = "-" E
+  E.Neg = "-" E
   E.Add = E "+" E
   E.Sub = E "-" E
   E.Div = E "/" E
@@ -73,10 +73,10 @@ sorts S E ID
 context-free syntax
   S.S   = E
   E.Var = ID
-	E.Neg = "-" E
+  E.Neg = "-" E
   E.Add = E "+" E
   E.Sub = E "-" E
-  E.Mul = E "/" E
+  E.Div = E "/" E
   E.Mul = E "*" E
   E.Pow = E "^" E
   E.Par = "(" E ")"
