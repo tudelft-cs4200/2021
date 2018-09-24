@@ -182,7 +182,7 @@ Finally, you can organise test suites in folders.
 
 When writing tests that target the differences between Java and MiniJava, only consider
 the syntactic differences. For example, identifiers in Java are limited to a certain size.
-This is **should not** be checked by your tests as this limitation is not specified in
+This **should not** be checked by your tests as this limitation is not specified in
 the context-free grammar of Java.
 {: .notice .notice-warning}
 
