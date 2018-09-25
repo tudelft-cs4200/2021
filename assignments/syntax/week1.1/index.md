@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Homework Assignments Week 1.1"
+title: "Homework Assignments Week 1.1: Architecture"
 excerpt: "Assignments"
 tags: ["assignments"]
 context: assignments

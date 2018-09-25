@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Homework Assignments Week 1.2"
+title: "Homework Assignments Week 1.2: Syntax Definition"
 excerpt: "Assignments"
 tags: ["assignments"]
 context: assignments
@@ -8,7 +8,6 @@ subcontext: assignments_syntax
 ---
 
 Submit your answers in [WebLab](https://weblab.tudelft.nl/cs4200/2018-2019/) ([Assignment Week 1.2](https://weblab.tudelft.nl/cs4200/2018-2019/assignment/20429/view)).
-
 
 ### Java Syntactic Categories
 
@@ -211,9 +210,6 @@ Define the syntax of context-free grammars as defined in Lecture 2.
 
 
 
-
-
-
 <!--
 ### Syntax from Term
 
@@ -223,3 +219,19 @@ Consider the following term, providing the abstract syntax representation of a p
 
 ```
 -->
+
+### Templates
+
+Consider SDF3 template productions as discussed in Lecture 3.
+
+- Enumerate the syntactic differences between pure context-free grammar productions and SDF3 template productions
+- Discuss the purpose of these features
+
+### Syntactic Completion
+
+Read the paper "Principled syntactic code completion using placeholders" and summarize its approach to syntactic code completion.
+
+- What mechanisms are used to realize code completion?
+- What properties are guaranteed by the approach?
+- How does this compare to code completion in IDEs such as Eclipse?
+- What features does and does it not support?
