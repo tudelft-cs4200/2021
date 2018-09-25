@@ -7,7 +7,7 @@ context: assignments
 subcontext: assignments_syntax
 ---
 
-Submit your answers in [WebLab](https://weblab.tudelft.nl/cs4200/2018-2019/) ([Assignment Week 1.2](https://weblab.tudelft.nl/cs4200/2018-2019/assignment/20429/view)) by Friday, September 14, 2018.
+Submit your answers in [WebLab](https://weblab.tudelft.nl/cs4200/2018-2019/) ([Assignment Week 1.2](https://weblab.tudelft.nl/cs4200/2018-2019/assignment/20429/view)).
 
 
 ### Java Syntactic Categories
@@ -201,11 +201,11 @@ Another example document
 </catalogue>
 ```
 
-### Syntax of Signatures (Bonus)
+### Syntax of Signatures
 
 Define the syntax of algebraic signatures as defined in Lecture 2.
 
-### Syntax of Grammars (Bonus)
+### Syntax of Grammars
 
 Define the syntax of context-free grammars as defined in Lecture 2.
 

@@ -8,7 +8,7 @@ subcontext: assignments_syntax
 
 ---
 
-Submit your answers in [WebLab](https://weblab.tudelft.nl/cs4200/2018-2019/) ([Assignment Week 1.1](https://weblab.tudelft.nl/cs4200/2018-2019/assignment/20428/view)) by Friday, September 7, 2018.
+Submit your answers in [WebLab](https://weblab.tudelft.nl/cs4200/2018-2019/) ([Assignment Week 1.1](https://weblab.tudelft.nl/cs4200/2018-2019/assignment/20428/view))
 
 ### Compiler vs Language Workbench
 
