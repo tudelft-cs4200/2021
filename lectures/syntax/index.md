@@ -97,3 +97,9 @@ Slides
 Reading material
 
 - Chapter 4 on Syntactic Analysis of "Compilers: Principles, Techniques, and Tools, 2nd Edition" by Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman. Pearson, 2007. **Read Sections 4.1, 4.2, 4.3, 4.5, 4.6**.
+
+`Parse' language
+
+The language that was used in the lecture to define context-free grammars, derivations, parse tables, and more is defined in this Spoofax project:
+
+- https://github.com/TUDelft-CS4200-2018/cc.syntax.parsing
