@@ -77,14 +77,14 @@ Topics
 
 - context-free grammars
   - derivations, left-most derivations, right-most derivations
-	- parse trees, abstract syntax trees, terms
+  - parse trees, abstract syntax trees, terms
 - grammar transformations
   - left factoring, eliminating left recursion
-	- disambiguation with associativity and priority rules
+  - disambiguation with associativity and priority rules
 - top-down parsing
 - bottom-up parsing
   - reductions, shift-reduce parsing, LR parsing
-	- first and follow
+  - first and follow
 - parser generation
 
 Slides

@@ -17,11 +17,11 @@ Topics
   - simplification, desugaring
 - rewrite rules
   - match, build, scope
-	- conditional rules
+  - conditional rules
 - programmable rewriting strategies
   - strategy combinators
   - generic traversal, traversal combinators
-	- type-unifying transformations
+  - type-unifying transformations
 
 Slides
 
