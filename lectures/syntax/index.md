@@ -75,13 +75,25 @@ In this lecture we study how to turn syntax definitions (context-free grammars) 
 
 Topics
 
-- derivations
-- parsing
-- parse trees, abstract syntax trees, terms
+- context-free grammars
+  - derivations, left-most derivations, right-most derivations
+	- parse trees, abstract syntax trees, terms
+- grammar transformations
+  - left factoring, eliminating left recursion
+	- disambiguation with associativity and priority rules
+- top-down parsing
+- bottom-up parsing
+  - reductions, shift-reduce parsing, LR parsing
+	- first and follow
 - parser generation
-- Earley parsing
-- LR parsing
+
+Slides
+
+- [PDF](https://github.com/TUDelft-CS4200-2018/lectures/raw/master/04-parsing/CS4200-2018-4-parsing.pdf)
+- [github](https://github.com/TUDelft-CS4200-2018/lectures/tree/master/04-parsing)
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/tSZUWlmdRmknjO" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/eelcovisser/compiler-construction-lecture-4-parsing" title="Compiler Construction | Lecture 4 | Parsing " target="_blank">Compiler Construction | Lecture 4 | Parsing </a> </strong> from <strong><a href="https://www.slideshare.net/eelcovisser" target="_blank">Eelco Visser</a></strong> </div>
 
 Reading material
 
-- Chapter 4 on Syntactic Analysis of "Compilers: Principles, Techniques, and Tools, 2nd Edition" by Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman. Pearson, 2007.
+- Chapter 4 on Syntactic Analysis of "Compilers: Principles, Techniques, and Tools, 2nd Edition" by Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman. Pearson, 2007. **Read Sections 4.1, 4.2, 4.3, 4.5, 4.6**.
