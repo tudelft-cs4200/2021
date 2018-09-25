@@ -280,4 +280,4 @@ Challenges are meant to distinguish excellent solutions from good solutions.
 Typically, they are less guided and require more investigation or higher programming skills.
 {: .notice .notice-success}
 
-This lab's challenge is to support nested block comments.
+This lab's challenge is to support nested block comments. This is not part of the Java language, so if you have tests from Lab 1 for this, they should fail. 
