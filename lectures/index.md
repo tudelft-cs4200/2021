@@ -20,7 +20,7 @@ Q1
 * Fri Sep 7, 13:45-15:30, EWI Chip: [Syntax Definition](syntax/)
 * Tue Sep 11, 17:45-19:30, EWI Boole: [Syntactic (Editor) Services](syntax/)
 * Tue Sep 18, 17:45-19:30, EWI Boole: [Parsing](syntax/)
-* Tue Oct 25, 17:45-19:30, EWI Boole: [Transformation](transformation/)
+* Tue Sep 25, 17:45-19:30, EWI Boole: [Transformation](transformation/)
 * Tue Oct 2, 17:45-19:30, EWI Boole: [Name Resolution](statics/)
 * Tue Oct 9, 17:45-19:30, EWI Boole: [Type Constraints](statics/)
 * Tue Oct 16, 17:45-19:30, EWI Boole: [Constraint Resolution I](statics/)
