@@ -7,6 +7,8 @@ context: assignments
 subcontext: assignments_transformation
 ---
 
+Also on [WebLab](https://weblab.tudelft.nl/cs4200/2018-2019/assignment/20458/view)
+
 ### Map and Filter
 
 The Stratego library provides two strategies `filter` and `map` with the following implementation:
