@@ -25,6 +25,8 @@ Topics
 
 Slides
 
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/bfWbk7rEPRacvT" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/eelcovisser/compiler-construction-lecture-5-transformation-by-term-rewriting" title="Compiler Construction | Lecture 5 | Transformation by Term Rewriting" target="_blank">Compiler Construction | Lecture 5 | Transformation by Term Rewriting</a> </strong> from <strong><a href="https://www.slideshare.net/eelcovisser" target="_blank">Eelco Visser</a></strong> </div>
+
 - [PDF](https://github.com/TUDelft-CS4200-2018/lectures/raw/master/05-transformation/CS4200-2018-5-transformation.pdf)
 - [github](https://github.com/TUDelft-CS4200-2018/lectures/tree/master/05-transformation)
 

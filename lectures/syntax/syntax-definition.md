@@ -1,15 +1,44 @@
 ---
 layout: page
-title: "Syntax Definition"
-excerpt: "Syntax Definition"
+title: "Lecture 2: Declarative Syntax Definition"
+excerpt: "Declarative Syntax Definition"
 tags: ["lectures"]
 context: lectures
-subcontext: specification
-# image: 
+subcontext: syntax
+# image:
 #    feature: "lecture.jpg"
 #    credit: Delft University of Technology
 #    creditlink: http://repository.tudelft.nl/view/MMP/uuid%3Aa2f25709-c56e-453e-9394-4a05acf603a4/
 ---
+
+In this lecture we study declarative syntax definition, i.e. syntax definition that focuses on the definition of the structure (abstract syntax) and notation (concrete syntax) of programs, and abstracts from the implementation of parsers.
+
+Topics
+
+  - program structure, syntactic categories, language constructs
+  - abstract syntax, signatures, sorts, constructors
+  - context-free grammars
+  - concrete syntax, notation
+  - lexical syntax, literals, keywords
+  - ambiguity, disambiguation, associativity, priority
+
+Slides
+
+  - [PDF](https://github.com/TUDelft-CS4200-2018/lectures/raw/master/02-syntax-definition/CS4200-2018-2-syntax-definition.pdf)
+  - on [github](https://github.com/TUDelft-CS4200-2018/lectures/tree/master/02-syntax-definition)
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/JVi9jxdHornHQV" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/eelcovisser/compiler-construction-lecture-2-declarative-syntax-definition" title="Compiler Construction | Lecture 2 | Declarative Syntax Definition" target="_blank">Compiler Construction | Lecture 2 | Declarative Syntax Definition</a> </strong> from <strong><a href="https://www.slideshare.net/eelcovisser" target="_blank">Eelco Visser</a></strong> </div>
+
+Reading material
+
+* Lennart C. L. Kats, Eelco Visser, Guido Wachsmuth. [Pure and declarative syntax definition: paradise lost and regained.](https://doi.org/10.1145/1932682.1869535) In William R. Cook, Siobhán Clarke, Martin C. Rinard, editors, Proceedings of the 25th Annual ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages, and Applications, OOPSLA 2010, October 17-21, 2010, Reno/Tahoe, Nevada, USA. pages 918-932, ACM, Reno/Tahoe, Nevada, 2010. <https://doi.org/10.1145/1932682.1869535>
+
+* Lennart C. L. Kats, Rob Vermaas, Eelco Visser. [Integrated language definition testing: enabling test-driven language development.](https://doi.org/10.1145/2076021.2048080) In Cristina Videira Lopes, Kathleen Fisher, editors, Proceedings of the 26th Annual ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages, and Applications, OOPSLA 2011, part of SPLASH 2011, Portland, OR, USA, October 22 - 27, 2011. pages 139-154, ACM, 2011. <https://doi.org/10.1145/2076021.2048080>
+
+* [Syntax Definition with SDF3](http://www.metaborg.org/en/latest/source/langdev/meta/lang/sdf3/index.html). Documentation of the SDF3 syntax definition formalism
+
+[Homework assignments](/assignments/week1.2/)
+
 
 
 ## Slides
@@ -23,22 +52,21 @@ subcontext: specification
 ## Further Reading
 
 1.  Lennart C. L. Kats and Eelco Visser (2010). [The Spoofax Language Workbench. Rules for Declarative Specification of Languages and IDEs](http://swerl.tudelft.nl/twiki/pub/Main/TechnicalReports/TUD-SERG-2010-029.pdf). OOPSLA 2010.
-    
+
     This award-winning paper describes the Spoofax Language Workbench. It misses recent additions to Spoofax, but still gives a good summary of its capabilities.
-  
+
 2.  Lennart C. L. Kats, Rob Vermaas, and Eelco Visser (2011). [Integrated Language Definition Testing. Enabling Test-Driven Language Development](http://swerl.tudelft.nl/twiki/pub/Main/TechnicalReports/TUD-SERG-2011-011.pdf). OOPSLA 2011.
-    
+
     This paper describes the Spoofax Testing Language and discusses how to test different language aspects. You can also watch the [conference talk by Lennart](http://www.infoq.com/presentations/Testing-Domain-Specific-Languages).
 
 3.  Jean-Marie Favre (2004). [Foundations of Meta-Pyramids: Languages vs. Metamodels-Episode II. Story of Thotus the Baboon](http://drops.dagstuhl.de/opus/volltexte/2005/21/pdf/04101.FavreJeanMarie.Paper.pdf). Dagstuhl Seminar 4101.
-    
+
     This paper explores and explains various relations between languages, language definitions, and language instances. The paper includes examples from natural languages and focusses on modelling languages, meta-models, and models. It can be generalised to software languages, language definitions, and software artefacts.
-  
+
 4.  Tobi Vollebregt, Lennart C. L. Kats, and Eelco Visser (2012). [Declarative Specification of Template-Based Textual Editors](http://www.lclnet.nl/publications/specification-of-template-based-editors.pdf). LDTA 2012.
-    
+
     This paper summarises Tobi's [MSc thesis](http://repository.tudelft.nl/view/ir/uuid%3A8907468c-b102-4a35-aa84-d49bb2110541/) on syntax templates as means for declarative syntax definitions. It explains how parsers, formatters, and code completion templates can be derived from a single source.
-  
+
 5.  Lennart C. L. Kats, Eelco Visser, and Guido Wachsmuth (2010). [Declarative Syntax Definition. Paradise Lost and Regained](http://swerl.tudelft.nl/twiki/pub/Main/TechnicalReports/TUD-SERG-2010-019.pdf). Onward! 2010.
-    
+
     This essay emphasises the beauty of declarative syntax definitions and discusses the consequences of impure, non-declarative parser definitions.
-  
