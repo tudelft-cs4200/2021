@@ -193,12 +193,12 @@ signature
     Opt   : RE -> RE
 signature
   constructors
-    Grammar     : Productions -> Grammar
-    Productions : List(Production) -> Productions
-    Prod        : Symbol * List(Symbol) -> Production
-    NT          : ID -> Symbol
-    T           : STRING -> Symbol
-    L           : LCID -> Symbol
+    Grammar : List(Prod) -> Prod
+    Prod    : Symbol * List(Symbol) -> Prod
+    NT      : ID -> Symbol
+    T       : STRING -> Symbol
+    L       : LCID -> Symbol
+		CC      : CC -> Symbol
 ```
 
 Define a transformation `re-to-cfg` that transforms a regular expression to a context-free grammar such that `<re-to-cfg> re => cfg` the language defined by the grammar `cfg` is the same as that of the regular expression `re`.
