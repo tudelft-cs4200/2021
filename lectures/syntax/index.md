@@ -15,6 +15,6 @@ In this section of the course we study the syntax of programming languages: how 
 
 Lectures
 
-* [Syntax Definition](syntax/syntax-definition)
-* [Syntactic (Editor) Services](syntax/editor-services)
-* [Parsing](syntax/parsing)
+* [Syntax Definition](syntax-definition)
+* [Syntactic (Editor) Services](editor-services)
+* [Parsing](parsing)

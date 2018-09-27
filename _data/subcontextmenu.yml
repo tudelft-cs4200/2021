@@ -22,10 +22,21 @@
 #   context: lectures
 #   subcontext: syntax
 #
-# - title: Syntax Definition
-#   url: /lectures/specification/syntax-definition.html
-#   context: lectures
-#   subcontext: syntax
+- title: Syntax Definition
+  url: /lectures/syntax/syntax-definition.html
+  context: lectures
+  subcontext: syntax
+
+- title: Syntactic Editor Services
+  url: /lectures/syntax/editor-services.html
+  context: lectures
+  subcontext: syntax
+
+- title: Parsing
+  url: /lectures/syntax/parsing.html
+  context: lectures
+  subcontext: syntax
+
 #
 # - title: Lexical Analysis
 #   url: /lectures/generation/lexical-analysis.html

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Introduction: What is a Compiler?"
-excerpt: "Architecture"
+title: "Lecture 1: What is a Compiler?"
+excerpt: "What is a Compiler?"
 tags: ["lectures"]
 context: lectures
 subcontext: architecture
@@ -15,7 +15,7 @@ In the opening lecture we look at what compilers are, why you would want to stud
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/q5jwqN862yubE3" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/eelcovisser/compiler-construction-lecture-1-what-is-a-compiler" title="Compiler Construction | Lecture 1 | What is a compiler?" target="_blank">Compiler Construction | Lecture 1 | What is a compiler?</a> </strong> from <strong><a href="https://www.slideshare.net/eelcovisser" target="_blank">Eelco Visser</a></strong> </div>
 
-Slides 
+Slides
 - [PDF](https://github.com/TUDelft-CS4200-2018/lectures/raw/master/01-introduction/CS4200-2018-1-introduction.pdf)
 - on [github](https://github.com/TUDelft-CS4200-2018/lectures/tree/master/01-introduction)
 
