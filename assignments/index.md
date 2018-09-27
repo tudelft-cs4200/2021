@@ -17,7 +17,7 @@ To study the material of the lectures we provide homework assignments to be subm
 
 [Transformation](transformation/)
 
-* tba
+* [Week 1.4](transformation/week1.4/)
 
 [Statics](statics/)
 
