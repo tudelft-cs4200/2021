@@ -30,8 +30,8 @@ Q1
 Q2
 
 * Tue Nov 13, 10:45-12:30, CT-CZ D: [Data-flow Analysis](statics/)
-* Tue Nov 20, 10:45-12:30, CT-CZ D: [Virtual Machines & Code Generation](dynamics/)
-* Tue Nov 27, 10:45-12:30, CT-CZ D: [Optimization](dynamics/)
+* Tue Nov 20, 10:45-12:30, CT-CZ D: [Optimization](dynamics/)
+* Tue Nov 27, 10:45-12:30, CT-CZ D: [Virtual Machines & Code Generation](dynamics/)
 * Tue Dec 4, 10:45-12:30, CT-CZ D: [Garbage Collection](dynamics/)
 * Tue Dec 11, 10:45-12:30, CT-CZ D: [Dynamic Semantics & Interpreters](dynamics/)
 * Tue Dec 18, 10:45-12:30, CT-CZ D: Applications
