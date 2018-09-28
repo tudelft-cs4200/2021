@@ -38,7 +38,7 @@ For grading, it is required to comply with all constructor names, rule names, an
 You need to submit your MiniJava project with a merge request against branch `assignment-3-submission` on GitLab.
 The [Git documentation](/documentation/git.html#submitting-an-assignment) explains how to file such a request.
 
-The deadline for submission is October 5, 2018, 23:59.
+The deadline for submission is October 6, 2018, 23:59.
 {: .notice .notice-warning}
 
 ### Grading

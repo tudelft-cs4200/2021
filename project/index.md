@@ -39,7 +39,6 @@ To submit your assignment, you need to file a merge request.
 To check your progress on an assignment, you can submit a *preliminary solution*.
 We will provide limited early feedback on preliminary solutions.
 This feedback typically comes with a tentative grade and points out areas where your solution is incomplete or insufficient, without giving any details on the reasons.
-We do *not give any feedback on the day of a deadline*, since this will not be early at all.
 
 We compute your *final grade* based on the last merged PR.
 We will provide a detailed grading report on final solutions.
@@ -49,6 +48,7 @@ We do our best to hand out grading reports as quick as possible, but manual grad
 Early feedback and most parts of final grading are automated and supported in GitLab.
 Each merge request triggers the launch of a build job which runs automated feedback and grading for your solution.
 Be aware that feedback might be delayed due to submissions by other students, instance limits, server problems, etc.
+We do *not give any feedback on the day of a deadline*, since this will not be early at all.
 
 ## Grades
 
@@ -64,7 +64,7 @@ These rules allow you to compensate for lower grades in single assignments, but 
 
 ## Deadlines 2018-2019
 
-In Q1 and Q2 the lab is on Friday. The deadlines for the assignments (labs) are listed below and are at 23:59 on that date. All assignments except lab 10 have a 48 hour deadline extension with a penalty of 2 points (off the final grade). Lab 10 has an extension until 11/01 with a penalty of 1 point.
+In Q1 and Q2 the lab is on Friday. The deadlines for the assignments (labs) are listed below and are at 23:59 on that date. All assignments except lab 10 have a 24 hour deadline extension with a penalty of 1 point (off the final grade). Lab 10 has an extension until 12/01 with a penalty of 1 point.
 
 These dates are subject to change.
 {: .notice .notice-warning}
@@ -72,18 +72,18 @@ These dates are subject to change.
 * Milestone 1: Syntax Analysis
    - 28/09: Lab 1: Testing Syntax Analysis
    - 28/09: Lab 2: Syntax Definition
-   - 05/10: Lab 3: Simple Term Rewriting
+   - 06/10: Lab 3: Simple Term Rewriting
 * Milestone 2: Semantic Analysis
-   - 26/10: Lab 4: Testing Name Analysis
-   - 26/10: Lab 5: Name Analysis
+   - 27/10: Lab 4: Testing Name Analysis
+   - 27/10: Lab 5: Name Analysis
 * Milestone 2: Semantic Analysis (continued)
-   - 23/11: Lab 6: Testing Type Analysis
-   - 23/11: Lab 7: Type Analysis
-   - 30/11: Lab 8: Data-flow Analysis
+   - 24/11: Lab 6: Testing Type Analysis
+   - 24/11: Lab 7: Type Analysis
+   - 01/12: Lab 8: Data-flow Analysis
 * Milestone 3: Code Generation
-   - 14/12: Lab 9: Compiling Minimal Programs
-   - 21/12: Lab 10: Compiling Expressions and Statements
-   - 18/01: Lab 11: Compiling, Fields, Parameters, and Variables
+   - 15/12: Lab 9: Compiling Minimal Programs
+   - 22/12: Lab 10: Compiling Expressions and Statements
+   - 19/01: Lab 11: Compiling, Fields, Parameters, and Variables
 
 ## Academic Misconduct
 
