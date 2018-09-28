@@ -44,11 +44,11 @@ We compute your *final grade* based on the last merged PR.
 We will provide a detailed grading report on final solutions.
 To ensure fairness and equal chances for all students, grading reports will not be published before the 1-day deadline extension has expired.
 We do our best to hand out grading reports as quick as possible, but manual grading can be tedious and might result in longer waiting times for some assignments.
+We do *not give any feedback on the day of a deadline*, since this will not be early at all.
 
 Early feedback and most parts of final grading are automated and supported in GitLab.
 Each merge request triggers the launch of a build job which runs automated feedback and grading for your solution.
 Be aware that feedback might be delayed due to submissions by other students, instance limits, server problems, etc.
-We do *not give any feedback on the day of a deadline*, since this will not be early at all.
 
 ## Grades
 
