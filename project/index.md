@@ -48,6 +48,7 @@ We do our best to hand out grading reports as quick as possible, but manual grad
 Early feedback and most parts of final grading are automated and supported in GitLab.
 Each merge request triggers the launch of a build job which runs automated feedback and grading for your solution.
 Be aware that feedback might be delayed due to submissions by other students, instance limits, server problems, etc.
+We do *not give any feedback on the day of a deadline*, since this will not be early at all.
 
 ## Grades
 
