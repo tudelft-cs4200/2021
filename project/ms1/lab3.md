@@ -81,7 +81,7 @@ Users do not need to have Spoofax installed for using your editor.
 
 The actual language definition is spread over three folders:
 
-* `syntax` contains all syntax definition files, including the main file `miniava.sdf3`.
+* `syntax` contains all syntax definition files, including the main file `minijava.sdf3`.
 * `trans` contains all transformation files, including the main file `minijava.str`.
 * `editor` contains editor service definition files, including the main file `Main.esv`.
 
