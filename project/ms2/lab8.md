@@ -29,7 +29,7 @@ Specify data-flow analysis for MiniJava in FlowSpec. The specification should in
 You need to submit your MiniJava project with a merge request against branch `assignment-8-submission` on GitLab.
 The [Git documentation](/documentation/git.html#submitting-an-assignment) explains how to file such a request.
 
-The deadline for submission is November 30, 2018.
+The deadline for submission is December 1, 2018.
 {: .notice .notice-warning}
 
 ### Grading
