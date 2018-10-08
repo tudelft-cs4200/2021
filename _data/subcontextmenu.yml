@@ -62,11 +62,11 @@
 
 # statics
 
-# - title: Static Analysis
-#   url: /lectures/specification/static-analysis.html
-#   context: lectures
-#   subcontext: statics
-#
+- title: Static Analysis
+  url: /lectures/statics/static-analysis.html
+  context: lectures
+  subcontext: statics
+
 # - title: Name Resolution
 #   url: /lectures/specification/name-resolution.html
 #   context: lectures

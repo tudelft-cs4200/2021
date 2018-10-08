@@ -1,36 +1,53 @@
 ---
 layout: page
-title: "Static Analysis"
+title: "Lecture 6: Introduction to Static Analysis"
 excerpt: "Static Analysis"
 tags: ["lectures"]
 context: lectures
-subcontext: specification
-# image: 
+subcontext: statics
+# image:
 #    feature: "lecture.jpg"
 #    credit: Delft University of Technology
 #    creditlink: http://repository.tudelft.nl/view/MMP/uuid%3Aa2f25709-c56e-453e-9394-4a05acf603a4/
 ---
 
+In this lecture we discuss the need for type checking, or more broadly, static analysis, i.e. the appliciation of analyses to the static representation (text, AST) of a program.
 
-## Slides
+## Topics
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/ybw1FZjOIoKg7y" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/eelcovisser/static-analysis-71062165" title="Static Analysis" target="_blank">Static Analysis</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/eelcovisser">Eelco Visser</a></strong> </div>
+- Type checking
+- Schema checking
+- Defining type checkers
+- Name binding as a complicating factor in type checkers
+- Name binding patterns
+- Scope graphs
 
-[PDF](https://github.com/TUDelft-IN4303-2016/lectures/blob/master/05b-static-semantics/Static%20Analysis.pdf)
+### Slides
 
-## Further Reading
+- [PDF](https://github.com/TUDelft-CS4200-2018/lectures/raw/master/06-static-analysis/CS4200-2018-6-intro-to-static-analysis.pdf)
+- [github](https://github.com/TUDelft-CS4200-2018/lectures/tree/master/06-static-analysis)
 
-1.  Gabriël Konat, Lennart Kats, Guido Wachsmuth, and Eelco Visser (2013). [Declarative Name Binding and Scope Rules](http://repository.tudelft.nl/assets/uuid:ebf61531-bbdf-4bde-b991-7733d9ae4af4/TUD-SERG-2012-015.pdf). SLE 2012.
-    
-    This paper introduces the concepts of NaBL and explains them with C# as an example language.
-  The syntax of NaBL has slightly changed over the last two years, but the core concepts are still the same.
-  
-2.  Guido Wachsmuth, Gabriël Konat, Vlad Vergu, Danny Groenewegen, and Eelco Visser (2013). [A language independent task engine for incremental name and type analysis](http://swerl.tudelft.nl/twiki/pub/Main/TechnicalReports/TUD-SERG-2013-014.pdf). SLE 2013.
-    
-    This paper looks behind the scenes and explains how incremental name and type analysis is realised in Spoofax.
-  
-3.  Eelco Visser, Guido Wachsmuth, Andrew Tolmach, Pierre Neron, Vlad Vergu, Augusto Passalaqua, and Gabriël Konat (2014). [A Language Designer's Workbench. A One-Stop-Shop for Implementation and Verification of Language Designs](http://web.cecs.pdx.edu/~apt/onward14.pdf). Onward! 2014.
-    
-    This paper promotes declarative language definitions as a single source for language implementation and verification.
-  It presents a proof-of-concept language designer’s workbench that supports generation of IDEs, interpreters, and verification infrastructure from a single source. 
-  This constitutes a first milestone on the way to a system that fully automates language implementation and verification.
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/qV1DAW1jQPEMyd" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/eelcovisser/compiler-construction-lecture-6-introduction-to-static-analysis" title="Compiler Construction | Lecture 6 | Introduction to Static Analysis" target="_blank">Compiler Construction | Lecture 6 | Introduction to Static Analysis</a> </strong> from <strong><a href="https://www.slideshare.net/eelcovisser" target="_blank">Eelco Visser</a></strong> </div>
+
+### Reading Material
+
+- Gabriël Konat, Lennart C. L. Kats, Guido Wachsmuth, Eelco Visser. [Declarative Name Binding and Scope Rules](http://dx.doi.org/10.1007/978-3-642-36089-3_18). In Krzysztof Czarnecki, Görel Hedin, editors, Software Language Engineering, 5th International Conference, SLE 2012, Dresden, Germany, September 26-28, 2012, Revised Selected Papers. Volume 7745 of Lecture Notes in Computer Science, pages 311-331, Springer, 2012. This paper introduces the NaBL language for describing the name binding rules of programming languages. This work inspired the development of the scope graph model.
+
+- Pierre Néron, Andrew P. Tolmach, Eelco Visser, Guido Wachsmuth. [A Theory of Name Resolution](http://dx.doi.org/10.1007/978-3-662-46669-8_9). In Jan Vitek, editor, Programming Languages and Systems - 24th European Symposium on Programming, ESOP 2015, Held as Part of the European Joint Conferences on Theory and Practice of Software, ETAPS 2015, London, UK, April 11-18, 2015. Proceedings. Volume 9032 of Lecture Notes in Computer Science, pages 205-231, Springer, 2015. This paper introduces the scope graph model for the representation of name binding facts in programs and the resolution calculus to resolve names in scope graphs.
+
+- Hendrik van Antwerpen, Pierre Néron, Andrew P. Tolmach, Eelco Visser, Guido Wachsmuth. [A constraint language for static semantic analysis based on scope graphs](http://doi.acm.org/10.1145/2847538.2847543). In Martin Erwig, Tiark Rompf, editors, Proceedings of the 2016 ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation, PEPM 2016, St. Petersburg, FL, USA, January 20 - 22, 2016. pages 49-60, ACM, 2016. This paper develops a constraint language for description of type system using scope graph constraints for the definition of name binding. These constraints are the basis for the NaBL2 language.
+
+- [Static Semantics with NaBL2](http://www.metaborg.org/en/latest/source/langdev/meta/lang/nabl2/index.html). Documentation
+
+
+
+
+### Related Videos
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XAkBlrB9l9o?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+Recording of a [Curry On 2018 demonstration](https://eelcovisser.org/post/307) of SDF3 and NaBL2 to live develop syntax and type system of programming languages.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0Eg6RDUJGJQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+Recording of a [Curry On 2017 talk](https://eelcovisser.org/post/298/scope-graphs%3A-a-fresh-look-at-name-binding-in-programming-languages) about scope graphs
