@@ -21,10 +21,10 @@ Q1
 * Tue Sep 11, 17:45-19:30, EWI Boole: [Syntactic (Editor) Services](syntax/editor-services)
 * Tue Sep 18, 17:45-19:30, EWI Boole: [Parsing](syntax/parsing)
 * Tue Sep 25, 17:45-19:30, EWI Boole: [Transformation](transformation/)
-* Tue Oct 2, 17:45-19:30, EWI Boole: [Name Resolution](statics/)
-* Tue Oct 9, 17:45-19:30, EWI Boole: [Type Constraints](statics/)
-* Tue Oct 16, 17:45-19:30, EWI Boole: [Constraint Resolution I](statics/)
-* Tue Oct 23, 17:45-19:30, EWI Boole: [Constraint Resolution II](statics/)
+* Tue Oct 2, 17:45-19:30, EWI Boole: [Introduction to Static Analysis](statics/static-analysis)
+* Tue Oct 9, 17:45-19:30, EWI Boole: [Type Checking](statics/type-checking)
+* Tue Oct 16, 17:45-19:30, EWI Boole: [Specifications with NaBL2](statics/)
+* Tue Oct 23, 17:45-19:30, EWI Boole: [Constraint Resolution](statics/)
 * Thu, Nov 1, 13:30-16:30, LR-CZ J: midterm exam
 
 Q2

@@ -16,7 +16,7 @@ In this lecture we study constraint-based static semantic analysis using the sco
 
 ## Slides
 
-- [PDF](https://github.com/TUDelft-CS4200-2018/lectures/raw/master/06-static-analysis/CS4200-2018-7-type-checking.pdf)
+- [PDF](https://github.com/TUDelft-CS4200-2018/lectures/raw/master/07-type-checking/CS4200-2018-7-type-checking.pdf)
 - [github](https://github.com/TUDelft-CS4200-2018/lectures/tree/master/07-type-checking)
 
 
