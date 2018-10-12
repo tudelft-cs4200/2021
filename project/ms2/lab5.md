@@ -200,7 +200,7 @@ rules
 The rule `Map1` takes one scope parameter. There is also a rule `Map2` that takes two
 parameters. These rules are implemented in NaBL2, so it is possible to write such named rules
 yourself as well. See
-[stdlib/map.nabl2](https://github.com/metaborg/nabl/blob/master/org.metaborg.meta.nabl2.runtime/trans/nabl2/runtime/stdlib/map.nabl2)
+[stdlib/map.nabl2](https://github.com/metaborg/nabl/blob/master/nabl2.runtime/trans/nabl2/runtime/stdlib/map.nabl2)
 for the implementation of these rules.
 
 #### Importing scopes by name
