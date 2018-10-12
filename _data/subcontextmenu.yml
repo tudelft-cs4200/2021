@@ -72,10 +72,10 @@
 #   context: lectures
 #   subcontext: statics
 #
-# - title: Type Checking
-#   url: /lectures/specification/type-checking.html
-#   context: lectures
-#   subcontext: statics
+- title: Type Checking
+  url: /lectures/specification/type-checking.html
+  context: lectures
+  subcontext: statics
 #
 # - title: Dataflow Analysis
 #   url: /lectures/techniques/dataflow-analysis.html
