@@ -1,27 +1,29 @@
 ---
 layout: page
-title: "Type Checking"
+title: "Lecture 7: Type Checking"
 excerpt: "Type Checking"
 tags: ["lecture"]
 context: lectures
 subcontext: specification
 ---
 
-In this lecture we study constraint-based static semantic analysis using the scope graph framework for name resolution. After first exploring the concepts, we then look at the realization of these concepts in the NaBL2 meta DSL. To illustrate NaBL2 we use excerpts from a definition of name and type analysis for the Tiger language.
+In this lecture we study constraint-based static semantic analysis using the scope graph framework for name resolution.
+
 
 ## Slides
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/3skuUg0XB9223x" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/eelcovisser/type-analysis" title="Type analysis" target="_blank">Type analysis</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/eelcovisser">Eelco Visser</a></strong> </div>
-
-[PDF](https://github.com/TUDelft-IN4303-2016/lectures/blob/master/08-type-analysis/Type%20Analysis.pdf)
-
-## Further Reading
+- [PDF](https://github.com/TUDelft-CS4200-2018/lectures/raw/master/06-static-analysis/CS4200-2018-7-type-checking.pdf)
+- [github](https://github.com/TUDelft-CS4200-2018/lectures/tree/master/07-type-checking)
 
 
-1. Pierre Neron, Andrew Tolmach, Eelco Visser, Guido Wachsmuth. [A Theory of Name Resolution](http://researchr.org/publication/NeronTVW15). ESOP 2015
+### Reading Material
 
-    This award winning paper introduces scope graphs for describing the binding and scoping facts of programs. A resolution calculus describes how references resolve to declarations in terms of a reachability and visibility relation. A resolution algorithm is shown to be sound and complete with respect to the calculus. 
-    
-2. Hendrik van Antwerpen, Pierre Neron, Andrew P. Tolmach, Eelco Visser, Guido Wachsmuth. [A Constraint Language for Static Semantic Analysis based on Scope Graphs](http://researchr.org/publication/AntwerpenNTVW16). PEPM 2016
+- Gabriël Konat, Lennart C. L. Kats, Guido Wachsmuth, Eelco Visser. [Declarative Name Binding and Scope Rules](http://dx.doi.org/10.1007/978-3-642-36089-3_18). In Krzysztof Czarnecki, Görel Hedin, editors, Software Language Engineering, 5th International Conference, SLE 2012, Dresden, Germany, September 26-28, 2012, Revised Selected Papers. Volume 7745 of Lecture Notes in Computer Science, pages 311-331, Springer, 2012. This paper introduces the NaBL language for describing the name binding rules of programming languages. This work inspired the development of the scope graph model.
 
-    This paper introduces a constraint language for name and type analysis based on scope graphs, a semantics for the language, and an algorithm for solving constraints. The paper shows an example of constraint generation for a toy language. This approach is the basis for the design of the NaBL2 language, which supports the definition of rules that transform an AST to a collection of constraints. The paper coins the term 'type-dependent name resolution' to characterize name resolutions that interact with type analysis.
+- Pierre Néron, Andrew P. Tolmach, Eelco Visser, Guido Wachsmuth. [A Theory of Name Resolution](http://dx.doi.org/10.1007/978-3-662-46669-8_9). In Jan Vitek, editor, Programming Languages and Systems - 24th European Symposium on Programming, ESOP 2015, Held as Part of the European Joint Conferences on Theory and Practice of Software, ETAPS 2015, London, UK, April 11-18, 2015. Proceedings. Volume 9032 of Lecture Notes in Computer Science, pages 205-231, Springer, 2015. This paper introduces the scope graph model for the representation of name binding facts in programs and the resolution calculus to resolve names in scope graphs.
+
+- Hendrik van Antwerpen, Pierre Néron, Andrew P. Tolmach, Eelco Visser, Guido Wachsmuth. [A constraint language for static semantic analysis based on scope graphs](http://doi.acm.org/10.1145/2847538.2847543). In Martin Erwig, Tiark Rompf, editors, Proceedings of the 2016 ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation, PEPM 2016, St. Petersburg, FL, USA, January 20 - 22, 2016. pages 49-60, ACM, 2016. This paper develops a constraint language for description of type system using scope graph constraints for the definition of name binding. These constraints are the basis for the NaBL2 language.
+
+- [Static Semantics with NaBL2](http://www.metaborg.org/en/latest/source/langdev/meta/lang/nabl2/index.html). Documentation
+
+

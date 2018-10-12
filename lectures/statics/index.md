@@ -23,3 +23,4 @@ Topics
 Lectures
 
 - [Introduction to Static Analysis](static-analysis)
+- [Type Checking](type-checking)
