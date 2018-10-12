@@ -4,7 +4,11 @@ title: "Lecture 7: Type Checking"
 excerpt: "Type Checking"
 tags: ["lecture"]
 context: lectures
-subcontext: specification
+subcontext: statics
+# image:
+#    feature: "lecture.jpg"
+#    credit: Delft University of Technology
+#    creditlink: http://repository.tudelft.nl/view/MMP/uuid%3Aa2f25709-c56e-453e-9394-4a05acf603a4/
 ---
 
 In this lecture we study constraint-based static semantic analysis using the scope graph framework for name resolution.
