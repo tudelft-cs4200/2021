@@ -69,11 +69,6 @@ detecting them. You have 3 early feedback attempts.
 
 ### Preliminaries
 
-#### Updating Spoofax
-
-A new version of Spoofax is required for this lab.
-See the [Spoofax documentation](/documentation/spoofax.html#updating) on how to update Spoofax.
-
 #### GitLab Repository
 
 We provide you with a template for this assignment in the `assignment-4-template` branch. See the
