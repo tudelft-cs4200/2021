@@ -73,7 +73,7 @@
 #   subcontext: statics
 #
 - title: Type Checking
-  url: /lectures/specification/type-checking.html
+  url: /lectures/statics/type-checking.html
   context: lectures
   subcontext: statics
 #
