@@ -72,7 +72,7 @@
   context: lectures
   subcontext: statics
 
-- title: Type Checking
+- title: Type Constraints
   url: /lectures/statics/type-constraints.html
   context: lectures
   subcontext: statics
