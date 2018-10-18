@@ -67,16 +67,21 @@
   context: lectures
   subcontext: statics
 
-# - title: Name Resolution
-#   url: /lectures/specification/name-resolution.html
-#   context: lectures
-#   subcontext: statics
-#
 - title: Type Checking
   url: /lectures/statics/type-checking.html
   context: lectures
   subcontext: statics
-#
+
+- title: Type Checking
+  url: /lectures/statics/type-constraints.html
+  context: lectures
+  subcontext: statics
+
+# - title: Constraint Resolution
+#   url: /lectures/specification/constraint-resolution.html
+#   context: lectures
+#   subcontext: statics
+
 # - title: Dataflow Analysis
 #   url: /lectures/techniques/dataflow-analysis.html
 #   context: lectures

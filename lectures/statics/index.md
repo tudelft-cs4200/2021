@@ -24,3 +24,4 @@ Lectures
 
 - [Introduction to Static Analysis](static-analysis)
 - [Type Checking](type-checking)
+- [Type Constraints](type-constraints)
