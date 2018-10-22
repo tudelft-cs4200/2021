@@ -9,7 +9,13 @@ subcontext: assignments_statics
 
 ## Type Checking
 
+Write a short discussion on the following questions:
 
+- What are types?
+- Where do they play a role in the compiler?
+- How do types related to earlier and later steps in the compiler
+  pipeline?
+- What is the importance of a rich -- more expressive -- type system?
 
 ## Type Checking with Constraints
 
