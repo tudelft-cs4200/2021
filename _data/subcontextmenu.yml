@@ -127,7 +127,25 @@
   context: assignments
   subcontext: assignments_syntax
 
+- title: Week 1.5
+  url: /assignments/statics/week1.5
+  context: assignments
+  subcontext: assignments_statics
 
+- title: Week 1.6
+  url: /assignments/statics/week1.6
+  context: assignments
+  subcontext: assignments_statics
+
+- title: Week 1.7
+  url: /assignments/statics/week1.7
+  context: assignments
+  subcontext: assignments_statics
+
+- title: Week 1.8
+  url: /assignments/statics/week1.8
+  context: assignments
+  subcontext: assignments_statics
 
 # Milestone 1
 
