@@ -78,7 +78,7 @@
   subcontext: statics
 
 - title: Constraint Resolution
-  url: /lectures/specification/constraint-resolution.html
+  url: /lectures/statics/constraint-resolution.html
   context: lectures
   subcontext: statics
 
