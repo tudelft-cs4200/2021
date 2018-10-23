@@ -15,7 +15,7 @@ subcontext: assignments_statics
 
    and the following unifier:
 
-       a := h(y), b := h(y), c := g(), d := f(h(y), g()), e := h(f(h(y), g())), x := g()
+       a -> h(y), b -> h(y), c -> g(), d -> f(h(y), g()), e -> h(f(h(y), g())), x -> g()
 
    explain the concept of a most general unifier, and state if the
    given unifier is most general or not. Illustrate your explanation
