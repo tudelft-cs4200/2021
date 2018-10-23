@@ -18,22 +18,22 @@ subcontext: assignments_statics
     
    - an mgu's for these equalities, is
 
-         a := b, c := g(), d := f(b, g()), e := h(f(b, g())), x := g()
+         a -> b, c -> g(), d -> f(b, g()), e -> h(f(b, g())), x -> g()
 
      or
 
-         b := a, c := g(), d := f(a, g()), e := h(f(a, g())), x := g()
+         b -> a, c -> g(), d -> f(a, g()), e -> h(f(a, g())), x -> g()
 
     - the unifier from the question is obtained from the mgu by
-      applying `b := h(y))` or `a := h(y))` respectively.
+      applying `b -> h(y))` or `a -> h(y))` respectively.
 
 2. A most general unifier is given by
 
-       b := i(), c := g(a, i()), d := h(h(i(), g(a, i())), a), e := h(i(), g(a, i()))
+       b -> i(), c -> g(a, i()), d -> h(h(i(), g(a, i())), a), e -> h(i(), g(a, i()))
 
 3. A possible unifying substitution is:
 
-       a := c, b := f(c), d := f(h()), e := h()
+       a -> c, b -> f(c), d -> f(h()), e -> h()
 
 4.  A given substitution _s_ is a principal unifier if every other
     unifier _s'_ is an instance of _s_. A unifier _s'_ is an instance
@@ -43,7 +43,7 @@ subcontext: assignments_statics
     In the example, any substitution that fixes a term value _t_ for
     _c_ is still a unifier for the constraints. However, it would not
     be principal anymore. The substitution _s''_ in this scenario
-    would be given by `s := t`.
+    would be given by `s -> t`.
 
     Possible additions:
     - Principal unifiers are not necessarily unique. For example, the
