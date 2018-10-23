@@ -77,10 +77,10 @@
   context: lectures
   subcontext: statics
 
-# - title: Constraint Resolution
-#   url: /lectures/specification/constraint-resolution.html
-#   context: lectures
-#   subcontext: statics
+- title: Constraint Resolution
+  url: /lectures/specification/constraint-resolution.html
+  context: lectures
+  subcontext: statics
 
 # - title: Dataflow Analysis
 #   url: /lectures/techniques/dataflow-analysis.html
