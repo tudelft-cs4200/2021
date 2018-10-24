@@ -20,9 +20,23 @@ In this lab, you define a simple data-flow analysis for MiniJava in FlowSpec. Th
 
 ### Objectives
 
-Specify data-flow analysis for MiniJava in FlowSpec. The specification should include:
+Specify a reaching definitions analysis for MiniJava in FlowSpec. The specification should include:
 
-...
+1. The control-flow of methods (including the main method) in MiniJava, including
+   - blocks,
+   - if statements,
+   - while loops,
+   - print statements,
+   - assignments,
+   - and array assignments.
+2. Reaching definitions analysis, taking into account
+   - parameters,
+   - variables,
+   - fields,
+   - assignments,
+   - and array assignments.
+3. Messages on use of uninitialized variables, in particular
+   - errors on uninitialized variables.
 
 ### Submission
 
@@ -34,7 +48,12 @@ The deadline for submission is December 1, 2018.
 
 ### Grading
 
-You can earn up to 100 points for the correctness of your data-flow analysis.
+You can earn up to 100 points for the correctness of your data-flow analysis.Therefore, we run several test cases against your implementation. You earn points, when your implementation passes test cases. The total number of points depends on how many test cases you pass in each of the following groups:
+
+- control flow (35 points)
+- reaching definitions analysis (35 points)
+- error messages (10 points)
+- challenge (20 points)
 
 ### Early Feedback
 
@@ -44,10 +63,147 @@ tests you pass and how many points you earn by passing them. You have 3 early fe
 
 ## Detailed Instructions
 
-### Git Repository
+### Preliminaries
 
-You continue with your work from the previous assignment.
-See the [Git documentation](/documentation/git.html#continue-from-previous-assignment) on how to create the
-`assignment-8-develop` branch from your previous work.
+#### GitLab Repository
 
-### About the Assignment
+We provide you with a template for this assignment in the `assignment-4-template` branch. See the
+[Git documentation](/documentation/git.html#template) on how to check out this branch.
+
+The template contains 4 Maven projects:
+
+* `minijava`: an initial MiniJava project that covers concrete and abstract syntax, desugarings, and name and type analysis,
+* `minijava.example`: an empty project for your example MiniJava programs,
+
+#### Importing projects into Eclipse
+
+The projects from the template have to be imported into Eclipse:
+
+1. Start Eclipse.
+2. Select your workspace.
+3. Import the projects into your workspace:
+    1. Right-click into the Package Explorer.
+    2. Select Import... from the context menu.
+    3. Choose Maven -> Existing Maven Projects from the list.
+    4. Press next.
+    5. Select the root of your Git repository.
+    6. Select all projects.
+    7. Make sure that Copy projects into workspace is **off**.
+    8. Press finish
+
+If you get an error about `Resource '/.org.eclipse.jdt.core.external.folders' already exists`, you can safely ignore that.
+
+### Control-flow
+
+Control-flow is specified as control-flow rules in `.flo` files. FlowSpec files must fo in the `trans/analysis` directory. The module name at the top of the file should match the filename relative to `trans`. For example, the file `trans/analysis/control.flow` starts as:
+
+```
+module analysis/control
+```
+
+The rules match on an AST constructor, and defined the control-flow of that construct in terms of nodes, control-flow of the subtrees, and the surrounding control-flow graph. 
+
+```
+  control-flow rules // Lists
+
+  Cons(h, t) = entry -> h -> t -> exit
+  Nil() = entry -> exit
+```
+
+The surrounding control-flow are the `entry` and `exit` nodes. You can use matched subtrees from the AST as placeholders for their control-flow. You can also create a control-flow graph node associated with an AST node using `node variableMatchedOnTheLeft`. Most commonly you want to add a node to the control-flow graph corresponding to the entire matched tree on the left. You can use `this` for that situation. 
+
+The right-hand side of a control-flow rule really specifies a list of edges, separated by commas. Because most control-flow is simply a chain, you can chain multiple edges together. 
+
+There can only be **one** rule that matches on a certain constructor. It is possible and recommended
+to split the rules over multiple files.
+{: .notice .notice-warning}
+
+#### The control-flow root
+
+A control-flow graph is usually rooted at the procedure -- or in MiniJava's case method -- level. A special root rule specifies this, and uses an explicit `start` and `end` node instead of the usual contextual `entry` and `exit`. 
+
+```
+root Method(_, _, params, vars, body) = start -> ... -> end
+```
+
+#### Shortcuts
+
+To add a control-flow graph node in a rule, there are a number of options. Most commonly you want to add a node that corresponds to the whole matched AST pattern on the left-hand side of the rule. You can do this by using `this` inside the edge list on the right-hand side:
+
+```
+UnExp(_, e) = entry -> e -> this -> exit
+```
+
+At the leaves of the AST you will then see patterns such as `entry -> this -> exit`. Since this is so common, there is another shortcut for this. This is the `node` rule, where you only match the AST pattern, and do not need a right-hand side:
+
+```
+node True()
+```
+
+### Data-flow
+
+A data-flow analysis in FlowSpec is built on a data-flow property. This property is defined in a `properties` section where it is given a name and a lattice. The lattice is a combination of a type and some operations that automatically deal with splitting and merging the data when the control-flow splits and merges. 
+
+```
+properties
+
+  live: MaySet(name)
+```
+
+#### Rules
+
+A data-flow analysis is either a forward or a backward analysis. A forward analysis specifies what information is available at the `start` of the control-flow, a backward analysis specifies what information is available at the `end` of the control-flow. 
+
+```
+property rules
+
+  live(Method(_, _, _, _, _).end) = {}
+```
+
+When the direction of a data-flow analysis is established with such a rule, FlowSpec will automatically propagate information along that direction. Therefore you only need to write rules for control-flow nodes that have a special meaning in your analysis. You again use AST patterns, the ones associated with the control-flow graph nodes, to match on the left side. But now in you match you also give a name to the neighboring control-flow graph node:
+
+```
+  live(VarRef(n) -> next) = live(next) \/ { Var{n} }
+```
+
+In this example analysis, the backward direction is visible in that we name the `next` node on the right-hand side of the arrow, and match the left-had side of the arrow. We define the liveness information of the matched `VarRef` here, therefore by making it equal to the information of `next` (and more), we propagate information backward from the graph. 
+
+#### Expressions
+
+[FlowSpec expressions](http://www.metaborg.org/en/latest/source/langdev/meta/lang/flowspec/reference.html#expressions) that you are likely to use are set operations such as union (`\/`), intersection (`/\`), minus (`\`), containment (`in`), set construction (`{ elements, go, here }`), and comprehension (`{ new | old <- set, conditions }`). 
+
+### Reaching definitions
+
+You will define a classic data-flow analysis called reaching definitions. This analysis gives information about where a variable was last assignment a value. Note that a variable could be last assigned in multiple places at once if you check this information after a merge in control-flow. Therefore your analysis should work on a set of pairs. The first part of the pair is the name, the second part of the pair is a position where the assignment took place. 
+
+For the reaching definitions data-flow analysis, we require you to name your analysis `reaching`. This is used in the grading for the lab. 
+{: .notice .notice-warning}
+
+A name is constructed with NaBL2 syntax (`namespace { occurrence }`), although we do not differentiate between declarations and references in FlowSpec. A position of an AST node can be requested with the `position` function. 
+
+You should also take into account that local variables are not initialized when first declared. Your reaching definitions analysis should support this, as we will use this analysis to display errors on uses of uninitialized variables. 
+
+### Error messages
+
+Once you have finished your data-flow analysis, you can use it to generate error messages. [NaBL2 allows you to hook into the analysis and create extra errors, warnings and notes](http://www.metaborg.org/en/latest/source/langdev/meta/lang/nabl2/stratego-api.html#custom-analysis). In this case we add FlowSpec analysis based on the name analysis results, and then we query the analysis results to construct error messages:
+
+```
+  nabl2-custom-analysis-unit-hook:
+    (_, ast, _) -> ast
+
+  nabl2-custom-analysis-final-hook(|a):
+    (_, _, asts) -> (errors, warnings, notes, a2)
+    with <nabl2-custom-analysis-info(|"Running FlowSpec for more errors")> a
+       ; a2 := <flowspec-analyze(|a)> asts
+       ; errors   := <error-uninitialized(|a2)> asts
+       ; warnings := []
+       ; notes    := []
+```
+
+To get the ast in the final phase, we pass it along in the unit phase. We use `flowspec-analyze(|a)` to execute the FlowSpec analysis on top of the NaBL2 analysis `a`, and receive the combined scope graph, control-flow graph and data-flow properties in `a2`. We pass this information to strategy `error-uninitialized`. This strategy gives back a list of pairs, the first being the ast node to put the error on, the second a string to display. 
+
+Display error messages on every use of a variable or parameter where that variable or parameter may be uninitialized. 
+
+### Challenge
+
+For the challenge we want a slightly different behavior from your implementation than Java. In Java a local variable _must_ be initialized before it can be used, anything else is an error. For this challenge, give a warning instead if the local variable _may_ be uninitialized at a use site. 
