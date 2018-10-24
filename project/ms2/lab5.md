@@ -45,7 +45,7 @@ scope graph and resolution constraints. The specification should include:
   * variable references
 3. Constraints for
   * duplicate definitions of classes, fields, parameters, and variables
-  * variable declarations which hide parameter or field declarations
+  * field, parameter, and variable declarations that hide parameter or field declarations
 4. Properties on
   * variable declarations to indicate whether they are fields, parameters, or local variables
 
@@ -254,9 +254,9 @@ where `t` is a variable from your match pattern.
 
 #### Sets of names
 
-MiniJava requires errors and warnings in a few cases where hiding
-occurs. Fields are not allowed to hide fields in super classes. Local
-variables and parameters are allowed to hide, but get a warning if they do.
+MiniJava requires errors and warnings in a few cases where hiding occurs. Fields are not allowed to
+hide fields in super classes. Parameters are allowed to hide fields, and local variables are allowed
+to hide parameters or fields, but get a warning if they do.
 
 The following constraints can be used to restrict the names that can appear in scopes:
 
