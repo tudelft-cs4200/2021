@@ -255,8 +255,8 @@ where `t` is a variable from your match pattern.
 #### Sets of names
 
 MiniJava requires errors and warnings in a few cases where hiding occurs. Fields are not allowed to
-hide fields in super classes. Parameters are allowed to hide fields, and local variables are allowed
-to hide parameters or fields, but get a warning if they do.
+hide fields in super classes. Parameters are allowed to hide fields and local variables are allowed
+to hide fields, but they get a warning if they do.
 
 The following constraints can be used to restrict the names that can appear in scopes:
 
