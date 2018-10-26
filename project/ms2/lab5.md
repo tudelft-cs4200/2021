@@ -367,7 +367,7 @@ signature
       I < P
 
     well-formedness
-      P* . I*
+      P* I*
 ```
 
 The label `P` is the default label for edges between scope. This can be written explicitly with the
@@ -384,7 +384,7 @@ anymore. The regular expressions on labels have the following syntax:
 * `<Label>` is a literal label
 * `~<Regexp>` is the complement (e.g., `~0` matches anything)
 * `<Regexp>*` is the closure (i.e., match zero or more)
-* `<Regexp> . <Regexp>` is concatenation (e.g., `P . I` matches one parent edge followed by an
+* `<Regexp> <Regexp>` is concatenation (e.g., `P . I` matches one parent edge followed by an
   import)
 * `<Regexp> | <Regexp>` is a logical or (e.g., `P | I` matches a parent or an import edge)
 * `<Regexp> & <Regexp>` is a logical and (i.e., both expressions must match)
