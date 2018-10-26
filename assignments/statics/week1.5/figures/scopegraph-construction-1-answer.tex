@@ -1,0 +1,39 @@
+\documentclass[crop,tikz]{standalone}
+\usepackage{amsmath}
+\input{scopegraphs}
+\begin{document}
+\begin{tikzpicture}[scopegraph]
+  \node[scope] (s0) {$0$};
+  \node[decl, right = of s0.center] (A1) {$\occ{A}{1}$};
+  \draw (s0) edge (A1);
+  \node[scope, right = of A1.center] (s1) {$1$};
+  \draw (s1) edge[lbl = {P}, bend right] (s0);
+  \draw (A1) edge[export, lbl = {I}] (s1);
+  \node[decl, right = of s1.center] (f2) {$\occ{f}{2}$};
+  \draw (s1) edge (f2);
+  \node[decl, below = of s1.center] (B3) {$\occ{B}{3}$};
+  \draw (s1) edge (B3);
+  \node[scope, right = of B3.center] (s3) {$3$};
+  \draw (s3) edge[lbl = {P}] (s1);
+  \draw (B3) edge[export, lbl = {I}] (s3);
+  \node[decl, right = of s3.center] (m4) {$\occ{m}{4}$};
+  \draw (s3) edge (m4);
+  \node[scope, below = of s3.center] (s4) {$4$};
+  \draw (s4) edge[lbl = {P}] (s3);
+  \node[decl, right = of s4.center] (g5) {$\occ{g}{5}$};
+  \draw (s4) edge (g5);
+  \node[ref, left = of s4.center] (f7) {$\occ{f}{7}$};
+  \draw (f7) edge (s4);
+  \node[ref, left = of f7.center] (g6) {$\occ{g}{6}$};
+  \draw (g6) edge[bend left] (s4);
+
+  \node[draw=none] at (8, -.75) (params) {$\begin{aligned}
+      \Wf &= \lblt{P}^\ast \lblt{I}^\ast \\
+      \Ord &= \begin{aligned}[t]
+        \decllblt &< \lblt{P} \\
+        \decllblt &< \lblt{I} \\
+        \lblt{I} &< \lblt{P}
+      \end{aligned}
+    \end{aligned}$};
+\end{tikzpicture}
+\end{document}
