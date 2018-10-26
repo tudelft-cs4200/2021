@@ -40,6 +40,9 @@ subcontext: assignments_statics
 
 ## Constraint Semantics
 
-1. Explain what soundness means for a constraint solver.
+Explain what constraint semantics are, and discuss the relation between
+semantics and solver in terms of soundness, completeness, and principality.
 
-2. Explain what completeness means for a constraint solver.
+## Answers
+
+Verify your answers with the [model answers](answers).

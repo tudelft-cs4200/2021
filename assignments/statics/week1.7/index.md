@@ -69,3 +69,6 @@ bindings cannot refer to any of the variables that are bound in the
 let, but only to variables defined outside the let. Give a set of
 modified rules that implement these let semantics.
 
+## Answers
+
+Verify your answers with the [model answers](answers).

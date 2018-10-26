@@ -57,16 +57,10 @@ subcontext: assignments_statics
 
 ## Constraint Semantics
 
-1. Include
-
-   - constraint semantics define when constraints are satisfied
-   - soundness is a property of the solver
-   - it states that every outcome of the solver is valid/correct
-     according to the semantics
-
-2. Include
-
-   - constraint semantics define when constraints are satisfied
-   - completeness is a property of the solver
-   - it states that if the constraints are satisfiable according to
-     the semantics, the solver gives an outcome
+Include the following:
+- constraint semantics define when constraints are satisfied by a given solution
+- constraint solver is an algorithm that finds a solution for a given constraint
+- soundness, completeness, and principality are properties of the solver
+- soundness states that every outcome of the solver is valid/correct according to the semantics
+- completeness states that if the constraints are satisfiable according to the semantics, the solver returns a solution
+- principality states that the solver returns a most general, or principal, solution

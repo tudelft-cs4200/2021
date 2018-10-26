@@ -22,3 +22,7 @@ Write a short discussion on the following questions:
 Explain the main aspects of type checking with constraints. Discuss
 how the different parts of your answer are related to the object
 language the checker is for.
+
+## Answers
+
+Verify your answers with the [model answers](answers).

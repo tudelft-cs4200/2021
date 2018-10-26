@@ -77,3 +77,7 @@ class B/*3*/ extends A/*4*/ {
   }
 }
 ```
+
+## Answers
+
+Verify your answers with the [model answers](answers).
