@@ -326,6 +326,44 @@ signature
 
 The sort name is not important, but if you do not know what to use, use `Origin`.
 
+### Debugging
+It is possible to view the scope graph of a file for debugging purposes. First, you will have to
+setup the software that visualizes the graphs. This can be done as follows.
+
+* Install graphviz ([https://www.graphviz.org/download/](https://www.graphviz.org/download/))
+* Open Spoofax
+* In the menu, select Window, Preferences...
+* Select Dot, Graphviz
+* Set the location of the dot executable to the location where you installed graphviz.
+
+Now, if you open up any MiniJava file, you can select Spoofax, NaBL2 Analysis, Debug file scope
+graph (DOT).
+
+The file that is generated might not automatically be detected by Eclipse. You can right-click on
+the \*.scope-graph.gv file on the left, select Open With, Other....
+
+![Select open with...](../../assets/images/scope-graph-open-with.png)
+
+Then search for DOT and check "use it for all \*.gv files".
+
+![Set the dot editor as default](../../assets/images/scope-graph-set-dot-editor.png)
+
+Now, whenever you open a *.gv file, you can visualize the scope graph by clicking on the button as
+indicated in the picture.
+
+![Button to visualize the scope graph](../../assets/images/scope-graph-show.png)
+
+To improve the visualization of the scope graphs, you can add the lines `layout=sfdp;` and
+`overlap=scale;` at the top of the file. For example:
+
+```
+digraph scope_graph {
+layout=sfdp;
+overlap=scale;
+rankdir="BT";
+...
+```
+
 ### Challenge
 
 In lab 7 we need to test that an overriding method has the same type as the overridden method in the
