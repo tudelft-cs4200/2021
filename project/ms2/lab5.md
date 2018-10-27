@@ -256,7 +256,8 @@ where `t` is a variable from your match pattern.
 
 MiniJava requires errors and warnings in a few cases where hiding occurs. Fields are not allowed to
 hide fields in super classes. Parameters are allowed to hide fields and local variables are allowed
-to hide fields, but they get a warning if they do.
+to hide fields, but they get a warning if they do. MiniJava does not allow a parameter to have the
+same name as a local variable in a method.
 
 The following constraints can be used to restrict the names that can appear in scopes:
 
