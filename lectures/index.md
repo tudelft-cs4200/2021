@@ -23,8 +23,8 @@ Q1
 * Tue Sep 25, 17:45-19:30, EWI Boole: [Transformation](transformation/)
 * Tue Oct 2, 17:45-19:30, EWI Boole: [Introduction to Static Analysis](statics/static-analysis)
 * Tue Oct 9, 17:45-19:30, EWI Boole: [Type Checking](statics/type-checking)
-* Tue Oct 16, 17:45-19:30, EWI Boole: [Specifications with NaBL2](statics/)
-* Tue Oct 23, 17:45-19:30, EWI Boole: [Constraint Resolution](statics/)
+* Tue Oct 16, 17:45-19:30, EWI Boole: [Specifications with NaBL2](statics/type-constraints)
+* Tue Oct 23, 17:45-19:30, EWI Boole: [Constraint Resolution](statics/constraint-resolution)
 * Thu, Nov 1, 13:30-16:30, LR-CZ J: midterm exam
 
 Q2
