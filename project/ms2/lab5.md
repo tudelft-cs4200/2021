@@ -255,8 +255,9 @@ where `t` is a variable from your match pattern.
 #### Sets of names
 
 MiniJava requires errors and warnings in a few cases where hiding occurs. Fields are not allowed to
-hide fields in super classes. Parameters are allowed to hide fields, and local variables are allowed
-to hide parameters or fields, but get a warning if they do.
+hide fields in super classes. Parameters are allowed to hide fields and local variables are allowed
+to hide fields, but they get a warning if they do. MiniJava does not allow a parameter to have the
+same name as a local variable in a method.
 
 The following constraints can be used to restrict the names that can appear in scopes:
 
@@ -324,6 +325,23 @@ signature
 ```
 
 The sort name is not important, but if you do not know what to use, use `Origin`.
+
+### Debugging
+It is possible to view the scope graph of a file for debugging purposes. First, you will have to
+setup the software that visualizes the graphs. This can be done as follows.
+
+* Install graphviz ([https://www.graphviz.org/download/](https://www.graphviz.org/download/))
+* Open Spoofax
+* In the menu, select Window, Preferences...
+* Select Dot, Graphviz
+* Set the location of the dot executable to the dot executable (which is located where you installed
+graphviz).
+
+Now, if you open up any MiniJava file, you can select Spoofax, NaBL2 Analysis, Debug file scope
+graph (DOT). You can then visualize the scope graph by clicking on the button as
+indicated in the picture.
+
+![Button to visualize the scope graph](../../assets/images/scope-graph-show.png)
 
 ### Challenge
 
