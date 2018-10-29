@@ -15,6 +15,10 @@ NaBL2 are described in the following papers:
 1. P. Neron, A. Tolmach, E. Visser, G. Wachsmuth: [A Theory of Name Resolution](http://swerl.tudelft.nl/twiki/pub/Main/TechnicalReports/TUD-SERG-2015-001.pdf), ESOP 2015
 2. H. van Antwerpen, P. Neron, A. Tolmach, E. Visser, G. Wachsmuth: [A Constraint Language for Static Semantic Analysis based on Scope Graphs](http://swerl.tudelft.nl/twiki/pub/Main/TechnicalReports/TUD-SERG-2015-012.pdf), PEPM 2016
 
+Update your Spoofax installation for this lab, to get the latest bug fixes.
+See the [update instructions](/documentation/spoofax#updating).
+{: .notice .notice-info}
+
 Documentation for NaBL2 can be found online at
 [NaBL2 Documentation](https://spoofax.readthedocs.io/en/latest/source/langdev/meta/lang/nabl2/index.html). For
 a complete overview of the language, use the
@@ -22,7 +26,6 @@ a complete overview of the language, use the
 [NaBL2 Configuration](https://spoofax.readthedocs.io/en/latest/source/langdev/meta/lang/nabl2/configuration.html) documentation
 describes how to configure logging and inspect the results of analysis.
 {: .notice .notice-info}
-
 
 ## Overview
 

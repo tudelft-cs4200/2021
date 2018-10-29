@@ -12,6 +12,10 @@ subcontext: ms2
 In this lab, you develop a test suite for type analysis.
 The test suite consists of type projection test cases, resolution test cases and constraint test cases.
 
+Update your Spoofax installation for this lab, to get the latest bug fixes.
+See the [update instructions](/documentation/spoofax#updating).
+{: .notice .notice-info}
+
 ## Overview
 
 ### Objectives
