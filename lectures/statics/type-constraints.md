@@ -19,6 +19,7 @@ In this lecture we study constraint-based static semantic analysis using the sco
 - [PDF](https://github.com/TUDelft-CS4200-2018/lectures/raw/master/08-type-constraints/CS4200-2018-8-type-constraints.pdf)
 - [github](https://github.com/TUDelft-CS4200-2018/lectures/tree/master/08-type-constraints)
 
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/DVvLXFixwJZuPw" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/eelcovisser/compiler-construction-lecture-8-type-constraints" title="Compiler Construction | Lecture 8 | Type Constraints" target="_blank">Compiler Construction | Lecture 8 | Type Constraints</a> </strong> from <strong><a href="https://www.slideshare.net/eelcovisser" target="_blank">Eelco Visser</a></strong> </div>
 
 ### Reading Material
 
