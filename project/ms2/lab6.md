@@ -127,7 +127,7 @@ test variable reference type [[
 ```
 
 You can use _fixtures_ to avoid repeating parts in similar test cases. See the
-[SPT documentation](http://metaborg.org/en/latest/source/langdev/meta/lang/spt.html#test-fixtures)
+[SPT documentation](https://www.metaborg.org/en/latest/source/langdev/meta/lang/spt/test-suites.html#test-fixtures)
 for details.
 
 When applying `get-type` to objects, we expect a `ClassType` constructor, which takes an
