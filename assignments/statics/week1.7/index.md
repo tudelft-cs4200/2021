@@ -33,7 +33,7 @@ following skeleton rules:
 
 &nbsp;1. Given the following constraint rules:
 
-    [[ LetRec(binds) ^ (s) : ty ]] :=
+    [[ LetRec(binds, e) ^ (s) : ty ]] :=
       new s_let, s_let ---> s,
       Map1[[ binds ^ (s_let) ]],
       [[ e ^ (s_let) : ty ]].
