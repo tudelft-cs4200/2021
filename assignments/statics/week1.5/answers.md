@@ -58,7 +58,7 @@ The main aspects are:
    * _f<sub>8</sub>_ &middot; R &middot; #3 &middot; P &middot; #0 &middot; D &middot; _f<sub>9</sub>_
    * _f<sub>8</sub>_ &middot; R &middot; #3 &middot; I &middot; #2 &middot; I &middot; #1 &middot; D &middot; _f<sub>3</sub>_
 
-   According to the label order $\Ord$, the path via the imports takes
+   According to the label order _Ord_, the path via the imports takes
    precedence over the path via the lexical parent. Therefore,
    _f<sub>8</sub>_ resolves to _f<sub>3</sub>_.
 
