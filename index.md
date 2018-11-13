@@ -36,9 +36,10 @@ The course covers the following topics:
     - types, type checking, type inference, subtyping
     - unification, constraints
   - semantic editor services
-  - Data-flow analysis
-    - control-flow, data-flow
-    - monotone frameworks, worklist algorithm
+
+* Data-flow analysis
+  - control-flow and data-flow
+  - monotone frameworks, worklist algorithm
 
 * Dynamics
   - dynamic semantics and code generation

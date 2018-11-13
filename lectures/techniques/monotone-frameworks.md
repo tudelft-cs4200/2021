@@ -4,7 +4,7 @@ title: "Lecture 11: Monotone Frameworks"
 excerpt: "Monotone Frameworks"
 tags: ["lecture"]
 context: lectures
-subcontext: statics
+subcontext: techniques
 # image:
 #    feature: "lecture.jpg"
 #    credit: Delft University of Technology

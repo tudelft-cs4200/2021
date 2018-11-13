@@ -29,7 +29,7 @@ Q1
 
 Q2
 
-* Tue Nov 13, 10:45-12:30, CT-CZ D: [Data-flow Analysis](techniques/data-flow)
+* Tue Nov 13, 10:45-12:30, CT-CZ D: [Data-flow Analysis](techniques/dataflow-analysis)
 * Tue Nov 20, 10:45-12:30, CT-CZ D: [Optimization](techniques/monotone-frameworks)
 * Tue Nov 27, 10:45-12:30, CT-CZ D: [Virtual Machines & Code Generation](dynamics/)
 * Tue Dec 4, 10:45-12:30, CT-CZ D: [Garbage Collection](dynamics/)

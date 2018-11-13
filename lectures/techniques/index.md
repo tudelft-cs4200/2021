@@ -18,4 +18,4 @@ Topics
 Lectures
 
 - [Data-Flow Analysis](dataflow-analysis)
-- [Optimization](optimization)
+- [Monotone Frameworks](monotone-frameworks)

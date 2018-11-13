@@ -4,7 +4,7 @@ title: "Lecture 10: Data-Flow Analysis"
 excerpt: "Data-Flow Analysis"
 tags: ["lecture"]
 context: lectures
-subcontext: statics
+subcontext: techniques
 # image:
 #    feature: "lecture.jpg"
 #    credit: Delft University of Technology
