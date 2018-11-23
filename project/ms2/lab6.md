@@ -146,6 +146,11 @@ test expression id type [[
 ]] run get-type on #1 to ClassType(Occurrence(_,"Foo",_))
 ```
 
+Do not use the `Occurrence` constructor in your NaBL2 specification! It is partof the _internal_
+representation of occurrences. In your NaBL2 rules, you should only use the special `Ns{x}` syntax.
+We only use the internal constructor in tests because the special syntax is not available in SPT.
+{: .notice .notice-warning}
+
 You should come up with test cases for the types of all kinds of expressions. Just like previous
 testing assignments, this assignment is all about the coverage of your test suite.
 
