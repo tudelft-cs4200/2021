@@ -16,6 +16,18 @@ In this lab, you define a simple data-flow analysis for MiniJava in FlowSpec. Th
 
 - Jeff Smits, Eelco Visser. FlowSpec: declarative dataflow analysis specification. In Benoît Combemale, Marjan Mernik, Bernhard Rumpe, editors, Proceedings of the 10th ACM SIGPLAN International Conference on Software Language Engineering, SLE 2017, Vancouver, BC, Canada, October 23-24, 2017. pages 221-231, ACM, 2017.
 
+Update your Spoofax installation for this lab!
+See the [update instructions](/documentation/spoofax#updating).
+{: .notice .notice-danger}
+
+Documentation for FlowSpec can be found online at
+[FlowSpec Documentation](http://www.metaborg.org/en/latest/source/langdev/meta/lang/flowspec/index.html). For
+a complete overview of the language, use the
+[FlowSpec Language Reference](http://www.metaborg.org/en/latest/source/langdev/meta/lang/flowspec/reference.html). The
+[FlowSpec Configuration](http://www.metaborg.org/en/latest/source/langdev/meta/lang/flowspec/configuration.html) documentation
+describes how to configure logging and inspect the results of analysis.
+{: .notice .notice-info}
+
 ## Overview
 
 ### Objectives
@@ -48,12 +60,24 @@ The deadline for submission is December 1, 2018.
 
 ### Grading
 
-You can earn up to 100 points for the correctness of your data-flow analysis.Therefore, we run several test cases against your implementation. You earn points, when your implementation passes test cases. The total number of points depends on how many test cases you pass in each of the following groups:
+You can earn up to 100 points for the correctness of your data-flow analysis. Therefore, we run several test cases against your implementation. You earn points, when your implementation passes test cases. The total number of points depends on how many test cases you pass in each of the following groups:
 
 - control flow (35 points)
+  - correct root nodes
+  - nodes for parameters and variables
+  - nodes for expressions
+  - control-flow for statements
+  - node for print statement
 - reaching definitions analysis (35 points)
-- error messages (10 points)
-- challenge (20 points)
+  - start value of the analysis
+  - rules for parameter and variable definitions
+  - rules for assignments
+- error messages (20 points)
+  - errors on the usage of uninitialized variables
+  - errors on the usage of variables that may be uninitialized
+- challenge (10 points)
+  - warning on the usage of variables that may be uninitialized but aren't guaranteed to be uninitialized
+  - only errors on the usage of variables that must be uninitialized
 
 ### Early Feedback
 
@@ -67,10 +91,10 @@ tests you pass and how many points you earn by passing them. You have 3 early fe
 
 #### GitLab Repository
 
-We provide you with a template for this assignment in the `assignment-4-template` branch. See the
+We provide you with a template for this assignment in the `assignment-8-template` branch. See the
 [Git documentation](/documentation/git.html#template) on how to check out this branch.
 
-The template contains 4 Maven projects:
+The template contains 2 Maven projects:
 
 * `minijava`: an initial MiniJava project that covers concrete and abstract syntax, desugarings, and name and type analysis,
 * `minijava.example`: an empty project for your example MiniJava programs,
@@ -171,12 +195,14 @@ In this example analysis, the backward direction is visible in that we name the 
 
 ### Reaching definitions
 
-You will implement a classic data-flow analysis called reaching definitions. This analysis gives information about where a variable was last assignment a value. Note that a variable could be last assigned in multiple places at once if you check this information after a merge in control-flow. Therefore your analysis should work on a set of pairs. The first part of the pair is the name, the second part of the pair is a position where the assignment took place. 
+You will implement a classic data-flow analysis called reaching definitions. This analysis gives information about where a variable was last assigned a value. Note that a variable could be last assigned in multiple places at once if you check this information after a merge in control-flow. Therefore your analysis should work on a set of pairs. The first part of the pair is the name, the second part of the pair is a position where the assignment took place. 
 
 For the reaching definitions data-flow analysis, we require you to name your analysis `reaching`. This is used in the grading for the lab. 
 {: .notice .notice-warning}
 
-A name is constructed with NaBL2 syntax (`namespace { occurrence }`), although we do not differentiate between declarations and references in FlowSpec. A position of an AST node can be requested with the `position` function. 
+A name is constructed with NaBL2 syntax (`namespace { occurrence }`). FlowSpec does not differentiate between declarations and references, names are normalized to their definitions. 
+
+A position of an AST node can be requested with the `position` function. 
 
 You should also take into account that local variables are not initialized when first declared. Your reaching definitions analysis should support this, as we will use this analysis to display errors on uses of uninitialized variables. 
 
@@ -202,6 +228,9 @@ Once you have finished your data-flow analysis, you can use it to generate error
 To get the ast in the final phase, we pass it along in the unit phase. We use `flowspec-analyze(|a)` to execute the FlowSpec analysis on top of the NaBL2 analysis `a`, and receive the combined scope graph, control-flow graph and data-flow properties in `a2`. We pass this information to strategy `error-uninitialized`. This strategy should give back a list of pairs, the first being the ast node to put the error on, the second a string to display. 
 
 Implement `error-uninitialized` so that error messages are displayed on every use of a variable or parameter where that variable or parameter _may_ be uninitialized. 
+
+Note that [there are data helpers strategies for FlowSpec](http://www.metaborg.org/en/latest/source/langdev/meta/lang/flowspec/stratego-api.html#flowspec-data-helpers). 
+{: .notice .notice-info}
 
 ### Challenge
 

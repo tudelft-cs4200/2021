@@ -1,0 +1,27 @@
+---
+layout: page
+title: "Lecture 11: Monotone Frameworks"
+excerpt: "Monotone Frameworks"
+tags: ["lecture"]
+context: lectures
+subcontext: techniques
+# image:
+#    feature: "lecture.jpg"
+#    credit: Delft University of Technology
+#    creditlink: http://repository.tudelft.nl/view/MMP/uuid%3Aa2f25709-c56e-453e-9394-4a05acf603a4/
+---
+
+In this lecture we study monotone frameworks, a theoretic framework for data-flow analysis, and a worklist algorithm for an efficient implemention of data-flow analysis.
+
+
+## Slides
+
+- [PDF](https://github.com/TUDelft-CS4200-2018/lectures/raw/master/11-monotone-frameworks/CS4200-2018-11-monotone-frameworks.pdf)
+- [github](https://github.com/TUDelft-CS4200-2018/lectures/tree/master/11-monotone-frameworks)
+
+<!--<iframe src="//www.slideshare.net/slideshow/embed_code/key/lbV0WwZoC6iUQh" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/eelcovisser/compiler-construction-lecture-9-constraint-resolution" title="Compiler Construction | Lecture 9 | Constraint Resolution" target="_blank">Compiler Construction | Lecture 9 | Constraint Resolution</a> </strong> from <strong><a href="https://www.slideshare.net/eelcovisser" target="_blank">Eelco Visser</a></strong> </div>-->
+
+### Reading Material
+
+- Jeff Smits, Eelco Visser. [FlowSpec: declarative dataflow analysis specification](https://doi.org/10.1145/3136014.3136029). In Proceedings of the 10th ACM SIGPLAN International Conference on Software Language Engineering 2017, Vancouver, BC, Canada, October 23 - 24, 2017. pages 221-231, ACM, 2017. This paper presents the FlowSpec language. The main ideas of the language are still the same although some of the syntax has changed.
+- Flemming Nielson, Hanne R. Nielson, and Chris Hankin. Principles of program analysis. Springer, 2015.

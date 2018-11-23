@@ -16,9 +16,6 @@ Topics
     - types, type checking, type inference, subtyping
     - unification, constraints
   - semantic editor services
-  - Data-flow analysis
-    - control-flow, data-flow
-    - monotone frameworks, worklist algorithm
 
 Lectures
 

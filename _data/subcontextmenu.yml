@@ -82,10 +82,15 @@
   context: lectures
   subcontext: statics
 
-# - title: Dataflow Analysis
-#   url: /lectures/techniques/dataflow-analysis.html
-#   context: lectures
-#   subcontext: techniques
+- title: Dataflow Analysis
+  url: /lectures/techniques/dataflow-analysis.html
+  context: lectures
+  subcontext: techniques
+
+- title: Monotone Frameworks
+  url: /lecture/techniques/monotone-frameworks.html
+  context: lectures
+  subcontext: techniques
 
 # dynamics
 
