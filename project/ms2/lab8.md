@@ -18,7 +18,7 @@ In this lab, you define a simple data-flow analysis for MiniJava in FlowSpec. Th
 
 Update your Spoofax installation for this lab!
 See the [update instructions](/documentation/spoofax#updating).
-{: .notice .notice-error}
+{: .notice .notice-danger}
 
 Documentation for FlowSpec can be found online at
 [FlowSpec Documentation](http://www.metaborg.org/en/latest/source/langdev/meta/lang/flowspec/index.html). For
