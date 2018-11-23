@@ -136,7 +136,14 @@ we need to write out the constructor for it, like this:
 
 ```
 test expression id type [[
+  class Main {
+    public static void main (String[] args) {
+      System.out.println(new Foo().run());
+    }
+  }
+
   class Foo {}
+
   class Foobar {
     Foo x;
     public Foo method() {
