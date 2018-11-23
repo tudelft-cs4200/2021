@@ -136,6 +136,7 @@ we need to write out the constructor for it, like this:
 
 ```
 test expression id type [[
+  class Foo {}
   class Foobar {
     Foo x;
     public Foo method() {
