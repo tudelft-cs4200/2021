@@ -94,25 +94,25 @@
 
 # dynamics
 
-# - title: Virtual Machines
-#   url: /lectures/techniques/virtual-machines.html
-#   context: lectures
-#   subcontext: dynamics
-#
-# - title: Dynamic Semantics
-#   url: /lectures/specification/dynamic-semantics.html
-#   context: lectures
-#   subcontext: dynamics
-#
-# - title: Register Allocation
-#   url: /lectures/techniques/register-allocation.html
-#   context: lectures
-#   subcontext: dynamics
-#
-# - title: Garbage Collection
-#   url: /lectures/techniques/garbage-collection.html
-#   context: lectures
-#   subcontext: dynamics
+- title: Virtual Machines
+  url: /lectures/dynamics/virtual-machines.html
+  context: lectures
+  subcontext: dynamics
+
+- title: Dynamic Semantics
+  url: /lectures/dynamics/dynamic-semantics.html
+  context: lectures
+  subcontext: dynamics
+
+- title: Register Allocation
+  url: /lectures/dynamics/register-allocation.html
+  context: lectures
+  subcontext: dynamics
+
+- title: Garbage Collection
+  url: /lectures/dynamics/garbage-collection.html
+  context: lectures
+  subcontext: dynamics
 
 
 # Assignments
