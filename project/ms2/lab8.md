@@ -127,7 +127,7 @@ module analysis/control
 The rules match on an AST constructor, and define the control-flow of that construct in terms of nodes, control-flow of the subtrees, and the surrounding control-flow graph. 
 
 ```
-  control-flow rules // Lists
+control-flow rules // Lists
 
   Cons(h, t) = entry -> h -> t -> exit
   Nil() = entry -> exit
