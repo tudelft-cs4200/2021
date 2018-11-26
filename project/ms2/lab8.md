@@ -201,7 +201,7 @@ A name is constructed with NaBL2 syntax (`namespace { occurrence }`). FlowSpec d
 
 A position of an AST node can be requested with the `position` function. 
 
-You should also take into account that local variables are not initialized when first declared. Your reaching definitions analysis should support this, as we will use this analysis to display errors on uses of uninitialized variables. 
+You should also take into account that local variables are not initialized when first declared. Your reaching definitions analysis should support this, as we will use this analysis to display errors on uses of uninitialized variables. For this analysis you do not need to track reaching definitions within arrays. 
 
 Consider what should happen to the data at a merge of control-flow. This indicates whether you should use the `MaySet` or the `MustSet` lattice. 
 
