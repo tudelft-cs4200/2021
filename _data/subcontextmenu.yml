@@ -83,24 +83,24 @@
   subcontext: statics
 
 - title: Dataflow Analysis
-  url: /lectures/techniques/dataflow-analysis.html
+  url: /lectures/statics/dataflow-analysis.html
   context: lectures
-  subcontext: techniques
+  subcontext: statics
 
 - title: Monotone Frameworks
-  url: /lecture/techniques/monotone-frameworks.html
+  url: /lecture/statics/monotone-frameworks.html
   context: lectures
-  subcontext: techniques
+  subcontext: statics
 
 # dynamics
 
-# - title: Dynamic Semantics
-#   url: /lectures/specification/dynamic-semantics.html
+# - title: Virtual Machines
+#   url: /lectures/techniques/virtual-machines.html
 #   context: lectures
 #   subcontext: dynamics
 #
-# - title: Virtual Machines
-#   url: /lectures/techniques/virtual-machines.html
+# - title: Dynamic Semantics
+#   url: /lectures/specification/dynamic-semantics.html
 #   context: lectures
 #   subcontext: dynamics
 #

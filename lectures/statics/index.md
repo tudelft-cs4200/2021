@@ -11,11 +11,14 @@ In this section of the course we look at static analysis of programs. These are 
 
 Topics
 
-  - static semantics and type checking
+  - Static semantics and type checking
     - name binding, name resolution, scope graphs
     - types, type checking, type inference, subtyping
     - unification, constraints
-  - semantic editor services
+  - Semantic editor services
+  - Data-flow analysis
+    - control-flow, data-flow
+    - monotone frameworks, worklist algorithm
 
 Lectures
 
@@ -23,3 +26,5 @@ Lectures
 - [Type Checking](type-checking)
 - [Type Constraints](type-constraints)
 - [Constraint Resolution](constraint-resolution)
+- [Data-Flow Analysis](dataflow-analysis)
+- [Monotone Frameworks](monotone-frameworks)

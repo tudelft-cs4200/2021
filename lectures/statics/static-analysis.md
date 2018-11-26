@@ -18,8 +18,7 @@ In this lecture we discuss the need for type checking, or more broadly, static a
 - Type checking
 - Schema checking
 - Defining type checkers
-- Name binding as a complicating factor in type checkers
-- Name binding patterns
+- Name binding
 - Scope graphs
 
 ### Slides
