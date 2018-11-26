@@ -9,9 +9,6 @@ subcontext: ms2
 
 {% include _toc.html %}
 
-This lab is under construction. Proceed at own risk.
-{: .notice .notice-warning}
-
 In this lab, you define a simple data-flow analysis for MiniJava in FlowSpec. The concepts you are going to use in FlowSpec are described in the following paper:
 
 - Jeff Smits, Eelco Visser. FlowSpec: declarative dataflow analysis specification. In Benoît Combemale, Marjan Mernik, Bernhard Rumpe, editors, Proceedings of the 10th ACM SIGPLAN International Conference on Software Language Engineering, SLE 2017, Vancouver, BC, Canada, October 23-24, 2017. pages 221-231, ACM, 2017.
@@ -158,7 +155,7 @@ There can only be **one** rule that matches on a certain constructor.
 A control-flow graph is usually rooted at the procedure -- or in MiniJava's case method -- level. A special root rule specifies this, and uses an explicit `start` and `end` node instead of the usual contextual `entry` and `exit`. 
 
 ```
-root Method(_, _, params, vars, body) = start -> ... -> end
+root Method(_, _, params, vars, body, ret) = start -> ... -> end
 ```
 
 ### Data-flow
@@ -178,7 +175,7 @@ A data-flow analysis is either a forward or a backward analysis. A forward analy
 ```
 property rules
 
-  live(Method(_, _, _, _, _).end) = {}
+  live(Method(_, _, _, _, _, _).end) = {}
 ```
 
 When the direction of a data-flow analysis is established with such a rule, FlowSpec will automatically propagate information along that direction. Therefore you only need to write rules for control-flow nodes that have a special meaning in your analysis. You again use AST patterns, the ones associated with the control-flow graph nodes, to match on the left side. But now you also give a name to the neighboring control-flow graph node using an edge pattern:
@@ -191,7 +188,7 @@ In this example analysis, the backward direction is visible in that we name the 
 
 #### Expressions
 
-[FlowSpec expressions](http://www.metaborg.org/en/latest/source/langdev/meta/lang/flowspec/reference.html#expressions) that you are likely to need are set operations. These are union (`\/`), intersection (`/\`), minus (`\`), containment (`in`), set construction (`{ elements, go, here }`), and comprehension (`{ new | old <- set, conditions }`). 
+[FlowSpec expressions](http://www.metaborg.org/en/latest/source/langdev/meta/lang/flowspec/reference.html#expressions) that you are likely to need are set operations. These are union (`\/`), intersection (`/\`), minus (`\`), containment (`in`), set construction (`{ elements, go, here }`), and comprehension (`{ new | old <- set, conditions }`: create a set with elements `new` where you go over all elements `old` and check that the `conditions` hold). 
 
 ### Reaching definitions
 
