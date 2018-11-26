@@ -116,7 +116,7 @@ If you get an error about `Resource '/.org.eclipse.jdt.core.external.folders' al
 
 ### Control-flow
 
-Control-flow is specified as control-flow rules in `.flo` files. FlowSpec files must go in the `trans/analysis` directory. The module name at the top of the file should match the filename relative to `trans`. For example, the file `trans/analysis/control.flow` starts as:
+Control-flow is specified as control-flow rules in `.flo` files. FlowSpec files must go in the `trans/analysis` directory. The module name at the top of the file should match the filename relative to `trans`. For example, the file `trans/analysis/control.flo` starts as:
 
 ```
 module analysis/control
@@ -127,7 +127,7 @@ module analysis/control
 The rules match on an AST constructor, and define the control-flow of that construct in terms of nodes, control-flow of the subtrees, and the surrounding control-flow graph. 
 
 ```
-  control-flow rules // Lists
+control-flow rules // Lists
 
   Cons(h, t) = entry -> h -> t -> exit
   Nil() = entry -> exit
