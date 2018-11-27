@@ -15,17 +15,19 @@ Give three examples of control-flow in an imperative language.
 
 Consider the following code in an intermediate representation. Construct a control-flow graph of the program. 
 
-         c := r3
-         a := r1
-         b := r2
-         d := 0
-         e := a
-    l1:  d := d + b
-         e := e - 1
-         if e > 0 goto l1
-         r1 := d
-         r3 := c
-         return
+```
+     c := r3
+     a := r1
+     b := r2
+     d := 0
+     e := a
+l1:  d := d + b
+     e := e - 1
+     if e > 0 goto l1
+     r1 := d
+     r3 := c
+     return
+```
 
 ## Basic blocks
 
