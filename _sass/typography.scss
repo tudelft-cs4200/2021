@@ -201,7 +201,7 @@ tt, code, kbd, samp, pre {
 }
 p,
 li {
-	code {
+	& > code {
 		@include font-rem(12);
 		white-space: normal;
 		margin: 0 2px;
