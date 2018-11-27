@@ -35,9 +35,9 @@ Construct a control-flow graph with basic blocks.
 
 # Live Variables
 
-Explain what it means for a variable to be live. 
+1. Explain what it means for a variable to be live. 
 
-Show the results of a live variables analysis on the above program for each line, at the point in the program before that line is executed. Consider variables `r1`, `r2` and `r3` live outside the program. 
+2. Show the results of a live variables analysis on the above program for each line, at the point in the program before that line is executed. Consider variables `r1`, `r2` and `r3` live outside the program. 
 
 # Answers
 
