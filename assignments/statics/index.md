@@ -11,3 +11,5 @@ subcontext: assignments_statics
 * [Week 1.6: Type Checking](week1.6/)
 * [Week 1.7: Specifications with NaBL2](week1.7/)
 * [Week 1.8: Constraint Resolution](week1.8/)
+* [Week 2.1](week2.1/)
+* [Week 2.2](week2.2/)

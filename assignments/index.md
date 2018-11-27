@@ -25,6 +25,8 @@ To study the material of the lectures we provide homework assignments to be subm
 * [Week 1.6](statics/week1.6)
 * [Week 1.7](statics/week1.7/)
 * [Week 1.8](statics/week1.8/)
+* [Week 2.1](statics/week2.1/)
+* [Week 2.2](statics/week2.2/)
 
 [Dynamics](dynamics/)
 

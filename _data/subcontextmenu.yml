@@ -152,6 +152,16 @@
   context: assignments
   subcontext: assignments_statics
 
+- title: Week 2.1
+  url: /assignments/statics/week2.1
+  context: assignments
+  subcontext: assignments_statics
+
+- title: Week 2.2
+  url: /assignments/statics/week2.2
+  context: assignments
+  subcontext: assignments_statics
+
 # Milestone 1
 
 - title: lab 1
