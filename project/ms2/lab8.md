@@ -41,7 +41,6 @@ Specify a reaching definitions analysis for MiniJava in FlowSpec. The specificat
 2. Reaching definitions analysis, taking into account
    - parameters,
    - variables,
-   - fields,
    - assignments,
    - and array assignments.
 3. Messages on use of uninitialized variables, in particular
