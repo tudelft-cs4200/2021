@@ -25,7 +25,7 @@ Q1
 * Tue Oct 9, 17:45-19:30, EWI Boole: [Type Checking](statics/type-checking)
 * Tue Oct 16, 17:45-19:30, EWI Boole: [Specifications with NaBL2](statics/type-constraints)
 * Tue Oct 23, 17:45-19:30, EWI Boole: [Constraint Resolution](statics/constraint-resolution)
-* Thu, Nov 1, 13:30-16:30, LR-CZ J: midterm exam
+* Thu, Nov 1, 13:30-16:30, LR-CZ J: Exam Q2
 
 Q2
 
@@ -37,7 +37,9 @@ Q2
 * Tue Dec 18, 10:45-12:30, CT-CZ D: [Garbage Collection](dynamics/garbage-collection)
 * Tue Jan 8, 10:45-12:30, CT-CZ D: Guest lecture Guido Wachsmuth
 * Tue Jan 15, 10:45-12:30, CT-CZ D: Overview
-* Tue, Jan 29, 18:30-21:30, DW-IZ 1: final exam
+* Tue, Jan 29, 18:30-21:30, DW-IZ 1: Exam Q3
+
+
 
 <!--
 ## Schedule 2017-2018
