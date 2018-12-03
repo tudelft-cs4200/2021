@@ -41,7 +41,6 @@ Specify a reaching definitions analysis for MiniJava in FlowSpec. The specificat
 2. Reaching definitions analysis, taking into account
    - parameters,
    - variables,
-   - fields,
    - assignments,
    - and array assignments.
 3. Messages on use of uninitialized variables, in particular
@@ -192,18 +191,18 @@ In this example analysis, the backward direction is visible in that we name the 
 
 ### Reaching definitions
 
-You will implement a classic data-flow analysis called reaching definitions. This analysis gives information about where a variable was last assigned a value. Note that a variable could be last assigned in multiple places at once if you check this information after a merge in control-flow. Therefore your analysis should work on a set of pairs. The first part of the pair is the name, the second part of the pair is a position where the assignment took place. 
+You will implement a classic data-flow analysis called reaching definitions. This analysis gives information about where a variable was last assigned a value. Note that a variable could be last assigned in multiple places at once if you check this information after a merge in control-flow. 
+
+We use this analysis to detect whether variables are initialized before they are used. Fields are always initialized and do not need to be taken into consideration in your analysis. For this analysis you do not need to track reaching definitions within arrays either. 
+
+Your analysis should work on a set of pairs, this is what the grading code expects (`Set(name * Option(position))`). The first part of the pair is the name. The second part of the pair is a `Option(position)` where the assignment took place. An option can be `None()` or `Some(position(astnode))`, using the built-in `position` function. 
+
+A name is constructed with NaBL2 syntax (`namespace { occurrence }`). FlowSpec does not differentiate between declarations and references, names are normalized to their definitions. You can construct pairs with parentheses and commas as usual: `(nameexpr, optionexpr)`. 
+
+Consider what should happen to the data at a merge of control-flow. This indicates whether you should use the `MaySet` or the `MustSet` lattice. 
 
 For the reaching definitions data-flow analysis, we require you to name your analysis `reaching`. This is used in the grading for the lab. 
 {: .notice .notice-warning}
-
-A name is constructed with NaBL2 syntax (`namespace { occurrence }`). FlowSpec does not differentiate between declarations and references, names are normalized to their definitions. 
-
-A position of an AST node can be requested with the `position` function. 
-
-You should also take into account that local variables are not initialized when first declared. Your reaching definitions analysis should support this, as we will use this analysis to display errors on uses of uninitialized variables. For this analysis you do not need to track reaching definitions within arrays. 
-
-Consider what should happen to the data at a merge of control-flow. This indicates whether you should use the `MaySet` or the `MustSet` lattice. 
 
 ### Error messages
 
