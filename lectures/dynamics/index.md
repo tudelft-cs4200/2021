@@ -7,12 +7,22 @@ context: lectures
 subcontext: dynamics
 ---
 
-In this section of the course we study dynamic behaviour (execution) of programs and how that is implemented
+In this section of the course we study dynamic behaviour (execution) of programs and how that is implemented.
 
 Topics
 
-  - dynamic semantics
-  - operational semantics, program execution
-  - virtual machines, assembly code, byte code
-  - code generation
-  - memory management, garbage collection
+  - Code generation
+	  - Program execution
+	  - Virtual machines, assembly code, byte code
+  - Memory management
+	  - Garbage collection
+  - Dynamic semantics
+    - Operational semantics
+		- Interpreters  
+
+Lectures
+
+* [Virtual Machines](dynamics/virtual-machines)
+* [Code Generation](dynamics/code-generation)
+* [Interpreters](dynamics/interpreters)
+* [Garbage Collection](dynamics/garbage-collection)
