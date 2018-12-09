@@ -30,4 +30,8 @@ To study the material of the lectures we provide homework assignments to be subm
 
 [Dynamics](dynamics/)
 
-* tba
+
+* [Week 2.3: Virtual Machines](dynamics/week2.3/)
+* [Week 2.4: Code Generation](dynamics/week2.4/)
+* [Week 2.5: Interpreters](dynamics/week2.5/)
+* [Week 2.6: Memory Management](dynamics/week2.6/)
