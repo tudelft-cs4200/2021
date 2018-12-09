@@ -99,13 +99,13 @@
   context: lectures
   subcontext: dynamics
 
-- title: Dynamic Semantics
-  url: /lectures/dynamics/dynamic-semantics.html
+- title: Code Generation
+  url: /lectures/dynamics/code-generation.html
   context: lectures
   subcontext: dynamics
 
-- title: Register Allocation
-  url: /lectures/dynamics/register-allocation.html
+- title: Interpreters
+  url: /lectures/dynamics/interpreters.html
   context: lectures
   subcontext: dynamics
 
@@ -113,6 +113,16 @@
   url: /lectures/dynamics/garbage-collection.html
   context: lectures
   subcontext: dynamics
+
+# - title: Dynamic Semantics
+#   url: /lectures/dynamics/dynamic-semantics.html
+#   context: lectures
+#   subcontext: dynamics
+
+# - title: Register Allocation
+#   url: /lectures/dynamics/register-allocation.html
+#   context: lectures
+#   subcontext: dynamics
 
 
 # Assignments
@@ -161,6 +171,26 @@
   url: /assignments/statics/week2.2
   context: assignments
   subcontext: assignments_statics
+
+- title: Week 2.3
+  url: /assignments/dynamics/week2.3
+  context: assignments
+  subcontext: assignments_dynamics
+
+- title: Week 2.4
+  url: /assignments/dynamics/week2.4
+  context: assignments
+  subcontext: assignments_dynamics
+
+- title: Week 2.5
+  url: /assignments/dynamics/week2.5
+  context: assignments
+  subcontext: assignments_dynamics
+
+- title: Week 2.6
+  url: /assignments/dynamics/week2.6
+  context: assignments
+  subcontext: assignments_dynamics
 
 # Milestone 1
 

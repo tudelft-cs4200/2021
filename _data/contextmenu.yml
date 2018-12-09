@@ -16,10 +16,6 @@
   url: /lectures/statics/
   context: lectures
 
-# - title: Data-Flow
-#   url: /lectures/techniques/
-#   context: lectures
-
 - title: Dynamics
   url: /lectures/dynamics/
   context: lectures
