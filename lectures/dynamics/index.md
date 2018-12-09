@@ -11,14 +11,13 @@ In this section of the course we study dynamic behaviour (execution) of programs
 
 Topics
 
+  - Virtual machines, assembly code, byte code
   - Code generation
-	  - Program execution
-	  - Virtual machines, assembly code, byte code
-  - Memory management
-	  - Garbage collection
   - Dynamic semantics
     - Operational semantics
 		- Interpreters  
+  - Memory management
+	  - Garbage collection
 
 Lectures
 
