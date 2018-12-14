@@ -230,4 +230,4 @@ Note that [there are data helpers strategies for FlowSpec](http://www.metaborg.o
 
 ### Challenge
 
-For the challenge we want a slightly different behavior from your implementation than Java. In Java a local variable _must_ be initialized before it can be used, anything else is an error. For this challenge, give a warning instead, iff the local variable is _possibly_ uninitialized at a use site. 
+For the challenge we want a slightly different behavior from your implementation than Java. In Java a local variable _must_ be initialized before it can be used, anything else is an error. For this challenge, give a warning instead, iff the local variable is _possibly_ uninitialized at a use site. Change the error message behavior to only raise errors when the local variable is _definitely_ unitialized at a use site.
