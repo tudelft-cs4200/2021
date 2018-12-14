@@ -37,7 +37,7 @@ The deadline for submissions is January 19, 2018, 23:59.
 
 You can earn up to 75 points for your code generator:
 
-* lab 9 functionality keeps working (20 points)
+* lab 10 functionality keeps working (20 points)
 * transformation (55 points)
     * types (15 points)
     * fields (10 points)
@@ -47,7 +47,7 @@ You can earn up to 75 points for your code generator:
 
 ### Early Feedback
 
-We provide early feedback only for the _lab 9 functionality_ and _transformation_. You have 3 early feedback attempts.
+We provide early feedback only for the _lab 10 functionality_ and _transformation_. You have 3 early feedback attempts.
 
 ## Detailed Instructions
 
