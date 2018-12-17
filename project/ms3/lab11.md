@@ -9,9 +9,6 @@ subcontext: ms3
 
 {% include _toc.html %}
 
-This lab is under construction. Proceed at own risk.
-{: .notice .notice-warning}
-
 In this lab, you complete your code generator to handle arbitrary MiniJava programs.
 
 ## Overview
@@ -40,7 +37,7 @@ The deadline for submissions is January 19, 2018, 23:59.
 
 You can earn up to 75 points for your code generator:
 
-* lab 9 functionality keeps working (20 points)
+* lab 10 functionality keeps working (20 points)
 * transformation (55 points)
     * types (15 points)
     * fields (10 points)
@@ -50,7 +47,7 @@ You can earn up to 75 points for your code generator:
 
 ### Early Feedback
 
-We provide early feedback only for the _lab 9 functionality_ and _transformation_. You have 3 early feedback attempts.
+We provide early feedback only for the _lab 10 functionality_ and _transformation_. You have 3 early feedback attempts.
 
 ## Detailed Instructions
 
@@ -157,4 +154,4 @@ You now need to extend your code generator to handle method parameters and local
 ### Testing and Debugging
 
 Testing and debugging your compiler is the same as previous labs.
-Refer to the section on [Testing and Debugging from assignment 8](lab8.html#testing-and-debugging).
+Refer to the section on [Testing and Debugging from assignment 9](lab9.html#testing-and-debugging).

@@ -9,9 +9,6 @@ subcontext: ms3
 
 {% include _toc.html %}
 
-This lab is under construction. Proceed at own risk.
-{: .notice .notice-warning}
-
 In this lab, you extend your code generator to handle expressions, statements, methods without local parameters, and classes without fields.
 
 ## Overview
@@ -178,7 +175,7 @@ For grading, if you decide not to participate in the challenge, use a fixed stac
 ### Testing and Debugging
 
 Testing and debugging your compiler is the same as the previous lab.
-Refer to the section on [Testing and Debugging from assignment 8](lab8.html#testing-and-debugging).
+Refer to the section on [Testing and Debugging from assignment 9](lab9.html#testing-and-debugging).
 
 ## Challenges
 
