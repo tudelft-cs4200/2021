@@ -21,7 +21,7 @@ Topics
 
 Lectures
 
-* [Virtual Machines](dynamics/virtual-machines)
-* [Code Generation](dynamics/code-generation)
-* [Interpreters](dynamics/interpreters)
-* [Garbage Collection](dynamics/garbage-collection)
+* [Virtual Machines](virtual-machines)
+* [Code Generation](code-generation)
+* [Interpreters](interpreters)
+* [Garbage Collection](garbage-collection)
