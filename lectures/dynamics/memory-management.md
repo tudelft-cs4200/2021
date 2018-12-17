@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Garbage Collection"
+title: "Lecture 15: Memory Management"
 excerpt: "Garbage Collection"
 tags: ["lecture"]
 context: lectures

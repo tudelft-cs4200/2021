@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Virtual Machines"
+title: "Lecture 12: Virtual Machines"
 excerpt: "Virtual Machines"
 tags: ["lecture"]
 context: lectures

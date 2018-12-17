@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Code Generation"
+title: "Lecture 13: Code Generation"
 excerpt: "Code Generation"
 tags: ["lecture"]
 context: lectures

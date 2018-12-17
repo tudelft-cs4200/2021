@@ -109,8 +109,8 @@
   context: lectures
   subcontext: dynamics
 
-- title: Garbage Collection
-  url: /lectures/dynamics/garbage-collection.html
+- title: Memory Management
+  url: /lectures/dynamics/memory-management.html
   context: lectures
   subcontext: dynamics
 
