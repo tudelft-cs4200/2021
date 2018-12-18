@@ -15,7 +15,7 @@ Verify your answers with the [model answers](answers).
 
 -->
 
-### Semantics
+#### Semantics
 
 - What is the meaning of a program?
 - Describe two approaches to define the semantics of programs in a language
@@ -23,7 +23,7 @@ Verify your answers with the [model answers](answers).
 - What does it mean for a compiler to be correct?
 - How can we ensure that a compiler is correct?
 
-### DynSem
+#### DynSem
 
 Consider the following DynSem rules:
 
@@ -38,8 +38,8 @@ rules
 - How could the semantics be made more robust?
 
 
-### Partial Evaluation
+#### Partial Evaluation
 
 - What is partial evaluation?
 - Why would you want to use it?
-- Give the three Futumara projections and explain their meaning 
+- Give the three Futumara projections and explain their meaning

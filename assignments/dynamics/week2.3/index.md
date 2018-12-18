@@ -11,7 +11,7 @@ In these assignments you explore the Java Virtual Machine.
 
 Verify your answers with the [model answers](answers).
 
-## Java Virtual Machine
+### Java Virtual Machine
 
 - What are the steps to call a method in Java Bytecode?
 - How does the Java Virtual Machine handle a method call?
@@ -20,7 +20,7 @@ Verify your answers with the [model answers](answers).
 - How does the Java Virtual Machine handle a return?
 
 
-## Bytecode Execution
+### Bytecode Execution
 
 Execute the bytecode instructions of `A/main()V`, starting with an empty stack.
 The initial value of local variable `0` is `4242 4103`, pointing to an object of class A. Show stacks and local variables after each instruction.
@@ -51,7 +51,7 @@ iadd
 istore_1
 ```
 
-## Bytecode Execution
+### Bytecode Execution
 
 Execute the bytecode instructions of `Main/main()V`, starting with an empty stack. The initial value of local variable `0` is `4242 4303`, pointing to an object of class `Foo`. Show stacks and local variables after each instruction. If you have to invoke a method, execute the bytecode of this method as well. Make clear when stack frames are created and destroyed, and which data is passed between frames.
 
@@ -77,7 +77,7 @@ l2: ifne l1
     return
 ```
 
-## Bytecode Execution
+### Bytecode Execution
 
 Execute the bytecode instructions of `Main/main()V`, starting with an empty stack. If you have to invoke a method, execute the bytecode of this method as well. The initial value of local variable `0` is `4242 4303`, pointing to an object of class Foo. Show stacks and local variables after each instruction.
 
@@ -107,7 +107,7 @@ iadd
 istore_1
 ```
 
-## Bytecode Execution
+### Bytecode Execution
 
 Execute the following bytecode instructions, starting with an empty stack. Show the stack after each instruction. If an instruction performs a jump, name the next instruction.
 
@@ -124,7 +124,7 @@ Execute the following bytecode instructions, starting with an empty stack. Show 
 l1: nop
 ```
 
-## Stack Frames
+### Stack Frames
 
 A Java class A defines a method `int m(int p1, int p2)`.
 
