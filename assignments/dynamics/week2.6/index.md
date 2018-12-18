@@ -14,32 +14,33 @@ subcontext: assignments_dynamics
 Verify your answers with the [model answers](answers).
 -->
 
-## Concepts
+#### Memory
 
 - What is a heap?
 - What kind of data is stored on the heap?
 
-## Reference Counting
+#### Reference Counting
 
-- Explain the general ideas behind garbage collection by reference counting.
+- Describe the reference counting garbage collection algorithm.
 - What are the disadvantages of this strategy?
 
-## Mark and Sweep
+#### Mark and Sweep
+
+- Describe mark-and-sweep garbage collection algorithm.
+- Perform a mark-and-sweep garbage collection on the following data structure. Enumerate the order in which the records on the heap will be visited during both phases. Which records will be marked? Which records will be swept? Show the data structure after each sweep of a record.
 
 <src img="heap2.png"/>
 
-Perform a mark-and-sweep garbage collection on the following data structure. Enumerate the order in which the records on the heap will be visited during both phases. Which records will be marked? Which records will be swept? Show the data structure after each sweep of a record.
+#### Copy Garbage Collection
 
-## Copy Garbage Collection
-
-<src img="heap1.png"/>
-
+- Describe the copying garbage collection algorithm.
 - Perform a copy collection on the given heap data structure. Show the data structure after each copying step (after pointer adjustments).
 - Explain the key benefit of copy collection over mark-and-sweep garbage collection.
 - Explain the effect of copy collection on the locality of data.
 
+<src img="heap1.png"/>
 
-## Generational Collection
+#### Generational Collection
 
+- Describe the generational garbage collection algorithm.
 - What is the basic assumption of generational collection?
-- How is it performed?
