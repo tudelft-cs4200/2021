@@ -12,20 +12,17 @@ In this lecture we study the definition of code generators that transform source
 ## Topics
 
 - Compilation schemas
-
 - Correctness of generated code
 	- syntactic correctness
 	- type correctness
 	- semantics preservation
-
 - Mechanics of code generation
   - string interpolation
   - code generation by term transformation
-	- meta-programming with concrete object syntax
-
+  - meta-programming with concrete object syntax
 - Optimizing generated code
   - peephole optimizations
-	- tail recursion elimination
+  - tail recursion elimination
 
 ## Slides
 

@@ -34,7 +34,7 @@ In this lecture we study the architecture of target machines for code generation
 - [PDF](https://github.com/TUDelft-CS4200-2018/lectures/raw/master/12-virtual-machines/CS4200-2018-12-virtual-machines.pdf)
 - [github](https://github.com/TUDelft-CS4200-2018/lectures/tree/master/12-virtual-machines)
 
-## Further Reading
+## Reading Material 
 
 1.  Tim Lindholm, Frank Yellin, Gilad Bracha, and Alex Buckley (2015). [The Java Virtual Machine Specification](http://docs.oracle.com/javase/specs/jvms/se8/html/index.html).
 

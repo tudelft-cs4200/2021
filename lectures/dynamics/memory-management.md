@@ -7,17 +7,29 @@ context: lectures
 subcontext: dynamics
 ---
 
+## Topics
+
+- Memory management
+- Memory safety
+- Garbage collection
+  - reference counting
+	- mark and sweep
+	- copying collection
+	- generational collection
+
 ## Slides
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/491TPHUC72iQBj" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/eelcovisser/garbage-collection-69688448" title="Garbage Collection" target="_blank">Garbage Collection</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/eelcovisser">Eelco Visser</a></strong> </div>
 
 [PDF](https://github.com/TUDelft-IN4303-2016/lectures/blob/master/11-garbage-collection/Garbage%20Collection.pdf)
 
-## Further Reading
+## Reading Material
 
 1. Andrew W. Appel and Jens Palsberg (2002). Garbage Collection. In *Modern Compiler Implementation in Java*, 2nd edition. Cambridge University Press.
 
     The lecture closely follows the discussion of *mark-and-sweep collection*, *reference counts*, *copying collection*, and *generational collection* in this chapter. This chapter also provides detailed cost analyses and discusses advantages and disadvantages of the different approaches to garbage collection.
+
+## Further Reading
 
 2. Apple. [Automatic Reference Counting](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/AutomaticReferenceCounting.html) in [The Swift Programming Language (Swift 3.0.1)](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/index.html#//apple_ref/doc/uid/TP40014097-CH3-ID0)
 
