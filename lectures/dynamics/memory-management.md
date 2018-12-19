@@ -11,17 +11,22 @@ subcontext: dynamics
 
 - Memory management
 - Memory safety
+  - Spatial safety
+	- Temporal safety
 - Garbage collection
   - reference counting
 	- mark and sweep
 	- copying collection
 	- generational collection
+- Language-parametric memory management
+  - scopes describe frames
 
 ## Slides
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/491TPHUC72iQBj" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/eelcovisser/garbage-collection-69688448" title="Garbage Collection" target="_blank">Garbage Collection</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/eelcovisser">Eelco Visser</a></strong> </div>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/Clntqp4vZINdT" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/eelcovisser/compiler-construction-lecture-15-memory-management" title="Compiler Construction | Lecture 15 | Memory Management" target="_blank">Compiler Construction | Lecture 15 | Memory Management</a> </strong> from <strong><a href="https://www.slideshare.net/eelcovisser" target="_blank">Eelco Visser</a></strong> </div>
 
-[PDF](https://github.com/TUDelft-IN4303-2016/lectures/blob/master/11-garbage-collection/Garbage%20Collection.pdf)
+- [github](https://github.com/TUDelft-CS4200-2018/lectures/tree/master/15-memory-management)
+[PDF](https://github.com/TUDelft-CS4200-2018/lectures/raw/master/15-memory-management/CS4200-2018-15-memory-management.pdf)
 
 ## Reading Material
 
