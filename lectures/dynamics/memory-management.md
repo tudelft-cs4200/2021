@@ -12,12 +12,12 @@ subcontext: dynamics
 - Memory management
 - Memory safety
   - Spatial safety
-	- Temporal safety
+  - Temporal safety
 - Garbage collection
   - reference counting
-	- mark and sweep
-	- copying collection
-	- generational collection
+  - mark and sweep
+  - copying collection
+  - generational collection
 - Language-parametric memory management
   - scopes describe frames
 

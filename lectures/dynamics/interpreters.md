@@ -16,16 +16,16 @@ subcontext: dynamics
 - Operational semantics
 - DynSem meta-DSL
   - reduction rules
-	- semantic components: environments, stores
-	- implicit propagation
-	- interpreter generation
+  - semantic components: environments, stores
+  - implicit propagation
+  - interpreter generation
 - Partial evaluation
   - program specialization
   - Futumura projections
 - Other topics
   - AST interpreters
   - Bytecode interpreters
-	- Just-in-time compilers
+  - Just-in-time compilers
 
 
 ## Slides
