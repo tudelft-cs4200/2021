@@ -16,7 +16,7 @@ Verify your answers with the [model answers](answers).
 
 ### Compilation Schemas
 
-The following assignments have you derive from a definition of the dynamic semantics of a construct of the Tiger language, a compilation schema for that construct that translates it to a JVM byte code. The full definition can be found on [github](https://github.com/MetaBorgCube/metaborg-tiger/tree/master/org.metaborg.lang.tiger/trans/dynamics/env). The definitions for abstractions such as `lookup` and `allocate` where discussed in [Lecture 14](/lectures/dynamics/interpreters.html).
+The following assignments have you derive from a definition of the dynamic semantics of a construct of the Tiger language, a compilation schema for that construct that translates it to a JVM byte code. The full definition can be found on [github](https://github.com/MetaBorgCube/metaborg-tiger/tree/master/org.metaborg.lang.tiger/trans/dynamics/env). The definitions for abstractions such as `lookup` and `allocate` where discussed in [Lecture 14](/lectures/dynamics/interpreters.html). The compilation schema is discussed in [Lecture 13](/lectures/dynamics/code-generation.html).
 
 #### Arithmetic Expressions
 
