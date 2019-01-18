@@ -136,9 +136,6 @@ You can test each rule by selecting a code fragment in the MiniJava editor and r
 You now need to extend your code generator to handle method parameters and local variable declarations, method call arguments, variable references, and assignments.
 
 1. Extend your rule for `method-to-jbc`, which handles method declarations.
-   Support parameters by generating variable declarations, which map variable numbers in generated Java bytecode to variable names in the original MiniJava program.
-   Do the same for local variables.
-   To get the variable number associated with a parameter or local variable, get the `index` property.
 
 2. Extend your rule for `exp-to-jbc`, which handles method calls.
    Support calls with arguments by calling `exp-to-jbc` recursively to translate argument expressions.
