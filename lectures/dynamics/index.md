@@ -24,4 +24,4 @@ Lectures
 * [Virtual Machines](virtual-machines)
 * [Code Generation](code-generation)
 * [Interpreters](interpreters)
-* [Garbage Collection](garbage-collection)
+* [Memory Management](memory-management)
