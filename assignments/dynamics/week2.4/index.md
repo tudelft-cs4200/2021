@@ -31,7 +31,7 @@ rules // integers
 
   Plus(IntV(i), IntV(j)) --> IntV(addI(i, j))  
 
-	Leq(IntV(i), IntV(j)) --> IntV(leqI(i, j))
+  Leq(IntV(i), IntV(j)) --> IntV(leqI(i, j))
 ```
 
 
