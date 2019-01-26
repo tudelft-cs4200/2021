@@ -29,7 +29,7 @@ Verify your answers with the [model answers](answers).
 - Describe mark-and-sweep garbage collection algorithm.
 - Perform a mark-and-sweep garbage collection on the following data structure. Enumerate the order in which the records on the heap will be visited during both phases. Which records will be marked? Which records will be swept? Show the data structure after each sweep of a record.
 
-<src img="heap2.png"/>
+<img src="heap2.png"/>
 
 #### Copy Garbage Collection
 
@@ -38,7 +38,7 @@ Verify your answers with the [model answers](answers).
 - Explain the key benefit of copy collection over mark-and-sweep garbage collection.
 - Explain the effect of copy collection on the locality of data.
 
-<src img="heap1.png"/>
+<img src="heap1.png"/>
 
 #### Generational Collection
 
