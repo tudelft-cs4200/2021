@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Beyond Compiler Construction"
+title: "Lecture 17: Beyond Compiler Construction"
 excerpt: "Beyond Compiler Construction"
 tags: ["lectures"]
 context: lectures

@@ -35,8 +35,8 @@ Q2
 * Tue Dec 4, 10:45-12:30, CT-CZ D: [Code Generation](dynamics/code-generation)
 * Tue Dec 11, 10:45-12:30, CT-CZ D: [Interpreters](dynamics/interpreters)
 * Tue Dec 18, 10:45-12:30, CT-CZ D: [Memory Management](dynamics/memory-management)
-* Tue Jan 8, 10:45-12:30, CT-CZ D: Guest lecture Guido Wachsmuth
-* Tue Jan 15, 10:45-12:30, CT-CZ D: Overview
+* Tue Jan 8, 10:45-12:30, CT-CZ D: [Domain-Specific Languages for Parallel Graph AnalytiX (PGX)](applications/graph-analytix) Guest lecture Guido Wachsmuth
+* Tue Jan 15, 10:45-12:30, CT-CZ D: [Beyond Compiler Construction](applications/conclusion)
 * Tue, Jan 29, 18:30-21:30, DW-IZ 1: Exam Q3
 
 
