@@ -1,7 +1,7 @@
 # Lectures
 
-- title: architecture
-  url: /lectures/architecture/
+- title: Introduction
+  url: /lectures/introduction/
   context: lectures
 
 - title: Syntax
@@ -18,6 +18,10 @@
 
 - title: Dynamics
   url: /lectures/dynamics/
+  context: lectures
+
+- title: Applications
+  url: /lectures/applications/
   context: lectures
 
 # Homework

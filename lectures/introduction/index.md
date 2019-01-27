@@ -4,7 +4,7 @@ title: "Lecture 1: What is a Compiler?"
 excerpt: "What is a Compiler?"
 tags: ["lectures"]
 context: lectures
-subcontext: architecture
+subcontext: introduction
 # image:
 #    feature: "lecture.jpg"
 #    credit: Delft University of Technology
