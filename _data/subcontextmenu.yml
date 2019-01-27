@@ -124,6 +124,17 @@
 #   context: lectures
 #   subcontext: dynamics
 
+# applications
+
+- title: Graph Analytix
+  url: /lectures/applications/graph-analytix.html
+  context: lectures
+  subcontext: applications
+
+- title: Conclusion
+  url: /lectures/applications/conclusion.html
+  context: lectures
+  subcontext: applications
 
 # Assignments
 
