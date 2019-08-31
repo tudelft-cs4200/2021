@@ -7,7 +7,7 @@ context: assignments
 subcontext: assignments_syntax
 ---
 
-Submit your answers in [WebLab](https://weblab.tudelft.nl/cs4200/2018-2019/) ([Assignment Week 1.2](https://weblab.tudelft.nl/cs4200/2018-2019/assignment/20429/view)).
+Submit your answers in [WebLab](https://weblab.tudelft.nl/cs4200/2019-2020/) ([Assignment Week 1.2](https://weblab.tudelft.nl/cs4200/2019-2020/assignment/20429/view)).
 
 ### Java Syntactic Categories
 
