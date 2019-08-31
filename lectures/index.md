@@ -12,6 +12,34 @@ image:
    creditlink: http://repository.tudelft.nl/view/MMP/uuid%3Aa2f25709-c56e-453e-9394-4a05acf603a4/
 -->
 
+## (Tentative) Schedule 2019-2020
+
+Q1
+
+* Thu Sep 5, 10:45-12:30, EWI Boole: [What is a compiler?](introduction/)
+* Fri Sep 6, 13:45-15:30, EWI Pi: [Syntax Definition](syntax/syntax-definition)
+* Thu Sep 12, 10:45-12:30, EWI Boole: [Syntactic (Editor) Services](syntax/editor-services)
+* Thu Sep 19, 17:45-19:30, EWI Boole: [Parsing](syntax/parsing)
+* Thu Sep 26, 10:45-12:30, EWI Boole: [Transformation](transformation/)
+* Thu Oct 3, 10:45-12:30, EWI Boole: [Introduction to Static Analysis](statics/static-analysis)
+* Thu Oct 10, 10:45-12:30, EWI Boole: [Type Checking](statics/type-checking)
+* Thu Oct 17, 10:45-12:30, EWI Boole: [Specifications with NaBL2](statics/type-constraints)
+* Thu Oct 24, 10:45-12:30, EWI Boole: [Constraint Resolution](statics/constraint-resolution)
+* Thu Oct 31, 13:30-16:30, IO-PC hall 2 (CTRL): Exam Q1
+
+Q2
+
+* Wed Nov 13, 15:45-17:30, EWI Boole: [Data-flow Analysis](statics/dataflow-analysis)
+* Wed Nov 20, 15:45-17:30, EWI Boole: [Monotone Frameworks](statics/monotone-frameworks)
+* Wed Nov 27, 15:45-17:30, EWI Boole: [Virtual Machines](dynamics/virtual-machines)
+* Wed Dec 4, 15:45-17:30, EWI Boole: [Code Generation](dynamics/code-generation)
+* Wed Dec 11, 15:45-17:30, EWI Boole: [Interpreters](dynamics/interpreters)
+* Wed Dec 18, 15:45-17:30, EWI Boole: [Memory Management](dynamics/memory-management)
+* Wed Jan 8, 15:45-17:30, EWI Boole: Reserve
+* Wed Jan 15, 15:45-17:30, EWI Boole: [Beyond Compiler Construction](applications/conclusion)
+* Fri Jan 31, 13:30-16:30, IO-PC hall 3 (SHIFT): Exam Q2
+
+<!--
 ## (Tentative) Schedule 2018-2019
 
 Q1
@@ -38,7 +66,6 @@ Q2
 * Tue Jan 8, 10:45-12:30, CT-CZ D: [Domain-Specific Languages for Parallel Graph AnalytiX (PGX)](applications/graph-analytix) Guest lecture Guido Wachsmuth
 * Tue Jan 15, 10:45-12:30, CT-CZ D: [Beyond Compiler Construction](applications/conclusion)
 * Tue, Jan 29, 18:30-21:30, DW-IZ 1: Exam Q3
-
 
 
 <!--
