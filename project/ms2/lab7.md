@@ -52,7 +52,7 @@ Specify type analysis for MiniJava in NaBL2. The specification should include:
 You need to submit your MiniJava project with a merge request against branch `assignment-7-submission` on GitLab.
 The [Git documentation](/documentation/git.html#submitting-an-assignment) explains how to file such a request.
 
-The deadline for submission is November 24, 2018, 23:59.
+The deadline for submission is November 23, 2019, 23:59.
 {: .notice .notice-warning}
 
 ### Grading

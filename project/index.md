@@ -83,7 +83,7 @@ These dates are subject to change.
 * Milestone 3: Code Generation
    - 07/12: Lab 9: Compiling Minimal Programs
    - 21/12: Lab 10: Compiling Expressions and Statements
-   - 25/01: Lab 11: Compiling, Fields, Parameters, and Variables
+   - 18/01: Lab 11: Compiling, Fields, Parameters, and Variables
 
 ## Academic Misconduct
 

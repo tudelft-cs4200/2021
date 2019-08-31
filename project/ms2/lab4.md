@@ -43,7 +43,7 @@ a request.  We expect to find your Spoofax project `minijava` and your test proj
 For this lab, you should put all your tests in `minijava.test.names`.
 {: .notice .notice-warning}
 
-The deadline for submissions is October 27, 2018, 23:59.
+The deadline for submissions is October 26, 2019, 23:59.
 {: .notice .notice-warning}
 
 ### Grading
