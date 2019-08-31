@@ -7,7 +7,7 @@ context: assignments
 subcontext:
 ---
 
-To study the material of the lectures we provide homework assignments to be submitted to [WebLab](https://weblab.tudelft.nl/cs4200/2018-2019/).
+To study the material of the lectures we provide homework assignments to be submitted to [WebLab](https://weblab.tudelft.nl/cs4200/2019-2020/).
 
 [Syntax](syntax/)
 

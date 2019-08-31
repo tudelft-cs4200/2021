@@ -15,7 +15,7 @@ You will receive an email with
 * some tasks for you to prepare the appointment,
 * the date of our appointment, which you are asked to confirm.
 
-## Walk-in Hours 2018-2019
+## Walk-in Hours 2019-2020
 
 We offer walk-in hours on Wednesday mornings 9:30-11:00 in room E4.420 of Building 28
 

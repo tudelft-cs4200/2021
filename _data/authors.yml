@@ -12,7 +12,7 @@
   office: Building 28. E4.420
   email: j.denkers@tudelft.nl
   avatar: jasper.jpg
-    
+
 - name: Jeff Smits
   position: graduate teaching assistant
   office: Building 28. E4.420
@@ -25,7 +25,12 @@
   email: H.vanAntwerpen@tudelft.nl
   avatar: hendrik.jpg
 
-- name: Taico Aerts
+- name: Bram Crielaard
   position: student teaching assistant
-  email: T.V.Aerts@student.tudelft.nl
-  avatar: taico.jpg
+  email: B.Crielaard@student.tudelft.nl
+  avatar: bram.jpg
+
+- name: Ana Šemrov
+  position: student teaching assistant
+  email: A.Semrov@student.tudelft.nl
+  avatar: ana.jpg
