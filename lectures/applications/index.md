@@ -15,5 +15,5 @@ In this section of the course we look at applications of compiler construction t
 
 Lectures
 
-- [Domain-Specific Languages for Parallel Graph AnalytiX (PGX)](graph-analytix)
+<!-- - [Domain-Specific Languages for Parallel Graph AnalytiX (PGX)](graph-analytix) -->
 - [Beyond Compiler Construction](conclusion)
