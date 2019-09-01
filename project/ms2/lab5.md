@@ -9,6 +9,9 @@ subcontext: ms2
 
 {% include _toc.html %}
 
+This lab is under construction. Proceed at own risk.
+{: .notice .notice-warning}
+
 In this lab, you define name bindings and corresponding constraints for MiniJava in NaBL2. The
 concepts you are going to use in NaBL2 are described in the following papers:
 
@@ -54,7 +57,7 @@ scope graph and resolution constraints. The specification should include:
 You need to submit your MiniJava project with a merge request against branch `assignment-5-submission` on GitLab.
 The [Git documentation](/documentation/git.html#submitting-an-assignment) explains how to file such a request.
 
-The deadline for submissions is October 27, 2018, 23:59.
+The deadline for submissions is October 26, 2019, 23:59.
 {: .notice .notice-warning}
 
 ### Grading

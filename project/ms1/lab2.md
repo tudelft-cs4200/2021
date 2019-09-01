@@ -50,7 +50,7 @@ The definition should include:
 You need to submit your MiniJava project with a merge request against branch `assignment-2-submission` on GitLab.
 The [Git documentation](/documentation/git.html#submitting-an-assignment) explains how to file such a request.
 
-The deadline for submission is September 28 2018, 23:59.
+The deadline for submission is September 28 2019, 23:59.
 {: .notice .notice-warning}
 
 ### Grading

@@ -9,6 +9,9 @@ subcontext: ms3
 
 {% include _toc.html %}
 
+This lab is under construction. Proceed at own risk.
+{: .notice .notice-warning}
+
 In this lab, you complete your code generator to handle arbitrary MiniJava programs.
 
 ## Overview
@@ -30,7 +33,7 @@ In this lab, you complete your code generator to handle arbitrary MiniJava progr
 You need to submit your MiniJava project with a merge request against branch `assignment-11-submission` on GitLab.
 The [Git documentation](/documentation/git.html#submitting-an-assignment) explains how to file such a request.
 
-The deadline for submissions is January 19, 2018, 23:59.
+The deadline for submissions is January 18, 2019, 23:59.
 {: .notice .notice-warning}
 
 ### Grading

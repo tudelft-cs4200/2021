@@ -9,6 +9,8 @@ subcontext: ms1
 
 {% include _toc.html %}
 
+This lab is under construction. Proceed at own risk.
+{: .notice .notice-warning}
 
 This lab is your first encounter with [Stratego](http://metaborg.org/en/latest/source/langdev/meta/lang/stratego/index.html).
 You add an outline view and a desugaring transformation to an initial editor provided by us.
@@ -36,7 +38,7 @@ For grading, it is required to comply with all constructor names, rule names, an
 You need to submit your MiniJava project with a merge request against branch `assignment-3-submission` on GitLab.
 The [Git documentation](/documentation/git.html#submitting-an-assignment) explains how to file such a request.
 
-The deadline for submission is October 6, 2018, 23:59.
+The deadline for submission is October 5, 2019, 23:59.
 {: .notice .notice-warning}
 
 ### Grading

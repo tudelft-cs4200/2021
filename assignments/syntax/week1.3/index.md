@@ -7,7 +7,7 @@ context: assignments
 subcontext: assignments_syntax
 ---
 
-Submit your answers in [WebLab](https://weblab.tudelft.nl/cs4200/2018-2019/) ([Assignment Week 1.3](https://weblab.tudelft.nl/cs4200/2018-2019/assignment/20444/view)).
+Submit your answers in [WebLab](https://weblab.tudelft.nl/cs4200/2019-2020/) ([Assignment Week 1.3](https://weblab.tudelft.nl/cs4200/2019-2020/assignment/20444/view)).
 
 The language that was used in the lecture to define context-free grammars, derivations, parse tables, and more is defined in this Spoofax project:
 

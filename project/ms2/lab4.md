@@ -9,6 +9,9 @@ subcontext: ms2
 
 {% include _toc.html %}
 
+This lab is under construction. Proceed at own risk.
+{: .notice .notice-warning}
+
 In this lab, you develop a test suite for name analysis. The test suite consists of resolution test
 cases and constraint test cases.
 
@@ -40,7 +43,7 @@ a request.  We expect to find your Spoofax project `minijava` and your test proj
 For this lab, you should put all your tests in `minijava.test.names`.
 {: .notice .notice-warning}
 
-The deadline for submissions is October 27, 2018, 23:59.
+The deadline for submissions is October 26, 2019, 23:59.
 {: .notice .notice-warning}
 
 ### Grading

@@ -9,6 +9,9 @@ subcontext: ms2
 
 {% include _toc.html %}
 
+This lab is under construction. Proceed at own risk.
+{: .notice .notice-warning}
+
 In this lab, you define a simple data-flow analysis for MiniJava in FlowSpec. The concepts you are going to use in FlowSpec are described in the following paper:
 
 - Jeff Smits, Eelco Visser. FlowSpec: declarative dataflow analysis specification. In Benoît Combemale, Marjan Mernik, Bernhard Rumpe, editors, Proceedings of the 10th ACM SIGPLAN International Conference on Software Language Engineering, SLE 2017, Vancouver, BC, Canada, October 23-24, 2017. pages 221-231, ACM, 2017.
@@ -51,7 +54,7 @@ Specify a reaching definitions analysis for MiniJava in FlowSpec. The specificat
 You need to submit your MiniJava project with a merge request against branch `assignment-8-submission` on GitLab.
 The [Git documentation](/documentation/git.html#submitting-an-assignment) explains how to file such a request.
 
-The deadline for submission is December 1, 2018.
+The deadline for submission is November 30, 2019.
 {: .notice .notice-warning}
 
 ### Grading

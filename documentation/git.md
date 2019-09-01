@@ -32,7 +32,7 @@ On GitLab, we will create a private git repository for you, which is owned by us
 
 ## Getting started
 
-First, find your private repository in the [CS4200-B/2018-2019](https://gitlab.ewi.tudelft.nl/CS4200-B/2018-2019) group on GitLab, it should be called `student-id` where `id` is your student id.
+First, find your private repository in the [CS4200-B/2019-2020](https://gitlab.ewi.tudelft.nl/CS4200-B/2019-2020) group on GitLab, it should be called `student-id` where `id` is your student id.
 
 To actually do work in the Git repository, you need to make a *local* clone of the repository on your computer. You can find the URL needed to clone on the bottom right of the page, be sure to use `HTTPS`.
 
@@ -41,7 +41,7 @@ To actually do work in the Git repository, you need to make a *local* clone of t
 Open up the command line and make a local clone with your URL:
 
 ```shell
-git clone https://gitlab.ewi.tudelft.nl/CS4200-B/2018-2019/student-id.git
+git clone https://gitlab.ewi.tudelft.nl/CS4200-B/2019-2020/student-id.git
 ```
 
 Now cd into the local clone and confirm that it works:

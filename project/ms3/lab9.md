@@ -9,6 +9,9 @@ subcontext: ms3
 
 {% include _toc.html %}
 
+This lab is under construction. Proceed at own risk.
+{: .notice .notice-warning}
+
 In this lab you develop a simple code generator that generates Java bytecode for simple MiniJava programs.
 After finishing this lab your compiler will compile MiniJava programs with a main method that contains a print statement that prints an integer.
 
@@ -28,7 +31,7 @@ The code generator should include a transformation from MiniJava ASTs to Jasmin 
 You need to submit your MiniJava project with a merge request against branch `assignment-9-submission` on GitLab.
 The [Git documentation](/documentation/git.html#submitting-an-assignment) explains how to file such a request.
 
-The deadline for submission is December 15, 2018, 23:59.
+The deadline for submission is December 7, 2019, 23:59.
 {: .notice .notice-warning}
 
 ### Grading
