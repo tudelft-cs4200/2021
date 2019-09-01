@@ -17,7 +17,7 @@ You will receive an email with
 
 ## Walk-in Hours 2019-2020
 
-We offer walk-in hours on Wednesday mornings 9:30-11:00 in room E4.420 of Building 28
+We offer walk-in hours on Thursday mornings 9:30-11:00 in room E4.420 of Building 28
 
 ## Team Members
 
