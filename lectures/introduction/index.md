@@ -14,8 +14,9 @@ subcontext: introduction
 In the opening lecture we look at what compilers are, why you would want to study them, and how the course is organized.
 
 ### Slides
-- [PDF](https://github.com/TUDelft-CS4200-2018/lectures/raw/master/01-introduction/CS4200-2018-1-introduction.pdf)
-- on [github](https://github.com/TUDelft-CS4200-2018/lectures/tree/master/01-introduction)
+- [PDF 2018](https://github.com/TUDelft-CS4200-2019/lectures/raw/master/01-introduction/CS4200-2018-1-introduction.pdf)
+- [PDF 2019](https://github.com/TUDelft-CS4200-2019/lectures/raw/master/01-introduction/CS4200-2019-1-introduction.pdf)
+- on [github](https://github.com/TUDelft-CS4200-2019/lectures/tree/master/01-introduction)
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/q5jwqN862yubE3" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/eelcovisser/compiler-construction-lecture-1-what-is-a-compiler" title="Compiler Construction | Lecture 1 | What is a compiler?" target="_blank">Compiler Construction | Lecture 1 | What is a compiler?</a> </strong> from <strong><a href="https://www.slideshare.net/eelcovisser" target="_blank">Eelco Visser</a></strong> </div>
 

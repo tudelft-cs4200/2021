@@ -18,8 +18,8 @@ Q1
 
 * Thu Sep 5, 10:45-12:30, EWI Boole: [What is a compiler?](introduction/)
 * Fri Sep 6, 13:45-15:30, EWI Pi: [Syntax Definition](syntax/syntax-definition)
-* Thu Sep 12, 10:45-12:30, EWI Boole: [Syntactic (Editor) Services](syntax/editor-services)
-* Thu Sep 19, 17:45-19:30, EWI Boole: [Parsing](syntax/parsing)
+* Thu Sep 12, 10:45-12:30, EWI Boole: [Parsing](syntax/parsing)
+* Thu Sep 19, 17:45-19:30, EWI Boole: [Syntactic (Editor) Services](syntax/editor-services)f
 * Thu Sep 26, 10:45-12:30, EWI Boole: [Transformation](transformation/)
 * Thu Oct 3, 10:45-12:30, EWI Boole: [Introduction to Static Analysis](statics/static-analysis)
 * Thu Oct 10, 10:45-12:30, EWI Boole: [Type Checking](statics/type-checking)

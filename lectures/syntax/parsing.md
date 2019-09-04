@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Lecture 4: Parsing"
+title: "Lecture 3: Parsing"
 excerpt: "Parsing"
 tags: ["lectures"]
 context: lectures
@@ -26,11 +26,13 @@ In this lecture we study how to turn syntax definitions (context-free grammars) 
   - reductions, shift-reduce parsing, LR parsing
   - first and follow
 - parser generation
+- error recovery
 
 ### Slides
 
-- [PDF](https://github.com/TUDelft-CS4200-2018/lectures/raw/master/04-parsing/CS4200-2018-4-parsing.pdf)
-- [github](https://github.com/TUDelft-CS4200-2018/lectures/tree/master/04-parsing)
+- [PDF 2018](https://github.com/TUDelft-CS4200-2019/lectures/raw/master/03-parsing/CS4200-2018-4-parsing.pdf)
+- [PDF 2019](https://github.com/TUDelft-CS4200-2019/lectures/raw/master/03-parsing/CS4200-2019-3-parsing.pdf)
+- [github](https://github.com/TUDelft-CS4200-2019/lectures/tree/master/03-parsing)
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/tSZUWlmdRmknjO" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/eelcovisser/compiler-construction-lecture-4-parsing" title="Compiler Construction | Lecture 4 | Parsing " target="_blank">Compiler Construction | Lecture 4 | Parsing </a> </strong> from <strong><a href="https://www.slideshare.net/eelcovisser" target="_blank">Eelco Visser</a></strong> </div>
 
