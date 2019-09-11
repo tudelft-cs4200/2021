@@ -7,7 +7,7 @@ context: assignments
 subcontext:
 ---
 
-To study the material of the lectures we provide homework assignments to be submitted to [WebLab](https://weblab.tudelft.nl/cs4200/2019-2020/). All assignments are separated into categories. Do note that some categories cover multiple weeks of lectures.
+To study the material of the lectures we provide homework assignments to be submitted to [WebLab](https://weblab.tudelft.nl/cs4200/2019-2020/). All assignments are separated into categories. Do note that the assignments for Type Checking and Data-Flow Analysis cover multiple weeks of lectures.
 
 ### Syntax
 
