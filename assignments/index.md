@@ -7,7 +7,7 @@ context: assignments
 subcontext:
 ---
 
-To study the material of the lectures we provide homework assignments to be submitted to [WebLab](https://weblab.tudelft.nl/cs4200/2019-2020/).
+To study the material of the lectures we provide homework assignments to be submitted to [WebLab](https://weblab.tudelft.nl/cs4200/2019-2020/). All assignments are separated into categories. Do note that some categories cover multiple weeks of lectures.
 
 ### Syntax
 
@@ -21,13 +21,8 @@ To study the material of the lectures we provide homework assignments to be subm
 
 ### Statics
 
-* [Week 1.5: Name Resolution](https://weblab.tudelft.nl/cs4200/2019-2020/assignment/24618/view)
-    * Relevant this week: 
-* [Week 1.6: Type Checking](https://weblab.tudelft.nl/cs4200/2019-2020/assignment/24618/view)
-* [Week 1.7: Specifications with NaBL2](https://weblab.tudelft.nl/cs4200/2019-2020/assignment/24618/view)
-* [Week 1.8: Constraint Resolution](https://weblab.tudelft.nl/cs4200/2019-2020/assignment/24618/view)
-* [Week 2.1: Data-Flow Analysis](https://weblab.tudelft.nl/cs4200/2019-2020/assignment/24619/view)
-* [Week 2.2: Monotone Frameworks](https://weblab.tudelft.nl/cs4200/2019-2020/assignment/24619/view)
+* [Week 1.5 - Week 1.8: Type Checking](https://weblab.tudelft.nl/cs4200/2019-2020/assignment/24618/view)
+* [Week 2.1 - Week 2.2: Data-Flow Analysis](https://weblab.tudelft.nl/cs4200/2019-2020/assignment/24619/view)
 
 ### Dynamics
 
