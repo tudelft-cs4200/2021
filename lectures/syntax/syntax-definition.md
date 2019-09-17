@@ -29,7 +29,7 @@ In this lecture we take a further look at declarative syntax definition, with th
   - [PDF 2019](https://github.com/TUDelft-CS4200-2019/lectures/raw/master/02-syntax-definition/CS4200-2019-2-syntax-definition.pdf)
   - on [github](https://github.com/TUDelft-CS4200-2019/lectures/tree/master/02-syntax-definition)
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/JVi9jxdHornHQV" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/eelcovisser/compiler-construction-lecture-2-declarative-syntax-definition" title="Compiler Construction | Lecture 2 | Declarative Syntax Definition" target="_blank">Compiler Construction | Lecture 2 | Declarative Syntax Definition</a> </strong> from <strong><a href="https://www.slideshare.net/eelcovisser" target="_blank">Eelco Visser</a></strong> </div>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/yGYmMyKVY89b80" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/eelcovisser/cs4200-2019-lecture-2-syntaxdefinition" title="CS4200 2019 | Lecture 2 | syntax-definition" target="_blank">CS4200 2019 | Lecture 2 | syntax-definition</a> </strong> from <strong><a href="https://www.slideshare.net/eelcovisser" target="_blank">Eelco Visser</a></strong> </div>
 
 ### Reading material
 
