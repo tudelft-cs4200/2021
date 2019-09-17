@@ -104,9 +104,10 @@ The projects from the template have to be imported into Eclipse:
     3. Choose Maven -> Existing Maven Projects from the list.
     4. Press next.
     5. Select the root of your Git repository.
-    6. Select all projects.
+    6. Select the three child projects and not the parent project.
     7. Make sure that Copy projects into workspace is **off**.
     8. Press finish
+    9. Build all projects through *Project* > *Build All*.
 
 If you get an error about `Resource '/.org.eclipse.jdt.core.external.folders' already exists`, you can safely ignore that.
 

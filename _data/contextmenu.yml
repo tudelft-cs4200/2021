@@ -26,21 +26,21 @@
 
 # Homework
 
-- title: Syntax
-  url: /assignments/syntax
-  context: assignments
+# - title: Syntax
+#   url: /assignments/syntax
+#   context: assignments
 
-- title: Transformation
-  url: /assignments/transformation
-  context: assignments
+# - title: Transformation
+#   url: /assignments/transformation
+#   context: assignments
 
-- title: Statics
-  url: /assignments/statics
-  context: assignments
+# - title: Statics
+#   url: /assignments/statics
+#   context: assignments
 
-- title: Dynamics
-  url: /assignments/dynamics
-  context: assignments
+# - title: Dynamics
+#   url: /assignments/dynamics
+#   context: assignments
 
 # Project
 
