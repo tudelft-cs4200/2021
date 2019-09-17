@@ -24,7 +24,7 @@ In this lecture we study applications of syntax definitions in various _syntacti
 - [PDF 2019](https://github.com/TUDelft-CS4200-2019/lectures/raw/master/04-syntactic-services/CS4200-2019-4-syntactic-services.pdf)
 - [github](https://github.com/TUDelft-CS4200-2019/lectures/tree/master/04-syntactic-services)
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/70PkRXSeHag2hI" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/eelcovisser/compiler-construction-lecture-3-syntactic-editor-services" title="Compiler Construction | Lecture 3 | Syntactic Editor Services" target="_blank">Compiler Construction | Lecture 3 | Syntactic Editor Services</a> </strong> from <strong><a href="https://www.slideshare.net/eelcovisser" target="_blank">Eelco Visser</a></strong> </div>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/1oiEYyGuEM9Bxi" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/eelcovisser/cs4200-2019-lecture-4-syntactic-services" title="CS4200 2019 | Lecture 4 | Syntactic Services" target="_blank">CS4200 2019 | Lecture 4 | Syntactic Services</a> </strong> from <strong><a href="https://www.slideshare.net/eelcovisser" target="_blank">Eelco Visser</a></strong> </div>
 
 ### Reading material
 
