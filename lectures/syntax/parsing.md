@@ -21,16 +21,14 @@ In this lecture we study how to turn syntax definitions (context-free grammars) 
 - grammar transformations
   - left factoring, eliminating left recursion
   - disambiguation with associativity and priority rules
-- top-down parsing
-- bottom-up parsing
+- shif-reduce parsing
   - reductions, shift-reduce parsing, LR parsing
-  - first and follow
-- parser generation
-- error recovery
+  - nullable, first, follow
+- SLR parser generation
+
 
 ### Slides
 
-- [PDF 2018](https://github.com/TUDelft-CS4200-2019/lectures/raw/master/03-parsing/CS4200-2018-4-parsing.pdf)
 - [PDF 2019](https://github.com/TUDelft-CS4200-2019/lectures/raw/master/03-parsing/CS4200-2019-3-parsing.pdf)
 - [github](https://github.com/TUDelft-CS4200-2019/lectures/tree/master/03-parsing)
 
@@ -45,3 +43,13 @@ In this lecture we study how to turn syntax definitions (context-free grammars) 
 The language that was used in the lecture to define context-free grammars, derivations, parse tables, and more is defined in this Spoofax project:
 
 - https://github.com/TUDelft-CS4200-2018/cc.syntax.parsing
+
+### Advanced Topics
+
+Parsing is a vast area and could easily fill an entire course. 
+
+- Other parsing algorithms
+  - top-down, LL parsing
+  - generalized parsing: GLR, GLL
+	- parser combinators
+- Error recovery

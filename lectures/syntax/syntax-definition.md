@@ -26,7 +26,6 @@ In this lecture we take a further look at declarative syntax definition, with th
 
 ### Slides
 
-  - [PDF 2018](https://github.com/TUDelft-CS4200-2019/lectures/raw/master/02-syntax-definition/CS4200-2018-2-syntax-definition.pdf)
   - [PDF 2019](https://github.com/TUDelft-CS4200-2019/lectures/raw/master/02-syntax-definition/CS4200-2019-2-syntax-definition.pdf)
   - on [github](https://github.com/TUDelft-CS4200-2019/lectures/tree/master/02-syntax-definition)
 
