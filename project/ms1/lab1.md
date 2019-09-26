@@ -66,6 +66,10 @@ You earn points,
 The total number of points depends only on how many kinds of errors you reveal,
   not on the number of test cases that reveal these errors.
 
+Since you are working on lab 1 and 2 at the same time, you could use AST [expectations](http://www.metaborg.org/en/latest/source/langdev/meta/lang/spt/test-expectations.html#parse-expectations) in your tests based on the constructors you define in your syntax definition for lab 2.
+While this is fine for testing your syntax definition locally, those tests will not work in your submission for lab 1.
+For grading lab 1, we only look at your tests, not at your syntax definition and constructors.
+
 ### Early Feedback
 
 We provide early feedback for the validity and effectiveness of your test cases.
