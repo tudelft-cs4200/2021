@@ -198,6 +198,9 @@ As an alternative, you can also specify two fragments in concrete syntax, which 
 You can find a table listing the associativity and priorities of operators in [this book](http://introcs.cs.princeton.edu/java/11precedence/).
 Do not focus only on binary expressions.
 
+You **do not** have to test for constructs that are non-associative. In lab 2, with the `java` parse table generation enabled, `non-assoc` leads to semantic errors rather than syntactic errors during parse time. Since our language does not have analysis at that point, we cannot test the semantic errors and thus they are also not required for this lab.
+{: .notice .notice-warning}
+
 #### Layout
 
 Finally, you can focus on layout.
