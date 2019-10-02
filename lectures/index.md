@@ -22,9 +22,9 @@ Q1
 * Thu Sep 19, 17:45-19:30, EWI Boole: [Syntactic (Editor) Services](syntax/editor-services)
 * Thu Sep 26, 10:45-12:30, EWI Boole: [Transformation](transformation/)
 * Thu Oct 3, 10:45-12:30, EWI Boole: [Introduction to Static Analysis](statics/static-analysis)
-* Thu Oct 10, 10:45-12:30, EWI Boole: [Type Checking](statics/type-checking)
-* Thu Oct 17, 10:45-12:30, EWI Boole: [Specifications with NaBL2](statics/type-constraints)
-* Thu Oct 24, 10:45-12:30, EWI Boole: [Constraint Resolution](statics/constraint-resolution)
+* Thu Oct 10, 10:45-12:30, EWI Boole: [Type Checking with Constraints](statics/type-checking)
+* Thu Oct 17, 10:45-12:30, EWI Boole: [Specifications with NaBL2](statics/type-constraints) | [Constraint Resolution](statics/constraint-resolution)
+* Thu Oct 24, 10:45-12:30, EWI Boole: no lecture
 * Thu Oct 31, 13:30-16:30, IO-PC hall 2 (CTRL): Exam Q1
 
 Q2
@@ -35,7 +35,7 @@ Q2
 * Wed Dec 4, 15:45-17:30, EWI Boole: [Code Generation](dynamics/code-generation)
 * Wed Dec 11, 15:45-17:30, EWI Boole: [Interpreters](dynamics/interpreters)
 * Wed Dec 18, 15:45-17:30, EWI Boole: [Memory Management](dynamics/memory-management)
-* Wed Jan 8, 15:45-17:30, EWI Boole: Reserve
+* Wed Jan 8, 15:45-17:30, EWI Boole: Guest Lecture Guido Wachsmuth
 * Wed Jan 15, 15:45-17:30, EWI Boole: [Beyond Compiler Construction](applications/conclusion)
 * Fri Jan 31, 13:30-16:30, IO-PC hall 3 (SHIFT): Exam Q2
 
