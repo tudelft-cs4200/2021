@@ -15,7 +15,13 @@ Compilers translate the source code of programs in a high-level programming lang
 
 This course studies the architecture of compilers and interactive programming environments and the concepts and techniques underlying the components of that architecture. For each of the components of a compiler we study the formal theory underlying the language aspect that it covers, declarative specification languages to define compiler components, and the techniques for their implementation. The concepts and techniques are illustrated by application to small languages or language fragments.
 
-The course covers the following topics:
+In the course project, students apply the concepts and techniques to build a complete compiler and IDE for ChocoPy, a statically typed subset of the Python programming language.
+
+The course formally consists of two courses CS4200-A and CS4200-B (each for 5ECTS), running in Q1 and Q2, respectively.
+
+## CS4200-A: Front-End
+
+In CS4200-A we study the front-end of compilers, covering the following topics:
 
 * Syntax
   - concrete syntax, abstract syntax
@@ -26,10 +32,6 @@ The course covers the following topics:
   - parser generation
   - syntactic editor services
 
-* Transformation
-  - rewrite rules, rewrite strategies
-  - simplification, desugaring
-
 * Statics
   - static semantics and type checking
     - name binding, name resolution, scope graphs
@@ -37,9 +39,26 @@ The course covers the following topics:
     - unification, constraints
   - semantic editor services
 
-* Data-flow analysis
-  - control-flow and data-flow
-  - monotone frameworks, worklist algorithm
+After this course students students should be able to
+
+	- Describe the architecture of a compiler and programming environment and the role of each component of that architecture
+	- Explain the basic concepts of the formalisms for the definition of the components of a compiler and apply these formalisms to define small languages
+	- Explain the algorithms and techniques for the implementation of compiler components and apply these techniques to examples
+
+	- Define the syntax of a programming language using declarative syntax definition that describes the concrete and abstract syntax of a programming language
+	- Define basic editor services
+	- Define the type system (name binding and typing rules) of a programming language using constraint generation rules  
+	- Construct tests for each of the components of a compiler in order to determine its correctness
+	- Integrate the components into a working compiler and programming environment
+
+
+## CS4200-B: Back-End
+
+In CS4200-B we study the back-end of compilers, covering the following topics:
+
+* Transformation
+  - rewrite rules, rewrite strategies
+  - simplification, desugaring
 
 * Dynamics
   - dynamic semantics and code generation
@@ -48,26 +67,21 @@ The course covers the following topics:
   - code generation
   - memory management, garbage collection
 
-## Study Goals
+* Data-flow analysis
+  - control-flow and data-flow
+  - monotone frameworks, worklist algorithm
 
-The course formally consists of two courses.
+After this course students students should be able to
 
-In course CS4200-A (Compiler Construction) students study the concepts and techniques of compiler construction by reading papers and by making home work assignments that prepare for the exams. The course is examined by exams in November and January. After this course, students should be able to:
+	- Describe the architecture of a compiler and programming environment and the role of each component of that architecture
+	- Explain the basic concepts of the formalisms for the definition of the components of a compiler and apply these formalisms to define small languages
+	- Explain the algorithms and techniques for the implementation of compiler components and apply these techniques to examples
 
-- Describe the architecture of a compiler and programming environment and the role of each component of that architecture
-- Explain the basic concepts of the formalisms for the definition of the components of a compiler and apply these formalisms to define small languages
-- Explain the algorithms and techniques for the implementation of compiler components and apply these techniques to examples
-
-In course CS4200-B (Compiler Construction Project) students apply the concepts and techniques from part A in the construction of a compiler for a small programming language. After this course students students should be able to
-
-- Define the syntax of a programming language using declarative syntax definition that describes the concrete and abstract syntax of a programming language
-- Define transformations on abstract syntax terms to simplify programs
-- Define basic editor services
-- Define the type system (name binding and typing rules) of a programming language using constraint generation rules  
-- Define data-flow analyses using control-flow and data-flow rules
-- Define a code generator that translates source language abstract syntax trees to object language instructions using rewrite rules
-- Construct tests for each of the components of a compiler in order to determine its correctness
-- Integrate the components into a working compiler and programming environment
+	- Define transformations on abstract syntax terms to simplify programs
+	- Define data-flow analyses using control-flow and data-flow rules
+	- Define a code generator that translates source language abstract syntax trees to object language instructions using rewrite rules
+	- Construct tests for each of the components of a compiler in order to determine its correctness
+	- Integrate the components into a working compiler and programming environment
 
 ## Expected Prior Knowledge   
 
