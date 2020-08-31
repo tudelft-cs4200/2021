@@ -137,158 +137,93 @@
 
 # Assignments
 
-# - title: Week 1.1
-#   url: /assignments/syntax/week1.1
-#   context: assignments
-#   subcontext: assignments_syntax
-
-# - title: Week 1.2
-#   url: /assignments/syntax/week1.2
-#   context: assignments
-#   subcontext: assignments_syntax
-
-# - title: Week 1.3
-#   url: /assignments/syntax/week1.3
-#   context: assignments
-#   subcontext: assignments_syntax
-
-# - title: Week 1.5
-#   url: /assignments/statics/week1.5
-#   context: assignments
-#   subcontext: assignments_statics
-
-# - title: Week 1.6
-#   url: /assignments/statics/week1.6
-#   context: assignments
-#   subcontext: assignments_statics
-
-# - title: Week 1.7
-#   url: /assignments/statics/week1.7
-#   context: assignments
-#   subcontext: assignments_statics
-
-# - title: Week 1.8
-#   url: /assignments/statics/week1.8
-#   context: assignments
-#   subcontext: assignments_statics
-
-# - title: Week 2.1
-#   url: /assignments/statics/week2.1
-#   context: assignments
-#   subcontext: assignments_statics
-
-# - title: Week 2.2
-#   url: /assignments/statics/week2.2
-#   context: assignments
-#   subcontext: assignments_statics
-
-# - title: Week 2.3
-#   url: /assignments/dynamics/week2.3
-#   context: assignments
-#   subcontext: assignments_dynamics
-
-# - title: Week 2.4
-#   url: /assignments/dynamics/week2.4
-#   context: assignments
-#   subcontext: assignments_dynamics
-
-# - title: Week 2.5
-#   url: /assignments/dynamics/week2.5
-#   context: assignments
-#   subcontext: assignments_dynamics
-
-# - title: Week 2.6
-#   url: /assignments/dynamics/week2.6
-#   context: assignments
-#   subcontext: assignments_dynamics
-
 # Milestone 1
 
-- title: lab 1
-  url: /project/ms1/lab1.html
-  context: assign
-  subcontext: ms1
-
-- title: lab 2
-  url: /project/ms1/lab2.html
-  context: assign
-  subcontext: ms1
-
-- title: lab 3
-  url: /project/ms1/lab3.html
-  context: assign
-  subcontext: ms1
-
-- title: FAQ
-  url: /project/ms1/faq.html
-  context: assign
-  subcontext: ms1
+# - title: lab 1
+#   url: /project/ms1/lab1.html
+#   context: assign
+#   subcontext: ms1
+#
+# - title: lab 2
+#   url: /project/ms1/lab2.html
+#   context: assign
+#   subcontext: ms1
+#
+# - title: lab 3
+#   url: /project/ms1/lab3.html
+#   context: assign
+#   subcontext: ms1
+#
+# - title: FAQ
+#   url: /project/ms1/faq.html
+#   context: assign
+#   subcontext: ms1
 
 
 # Milestone 2
 
-- title: lab 4
-  url: /project/ms2/lab4.html
-  context: assign
-  subcontext: ms2
+# - title: lab 4
+#   url: /project/ms2/lab4.html
+#   context: assign
+#   subcontext: ms2
+#
+# - title: lab 5
+#   url: /project/ms2/lab5.html
+#   context: assign
+#   subcontext: ms2
+#
+# - title: lab 6
+#   url: /project/ms2/lab6.html
+#   context: assign
+#   subcontext: ms2
+#
+# - title: lab 7
+#   url: /project/ms2/lab7.html
+#   context: assign
+#   subcontext: ms2
 
-- title: lab 5
-  url: /project/ms2/lab5.html
-  context: assign
-  subcontext: ms2
+# - title: lab 8
+#   url: /project/ms2/lab8.html
+#   context: assign
+#   subcontext: ms2
 
-- title: lab 6
-  url: /project/ms2/lab6.html
-  context: assign
-  subcontext: ms2
-
-- title: lab 7
-  url: /project/ms2/lab7.html
-  context: assign
-  subcontext: ms2
-
-- title: lab 8
-  url: /project/ms2/lab8.html
-  context: assign
-  subcontext: ms2
-
-- title: FAQ
-  url: /project/ms2/faq.html
-  context: assign
-  subcontext: ms2
+# - title: FAQ
+#   url: /project/ms2/faq.html
+#   context: assign
+#   subcontext: ms2
 
 
 # Milestone 3
 
-- title: lab 9
-  url: /project/ms3/lab9.html
-  context: assign
-  subcontext: ms3
-
-- title: lab 10
-  url: /project/ms3/lab10.html
-  context: assign
-  subcontext: ms3
-
-- title: lab 11
-  url: /project/ms3/lab11.html
-  context: assign
-  subcontext: ms3
+# - title: lab 9
+#   url: /project/ms3/lab9.html
+#   context: assign
+#   subcontext: ms3
+#
+# - title: lab 10
+#   url: /project/ms3/lab10.html
+#   context: assign
+#   subcontext: ms3
+#
+# - title: lab 11
+#   url: /project/ms3/lab11.html
+#   context: assign
+#   subcontext: ms3
 
 
 # Documentation
 
-- title: "Git"
-  url: /documentation/git.html
-  context: assign
-  subcontext: doc
+# - title: "Git"
+#   url: /documentation/git.html
+#   context: assign
+#   subcontext: doc
+#
+# - title: "Spoofax"
+#   url: /documentation/spoofax.html
+#   context: assign
+#   subcontext: doc
 
-- title: "Spoofax"
-  url: /documentation/spoofax.html
-  context: assign
-  subcontext: doc
-
-- title: "Jasmin"
-  url: /documentation/jasmin.html
-  context: assign
-  subcontext: doc
+# - title: "Jasmin"
+#   url: /documentation/jasmin.html
+#   context: assign
+#   subcontext: doc

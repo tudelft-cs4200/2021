@@ -25,12 +25,17 @@
   email: H.vanAntwerpen@tudelft.nl
   avatar: hendrik.jpg
 
-- name: Bram Crielaard
+- name: Wesley Baartman
   position: student teaching assistant
-  email: B.Crielaard@student.tudelft.nl
-  avatar: bram.jpg
+  email: w.baartnman@student.tudelft.nl
+  avatar: default-thumb.jpg
 
-- name: Ana Šemrov
+- name: Paul van der Stel
   position: student teaching assistant
-  email: A.Semrov@student.tudelft.nl
-  avatar: ana.jpg
+  email: p.vanderstel@student.tudelft.nl
+  avatar: default-thumb.jpg
+
+- name: Alexander Sterk
+  position: student teaching assistant
+  email: a.sterk@student.tudelft.nl
+  avatar: default-thumb.jpg

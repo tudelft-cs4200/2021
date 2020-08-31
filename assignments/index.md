@@ -7,7 +7,10 @@ context: assignments
 subcontext:
 ---
 
-To study the material of the lectures we provide homework assignments to be submitted to [WebLab](https://weblab.tudelft.nl/cs4200/2019-2020/). All assignments are separated into categories. Do note that the assignments for Type Checking and Data-Flow Analysis cover multiple weeks of lectures.
+To study the material of the lectures we provide homework assignments to be submitted to [WebLab](https://weblab.tudelft.nl/cs4200/2020-2021/).
+
+
+<!-- All assignments are separated into categories. Do note that the assignments for Type Checking and Data-Flow Analysis cover multiple weeks of lectures.
 
 ### Syntax
 
@@ -29,4 +32,4 @@ To study the material of the lectures we provide homework assignments to be subm
 * [Week 2.3: Virtual Machines](https://weblab.tudelft.nl/cs4200/2019-2020/assignment/25466/view)
 * [Week 2.4: Code Generation](https://weblab.tudelft.nl/cs4200/2019-2020/assignment/25465/view)
 * [Week 2.5: Interpreters](https://weblab.tudelft.nl/cs4200/2019-2020/assignment/25734/view)
-* [Week 2.6: Memory Management](https://weblab.tudelft.nl/cs4200/2019-2020/assignment/25468/view)
+* [Week 2.6: Memory Management](https://weblab.tudelft.nl/cs4200/2019-2020/assignment/25468/view) -->

@@ -8,21 +8,21 @@
   url: /lectures/syntax/
   context: lectures
 
-- title: Transformation
-  url: /lectures/transformation/
-  context: lectures
-
 - title: Statics
   url: /lectures/statics/
   context: lectures
 
-- title: Dynamics
-  url: /lectures/dynamics/
-  context: lectures
-
-- title: Applications
-  url: /lectures/applications/
-  context: lectures
+# - title: Transformation
+#   url: /lectures/transformation/
+#   context: lectures
+#
+# - title: Dynamics
+#   url: /lectures/dynamics/
+#   context: lectures
+#
+# - title: Applications
+#   url: /lectures/applications/
+#   context: lectures
 
 # Homework
 
@@ -52,9 +52,9 @@
   url: /project/ms2/
   context: project
 
-- title: Dynamics
-  url: /project/ms3/
-  context: project
+# - title: Dynamics
+#   url: /project/ms3/
+#   context: project
 
 - title: Documentation
   url: /documentation/
