@@ -41,15 +41,15 @@ In CS4200-A we study the front-end of compilers, covering the following topics:
 
 After this course students students should be able to
 
-	- Describe the architecture of a compiler and programming environment and the role of each component of that architecture
-	- Explain the basic concepts of the formalisms for the definition of the components of a compiler and apply these formalisms to define small languages
-	- Explain the algorithms and techniques for the implementation of compiler components and apply these techniques to examples
+- Describe the architecture of a compiler and programming environment and the role of each component of that architecture
+- Explain the basic concepts of the formalisms for the definition of the components of a compiler and apply these formalisms to define small languages
+- Explain the algorithms and techniques for the implementation of compiler components and apply these techniques to examples
 
-	- Define the syntax of a programming language using declarative syntax definition that describes the concrete and abstract syntax of a programming language
-	- Define basic editor services
-	- Define the type system (name binding and typing rules) of a programming language using constraint generation rules  
-	- Construct tests for each of the components of a compiler in order to determine its correctness
-	- Integrate the components into a working compiler and programming environment
+- Define the syntax of a programming language using declarative syntax definition that describes the concrete and abstract syntax of a programming language
+- Define basic editor services
+- Define the type system (name binding and typing rules) of a programming language using constraint generation rules  
+- Construct tests for each of the components of a compiler in order to determine its correctness
+- Integrate the components into a working compiler and programming environment
 
 
 ## CS4200-B: Back-End
@@ -73,15 +73,15 @@ In CS4200-B we study the back-end of compilers, covering the following topics:
 
 After this course students students should be able to
 
-	- Describe the architecture of a compiler and programming environment and the role of each component of that architecture
-	- Explain the basic concepts of the formalisms for the definition of the components of a compiler and apply these formalisms to define small languages
-	- Explain the algorithms and techniques for the implementation of compiler components and apply these techniques to examples
+- Describe the architecture of a compiler and programming environment and the role of each component of that architecture
+- Explain the basic concepts of the formalisms for the definition of the components of a compiler and apply these formalisms to define small languages
+- Explain the algorithms and techniques for the implementation of compiler components and apply these techniques to examples
 
-	- Define transformations on abstract syntax terms to simplify programs
-	- Define data-flow analyses using control-flow and data-flow rules
-	- Define a code generator that translates source language abstract syntax trees to object language instructions using rewrite rules
-	- Construct tests for each of the components of a compiler in order to determine its correctness
-	- Integrate the components into a working compiler and programming environment
+- Define transformations on abstract syntax terms to simplify programs
+- Define data-flow analyses using control-flow and data-flow rules
+- Define a code generator that translates source language abstract syntax trees to object language instructions using rewrite rules
+- Construct tests for each of the components of a compiler in order to determine its correctness
+- Integrate the components into a working compiler and programming environment
 
 ## Expected Prior Knowledge   
 
