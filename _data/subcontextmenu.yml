@@ -81,17 +81,17 @@
   context: lectures
   subcontext: statics
 
+# dynamics
+
 - title: Dataflow Analysis
   url: /lectures/statics/dataflow-analysis.html
   context: lectures
-  subcontext: statics
+  subcontext: dynamics
 
 - title: Monotone Frameworks
   url: /lectures/statics/monotone-frameworks.html
   context: lectures
-  subcontext: statics
-
-# dynamics
+  subcontext: dynamics
 
 - title: Virtual Machines
   url: /lectures/dynamics/virtual-machines.html
@@ -103,10 +103,10 @@
   context: lectures
   subcontext: dynamics
 
-- title: Interpreters
-  url: /lectures/dynamics/interpreters.html
-  context: lectures
-  subcontext: dynamics
+# - title: Interpreters
+#   url: /lectures/dynamics/interpreters.html
+#   context: lectures
+#   subcontext: dynamics
 
 - title: Memory Management
   url: /lectures/dynamics/memory-management.html
