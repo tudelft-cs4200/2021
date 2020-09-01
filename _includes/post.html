@@ -1,0 +1,81 @@
+<div class="col-sm-12 col-md-12 col-lg-1 col-xl-1">
+
+</div>
+
+{% assign latest = site.posts.first %}
+{% if latest.categories contains "blog" %}
+{% else %}
+	{% assign posts = site.posts %}
+	{% for p in posts %}
+		{% if p.categories contains "blog" %}
+				{% assign latest = p %}
+				{% break %}
+		{% endif %}
+	{% endfor %}
+{% endif %}
+
+
+
+{% assign posts = site.posts %}
+
+{% assign prev = null %}
+{% assign next = null %}
+{% assign found = "false" %}
+
+{% for p in posts %}
+	{% if p.categories contains "blog" %}
+		{% if found == "true" %}
+			{% assign prev = p %}
+			{% break %}
+		{% endif %}
+		{% if p.id == page.id %}
+			{% assign found = "true" %}
+		{% else %}
+			{% assign next = p %}
+		{% endif %}
+	{% endif %}
+{% endfor %}
+
+<div class="col-sm-12 col-md-12 col-lg-10 col-xl-10  border-grey">
+			<h1 class="border-top border-grey pt-3 pb-3">
+				{{ page.title }}
+			</h1>
+			<div class="datebox mb-3 text-secondary">
+				{{ page.date | date: "%B %d, %Y"}}
+			</div>
+			{{ page.content }}
+			<div class="border-top border-bottom border-grey mt-3 pt-3">
+				<nav>
+					<ul class="pagination justify-content-center">
+						{% if prev != null %}
+							<li class="page-item">
+								<a class="page-link" href="{{prev.id}}">
+									Previous
+								</a>
+							</li>
+						{% endif %}
+						{% if next != null %}
+							<li class="page-item">
+								<a class="page-link"  href="{{next.id}}">Next</a>
+							</li>
+						{% endif %}
+						{% if site.posts.first != page %}
+							<li class="page-item">
+								<a class="page-link" href="{{latest.id}}">
+									Latest
+								</a>
+							</li>
+						{% endif %}
+						<li class="page-item">
+							<a class="page-link" href="/blog/index/">
+								Index
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+</div>
+
+<div class="col-sm-12 col-md-12 col-lg-1 col-xl-1">
+
+</div>

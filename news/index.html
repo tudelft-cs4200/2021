@@ -1,0 +1,78 @@
+---
+layout: container
+title: News
+redirect_from:
+  - /wiki/news/
+---
+
+<div class="ml-3 mr-3 mb-3 pb-3 border-bottom border-dark">
+<h2>Upcoming Events</h2>
+</div>
+
+{% assign curDate = site.time | date: '%s' %}
+
+<div class="row ml-3 mr-3 mb-3 border-bottom border-secondary">
+	<div class="col-md-2 ml-0 pl-0 pr-0">
+		&gt; {{ curDate | date: '%b %d, %Y' }}
+	</div>
+	<div class="col-md-10 pl-0 pr-0 mr-0">
+		<ul class="list-group list-group-flush">
+			{% assign items = site.data.news | sort: "event-date" %}
+			{% for item in items %}
+					{% if item.event-date != null %}
+						{% assign itemDate = item.event-date | date: '%s' %}
+						{% if itemDate >= curDate %}
+							<li class="list-group-item pl-0 ml-0 border-0 pt-0 mb-0 ">
+									<div class="bd-callout border-dark pl-3">
+									<p class="mb-1">{{ item.text }}</p>
+									<small class="text-secondary">{{ item.event-date | date: '%B %d, %Y' }}
+										(posted {{ item.date | date: '%B %d, %Y' }})</small>
+									</div>
+							</li>
+						{% endif %}
+					{% endif %}
+			{% endfor %}
+		</ul>
+	</div>
+</div>
+
+<div class="ml-3 mr-3 mb-3 pb-3 border-bottom border-dark">
+<h2>News Archive</h2>
+</div>
+
+{% assign items = site.data.news
+	                  | where: "news", true
+										| sort: "date"
+										| reverse %}
+
+{% for item in items %}
+	{% assign currentdate = item.date | date: "%Y" %}
+	{% if currentdate != date %}
+	    {% unless forloop.first %}
+		    </ul> </div> </div>
+			{% endunless %}
+				<div class="row ml-3 mr-3 mb-3 border-bottom border-secondary">
+					<div class="col-md-2 ml-0 pl-0 pr-0">
+						<div class="">
+							<h3 id="y{{ currentdate }}">{{ currentdate }}</h3>
+						</div>
+					</div>
+					<div class="col-md-10 pl-0 pr-0 mr-0">
+						<ul class="list-group list-group-flush">
+	    				{% assign date = currentdate %}
+	{% endif %}
+		<li class="list-group-item pl-0 ml-0 border-0 pt-0 mb-0 ">
+			<div class="bd-callout border-dark pl-3">
+				<p class="mb-1">{{ item.text }}</p>
+				<small class="text-secondary">
+					{{ item.date | date: '%B %d, %Y' }}
+					{% if item.event-date != null %}
+					   (event on {{ item.event-date | date: '%B %d, %Y' }})
+					{% endif %}
+				</small>
+			</div>
+		</li>
+	{% if forloop.last %}
+	    </ul> </div> </div>
+	{% endif %}
+{% endfor %}

@@ -1,0 +1,97 @@
+{% assign color = "border-light" %}
+{% if pub.kind == "proceedings" %}
+  {% assign color = "border-warning" %}
+{% endif %}
+{% if pub.kind == "article" %}
+  {% assign color = "border-danger" %}
+{% endif %}
+{% if pub.kind == "inproceedings" %}
+  {% assign color = "border-primary" %}
+{% endif %}
+{% if pub.kind == "incollection" %}
+  {% assign color = "border-primary" %}
+{% endif %}
+{% if pub.kind == "book" %}
+  {% assign color = "border-info" %}
+{% endif %}
+{% if pub.kind == "techreport" %}
+  {% assign color = "border-success" %}
+{% endif %}
+
+<div class="bd-callout {{ color }} pl-3">
+
+{% assign pdf = null %}
+
+{% for file in site.static_files %}
+  {% if file.basename == pub.key and file.extname == '.pdf' %}
+	  {% assign pdf = file.path %}
+	{% endif %}
+{% endfor %}
+
+{% if pdf == null %}
+  {% if pub.links.pdf != null %}
+	   {% assign pdf = pub.links.pdf %}
+	{% endif %}
+{% endif %}
+
+{% if pub.doi != null %}
+  {% assign link = pub.doi %}
+{% else %}{% if pdf != null %}
+  {% assign link = pdf %}
+{% endif %}{% endif %}
+
+<div>
+	<a name="{{ pub.key }}"></a>
+	{% if link != null %}
+		<a class="font-weight-bold text-dark" target="_blank" href="{{ link }}">{{ pub.title }}</a>
+	{% else %}
+  	{{ pub.title }}
+	{% endif %}
+</div>
+{% if pub.author != null %}
+	<div class="font-weight-light text-secondary" style="font-size:90%;">
+		{% if pub.author[0].link != null %}<a class="text-secondary" href="{{ pub.author[0].link }}">{{ pub.author[0].name }}</a>{% else %}{{ pub.author[0].name }}{% endif %}{% for author in pub.author offset:1 %}, {% if author.link != null %}<a class="text-secondary" href="{{ author.link}}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% endfor %}.
+  </div>
+	{% else if pub.editor != null %}
+	<div class="font-weight-light" style="font-size:90%;">
+		{{ pub.editor[0].name }}{% for editor in pub.editor offset:1 %}, {{ editor.name }}{% endfor %}
+		{% if pub.editor.size > 1 %}(editors){% else %}(editor){% endif %}.
+  </div>
+{% endif %}
+<div class="font-weight-light text-secondary" style="font-size:90%;">
+			{% if pub.kind == 'article' %}
+				{{ pub.journal }} {{pub.volume}}{% if pub.number != null %}({{ pub.number}}){% endif %} {{ pub.year }}
+			{% endif %}
+			{% if pub.kind == 'inproceedings' %}
+				{{ pub.booktitle }} {{ pub.year }}
+			{% endif %}
+			{% if pub.kind == 'incollection' %}
+				{{ pub.booktitle }} {{ pub.year }}
+			{% endif %}
+			{% if pub.kind == "misc" %}
+			  {{ pub.howpublished }} {{ pub.year }}
+			{% endif %}
+			{% if pub.kind == "techreport" %}
+			  Technical report {{ pub.number }}, {{ pub.institution }}, {{ pub.year }}
+			{% endif %}
+			{% if pub.kind == "phdthesis" %}
+			  PhD thesis, {{ pub.school }}, {{ pub.year }}
+			{% endif %}
+			[{% if pdf != null %}<a href="{{ pdf }}" class="text-secondary" target="_blank">pdf</a>, {% endif %}{% if pub.doi != null %}<a class="text-secondary" href="{{pub.doi}}" target="_blank">doi</a>, {% endif %}<a class="text-secondary" target="_blank" href="{{ pub.researchr }}/bibtex">bib</a>, <a href="{{ pub.researchr }}" class="text-secondary" target="_blank">researchr</a>{% if pub.abstract != null %}, <a class="text-secondary" data-toggle="collapse" href="#Abstract{{pub.key}}" role="button" aria-expanded="false" aria-controls="Abstract{{pub.key}}"">abstract</a>{% endif %}]
+
+			<!-- {% if (pdf == null) and (pub.kind != "proceedings") %}{{ pub.key }}{% endif %} -->
+
+</div>
+{% if pub.abstract != null %}
+<div class="collapse mt-1 mb-2" id="Abstract{{pub.key}}">
+	<div class="">
+	{{ pub.abstract }}
+	</div>
+</div>
+{% endif %}
+
+{% assign link = null %}
+{% assign pdf = null %}
+{% assign color = null %}
+
+</div>

@@ -1,27 +1,11 @@
-# Site navigation links
-
-- title: lectures
-  url: /lectures/
-
-- title: assignments
-  url: /assignments/
-
-# Assignments
-
-- title: project
-  url: /project/
-
-#- title: Milestone 1 - syntax
-#  url: /assignments/ms1/
-#
-#- title: Milestone 2 - analysis
-#  url: /assignments/ms2/
-#
-#- title: Milestone 3 - codegen
-#  url: /assignments/ms3/
-#
-#- title: Documentation
-#  url: /documentation/
-
-- title: contact
-  url: /team/
+navigation:
+  - name: Lectures
+    anchor: /lectures/
+  - name: Homework
+    anchor: /homework/
+  - name: Project
+    anchor: /project/
+  - name: News
+    anchor: /news/
+  - name: Blog
+    anchor: /blog/

@@ -1,0 +1,38 @@
+<div class="border-top border-light-grey pt-3 mt-0">
+      <div class="card-body pt-0 mt-0 ">
+				<h5 class="card-title">
+					{{ project.title }}
+				</h5>
+				{% if project.image != null %}
+				{% if project.link != null %}
+				<a href="{{ project.link }}">
+					<img style="border:1px solid black; width:100pt; margin-left:10px;" src="{{ project.image }}" class="float-right card-img" alt="{{ project.alt }}">
+				</a>
+				{% else %}
+					<img style="border:1px black;" width="100pt" src="{{ project.image }}" class="float-right card-img" alt="WebDSL">
+				{% endif %}
+				{% endif %}
+        {{ project.text }}
+				<a href="{{ project.link}}">
+						{{ project.name }}
+				</a>
+				{% if project.image2 != null %}
+					<img style="padding-top:10px;" width="100%" src="{{ project.image2 }}" />
+				{% endif %}
+      </div>
+</div>
+
+<!--
+
+<div class="card border-dark mb-3">
+	  <div class="card-body">
+			<h5 class="card-title">
+				<a href="{{ project.link}}">
+						{{ project.name }}
+				</a>
+			</h5>
+	        {{ project.text }}
+	  </div>
+</div>
+
+-->

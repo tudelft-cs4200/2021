@@ -1,0 +1,25 @@
+<div class="border-dark border-grey border-bottom pb-0 mb-2" >
+		{% if post.image != null %}
+			<img src="{{ post.image }}" class="card-img-top" alt="...">
+		{% endif %}
+		<p class="card-text">
+	    <h5 class="card-title mb-1 pb-0">
+			  <a href="{{ post.url }}"> {{ post.title }} </a>
+			</h5>
+			<div class="mb-3">
+				<small>
+					{{ post.date | date: '%a, %B %d, %Y' }}
+					{% if post.time != null %}
+						{{ post.time | date: '%H:%M' }}
+					{% endif %}
+					|
+					<a href="{{ post.url }}">Post</a>
+			</small>
+			</div>
+			{% if post.excerpt != null %}
+	     	<div>
+					{{ post.excerpt }}
+				</div>
+			{% endif %}
+		</p>
+</div>

@@ -1,0 +1,33 @@
+// https://github.com/twbs/bootstrap/issues/23892
+
+@import "_functions.scss";
+
+@import "_variables.scss";
+
+@import "_breakpoints.scss";
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    .border#{$infix}-top {      border-top: $border-width solid ; }
+    .border#{$infix}-right {    border-right: $border-width solid ; }
+    .border#{$infix}-bottom {   border-bottom: $border-width solid ; }
+    .border#{$infix}-left {     border-left: $border-width solid; }
+
+    .border#{$infix}-top-0 {    border-top: 0 !important; }
+    .border#{$infix}-right-0 {  border-right: 0 !important; }
+    .border#{$infix}-bottom-0 { border-bottom: 0 !important; }
+    .border#{$infix}-left-0 {   border-left: 0 !important; }
+
+    .border#{$infix}-x {
+      border-left: $border-width solid ;
+      border-right: $border-width solid  ;
+    }
+
+    .border#{$infix}-y {
+      border-top: $border-width solid;
+      border-bottom: $border-width solid ;
+    }
+  }
+}

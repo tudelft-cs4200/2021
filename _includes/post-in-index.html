@@ -1,0 +1,51 @@
+{% assign color = "border-dark" %}
+{% if post.categories contains "photography" %}
+  {% assign color = "border-success" %}
+{% endif %}
+{% if post.categories contains "paper" %}
+  {% assign color = "border-primary" %}
+{% endif %}
+{% if post.categories contains "writing" %}
+  {% assign color = "border-primary" %}
+{% endif %}
+{% if post.categories contains "slides" %}
+  {% assign color = "border-warning" %}
+{% endif %}
+{% if post.categories contains "talk" %}
+  {% assign color = "border-warning" %}
+{% endif %}
+{% if post.categories contains "thesis" %}
+  {% assign color = "border-info" %}
+{% endif %}
+{% if post.categories contains "organization" %}
+	{% assign color = "border-secondary" %}
+{% endif %}
+{% if post.categories contains "teaching" %}
+	{% assign color = "border-secondary" %}
+{% endif %}
+{% if post.categories contains "video" %}
+  {% assign color = "border-danger" %}
+{% endif %}
+
+<div class="bd-callout {{ color }} pl-3">
+	<div class="font-weight-bold text-dark" >
+	 <a class="text-dark" href="{{ post.url }}">{{ post.title }}</a>
+	</div>
+	{% if post.authors != null %}
+		<div class="font-weight-light text-secondary" >
+			{{ post.authors[0] }}{% for author in post.authors offset:1 %}, {{ author }}{% endfor %}
+		</div>
+	{% endif %}
+	<div class="font-weight-light text-secondary" style="font-size:90%;">
+		{{ post.date | date: "%B %d, %Y" }}
+		{% if post.venue != null %}|
+			{% if post.conference != null %}
+				<a class="text-secondary" href="{{ post.conference }}">
+					{{ post.venue }}
+				</a>
+			{% else %}
+				{{ post.venue }}
+			{% endif %}
+		{% endif %}
+	</div>
+</div>

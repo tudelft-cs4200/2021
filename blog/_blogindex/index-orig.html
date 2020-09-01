@@ -1,0 +1,51 @@
+---
+layout: main
+title: Transformations and Abstractions
+---
+
+<main role="main" >
+
+{% include navbar.html %}
+
+
+{% assign curDate = site.time | date: '%s' %}
+
+<div class="container blog ">
+	<div class="row">
+
+		<div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 border-right border-grey">
+			<div class="">
+					<h1>{{ page.title }}</h1>
+			</div>
+
+			<div class="mt-3 pb-3 mb-4 border-bottom border-grey">
+				A blog about programming (language) stuff, mostly.
+			</div>
+
+			{% for post in site.posts %}
+			 {% if post.categories contains "blog" and post.public == true %}
+				{% include blog-card.html %}
+			 {% endif %}
+			{% endfor %}
+		</div>
+
+		<div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+			index
+
+			{% for category in site.categories %}
+  			<h3>{{ category[0] }}</h3>
+  				<ul>
+    				{% for post in category[1] %}
+      				<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    			  {% endfor %}
+  				</ul>
+			{% endfor %}
+
+		</div>
+
+	</div>
+
+
+</div>
+
+</main>

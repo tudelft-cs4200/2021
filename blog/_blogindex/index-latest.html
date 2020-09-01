@@ -1,0 +1,44 @@
+---
+layout: main
+title: Transformations and Abstractions
+pagination:
+  enabled: true
+---
+
+<!-- see https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration -->
+
+
+<main role="main" >
+
+{% include navbar.html %}
+
+<div class="container blog ">
+	<div class="row">
+
+			<nav>
+				<ul class="pagination justify-content-center">
+					{% if site.posts.first != page %}
+						<li class="page-item">
+							<a class="page-link" href="{{ site.posts.first.url }}">
+								Latest
+							</a>
+						</li>
+					{% endif %}
+					<li class="page-item">
+						<a class="page-link" href="/blog/index/">
+							Index
+						</a>
+					</li>
+				</ul>
+			</nav>
+
+   </div>
+
+	 {% assign page = site.posts.first %}
+	 {% include post.html %}
+
+	</div>
+
+</div>
+
+</main>

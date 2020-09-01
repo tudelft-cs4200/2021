@@ -1,0 +1,184 @@
+---
+layout: plain
+title: CS4200 | Compiler Construction
+---
+
+<div class="row">
+	<div class="mb-lg-3 col-sm-12 col-md-12 col-lg-5 col-xl-5 border-lg-right border-grey">
+
+		<div class="border-top border-light-grey">
+			<div class="card-header bg-dark text-white">
+				<h4 class="pt-2"> CS4200: Compiler Construction </h4>
+			</div>
+	  </div>
+
+		<div class="pt-0 mb-1 mt-0">
+			<ul class="list-group list-group-flush pt-0 mt-0">
+					 <li class="list-group-item">
+						 <a href="https://studiegids.tudelft.nl/a101_displayProgram.do?program_tree_id=25159">Master Computer Science</a>
+					 </li>
+					 <li class="list-group-item">
+						 Common Core Software Technology
+					 </li>
+					 <li class="list-group-item">
+						 Specialization Programming Languages
+					 </li>
+					 <li class="list-group-item">
+						 Credits: 2 x 5 ECTS
+					 </li>
+			</ul>
+		</div>
+
+		<div class="card mb-3 border-top border-bottom border-dark border-left-0 border-right-0">
+			<div class="card-body bg-dark text-white ">
+				Organization
+		 </div>
+		</div>
+
+	  <a href="https://pl.ewi.tudelft.nl"><img width="30%" src="img/logo/PL-logo72.png" align="right"></a>
+
+		<div class="pt-0 mb-1 mt-0 ">
+			<ul class="list-group list-group-flush pt-0 mt-0">
+					 <li class="list-group-item">
+							<a href="https://pl.ewi.tudelft.nl">
+			 				  Programming Languages Group
+			 				</a>
+					 </li>
+					 <li class="list-group-item">
+						 <a href="https://www.tudelft.nl/en/eemcs/the-faculty/departments/software-technology/">Department of Software Technology</a>
+					 </li>
+					 <li class="list-group-item">
+						 <a href="https://www.tudelft.nl/en/ewi/">Faculty of Electrical Engineering, Mathematics and Computer Science</a>
+					 </li>
+					 <li class="list-group-item">
+						 <a href="http://www.tudelft.nl/">Delft University of Technology</a></li>
+					 <li class="list-group-item">
+						 Delft, The Netherlands (<a href="http://www.timeanddate.com/worldclock/custom.html?cities=16">CEST/CET</a>)
+					 </li>
+			</ul>
+		</div>
+
+		<div class="card mb-3 border-top border-bottom border-dark border-left-0 border-right-0">
+			<div class="card-body bg-dark text-white ">
+				Course Staff
+		 </div>
+		</div>
+
+		<div class="pt-0 mb-1 mt-0">
+			<ul class="list-group list-group-flush pt-0 mt-0">
+					 <li class="list-group-item">
+						 Lecturer: <a href="https://eelcovisser.org">Eelco Visser</a>
+						 (<a href="mailto:e.visser@tudelft.nl">e.visser@tudelft.nl</a>)
+					 </li>
+					 <li class="list-group-item">
+						 TA: Paul van der Stel
+					 </li>
+					 <li class="list-group-item">
+						 TA: Wesley Baartman
+					 </li>
+					 <li class="list-group-item">
+						 TA: Alexander Sterk
+					 </li>
+			</ul>
+		</div>
+
+		<div class="mb-3">
+				<a href="/contact/">
+					<img width="100%" src="/img/vmb6/2019/2019-03-27-building-28.jpg"/>
+				</a>
+				<small>
+					Computer Science Building 28 at Van Mourik Broekmanweg
+				</small>
+		</div>
+
+	</div>
+
+	<div class="col-sm-12 col-md-12 col-lg-7 col-xl-7 border-grey">
+
+		{% for project in site.data.projects-front %}
+		  {% if project.categories contains 'front' %}
+				{% include project-card-front.html %}
+		  {% endif %}
+		{% endfor %}
+
+		<div class="border-top border-grey">
+			<div class="card-body pt-3 mt-0 ">
+				  <a href="/lectures/">Lectures</a>
+				| <a href="/project/">Project</a>
+			  | <a href="/homework/">Homework</a>
+				| <a href="https://weblab.tudelft.nl/cs4200/2020-2021/">WebLab</a>
+				| <a href="http://metaborg.org/">Spoofax</a>
+				| <a href="https://chocopy.org/">ChocoPy</a>
+			</div>
+		</div>
+
+	</div>
+
+</div>
+
+<div class="row border-lg-top border-bottom border-grey pt-3 mb-3">
+
+	<div class="mb-3 col-sm-12 col-md-12 col-lg-6 col-xl-6 border-lg-right border-grey">
+
+		<div class="mb-3 ">
+		 <div class="card-body pb-2 pt-1">
+			 <h4>Recorded Talks</h4>
+		 </div>
+		 <div class="video-container ml-3 mr-3" >
+			 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLCmRbWMnTaz_XoF823mqmpa65DTliH6tE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen align="center"></iframe>
+			</div>
+			<div class="ml-3 mr-3">
+				<small>
+					 A <a href="https://www.youtube.com/playlist?list=PLCmRbWMnTaz_XoF823mqmpa65DTliH6tE">YouTube Playlist</a> with recordings of tutorials and research talks about (research related to) the <a href="http://metaborg.org">Spoofax Language Workbench</a>.
+				</small>
+			</div>
+		</div>
+
+	 </div>
+
+	<div class="mb-3 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+
+		<div class="mb-2">
+			<div class="card-body pb-2 pt-1">
+				<h4>Upcoming Events</h4>
+		  </div>
+				 <ul class="list-group list-group-flush">
+					 {% assign curDate = site.time | date: '%s' %}
+					 {% assign events = site.data.news | sort: "event-date" %}
+					 {% for item in events %}
+					   {% if item.event-date != null %}
+						    {% assign itemDate = item.event-date | date: '%s' %}
+								{% if itemDate >= curDate %}
+						 			<li class="list-group-item">
+							 			<p class="mb-1">{{ item.text }}</p>
+							 			<small class="text-secondary">{{ item.event-date | date: '%B %d, %Y' }}
+											(posted {{ item.date | date: '%B %d, %Y' }})</small>
+						 			</li>
+								{% endif %}
+						 {% endif %}
+					 {% endfor %}
+	       </ul>
+		 </div>
+
+		 <div class="mb-2">
+			<div class="card-body pt-1 pb-2">
+				<h4>Latest News</h4>
+		  </div>
+				 <ul class="list-group list-group-flush">
+				 {% assign curDate = site.time | date: '%s' %}
+ 				 {% assign nonevents = site.data.news | where: "news", true %}
+				 {% for item in nonevents limit:10 %}
+		    	 		<li class="list-group-item">
+					   		<p class="mb-1">{{ item.text }}</p>
+						 		<small class="text-secondary">{{ item.date | date: '%B %d, %Y' }}</small>
+					 		</li>
+				 {% endfor %}
+				 	 <li class="list-group-item">
+						 <a href="/news/">Archive</a>
+					 </li>
+	       </ul>
+		 </div>
+
+	 </div>
+
+</div>

@@ -1,0 +1,36 @@
+---
+layout: main
+title: Transformations and Abstractions
+---
+
+{% assign page = site.posts.first %}
+
+{% include navbar.html %}
+
+{% if page.categories contains "blog" %}
+
+{% else %}
+
+	{% assign posts = site.posts %}
+
+	{% assign prev = null %}
+	{% assign found = "false" %}
+
+	{% for p in posts %}
+		{% if p.categories contains "blog" %}
+				{% assign prev = p %}
+				{% break %}
+		{% endif %}
+	{% endfor %}
+
+	{% assign page = prev %}
+
+{% endif %}
+
+<div class="container blog">
+	<div class="row">
+
+	  {% include post.html %}
+
+	</div>
+</div>

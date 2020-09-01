@@ -1,0 +1,14 @@
+- date: 2020-08-31
+  text: "Introduction lecture (10:45)"
+  category: announcement
+  event-date: 2020-09-03
+
+- date: 2020-08-31
+  text: "A new website for the compiler construction course"
+  category: announcement
+  news: yes
+
+- date: 2020-08-31
+  text: "The website of the course in 2019 is at <a href=https://tudelft-cs4200-2019.github.io/>tudelft-cs4200-2019.github.io</a>"
+  category: announcement
+  news: yes

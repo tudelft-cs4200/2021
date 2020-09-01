@@ -1,0 +1,34 @@
+<div class="border-grey border-bottom mb-0 pt-0" >
+		<div class="row no-gutters">
+			<div class="col-lg-5" >
+				<div class="card-body m-0 pb-0 pt-3 ">
+				<h5 class="card-title">{{ topic.title }}</h5>
+				<p class="card-text">
+					{% if topic.goal != null %}
+					  Goal: {{ topic.goal }}
+					{% endif %}
+					{% if topic.techniques != null %}
+						<p> Techniques: {{ topic.techniques }}</p>
+					{% endif %}
+					{% if topic.languages != null %}
+						<p> Languages: {{ topic.languages }}</p>
+					{% endif %}
+					{% if topic.tools != null %}
+						<p> Tools: {{ topic.tools }}</p>
+					{% endif %}
+				</p>
+				</div>
+			</div>
+			<div class="col-lg-7">
+					<ul class="list-group list-group-flush pb-3">
+					{% for pub in sorted_publications %}
+						{% if topic.publications contains pub.key %}
+							<li class="list-group-item pl-lg-0 border-0 pb-0">
+              	{% include publication.html %}
+							</li>
+						{% endif %}
+					{% endfor %}
+					</ul>
+			</div>
+		</div>
+</div>

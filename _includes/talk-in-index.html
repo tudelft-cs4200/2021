@@ -1,0 +1,75 @@
+{% assign color = "border-dark" %}
+
+{% if post.tag == "seminar" %}
+  {% assign color = "border-dark" %}
+{% endif %}
+
+{% if post.tag == "invited" %}
+  {% assign color = "border-danger" %}
+{% endif %}
+{% if post.tag == "keynote" %}
+  {% assign color = "border-danger" %}
+{% endif %}
+
+{% if post.tag == "summerschool" %}
+  {% assign color = "border-primary" %}
+{% endif %}
+{% if post.tag == "tutorial" %}
+  {% assign color = "border-primary" %}
+{% endif %}
+
+{% if post.tag == "conference" %}
+  {% assign color = "border-warning" %}
+{% endif %}
+{% if post.tag == "workshop" %}
+  {% assign color = "border-warning" %}
+{% endif %}
+{% if post.tag == "wg" %}
+  {% assign color = "border-warning" %}
+{% endif %}
+
+
+
+{% if post.tag == "" %}
+  {% assign color = "border-success" %}
+{% endif %}
+{% if post.tag == "" %}
+	{% assign color = "border-secondary" %}
+{% endif %}
+{% if post.tag == "" %}
+	{% assign color = "border-info" %}
+{% endif %}
+
+<div class="bd-callout {{ color }} pl-3">
+	<div class="font-weight-bold text-dark" >
+	 <a class="text-dark" href="{{ post.url }}">{{ post.title }}</a>
+	</div>
+	{% if post.speaker != null %}
+		<div class="text-secondary" >
+			{{ post.speaker }}
+		</div>
+	{% endif %}
+	<div class="text-secondary" style="font-size:90%;">
+		{% if post.kind != null %}
+				{% if post.talkURL != null %}
+			  	<a class="text-primary" href="{{ post.talkURL }}">
+						{{ post.kind }}
+					</a>
+				{% else %}
+			  	{{ post.kind }}
+				{% endif %}
+		{% endif %}
+		{% if post.event != null %}|
+			{% if post.eventURL != null %}
+				<a class="text-secondary" href="{{ post.eventURL }}">
+					{{ post.event }}
+				</a>
+			{% else %}
+				{{ post.event }}
+			{% endif %}
+		{% endif %}
+	</div>
+	<div class="font-weight-light text-secondary" style="font-size:90%;">
+		{{ post.date | date: "%B %d, %Y" }}
+	</div>
+</div>

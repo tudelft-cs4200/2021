@@ -1,0 +1,9 @@
+<ul class="list-group list-group-flush pb-3">
+{% for pub in sorted_publications %}
+	{% if references contains pub.key %}
+		<li class="list-group-item pl-lg-0 border-0 pb-0">
+			{% include publication.html %}
+		</li>
+	{% endif %}
+{% endfor %}
+</ul>

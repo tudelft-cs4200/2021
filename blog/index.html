@@ -1,0 +1,36 @@
+---
+layout: container
+title: The CS4200 Blog
+---
+
+<div class="ml-3 mr-3 mb-3 pb-3 border-bottom border-dark">
+<h2>The CS4200 Blog</h2>
+</div>
+
+{% assign posts = site.posts | where: "categories", "blog" %}
+
+{% for post in posts %}
+	{% if post.categories contains "blog" %}
+	  {% assign currentdate = post.date | date: "%Y" %}
+	  {% if currentdate != date %}
+	    {% unless forloop.first %}
+		    </ul> </div> </div>
+			{% endunless %}
+				<div class="row ml-3 mr-3 mb-3 border-bottom border-secondary">
+					<div class="col-md-2 ml-0 pl-0 pr-0">
+						<div class="">
+							<h3 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h3>
+						</div>
+					</div>
+					<div class="col-md-10 pl-0 pr-0 mr-0">
+						<ul class="list-group list-group-flush">
+	    				{% assign date = currentdate %}
+	 {% endif %}
+		<li class="list-group-item pl-0 ml-0 border-0 pt-0 mb-0">
+	    {% include post-in-index.html %}
+		</li>
+	 {% if forloop.last %}
+	    </ul> </div> </div>
+	 {% endif %}
+ {% endif %}
+{% endfor %}

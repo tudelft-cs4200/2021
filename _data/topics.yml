@@ -1,0 +1,80 @@
+- title: Static Semantics
+  categories: [front]
+  image: /img/scope-graphs/ScopeGraphs.png
+  goal: Enable language designers to declaratively specify the name binding and typing rules of programming languages and automatically derive (efficient and incremental) type checkers from such specifications. Develop high-level model for representation of name binding rules and operations such as name resolution and refactoring, depending on name binding.
+  techniques: name binding and resolution with scope graphs, constraints, constraint solving.
+  languages: Statix, <a href="http://www.metaborg.org/en/latest/source/langdev/meta/lang/nabl2/index.html">NaBL2</a>, NaBL.
+  publications: [AntwerpenPRV18,AntwerpenNTVW16,NeronTVW15,KonatKWV12]
+
+- title: Dynamic Semantics
+  categories: [front]
+  image:
+  goal: Identify the building blocks of the dynamic semantics of programming languages to create a specification language that can be used to concisely define a wide range of languages, derive efficient execution engines, and serve as the basis for automatic type soundness proofs.
+  techniques: operational semantics, definitional interpreters, abstract machines, partial evaluation, intrinsically-typed abstract syntax, scopes and frames.
+  languages: Dynamix, <a href="http://www.metaborg.org/en/latest/source/langdev/meta/lang/dynsem/index.html">DynSem</a>.
+  # that can be used to derive high-performance execution engines as well as support automatic type soundness prooofs.  Design a language for the high-level specification of dynamic semantics. DynSem;  partial evaluation; scopes-and-frames; automating type soundness proofs
+  publications: [VerguTV19,PoulsenRTKV18,VerguV18,PoulsenNTV16,VerguNV15,VisserOnward14]
+
+- title: Programming Environments
+  categories: [front]
+  image:
+  goal: Generate language-specific interactive programming environments --- with editor services such as error recovery, code completion, and refactoring --- from declarative language definitions.
+  tools: <a href="http://spoofax.org">Spoofax</a>, <a href="http://weblab.tudelft.nl">WebLab</a>.
+  languages: <a href="http://www.metaborg.org/en/latest/source/langdev/meta/lang/esv.html">ESV</a>.
+  publications: [PelsmaekerAV19,AmorimEWV16,KatsVKV12,KatsV10]
+
+- title: Build and Deployment
+  categories: [front]
+  image:
+  goal: Integrate build automation, programming languages, and programming environments to get sound incremental software construction at all levels of granularity.
+  languages: <a href="https://github.com/metaborg/pie">PIE</a>, <a href="https://nixos.org/">Nix</a>.
+  publications: [KonatEV18,KonatSEV18,KonatEV16,DolstraJV04,DolstraVJ04]
+
+- title: Transformation and Analysis
+  categories: [front]
+  image:
+  goal: High-level specification of program transformations and program analyses.
+  techniques: term rewriting, generic term traversal strategies, dynamic rewrite rules, data-flow analysis.
+  languages: <a href="http://www.metaborg.org/en/latest/source/langdev/meta/lang/flowspec/index.html">FlowSpec</a>, <a href="http://www.metaborg.org/en/latest/source/langdev/meta/lang/stratego/index.html">Stratego</a>.
+  publications: [SmitsV17,KatsVV11,KatsSV09,BravenboerKVV08,BravenboerDOV06,Visser05,OlmosV05,VisserBT98]
+
+- title: Syntax Definition and Parsing
+  categories: [front]
+  image:
+  goal: Declarative specification of all syntactic aspects of a programming language in a single source from which a wide range of syntactic processors can be derived.
+  techniques: character-level grammars, modular grammars, scannerless parsing, incremental parsing, declarative disambiguation rules, pretty-printing, syntax-aware editors, syntactic code completion.
+  languages: <a href="http://www.metaborg.org/en/latest/source/langdev/meta/lang/sdf3/index.html">SDF3</a>, SDF2.
+  tools: <a href="https://github.com/metaborg/jsglr">JSGLR</a>.
+  publications: [AmorimV20-SEFM,AmorimSEV18,AmorimSV18,AmorimSV17,JongeKVS12,Visser97,Visser97-SGLR]
+
+- title: Language Composition
+  categories: [front]
+  image:
+  goal: Support the combination of languages or language libraries into composite language.
+  techniques: language union, language extension, language embedding, meta-programming, parse table composition.
+  publications: [BravenboerDV10,BravenboerV08,KatsBV08,Visser-SCAM-2005,BravenboerVVV05,BravenboerV04,Visser02]
+
+- title: Data Modeling
+  categories: [front]
+  image:
+  goal: Declarative specification of data models and their operations, generation of efficient and incremental implementations from these data models.
+  techniques: data persistence, object-relational modeling, incremental computation.
+  languages: <a href="http://webdsl.org">WebDSL</a>, <a href="https://github.com/MetaBorgCube/IceDust">IceDust</a>.
+  publications: [HarkesCV18,HarkesV17,HarkesGV16,HarkesV14]
+
+- title: Abstractions for Web Programming
+  categories: [front]
+  image:
+  goal: High-level specification of web applications abstracting from low-level implementation details.
+  techniques: data binding, life cycle, templates, access control rules.
+  languages: <a href="http://webdsl.org">WebDSL</a>, mobl, <a href="https://github.com/MetaBorgCube/IceDust">IceDust</a>, PixieDust.
+  text: domain-specific abstractions for web programming; WebDSL
+  publications: [VeenHV18,HemelGKV11,HemelV11,GroenewegenHV10,GroenewegenV08,Visser07]
+
+- title: Testing
+  categories: [front]
+  image:
+  goal: Support testing of language processors. Generation of representative tests from language definitions.
+  languages: <a href="http://www.metaborg.org/en/latest/source/langdev/meta/lang/spt/index.html">SPT</a>.
+  text: testing language definitions
+  publications: [MensingBAV19,KatsVV11]
