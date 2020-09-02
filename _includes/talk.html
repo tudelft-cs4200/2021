@@ -3,9 +3,12 @@
 				<a href="{{ page.pdf }}">
 					<img class="border border-dark" width="100%" src="{{ page.image }}"/>
 				</a>
+			{% else %}
+			  <h1 class="border-0">{{ page.title }}</h1>
 			{% endif %}
 
 			<div class="mt-3 mb-3 pt-3 pb-3 text-dark border-top border-bottom border-grey">
+				{% if page.image != null %}
 				<div class="text-dark font-weight-bold">
 					{% if page.talkURL != null %}
 				    <a class="text-dark" href="{{ page.talkURL }}">
@@ -15,6 +18,7 @@
 					  {{ page.title }}
 				  {% endif %}
 				</div>
+				{% endif %}
 				<div>
 					{% if page.speaker != null %}
 					  {{ page.speaker }}
@@ -33,14 +37,14 @@
 								{{ page.kind }}
 							{% endif %}
 					{% endif %}
-					at
 					{% if page.eventURL != null %}
+					  at
 						  <a class="text-primary" href="{{ page.eventURL }}">
 							  {{ page.event }}
 						  </a>
-					  {% else %}
+					{% else %}
 					    {{ page.event }}
-					  {% endif %}
+					{% endif %}
 					{% if page.pdf != null %}
 						| <a class="text-primary" href="{{ page.pdf }}">PDF</a>
 					{% endif %}

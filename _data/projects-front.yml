@@ -25,12 +25,12 @@
 
 - title: "ChocoPy: Project Language"
   link: https://chocopy.org/
-  text: "In the course project students implement a compiler for <a href=https://chocopy.org/>ChocoPy</a>, a subset of Python3 with static types. The back-end of the compiler generates RISC-V code, which can be run with a simulator running on the JVM. The language comes with a <a href=https://chocopy.org/chocopy_language_reference.pdf>fully specified using formal grammar, typing rules, and operational semantics</a>. The back-end of the compiler generates ChocoPy was developed at UC Berkeley for their compiler course."
+  text: "In the course project students implement a compiler for <a href=https://chocopy.org/>ChocoPy</a>, a subset of Python3 with static types. The back-end of the compiler generates RISC-V code, which can be run with a simulator running on the JVM. The language comes with a <a href=https://chocopy.org/chocopy_language_reference.pdf>fully specified using formal grammar, typing rules, and operational semantics</a>. ChocoPy was developed at UC Berkeley for their compiler course."
   image:
   categories: [front]
 
 - title: "WebLab: Homework Assignments and Exams"
   link: https://weblab.tudelft.nl/cs4200/2020-2021/
-  text: "We use the WebLab learning management system for homework assignments. In WebLab you can submit answers to exercises with grammars, type systems, and transformations, which we can automatically grade. You can even program the solutions directly in WebLab, but it is probably more convenient at this stage to do that in Spoofax and then copy the solutions."
+  text: "We use the WebLab learning management system for homework assignments. In WebLab you can submit answers to exercises with grammars, type systems, and transformations, which we can automatically grade. You can even program the solutions directly in WebLab, but it is probably more convenient at this stage to do that in Spoofax and then copy the solutions. We will also use WebLab for the (online) digital exams for the course. Thus, you will be expected to program in the Spoofax meta-languages at the exam."
   image: /img/weblab/WebLabScreenshot2.png
   categories: [front]
