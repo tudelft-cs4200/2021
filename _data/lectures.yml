@@ -1,0 +1,65 @@
+- date: Sep 3
+  title: What is a compiler?
+  period: Q1
+  link: /lectures/2020/09/03/introduction/
+- date: Sep 4
+  title: Syntax Definition
+  period: Q1
+- date: Sep 8
+  title: Setting up a Language Project | Testing Language Definitions
+  period: Q1
+- date: Sep 10
+  title: Disambiguation and Layout Sensitive Syntax
+  period: Q1
+- date: Sep 17
+  title: Introduction to Static Analysis
+  period: Q1
+- date: Sep 24
+  title: Type Checking with Constraints
+  period: Q1
+- date: Oct 1
+  title: Specifications with Statix
+  period: Q1
+- date: Oct 8
+  title: Constraint Resolution
+  period: Q1
+- date: Oct 15
+  title: Parsing
+  period: Q1
+- date: Oct 22
+  title: More Parsing
+  period: Q1
+- date: "Thu Oct 29, 13:30-16:30"
+  title: Exam Q1
+  period: Q1
+
+- date: Nov 12
+  title: Virtual Machines
+  period: Q2
+- date: Nov 13
+  title: Transformation
+  period: Q2
+- date: Nov 19
+  title: Code Generation
+  period: Q2
+- date: Nov 26
+  title: Data-flow Analysis
+  period: Q2
+- date: Dec 3
+  title: Monotone Frameworks
+  period: Q2
+- date: Dec 10
+  title: Register Allocation
+  period: Q2
+- date: Dec 17
+  title: Memory Management
+  period: Q2
+- date: Jan 7
+  title: Guest Lecture
+  period: Q2
+- date: Jan 14
+  title: Beyond Compiler Construction
+  period: Q2
+- date: "Fri Jan 29, 13:30-16:30"
+  title: Exam Q2
+  period: Q2

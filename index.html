@@ -152,39 +152,17 @@ title: CS4200 | Compiler Construction
 				</p>
 		  </div>
 			<ul class="list-group list-group-flush pt-0 mt-0">
-					 <li class="list-group-item">
-						 Sep 3: What is a compiler?
-					 </li>
-					 <li class="list-group-item">
-						 Sep 4: Syntax Definition
-					 </li>
-					 <li class="list-group-item">
-						 Sep 8: Setting up a Language Project | Testing Language Definitions
-					 </li>
-					 <li class="list-group-item">
-						 Sep 10: Disambiguation and Layout Sensitive Syntax
-					 </li>
-					 <li class="list-group-item">
-						 Sep 17: Introduction to Static Analysis
-					 </li>
-					 <li class="list-group-item">
-						 Sep 24: Type Checking with Constraints
-					 </li>
-					 <li class="list-group-item">
-						 Oct 1: Specifications with Statix
-					 </li>
-					 <li class="list-group-item">
-						 Oct 8: Constraint Resolution
-					 </li>
-					 <li class="list-group-item">
-						 Oct 15: Parsing
-					 </li>
-					 <li class="list-group-item">
-						 Oct 22: More Parsing
-					 </li>
-					 <li class="list-group-item">
-						 Thu Oct 29, 13:30-16:30: Exam Q1
-					 </li>
+				{% assign lectures = site.data.lectures | where: "period", "Q1" %}
+				{% for lecture in lectures %}
+				  <li class="list-group-item">
+						{{ lecture.date }}:
+						{% if lecture.link != null %}
+						  <a href={{lecture.link}}>{{ lecture.title }}</a>
+					  {% else %}
+						  {{ lecture.title }}
+						{% endif %}
+					</li>
+				{% endfor %}
 			</ul>
 			<div class="card-body pb-2 pt-1 mt-3">
 				<h4>Tentative Lecture Schedule CS4200-B/Q2</h4>
@@ -193,33 +171,12 @@ title: CS4200 | Compiler Construction
 				</p>
 		  </div>
 			<ul class="list-group list-group-flush pt-0 mt-0">
-					 <li class="list-group-item">
-						 	Nov 12: Transformation
-					 </li>
-					 <li class="list-group-item">
-						 	Nov 19: Virtual Machines
-					 </li>
-					 <li class="list-group-item">
-						 	Nov 26: Code Generation
-					 </li>
-					 <li class="list-group-item">
-						 	Dec 3: Data-flow Analysis
-					 </li>
-					 <li class="list-group-item">
-						 	Dec 10: Monotone Frameworks
-					 </li>
-					 <li class="list-group-item">
-						 Dec 17: Memory Management
-					 </li>
-					 <li class="list-group-item">
-						 Jan 7:  Guest Lecture
-					 </li>
-					 <li class="list-group-item">
-						 Jan 14: Beyond Compiler Construction
-					 </li>
-					 <li class="list-group-item">
-						 Fri Jan 29, 13:30-16:30: Exam Q2
-					 </li>
+				{% assign lectures = site.data.lectures | where: "period", "Q2" %}
+				{% for lecture in lectures %}
+				  <li class="list-group-item">
+						{{ lecture.date }}: {{ lecture.title }}
+					</li>
+				{% endfor %}
 		  </ul>
 		</div>
 
