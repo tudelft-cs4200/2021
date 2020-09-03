@@ -240,6 +240,33 @@ publications:
   isbn: "978-1-4503-6992-3"
   kind: "inproceedings"
   key: "PelsmaekerAV19-SPLASH"
+- title: "Layout-sensitive language extensibility with SugarHaskell"
+  author:
+  - name: "Sebastian Erdweg"
+    link: "http://www.informatik.uni-marburg.de/~seba/"
+  - name: "Felix Rieger"
+    link: "https://researchr.org/alias/felix-rieger"
+  - name: "Tillmann Rendel"
+    link: "https://researchr.org/alias/tillmann-rendel"
+  - name: "Klaus Ostermann"
+    link: "https://researchr.org/alias/klaus-ostermann"
+  year: "2012"
+  doi: "http://doi.acm.org/10.1145/2364506.2364526"
+  links:
+    doi: "http://doi.acm.org/10.1145/2364506.2364526"
+    dblp: "http://dblp.uni-trier.de/rec/bibtex/conf/haskell/ErdwegRRO12"
+  researchr: "https://researchr.org/publication/ErdwegRRO12"
+  cites: 0
+  citedby: 0
+  pages: "149-160"
+  booktitle: "Proceedings of the 5th ACM SIGPLAN Symposium on Haskell, Haskell 2012, Copenhagen, Denmark, 13 September 2012"
+  editor:
+  - name: "Janis Voigtländer"
+    link: "http://www.iai.uni-bonn.de/~jv/"
+  publisher: "ACM"
+  isbn: "978-1-4503-1574-6"
+  kind: "inproceedings"
+  key: "ErdwegRRO12"
 - title: "Towards Language-Parametric Semantic Editor Services Based on Declarative Type System Specifications (Brave New Idea Paper)"
   author:
   - name: "Daniël A. A. Pelsmaeker"
@@ -2447,6 +2474,37 @@ publications:
   isbn: "978-1-4503-2772-5"
   kind: "inproceedings"
   key: "VisserModularity14"
+- title: "Layout-Sensitive Generalized Parsing"
+  author:
+  - name: "Sebastian Erdweg"
+    link: "http://www.informatik.uni-marburg.de/~seba/"
+  - name: "Tillmann Rendel"
+    link: "https://researchr.org/alias/tillmann-rendel"
+  - name: "Christian Kästner"
+    link: "https://researchr.org/alias/christian-k%C3%A4stner"
+  - name: "Klaus Ostermann"
+    link: "https://researchr.org/alias/klaus-ostermann"
+  year: "2012"
+  doi: "http://dx.doi.org/10.1007/978-3-642-36089-3_14"
+  links:
+    doi: "http://dx.doi.org/10.1007/978-3-642-36089-3_14"
+    dblp: "http://dblp.uni-trier.de/rec/bibtex/conf/sle/ErdwegRKO12"
+  researchr: "https://researchr.org/publication/ErdwegRKO12"
+  cites: 0
+  citedby: 0
+  pages: "244-263"
+  booktitle: "Software Language Engineering, 5th International Conference, SLE 2012, Dresden, Germany, September 26-28, 2012, Revised Selected Papers"
+  editor:
+  - name: "Krzysztof Czarnecki"
+    link: "http://www.swen.uwaterloo.ca/~kczarnec/"
+  - name: "Görel Hedin"
+    link: "http://cs.lth.se/gorel_hedin"
+  volume: "7745"
+  series: "Lecture Notes in Computer Science"
+  publisher: "Springer"
+  isbn: "978-3-642-36089-3"
+  kind: "inproceedings"
+  key: "ErdwegRKO12"
 - title: "Safety and Completeness of Disambiguation corresponds to Termination and Confluence of Reordering"
   author:
   - name: "Luí­s Eduardo Amorim de Souza"
