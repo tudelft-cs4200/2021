@@ -130,3 +130,10 @@ body {
 .section a {
 	font-weight: bold;
 }
+
+blockquote {
+	display: block;
+	border-left : 4pt solid;
+	border-color: grey;
+	padding-left: 1em;
+}
