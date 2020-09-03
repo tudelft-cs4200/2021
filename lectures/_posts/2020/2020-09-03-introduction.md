@@ -12,7 +12,7 @@ image: /lectures/2020/01-introduction/CS4200-2020-1-introduction.001.png
 talkURL:
 eventURL:
 event:
-references: [KatsV10,AmorimV20-SEFM]
+references: [KatsV10,AmorimV20-SEFM,PadhyeSH19]
 ---
 
 In the opening lecture we look at what compilers are, why you would want to study them, and how the course is organized.
@@ -27,4 +27,4 @@ The lecture discusses the traditional compiler pipeline. In the course we will b
 
 Introduction to a [tutorial on Spoofax](https://pldi20.sigplan.org/details/pldi-2020-tutorials/3/Declarative-Language-Definition-with-Spoofax) at the [PLDI 2020](https://pldi20.sigplan.org/) conference in June 2020.
 
-### References 
+### References
