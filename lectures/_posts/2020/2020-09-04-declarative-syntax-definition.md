@@ -7,7 +7,7 @@ kind: Lecture
 series: lectures
 speaker: Eelco Visser
 authors:
-pdf:
+pdf: /lectures/2020/02-syntax-definition/CS4200-2020-2-syntax-definition.pdf
 image: /lectures/2020/02-syntax-definition/CS4200-2020-2-syntax-definition.001.jpeg
 talkURL:
 eventURL:
