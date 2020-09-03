@@ -3,13 +3,13 @@ layout: talk
 title: "Rules for the Course Project"
 tag: project
 categories: []
-kind: Project
+kind: Project Rules
 series: project
 speaker:
 authors:
 pdf:
 image:
-talkURL:
+talkURL: https://weblab.tudelft.nl/cs4200/2020-2021/rules
 eventURL:
 event:
 ---
