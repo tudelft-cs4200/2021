@@ -16,22 +16,22 @@
   title: Disambiguation and Layout Sensitive Syntax
   period: Q1
 - date: Sep 17
-  title: Introduction to Static Analysis
+  title: Type Constraints
   period: Q1
 - date: Sep 24
-  title: Type Checking with Constraints
+  title: Name Binding Constraints
   period: Q1
 - date: Oct 1
-  title: Specifications with Statix
-  period: Q1
-- date: Oct 8
   title: Constraint Resolution
   period: Q1
-- date: Oct 15
+- date: Oct 8
   title: Parsing
   period: Q1
-- date: Oct 22
+- date: Oct 15
   title: More Parsing
+  period: Q1
+- date: Oct 22
+  title: Exam Preparation
   period: Q1
 - date: "Thu Oct 29, 13:30-16:30"
   title: Exam Q1
