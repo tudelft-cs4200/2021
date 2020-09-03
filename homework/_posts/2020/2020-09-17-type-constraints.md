@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: "Week 2: Disambiguation"
+title: "Week 3: Type Constraints"
 tag: homework
 categories: []
 kind: Homework
