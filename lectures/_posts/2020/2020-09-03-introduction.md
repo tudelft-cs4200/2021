@@ -7,7 +7,7 @@ kind: Lecture
 series: lectures
 speaker: Eelco Visser
 authors:
-pdf:
+pdf: /lectures/2020/01-introduction/CS4200-2020-1-introduction.pdf
 image: /lectures/2020/01-introduction/CS4200-2020-1-introduction.001.png
 talkURL:
 eventURL:
