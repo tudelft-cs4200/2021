@@ -1,7 +1,13 @@
+- date: 2020-09-03
+  text: "Second lecture on <a href=/lectures/2020/09/04/declarative-syntax-definition/>Declarative Syntax Definition </a> will be on Friday, September 4, 13:45 - 15:45. Online venue will be announced on Brightspace."
+  category: announcement
+  event-date: 2020-09-04
+
 - date: 2020-08-31
   text: "Introduction lecture <a href=/lectures/2020/09/03/introduction/>What is a compiler?</a> on Thursday, September 3, 10:45 - 12:45. Online venue will be announced on Brightspace."
   category: announcement
   event-date: 2020-09-03
+  news: yes
 
 - date: 2020-08-31
   text: "A new website for the compiler construction course"
