@@ -3,10 +3,14 @@
   period: Q1
   link: /lectures/2020/09/03/introduction/
 - date: Sep 4
-  title: Syntax Definition
+  title: Declarative Syntax Definition
+  period: Q1
+  link: /lectures/2020/09/04/declarative-syntax-definition/
+- date: Sep 8
+  title: Setting up a Language Project
   period: Q1
 - date: Sep 8
-  title: Setting up a Language Project | Testing Language Definitions
+  title: Testing Language Definitions
   period: Q1
 - date: Sep 10
   title: Disambiguation and Layout Sensitive Syntax
