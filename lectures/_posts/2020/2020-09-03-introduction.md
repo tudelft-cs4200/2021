@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: "What is a Compiler?"
+title: "Lecture 1: What is a Compiler?"
 tag: lecture
 categories: []
 kind: Lecture

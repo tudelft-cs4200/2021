@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: "Declarative Syntax Definition"
+title: "Lecture 2: Declarative Syntax Definition"
 tag: lecture
 categories: []
 kind: Lecture
@@ -31,4 +31,4 @@ This is part of a [tutorial on Spoofax](https://pldi20.sigplan.org/details/pldi-
 
 This is a talk for the [OCAML 2020](https://icfp20.sigplan.org/home/ocaml-2020) workshop at the [ICFP 2020](https://icfp20.sigplan.org/) conference.
 
-### References 
+### References
