@@ -159,8 +159,10 @@ html {
 
 div .highlight {
 	padding-left : 0.8em;
+	padding-top: 0.1em;
+	padding-bottom: 0em;
 	font-family: JetBrains Mone;
 }
 .highlight {
-	background-color: lightgrey;
+	background-color: #EEE;
 }
