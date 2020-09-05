@@ -127,6 +127,7 @@ body {
   position: relative;
 }
 
+
 .section a {
 	font-weight: bold;
 }
@@ -136,4 +137,30 @@ blockquote {
 	border-left : 4pt solid;
 	border-color: grey;
 	padding-left: 1em;
+}
+
+.toc a {
+	color : black;
+	font-weight: bold;
+}
+
+.toc-sub a {
+	color : black;
+	font-weight: normal;
+}
+
+html {
+  scroll-padding-top: 70px; /* height of sticky header */
+}
+
+.top70 {
+  top : 70px;
+}
+
+div .highlight {
+	padding-left : 0.8em;
+	font-family: JetBrains Mone;
+}
+.highlight {
+	background-color: lightgrey;
 }
