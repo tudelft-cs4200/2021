@@ -1,4 +1,4 @@
-{% assign color = "border-light" %}
+{% assign color = "border-success" %}
 {% if pub.kind == "proceedings" %}
   {% assign color = "border-warning" %}
 {% endif %}
@@ -38,7 +38,9 @@
   {% assign link = pub.doi %}
 {% else %}{% if pdf != null %}
   {% assign link = pdf %}
-{% endif %}{% endif %}
+{% else %}{% if pub.links.url != null %}
+  {% assign link = pub.links.url %}
+{% endif %}{% endif %}{% endif %}
 
 <div>
 	<a name="{{ pub.key }}"></a>
