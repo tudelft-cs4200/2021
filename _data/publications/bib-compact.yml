@@ -2384,6 +2384,15 @@ publications:
   booktitle: "OOPSLA"
   kind: "inproceedings"
   key: "HemelV11a"
+- title: "The Spoofax Language Workbench (Documentation)"
+  year: "2020"
+  links:
+    "url": "http://metaborg.org"
+  researchr: "https://researchr.org/publication/Spoofax2020"
+  cites: 0
+  citedby: 0
+  kind: "manual"
+  key: "Spoofax2020"
 - title: "Fast and Safe Linguistic Abstraction for the Masses"
   author:
   - name: "Eelco Visser"
@@ -2992,6 +3001,16 @@ publications:
   booktitle: "OOPSLA"
   kind: "inproceedings"
   key: "GroenewegenV09-demo"
+- title: "The ChocoPy website"
+  year: "2019"
+  links:
+    "url": "http://chocopy.org"
+  researchr: "https://researchr.org/publication/ChocoPyOrg19"
+  cites: 0
+  citedby: 0
+  howpublished: "https://chocopy.org/"
+  kind: "misc"
+  key: "ChocoPyOrg19"
 - title: "IceDust 2: Derived Bidirectional Relations and Calculation Strategy Composition"
   author:
   - name: "Daco Harkes"
