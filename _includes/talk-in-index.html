@@ -1,43 +1,9 @@
-{% assign color = "border-dark" %}
-
-{% if post.tag == "seminar" %}
-  {% assign color = "border-dark" %}
+{% assign color = "border-primary" %}
+{% if post.admin %}
+  {% assign color = "border-warning" %}
 {% endif %}
-
-{% if post.tag == "invited" %}
+{% if post.important %}
   {% assign color = "border-danger" %}
-{% endif %}
-{% if post.tag == "keynote" %}
-  {% assign color = "border-danger" %}
-{% endif %}
-
-{% if post.tag == "summerschool" %}
-  {% assign color = "border-primary" %}
-{% endif %}
-{% if post.tag == "tutorial" %}
-  {% assign color = "border-primary" %}
-{% endif %}
-
-{% if post.tag == "conference" %}
-  {% assign color = "border-warning" %}
-{% endif %}
-{% if post.tag == "workshop" %}
-  {% assign color = "border-warning" %}
-{% endif %}
-{% if post.tag == "wg" %}
-  {% assign color = "border-warning" %}
-{% endif %}
-
-
-
-{% if post.tag == "" %}
-  {% assign color = "border-success" %}
-{% endif %}
-{% if post.tag == "" %}
-	{% assign color = "border-secondary" %}
-{% endif %}
-{% if post.tag == "" %}
-	{% assign color = "border-info" %}
 {% endif %}
 
 <div class="bd-callout {{ color }} pl-3">

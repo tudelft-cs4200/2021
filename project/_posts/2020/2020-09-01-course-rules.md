@@ -12,6 +12,7 @@ image:
 talkURL: https://weblab.tudelft.nl/cs4200/2020-2021/rules
 eventURL:
 event:
+admin: true
 ---
 ## Submission
 
