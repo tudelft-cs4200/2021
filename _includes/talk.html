@@ -1,15 +1,14 @@
-<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+<div class="row">
+		<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
 	    {% if page.image != null %}
 				<a href="{{ page.pdf }}">
 					<img class="border border-dark" width="100%" src="{{ page.image }}"/>
 				</a>
-			{% else %}
-			  <h1 class="border-0">{{ page.title }}</h1>
 			{% endif %}
 
 			<div class="mt-3 mb-3 pt-3 pb-3 text-dark border-top border-bottom border-grey">
-				{% if page.image != null %}
 				<div class="text-dark font-weight-bold">
+					<h1>
 					{% if page.talkURL != null %}
 				    <a class="text-dark" href="{{ page.talkURL }}">
 							{{ page.title }}
@@ -17,8 +16,8 @@
 				  {% else %}
 					  {{ page.title }}
 				  {% endif %}
+					</h1>
 				</div>
-				{% endif %}
 				<div>
 					{% if page.speaker != null %}
 					  {{ page.speaker }}
@@ -56,25 +55,30 @@
 					{{ page.date | date: "%B %d, %Y"}}
 				</div>
       </div>
+  </div>
+</div>
 
-			{{ content }}
+<div class="row">
+	<div class="col-sm-12 col-md-12 col-lg-9 border-lg-right border-grey">
+		{{ content }}
+		{% if page.references != null %}
+			  {% assign references = page.references %}
+				{% assign sorted_publications = site.data.publications.bib-compact.publications | sort: "year" | reverse %}
+				{% include references.html %}
+		{% endif %}
+  </div>
+	<div class="col-sm-12 col-md-12 col-lg-3 col-xl-3" >
+		{% include toc.html html=content sanitize=true
+			class="toc.list-group.sticky-top.list-group-flush.d-none.d-lg-block.d-xl-block.p-0.ml-0.top70"
+			item_class="list-group-item.pl-0.ml-0.border-0.pl-0.pt-0.pb-1.pr-0.m-0.mr-3" id="my_toc"
+			submenu_class="toc-sub.pl-0"%}
+  </div>
+</div>
 
-	{% if page.references != null %}
-
-		  {% assign references = page.references %}
-
-			{% assign sorted_publications = site.data.publications.bib-compact.publications | sort: "year" | reverse %}
-
-			{% include references.html %}
-
-	{% endif %}
-
+<div class="row">
+	<div class="col-12">
 		  {% assign tag = page.tag %}
-
-
-
 				{% assign talks = site.posts | where: "tag", tag %}
-
 				{% assign prev = null %}
 				{% assign next = null %}
 				{% assign found = "false" %}
@@ -92,8 +96,6 @@
 						{% endif %}
 					{% endif %}
 				{% endfor %}
-
-
 			<div class="border-top border-bottom border-grey mt-3 pt-3">
 				<nav>
 					<ul class="pagination justify-content-center">
@@ -117,4 +119,5 @@
 					</ul>
 				</nav>
 			</div>
+  </div>
 </div>
