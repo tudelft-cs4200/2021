@@ -7,8 +7,8 @@ kind: Homework
 series: homework
 speaker:
 authors:
-pdf: /lectures/2020/01-introduction/CS4200-2020-1-introduction.pdf
-image: /lectures/2020/01-introduction/CS4200-2020-1-introduction.001.png
+pdf:
+image: 
 talkURL:
 eventURL:
 event:
