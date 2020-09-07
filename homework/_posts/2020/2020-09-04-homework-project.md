@@ -58,7 +58,10 @@ Copy the templates from WebLab to those files.
 Note that the name of the module should correspond to the name of the file (e.g. `homework/week1/w1-pascal/solution`), while the name of the module on WebLab should always be `solution`.
 You can add example files for the language with extension `.sol` in the directory as well.
 
-In the file `/syntax/solution.sdf3` remove everything but the module header and import all the `.sdf3` files for the assignments.
+In the file `/syntax/solution.sdf3` remove everything but the module header and import all the `.sdf3` files for the assignments using imports such as
+```
+  imports homework/week1/pascal/solution
+```
 While working on an assignment, comment out all the imports but the syntax definitions for that assignment.
 
 #### Developing a Solution
