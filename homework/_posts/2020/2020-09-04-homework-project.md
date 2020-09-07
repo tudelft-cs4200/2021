@@ -72,3 +72,4 @@ Use the usual [Spoofax development cycle](/project/2020/09/08/lab1a/#agile-langu
 
 When you are satisfied with your solution, copy the body of the module to WebLab.
 Test that the specification tests succeed.
+Ignore the output from `Status: Done` to `Test`. At the end of the output is the result of the tests. Either `Test score: n/n` if all tests succeeded, or `Test "..." failed:` in case one or more tests failed.
