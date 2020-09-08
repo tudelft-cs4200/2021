@@ -55,6 +55,11 @@ body {
 	height: auto;
 }
 
+.row img {
+	max-width : 100%;
+	height: auto;
+}
+
 /* a {
 	color: #212529
 } */
