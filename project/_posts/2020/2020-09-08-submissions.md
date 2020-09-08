@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: "Git(Lab) and Submissions"
+title: "Git(Lab), CI, and Submissions"
 tag: project
 categories: []
 kind: Project
@@ -19,21 +19,21 @@ admin: true
 We use the Git version control system with [gitlab.ewi.tudelft.nl](https://gitlab.ewi.tudelft.nl) to manage submissions and grade assignments.
 
 
-## Git
+### Git
 
 Download and install Git from [this page](https://git-scm.com/downloads). We will be using the Git command-line, since it is more powerful and easier to troubleshoot than GUI clients. On Linux and macOS, installing Git should provide a `git` command on your shell. On Windows, Git installs `Git BASH` to provide a command-line shell, which you need to start to use Git from the command-line.
 
 We will explain the steps needed to work on and submit assignments on this page. To learn the basics of git, read [git - the simple guide](http://rogerdudler.github.io/git-guide/) and [try out the Git command-line](https://try.github.io/). If you'd like to learn more, [have a look at these resources](https://help.github.com/articles/good-resources-for-learning-git-and-github/).
 
 
-## Repository Structure
+### Repository Structure
 
 Let's look at the repository structure first.
 
 On GitLab, we will create a private git repository for you, which is owned by us, and is only visible to you and the compiler construction team. This repository will host assignment templates and your submissions in **protected** branches. Note that you **do not** have write access to protected branches. You can only read from it and submit assignments to it by opening merge requests. This is to ensure that you cannot mess with submitted assignments after the deadline. You **do** have access to non-protected branches, and this is where you can push your work frequently.
 
 
-## Getting started
+### Getting started
 
 First, find your private repository in the [CS4200/2020-2021](https://gitlab.ewi.tudelft.nl/CS4200/2020-2021) group on GitLab, it should be called `student-id` where `id` is your NetID.
 
@@ -63,8 +63,6 @@ nothing to commit, working directory clean
 ```
 
 Your local repository is set up now! Follow the steps below to work on an assignment.
-
-## Workflow
 
 ### Starting an assignment
 
@@ -105,6 +103,41 @@ git add --all
 git commit -m "Message describing your changes"
 git push
 ```
+
+### Continuous Integration (CI)
+
+The template contain a `.gitlab-ci.yml` file that configures continuous integration in GitLab.
+It runs `mvn verify` on each push to master.
+
+By default, no projects are included in the Maven build.
+That is, all models are commented out in `pom.xml` (the Maven build configuration file):
+
+```
+<modules>
+    <!--
+    <module>chocopy.syntax</module>
+    <module>chocopy.syntax.example</module>
+    <module>chocopy.syntax.test</module>
+    <module>chocopy.types</module>
+    <module>chocopy.types.example</module>
+    <module>chocopy.types.test</module>
+    -->
+</modules>
+```
+
+After creating a project, enable it in CI by uncommenting the module.
+Additionally, make sure the Maven configuration file for the project (e.g. `chocopy.syntax/pom.xml`) includes `<relativePath />` in the `<parent></parent>` section:
+
+```
+  <parent>
+    <groupId>org.metaborg</groupId>
+    <artifactId>parent.language</artifactId>
+    <version>2.6.0-SNAPSHOT</version>
+    <relativePath />
+  </parent>
+```
+
+Enabling the build of your projects in CI is required when submitting your work.
 
 
 ### Submitting a milestone
@@ -149,20 +182,20 @@ git push
 In most cases, Git will automatically merge in any changes, but sometimes conflicts can occur. See [Resolving a merge conflict](https://help.github.com/articles/resolving-a-merge-conflict-from-the-command-line/) on how to resolve conflicts.
 
 
-## Git GUI clients
+### Git GUI clients
 
 This guide uses command-line Git commands, but if you'd rather use a GUI, use [SourceTree](https://www.sourcetreeapp.com/).
 
 
-## Troubleshooting
+### Troubleshooting
 
-### Cannot push
+#### Cannot push
 
-#### No access/rights
+**No access/rights**
 
 When Git complains about not being able to push because you do not have access or rights to the repository, this probably means that you're trying to push to a *template* or *submission* branch rather than a *develop* branch.
 
-#### Out of date branch
+**Out of date branch**
 
 You cannot push changes to a remote when that remote has changes that you haven't yet pulled, you'll get an error like:
 
@@ -179,9 +212,9 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 First pull changes with `git pull` and then push your changes.
 
-### Cannot pull
+#### Cannot pull
 
-#### Local changes
+**Local changes**
 
 When you have changes in your local repository that you have not committed yet, and you try to pull, Git may complain about your changes being overwritten.
 First add and commit your changes locally with:
@@ -193,7 +226,7 @@ git commit -m "Message describing your changes"
 
 and then pull changes with `git pull`.
 
-### Cannot automatically merge merge request
+#### Cannot automatically merge merge request
 
 If a merge request cannot be automatically merged, your branch is out of date with the *template* branch.
 Merge in changes from the template (use the correct branch!):
@@ -204,7 +237,7 @@ git merge origin/milestone-1-template
 git push
 ```
 
-### Resolving merge conflicts
+#### Resolving merge conflicts
 
 See [Resolving a merge conflict](https://help.github.com/articles/resolving-a-merge-conflict-from-the-command-line/) on how to resolve merge conflicts.
 You can also try a GUI merge tool such as [DiffMerge](https://sourcegear.com/diffmerge/) to resolve merge conflicts.
