@@ -110,7 +110,7 @@ The template contain a `.gitlab-ci.yml` file that configures continuous integrat
 It runs `mvn verify` on each push to master.
 
 By default, no projects are included in the Maven build.
-That is, all models are commented out in `pom.xml` (the Maven build configuration file):
+That is, all modules are commented out in `pom.xml` (the Maven build configuration file):
 
 ```
 <modules>
@@ -125,7 +125,7 @@ That is, all models are commented out in `pom.xml` (the Maven build configuratio
 </modules>
 ```
 
-After creating a project, enable it in CI by uncommenting the module.
+After creating a language project, enable it in CI by uncommenting the corresponding Maven module.
 Additionally, make sure the Maven configuration file for the project (e.g. `chocopy.syntax/pom.xml`) includes `<relativePath />` in the `<parent></parent>` section:
 
 ```
@@ -137,7 +137,12 @@ Additionally, make sure the Maven configuration file for the project (e.g. `choc
   </parent>
 ```
 
-Enabling the build of your projects in CI is required when submitting your work.
+You can also enable the example and test projects in the build by following the same pattern: uncomment the corresponding module in the main `pom.xml` file and include `<relativePath />` in the project's `pom.xml`.
+Including the test project will activate running your tests in CI, and will make the build fail if a test fails.
+Including the example project will trigger the processing of all programs in the example project with your language, and will make the build fail if an invalid program is encountered.
+
+Enabling the build of your _language_ projects in CI is **required** when submitting your work.
+We encourage you to also include the _example_ and _test_ projects in the build, to make optimal use of CI during development.
 
 
 ### Submitting a milestone
