@@ -5,7 +5,7 @@ tag: lecture
 categories: []
 kind: Lecture
 series: lectures
-speaker: Eelco Visser
+speaker: Eelco Visser, Jasper Denkers
 authors:
 pdf:
 image:
@@ -16,4 +16,7 @@ references: []
 date: 2020-09-08 10:00
 ---
 
-### References
+In this hands-on tutorial we demonstrated setting up a Spoofax project.
+See the recording on Brightspace and see the instructions in [Lab 1(a)](/project/2020/09/08/lab1a/).
+We also discussed the grading of project assignments through GitLab.
+See 
