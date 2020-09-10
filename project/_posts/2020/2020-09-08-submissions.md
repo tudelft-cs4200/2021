@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: "Git(Lab), CI, and Submissions"
+title: "Lab 1(d): Git(Lab), CI, and Submissions"
 tag: project
 categories: []
 kind: Project
@@ -14,6 +14,8 @@ eventURL:
 event:
 date: 2020-09-08 12:01
 admin: true
+redirect_from:
+- /lab/1c
 ---
 
 We use the Git version control system with [gitlab.ewi.tudelft.nl](https://gitlab.ewi.tudelft.nl) to manage submissions and grade assignments.
