@@ -12,11 +12,10 @@ image:
 talkURL:
 eventURL:
 event:
-references: []
+references: [Spoofax2020]
 date: 2020-09-08 10:00
 ---
 
 In this hands-on tutorial we demonstrated setting up a Spoofax project.
 See the recording on Brightspace and see the instructions in [Lab 1(a)](/project/2020/09/08/lab1a/).
 We also discussed the grading of project assignments through GitLab.
-See 
