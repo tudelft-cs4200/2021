@@ -13,6 +13,8 @@ talkURL:
 eventURL:
 event:
 references: [KatsV10,AmorimV20-SEFM,PadhyeSH19]
+redirect_from:
+- /lecture/1
 ---
 
 In the opening lecture we look at what compilers are, why you would want to study them, and how the course is organized.

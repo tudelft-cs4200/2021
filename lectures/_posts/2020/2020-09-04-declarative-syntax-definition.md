@@ -12,7 +12,9 @@ image: /lectures/2020/02-syntax-definition/CS4200-2020-2-syntax-definition.001.j
 talkURL:
 eventURL:
 event:
-references: [AmorimV20-SEFM]
+references: [AmorimV20-SEFM,VollebregtKV12]
+redirect_from:
+- /lecture/2
 ---
 
 In this lecture we study declarative syntax definition.
@@ -20,6 +22,8 @@ In this lecture we study declarative syntax definition.
 ### Reading Material
 
 The [SEFM 2020] paper gives an overview of SDF3, the language we will use for syntax definition.
+
+The [LDTA 2012] paper introduced 'template-based syntax definition'. (This was one of the results of the master's thesis work of Tobi Vollebregt.)
 
 ### Tutorial and Talk on SDF3
 

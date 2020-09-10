@@ -14,6 +14,8 @@ eventURL:
 event:
 references: [KatsVV11]
 date: 2020-09-08 10:01
+redirect_from:
+- /lecture/lab1b
 ---
 
 In this hands-on tutorial we demonstrated testing syntax definitions with the SPT testing languages.

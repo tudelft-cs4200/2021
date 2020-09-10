@@ -13,6 +13,8 @@ talkURL:
 eventURL:
 event:
 references: [ErdwegRKO12,ErdwegRRO12,AmorimSEV18]
+redirect_from:
+- /lecture/3
 ---
 
 In this lecture we study the declarative disambiguation of [declarative syntax definitions](/lectures/2020/09/04/declarative-syntax-definition/) using associativity and priority rules.
