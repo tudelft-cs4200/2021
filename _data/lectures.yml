@@ -1,38 +1,47 @@
 - date: Sep 3
   title: What is a compiler?
   period: Q1
-  link: /lectures/2020/09/03/introduction/
+  link: /lecture/1
 - date: Sep 4
   title: Declarative Syntax Definition
   period: Q1
-  link: /lectures/2020/09/04/declarative-syntax-definition/
+  link: /lecture/2
 - date: Sep 8
   title: Setting up a Language Project
   period: Q1
+  link: /lecture/lab1a
 - date: Sep 8
   title: Testing Language Definitions
   period: Q1
+  link: /lecture/lab1b
 - date: Sep 10
   title: Disambiguation and Layout Sensitive Syntax
   period: Q1
+  link: /lecture/3
 - date: Sep 17
   title: Type Constraints
   period: Q1
+  link: /lecture/4
 - date: Sep 24
   title: Name Binding Constraints
   period: Q1
+  link: /lecture/5
 - date: Oct 1
   title: Constraint Resolution
   period: Q1
+  link: /lecture/6
 - date: Oct 8
   title: Parsing
   period: Q1
+  link: /lecture/7
 - date: Oct 15
   title: More Parsing
   period: Q1
+  link: /lecture/8
 - date: Oct 22
   title: Exam Preparation
   period: Q1
+  link: /lecture/9
 - date: "Thu Oct 29, 13:30-16:30"
   title: Exam Q1
   period: Q1
