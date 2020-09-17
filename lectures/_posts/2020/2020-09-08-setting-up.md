@@ -15,7 +15,7 @@ event:
 references: [Spoofax2020]
 date: 2020-09-08 10:00
 redirect_from:
-- /lecture/lab-1
+- /lecture/lab1a
 ---
 
 In this hands-on tutorial we demonstrated setting up a Spoofax project.
