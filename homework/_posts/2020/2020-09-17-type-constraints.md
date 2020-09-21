@@ -8,10 +8,11 @@ series: homework
 speaker:
 authors:
 pdf:
-image: 
+image:
 talkURL:
 eventURL:
 event:
+date: 2020-09-17 10:01
 ---
 
 homework assignments
