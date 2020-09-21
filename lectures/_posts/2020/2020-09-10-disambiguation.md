@@ -7,8 +7,8 @@ kind: Lecture
 series: lectures
 speaker: Eelco Visser
 authors:
-pdf: /lectures/2020/04-disambiguation/CS4200-2020-3-disambiguation.pdf
-image: /lectures/2020/04-disambiguation/CS4200-2020-3-disambiguation.001.png
+pdf: /lectures/2020/03-disambiguation/CS4200-2020-3-disambiguation.pdf
+image: /lectures/2020/03-disambiguation/CS4200-2020-3-disambiguation.001.png
 talkURL:
 eventURL:
 event:
