@@ -12,6 +12,8 @@ image:
 talkURL:
 eventURL:
 event:
+redirect_from:
+- /homework/2
 ---
 
 In this set of assignments, published on [WebLab](https://weblab.tudelft.nl/cs4200/2020-2021/assignment/51093/view), we exercise the disambiguation of grammars following the material of [Lecture 3](/lecture/3).

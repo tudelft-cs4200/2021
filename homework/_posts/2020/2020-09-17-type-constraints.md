@@ -13,6 +13,8 @@ talkURL:
 eventURL:
 event:
 date: 2020-09-17 10:01
+redirect_from:
+- /homework/3
 ---
 
 In this set of assignments, published on [WebLab](https://weblab.tudelft.nl/cs4200/2020-2021/assignment/51094/view), we exercise the definition of simple type constraints in Statix following the material of [Lecture 4](/lecture/4).

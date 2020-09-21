@@ -13,6 +13,8 @@ talkURL:
 eventURL:
 event:
 date: 2020-09-04 10:01
+redirect_from:
+- /homework/1
 ---
 
 In this set of assignments, published on [WebLab](https://weblab.tudelft.nl/cs4200/2020-2021/assignment/51091/view), we exercise syntax definition in SDF3 to define the structure and notation of programs following the material of [Lecture 2](/lectures/2020/09/04/declarative-syntax-definition/).

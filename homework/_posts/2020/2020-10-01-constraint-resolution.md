@@ -8,10 +8,12 @@ series: homework
 speaker:
 authors:
 pdf:
-image: 
+image:
 talkURL:
 eventURL:
 event:
+redirect_from:
+- /homework/5
 ---
 
 homework assignments
