@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: "Week 4: Name Binding Constraints"
+title: "Week 4: Name Binding and Name Resolution"
 tag: homework
 categories: []
 kind: Homework
