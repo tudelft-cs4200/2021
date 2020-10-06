@@ -76,7 +76,7 @@ rules
     typeOfExp(e) == T.
 ```
 
-in the main statics file and make sure they are redefined in your solution file.
+in the main statics file and comment out the ones in your solution file. You might need to make some small modifications to the main statics file in order to use the correct rules in `programOk` that are imported from your solution file.
 
 #### Developing a Solution
 
