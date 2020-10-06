@@ -65,7 +65,7 @@ In the file `/syntax/solution.sdf3` remove everything but the module header and 
 ```
 While working on an assignment, comment out all the imports but the syntax definitions for that assignment.
 
-In the file `/trans/statics.stx` add an import to your statics solution in the 'homework' directory. Comment out the lines
+In the file `/trans/statics.stx` add an import to your statics solution in the 'homework' directory. Leave the lines
 
 ```
 rules
@@ -76,7 +76,7 @@ rules
     typeOfExp(e) == T.
 ```
 
-in the main statics file and use the ones in your solution file.
+in the main statics file and make sure they are redefined in your solution file.
 
 #### Developing a Solution
 
