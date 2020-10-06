@@ -78,6 +78,8 @@ rules
 
 in the main statics file and comment out the ones in your solution file. You might need to make some small modifications to the main statics file in order to use the correct rules in `programOk` that are imported from your solution file.
 
+In a similar way, make sure to build the project to generate the correct signatures, and fix the import in the solution statix file to point to them.
+
 #### Developing a Solution
 
 Use the usual [Spoofax development cycle](/lab/1a#agile-language-engineering)  to develop the solution for an assignment.
