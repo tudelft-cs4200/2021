@@ -1234,6 +1234,23 @@ publications:
   booktitle: "SLE"
   kind: "inproceedings"
   key: "SmitsV17"
+- title: "Intrinsically-Typed Compilation with Nameless Labels"
+  author:
+  - name: "Arjen Rouvoet"
+    link: "https://www.linkedin.com/in/arjen-rouvoet-760347a5/"
+  - name: "Robbert Krebbers"
+    link: "https://robbertkrebbers.nl"
+  - name: "Eelco Visser"
+    link: "http://eelcovisser.org"
+  year: "2021"
+  researchr: "https://researchr.org/publication/RouvoetKV21-preprint"
+  cites: 0
+  citedby: 0
+  journal: "Proceedings of the ACM on Programming Languages"
+  volume: "5"
+  number: "POPL"
+  kind: "article"
+  key: "RouvoetKV21-preprint"
 - title: "A Research Agenda for Formal Methods in the Netherlands"
   author:
   - name: "Marieke Huisman"
@@ -3702,6 +3719,23 @@ publications:
   booktitle: "ASE"
   kind: "inproceedings"
   key: "KonatEV18"
+- title: "Parsing Schemata"
+  author:
+  - name: "Klaas Sikkel"
+    link: "https://researchr.org/alias/klaas-sikkel"
+  year: "1993"
+  doi: "https://www.base-search.net/Record/019acdb54fd1d19c305a35f7d2572a792c9ad3314ad3ae087a66267f15cadd33"
+  links:
+    doi: "https://www.base-search.net/Record/019acdb54fd1d19c305a35f7d2572a792c9ad3314ad3ae087a66267f15cadd33"
+    dblp: "http://dblp.uni-trier.de/rec/bibtex/phd/basesearch/Sikkel93"
+    "pdf": "https://research.utwente.nl/files/6041692/Sikkel93thesis.pdf"
+    "url": "https://research.utwente.nl/en/publications/parsing-schemata"
+  researchr: "https://researchr.org/publication/Sikkel93-thesis"
+  cites: 0
+  citedby: 0
+  school: "University of Twente, Enschede, Netherlands"
+  kind: "phdthesis"
+  key: "Sikkel93-thesis"
 - title: "PixieDust: Declarative Incremental User Interface Rendering Through Static Dependency Tracking"
   author:
   - name: "Nick ten Veen"
@@ -4943,6 +4977,27 @@ publications:
   number: "2"
   kind: "article"
   key: "HarkesV17-ART"
+- title: "Compilers: Principles, Techniques, and Tools (2nd Edition)"
+  author:
+  - name: "A. V. Aho"
+    link: "https://researchr.org/alias/a.-v.-aho"
+  - name: " M. S. Lam"
+    link: "https://researchr.org/alias/m.-s.-lam"
+  - name: "R. Sethi"
+    link: "https://researchr.org/alias/r.-sethi"
+  - name: "  J. D. Ullman"
+    link: "https://researchr.org/alias/j.-d.-ullman"
+  year: "2006"
+  month: "August"
+  tags:
+  - "principles"
+  - "compiler"
+  researchr: "https://researchr.org/publication/AhoLSU2006"
+  cites: 0
+  citedby: 2
+  publisher: "Addison Wesley"
+  kind: "book"
+  key: "AhoLSU2006"
 - title: "Combining Aspect-Oriented and Strategic Programming"
   author:
   - name: "Karl Trygve Kalleberg"
@@ -5547,6 +5602,27 @@ publications:
   number: "P9707"
   kind: "techreport"
   key: "Visser97-SGLR"
+- title: "Knowing When to Ask. Sound scheduling of name resolution in type checkers derived from declarative specifications"
+  author:
+  - name: "Arjen Rouvoet"
+    link: "https://www.linkedin.com/in/arjen-rouvoet-760347a5/"
+  - name: "Hendrik van Antwerpen"
+    link: "https://nl.linkedin.com/in/hendrikvanantwerpen"
+  - name: "Casper Bach Poulsen"
+    link: "http://www.casperbp.net"
+  - name: "Robbert Krebbers"
+    link: "https://robbertkrebbers.nl"
+  - name: "Eelco Visser"
+    link: "http://eelcovisser.org"
+  year: "2020"
+  researchr: "https://researchr.org/publication/RouvoetABKV20-preprint"
+  cites: 0
+  citedby: 0
+  journal: "Proceedings of the ACM on Programming Languages"
+  volume: "4"
+  number: "OOPSLA"
+  kind: "article"
+  key: "RouvoetABKV20-preprint"
 - title: "Reconstructing Complex Metamodel Evolution"
   author:
   - name: "Sander Vermolen"
