@@ -47,32 +47,37 @@
   period: Q1
 
 - date: Nov 12
-  title: Virtual Machines
+  title: Transformation with Rewrite Rules
   period: Q2
-- date: Nov 13
-  title: Transformation
-  period: Q2
+  link: /lecture/10
 - date: Nov 19
-  title: Code Generation
+  title: Composing Transformations with Stratgey Combinators
+  link: /lecture/11
   period: Q2
 - date: Nov 26
+  title: Machines and Code Generation
+  period: Q2
+  link: /lecture/12
+- date: Dec 3
+  title: Code Generation
+  period: Q2
+  link: /lecture/13
+- date: Dec 10
   title: Data-flow Analysis
   period: Q2
-- date: Dec 3
+  link: /lecture/14
+- date: Dec 17
   title: Monotone Frameworks
   period: Q2
-- date: Dec 10
-  title: Register Allocation
-  period: Q2
-- date: Dec 17
+  link: /lecture/15
+- date: Jan 7
   title: Memory Management
   period: Q2
-- date: Jan 7
-  title: Guest Lecture
-  period: Q2
+  link: /lecture/16
 - date: Jan 14
   title: Beyond Compiler Construction
   period: Q2
+  link: /lecture/17
 - date: "Fri Jan 29, 13:30-16:30"
   title: Exam Q2
   period: Q2
