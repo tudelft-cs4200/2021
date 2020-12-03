@@ -277,6 +277,7 @@ publications:
     link: "http://eelcovisser.org"
   year: "2019"
   doi: "https://doi.org/10.4230/LIPIcs.ECOOP.2019.26"
+  abstract: "Editor services assist programmers to more effectively write and comprehend code. Implementing editor services correctly is not trivial. This paper focuses on the specification of semantic editor services, those that use the semantic model of a program. The specification of refactorings is a common subject of study, but many other semantic editor services have received little attention. We propose a language-parametric approach to the definition of semantic editor services, using a declarative specification of the static semantics of the programming language, and constraint solving. Editor services are specified as constraint problems, and language specifications are used to ensure correctness. We describe our approach for the following semantic editor services: reference resolution, find usages, goto subclasses, code completion, and the extract definition refactoring. We do this in the context of Statix, a constraint language for the specification of type systems. We investigate the specification of editor services in terms of Statix constraints, and the requirements these impose on a suitable solver."
   links:
     doi: "https://doi.org/10.4230/LIPIcs.ECOOP.2019.26"
     dblp: "http://dblp.uni-trier.de/rec/bibtex/conf/ecoop/PelsmaekerAV19"
@@ -1873,7 +1874,7 @@ publications:
 - title: "Constructing Hybrid Incremental Compilers for Cross-Module Extensibility with an Internal Build System"
   author:
   - name: "Jeff Smits"
-    link: "https://researchr.org/alias/jeff-smits"
+    link: "https://researchr.org/profile/jeffsmits/publications"
   - name: "Gabriël D. P. Konat"
     link: "https://researchr.org/alias/gabri%C3%ABl-d.-p.-konat"
   - name: "Eelco Visser"
@@ -3421,7 +3422,7 @@ publications:
 - title: "FlowSpec: A declarative specification language for intra-procedural flow-Sensitive data-flow analysis"
   author:
   - name: "Jeff Smits"
-    link: "https://researchr.org/alias/jeff-smits"
+    link: "https://researchr.org/profile/jeffsmits/publications"
   - name: "Guido Wachsmuth"
     link: "https://www.linkedin.com/in/guidowachsmuth/"
   - name: "Eelco Visser"
@@ -3681,6 +3682,23 @@ publications:
   number: "POPL"
   kind: "article"
   key: "PoulsenRTKV18"
+- title: "Gradually Typing Strategies - Artifact"
+  author:
+  - name: "Jeff Smits"
+    link: "https://researchr.org/profile/jeffsmits/publications"
+  - name: "Eelco Visser"
+    link: "http://eelcovisser.org"
+  year: "2020"
+  month: "September"
+  doi: "10.5281/zenodo.4032445"
+  links:
+    "url": "https://doi.org/10.5281/zenodo.4032445"
+  researchr: "https://researchr.org/publication/SmitsV20-Artifact"
+  cites: 0
+  citedby: 0
+  howpublished: "Zenodo"
+  kind: "misc"
+  key: "SmitsV20-Artifact"
 - title: "Syntax Definition for Language Prototyping"
   author:
   - name: "Eelco Visser"
@@ -6342,6 +6360,29 @@ publications:
   isbn: "978-3-540-69069-6"
   kind: "inproceedings"
   key: "BravenboerV07"
+- title: "Knowing When to Ask: Sound scheduling of name resolution in type checkers derived from declarative specifications (Extended Version)"
+  author:
+  - name: "Arjen Rouvoet"
+    link: "https://www.linkedin.com/in/arjen-rouvoet-760347a5/"
+  - name: "Hendrik van Antwerpen"
+    link: "https://nl.linkedin.com/in/hendrikvanantwerpen"
+  - name: "Casper Bach Poulsen"
+    link: "http://www.casperbp.net"
+  - name: "Robbert Krebbers"
+    link: "https://robbertkrebbers.nl"
+  - name: "Eelco Visser"
+    link: "http://eelcovisser.org"
+  year: "2020"
+  month: "Oct"
+  doi: "http://doi.org/10.5281/zenodo.4091445"
+  links:
+    doi: "http://doi.org/10.5281/zenodo.4091445"
+  researchr: "https://researchr.org/publication/RouvoetAPKV20-ext"
+  cites: 0
+  citedby: 0
+  publisher: "Zenodo"
+  kind: "inbook"
+  key: "RouvoetAPKV20-ext"
 - title: "Unifying and Generalizing Relations in Role-Based Data Modeling and Navigation"
   author:
   - name: "Daco Harkes"
@@ -6518,14 +6559,15 @@ publications:
   - name: "Eelco Visser"
     link: "http://eelcovisser.org"
   year: "2020"
-  researchr: "https://researchr.org/publication/RouvoetABKV20-preprint"
+  abstract: "There is a large gap between the specification of type systems and the implementation of their type checkers, which impedes reasoning about the soundness of the type checker with respect to the specification. A vision to close this gap is to automatically obtain type checkers from declarative programming language specifications. This moves the burden of proving correctness from a case-by-case basis for concrete languages to a single correctness proof for the specification language. This vision is obstructed by an aspect common to all programming languages: name resolution. Naming and scoping are pervasive and complex aspects of the static semantics of programming languages. Implementations of type checkers for languages with name binding features such as modules, imports, classes, and inheritance interleave collection of binding information (i.e., declarations, scoping structure, and imports) and querying that information. This requires scheduling those two aspects in such a way that query answers are stable—i.e., they are computed only after all relevant binding structure has been collected. Type checkers for concrete languages accomplish stability using language-specific knowledge about the type system. In this paper we give a language-independent characterization of necessary and sufficient conditions to guarantee stability of name and type queries during type checking in terms of critical edges in an incomplete scope graph. We use critical edges to give a formal small-step operational semantics to a declarative specification language for type systems, that achieves soundness by delaying queries that may depend on missing information. This yields type checkers for the specified languages that are sound by construction—i.e., they schedule queries so that the answers are stable, and only accept programs that are name- and type-correct according to the declarative language specification. We implement this approach, and evaluate it against specifications of a small module and record language, as well as subsets of Java and Scala."
+  researchr: "https://researchr.org/publication/RouvoetAPKV20"
   cites: 0
   citedby: 0
   journal: "Proceedings of the ACM on Programming Languages"
   volume: "4"
   number: "OOPSLA"
   kind: "article"
-  key: "RouvoetABKV20-preprint"
+  key: "RouvoetAPKV20"
 - title: "Reconstructing Complex Metamodel Evolution"
   author:
   - name: "Sander Vermolen"
