@@ -164,73 +164,36 @@ title: CS4200 | Compiler Construction
 					</li>
 				{% endfor %}
 			</ul>
-			<div class="card-body pb-2 pt-1 mt-3">
-				<h4>Tentative Lecture Schedule CS4200-B/Q2</h4>
-				<p>
-					Lectures are on Thursdays 10:45 - 12:45 and take place online. The venue will be announced on Brightspace.
-				</p>
-		  </div>
-			<ul class="list-group list-group-flush pt-0 mt-0">
-				{% assign lectures = site.data.lectures | where: "period", "Q2" %}
-				{% for lecture in lectures %}
-				  <li class="list-group-item">
-						{{ lecture.date }}:
-						{% if lecture.link != null %}
-						  <a href={{lecture.link}}>{{ lecture.title }}</a>
-					  {% else %}
-						  {{ lecture.title }}
-						{% endif %}
-					</li>
-				{% endfor %}
-		  </ul>
 		</div>
-
-
 	 </div>
 
 	<div class="mb-3 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+  <div class="pt-0 mb-1 mt-0">
+    <div class="card-body pb-2 pt-1 mt-3">
+      <h4>Tentative Lecture Schedule CS4200-B/Q2</h4>
+      <p>
+        Lectures are on Thursdays 10:45 - 12:45 and take place online. The venue will be announced on Brightspace.
+      </p>
+    </div>
+    <ul class="list-group list-group-flush pt-0 mt-0">
+      {% assign lectures = site.data.lectures | where: "period", "Q2" %}
+      {% for lecture in lectures %}
+        <li class="list-group-item">
+          {{ lecture.date }}:
+          {% if lecture.link != null %}
+            <a href={{lecture.link}}>{{ lecture.title }}</a>
+          {% else %}
+            {{ lecture.title }}
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+</div>
 
-		<div class="mb-2">
-			<div class="card-body pb-2 pt-1">
-				<h4>Upcoming Events</h4>
-		  </div>
-				 <ul class="list-group list-group-flush">
-					 {% assign curDate = site.time | date: '%s' %}
-					 {% assign events = site.data.news | sort: "event-date" %}
-					 {% for item in events %}
-					   {% if item.event-date != null %}
-						    {% assign itemDate = item.event-date | date: '%s' %}
-								{% if itemDate >= curDate %}
-						 			<li class="list-group-item">
-							 			<p class="mb-1">{{ item.text }}</p>
-							 			<small class="text-secondary">{{ item.event-date | date: '%B %d, %Y' }}
-											(posted {{ item.date | date: '%B %d, %Y' }})</small>
-						 			</li>
-								{% endif %}
-						 {% endif %}
-					 {% endfor %}
-	       </ul>
-		 </div>
-
-		 <div class="mb-2">
-			<div class="card-body pt-1 pb-2">
-				<h4>Latest News</h4>
-		  </div>
-				 <ul class="list-group list-group-flush">
-				 {% assign curDate = site.time | date: '%s' %}
- 				 {% assign nonevents = site.data.news | where: "news", true %}
-				 {% for item in nonevents limit:10 %}
-		    	 		<li class="list-group-item">
-					   		<p class="mb-1">{{ item.text }}</p>
-						 		<small class="text-secondary">{{ item.date | date: '%B %d, %Y' }}</small>
-					 		</li>
-				 {% endfor %}
-				 	 <li class="list-group-item">
-						 <a href="/news/">Archive</a>
-					 </li>
-	       </ul>
-		 </div>
-
+<div class="row border-bottom border-grey pt-3 mb-3">
+	<div class="mb-3 col-sm-12 col-md-12 col-lg-8 col-xl-8 border-lg-right border-grey">
 		 <div class="mb-3 ">
 			<div class="card-body pb-2 pt-1">
 				<h4>Recorded Talks about Spoofax</h4>
@@ -244,7 +207,49 @@ title: CS4200 | Compiler Construction
 				 </small>
 			 </div>
 		 </div>
-
-	 </div>
-
+  </div>
 </div>
+
+
+
+
+<!-- <div class="mb-2">
+  <div class="card-body pb-2 pt-1">
+    <h4>Upcoming Events</h4>
+  </div>
+     <ul class="list-group list-group-flush">
+       {% assign curDate = site.time | date: '%s' %}
+       {% assign events = site.data.news | sort: "event-date" %}
+       {% for item in events %}
+         {% if item.event-date != null %}
+            {% assign itemDate = item.event-date | date: '%s' %}
+            {% if itemDate >= curDate %}
+              <li class="list-group-item">
+                <p class="mb-1">{{ item.text }}</p>
+                <small class="text-secondary">{{ item.event-date | date: '%B %d, %Y' }}
+                  (posted {{ item.date | date: '%B %d, %Y' }})</small>
+              </li>
+            {% endif %}
+         {% endif %}
+       {% endfor %}
+     </ul>
+ </div>
+
+ <div class="mb-2">
+  <div class="card-body pt-1 pb-2">
+    <h4>Latest News</h4>
+  </div>
+     <ul class="list-group list-group-flush">
+     {% assign curDate = site.time | date: '%s' %}
+     {% assign nonevents = site.data.news | where: "news", true %}
+     {% for item in nonevents limit:10 %}
+          <li class="list-group-item">
+            <p class="mb-1">{{ item.text }}</p>
+            <small class="text-secondary">{{ item.date | date: '%B %d, %Y' }}</small>
+          </li>
+     {% endfor %}
+       <li class="list-group-item">
+         <a href="/news/">Archive</a>
+       </li>
+     </ul>
+ </div> -->
