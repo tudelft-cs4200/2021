@@ -63,15 +63,15 @@
   period: Q2
   link: /lecture/13
 - date: Dec 10
-  title: Data-flow Analysis
+  title: Nested Functions & Memory Management
   period: Q2
   link: /lecture/14
 - date: Dec 17
-  title: Monotone Frameworks
+  title: Representing Objects & Register Allocation
   period: Q2
   link: /lecture/15
 - date: Jan 7
-  title: Memory Management
+  title: Data-Flow Analysis
   period: Q2
   link: /lecture/16
 - date: Jan 14
