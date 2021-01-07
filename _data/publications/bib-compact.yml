@@ -5284,6 +5284,30 @@ publications:
   howpublished: "Language Workbench Challenge (LWC@SLE)"
   kind: "misc"
   key: "KonatAEV16"
+- title: "Principles of program analysis (2. corr. print)"
+  author:
+  - name: "Flemming Nielson"
+    link: "https://researchr.org/alias/flemming-nielson"
+  - name: "Hanne Riis Nielson"
+    link: "https://researchr.org/alias/hanne-riis-nielson"
+  - name: "Chris Hankin"
+    link: "https://researchr.org/alias/chris-hankin"
+  year: "2005"
+  doi: "http://www.springer.com/computer/theoretical+computer+science/book/978-3-540-65410-0"
+  links:
+    doi: "http://www.springer.com/computer/theoretical+computer+science/book/978-3-540-65410-0"
+    dblp: "http://dblp.uni-trier.de/rec/bibtex/books/daglib/0015430"
+  tags:
+  - "program analysis"
+  - "analysis"
+  - "principles"
+  researchr: "https://researchr.org/publication/NielsenNH05"
+  cites: 0
+  citedby: 0
+  publisher: "Springer"
+  isbn: "978-3-540-65410-0"
+  kind: "book"
+  key: "NielsenNH05"
 - title: "Service configuration management"
   author:
   - name: "Eelco  Dolstra"
@@ -5847,6 +5871,24 @@ publications:
   number: "P9706"
   kind: "techreport"
   key: "Visser97-SDF"
+- title: "Static Program Analysis"
+  author:
+  - name: "Anders Møller"
+    link: "https://researchr.org/alias/anders-m%C3%B8ller"
+  - name: "Michael I. Schwartzbach"
+    link: "http://www.brics.dk/~mis/"
+  year: "2020"
+  month: "November"
+  doi: "https://cs.au.dk/~amoeller/spa/"
+  abstract: "Static program analysis is the art of reasoning about the behavior of computer programs without actually running them. This is useful not only in optimizing compilers for producing efficient code but also for automatic error detection and other tools that can help programmers. As known from Turing and Rice, all interesting properties of the behavior of programs written in common programming languages are mathematically undecidable. This means that automated reasoning of software generally must involve approximation. It is also well known that testing may reveal errors but not show their absence. In contrast, static program analysis can - with the right kind of approximations - check all possible executions of the programs and provide guarantees about their properties. The challenge when developing such analyses is how to ensure high precision and efficiency to be practically useful. This teaching material concisely presents the essential principles and algorithms for static program analysis. We emphasize a constraint-based approach where suitable constraint systems conceptually divide analysis into a front-end that generates constraints from program code and a back-end that solves the constraints to produce the analysis results. The style of presentation is intended to be precise but not overly formal. The readers are assumed to be familiar with advanced programming language concepts and the basics of compiler construction. The concepts are explained using a tiny imperative programming language, TIP, which suffices to illustrate the main challenges that arise with mainstream languages. "
+  links:
+    doi: "https://cs.au.dk/~amoeller/spa/"
+  researchr: "https://researchr.org/publication/MoellerS20"
+  cites: 0
+  citedby: 0
+  organization: "Department of Computer Science, Aarhus University"
+  kind: "book"
+  key: "MoellerS20"
 - title: "Conf.Researchr.Org: towards a domain-specific content management system for managing large conference websites"
   author:
   - name: "Elmer van Chastelet"
