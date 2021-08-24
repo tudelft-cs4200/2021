@@ -4,7 +4,10 @@
 
 permalink: pretty
 
-baseurl: /2021/
+# baseurl: /2021/
+
+
+url: https://tudelft-cs4200.github.io/2021/
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: rouge
