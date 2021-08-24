@@ -9,10 +9,12 @@ permalink: pretty
 
 url: https://tudelft-cs4200.github.io/2021/
 
+production_url : https://tudelft-cs4200.github.io/2021/
+
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: rouge
 
-title : Compiler Construction
+title : TUDelft CS4200 2020-2019
 tagline:
 author :
   name : Eelco Visser
@@ -20,7 +22,6 @@ author :
   github : tudelft-pl
   twitter :
 
-# production_url : eelcovisser.org
 
 markdown: kramdown
 highlighter: rouge
