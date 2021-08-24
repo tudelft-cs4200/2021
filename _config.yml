@@ -4,10 +4,12 @@
 
 permalink: pretty
 
+baseurl: /2021/
+
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: rouge
 
-title : Eelco Visser's homepage
+title : Compiler Construction
 tagline:
 author :
   name : Eelco Visser
