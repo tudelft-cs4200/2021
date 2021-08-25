@@ -19,7 +19,7 @@
   link: /research/#Spoofax
   image3: /img/spoofax/logo/Spoofax_Logo.png
   image: /img/spoofax/Spoofax-Screenshot2.png
-  text: "The <a href=http://metaborg.org>Spoofax Language Workbench</a> is an environment for the development of programming languages using high-level declarative meta-languages for syntax, static semantics, dynamic semantics, program analysis, and program transformation. We use Spoofax to implement a compiler and IDE for the project language and in homework assignments to experiment with various aspects of compilers in isolation."
+  text: "The <a href=http://spoofax.dev>Spoofax Language Workbench</a> is an environment for the development of programming languages using high-level declarative meta-languages for syntax, static semantics, dynamic semantics, program analysis, and program transformation. We use Spoofax to implement a compiler and IDE for the project language and in homework assignments to experiment with various aspects of compilers in isolation."
   categories: [front]
 
 
