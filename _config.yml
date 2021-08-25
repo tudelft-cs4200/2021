@@ -2,7 +2,7 @@
 
 # permalink: /posts/:title
 
-permalink: "/:baseurl/:categories/:year/:month/:day/:title/"
+permalink: /:baseurl/:categories/:year/:month/:day/:title/
 
 baseurl: /2021
 
