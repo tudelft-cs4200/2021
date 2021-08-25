@@ -7,17 +7,19 @@ kind: Lecture
 series: lectures
 speaker: Eelco Visser
 authors:
-pdf: :baseurl/lectures/01-introduction/01-introduction/CS4200-2020-1-introduction.pdf
-image: :baseurl/lectures/01-introduction/CS4200-2020-1-introduction.001.png
 talkURL:
 eventURL:
 event:
 references: [KatsV10,AmorimV20-SEFM,PadhyeSH19]
-permalink: :baseurl/lectures/1
-redirect_from:
+permalink: /2021/lectures/1
+---
+
+<!-- pdf: :baseurl/lectures/01-introduction/01-introduction/CS4200-2020-1-introduction.pdf
+image: :baseurl/lectures/01-introduction/CS4200-2020-1-introduction.001.png --><!-- redirect_from:
 - /lectures/1
 - :baseurl/lectures/1
----
+
+permalink: :baseurl/lectures/1-->
 
 In the opening lecture we look at what compilers are, why you would want to study them, and how the course is organized.
 
