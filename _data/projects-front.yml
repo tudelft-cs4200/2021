@@ -6,7 +6,7 @@
 - title: "CS4200-A: Front-End (Q1)"
   link: https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=55207
   # image:
-  text: "<p>In the first course we study the front-end of the compiler that parses and type checks programs. We study meta-languages for the definition of the syntax and static semantics of programming languages. [<a href=https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=55207>Study guide</a>]</p>"
+  text: "<p>In the first course we study the front-end of the compiler that parses and type checks programs. We study meta-languages for the definition of the syntax and static semantics of programming languages. [<a href=https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=57369>Study guide</a>]</p>"
   categories: [front]
 
 - title: "CS4200-B: Back-End (Q2)"
