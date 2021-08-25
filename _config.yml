@@ -2,9 +2,9 @@
 
 # permalink: /posts/:title
 
-permalink: pretty
+permalink: {{ site.baseurl }}pretty
 
-baseurl: /2021/
+baseurl: /2021
 
 # baseurl: https://tudelft-cs4200.github.io/2021/
 # url: https://tudelft-cs4200.github.io/2021/
