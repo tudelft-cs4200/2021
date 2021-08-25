@@ -1,11 +1,11 @@
 navigation:
   - name: Lectures
-    anchor: /lectures/
+    anchor: "{{site.baseurl}}/lectures/"
   - name: Homework
-    anchor: /homework/
+    anchor: "{{site.baseurl}}/homework/"
   - name: Project
-    anchor: /project/
+    anchor: "{{site.baseurl}}/project/"
   - name: News
-    anchor: /news/
+    anchor: "{{site.baseurl}}/news/"
   - name: Blog
-    anchor: /blog/
+    anchor: "{{site.baseurl}}/blog/"
