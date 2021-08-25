@@ -16,7 +16,7 @@
 			  {% if menu.anchor %}
 
         <li class="nav-item active">
-          <a class="nav-link" href="{{ menu.anchor }}" tabindex="-1" aria-disabled="true">{{ menu.name }}</a>
+          <a class="nav-link" href="{{site.baseurl}}{{ menu.anchor }}" tabindex="-1" aria-disabled="true">{{ menu.name }}</a>
         </li>
 
 				{% else %}
@@ -27,7 +27,7 @@
 					</a>
 	        <div class="dropdown-menu" aria-labelledby="{{ menu.id }}">
 						{% for item in menu.items %}
-	            <a class="dropdown-item" href="{{ item.anchor }}">{{ item.name }}</a>
+	            <a class="dropdown-item" href="{{site.baseurl}}{{ item.anchor }}">{{ item.name }}</a>
 						{% endfor %}
 	        </div>
 	      </li>
