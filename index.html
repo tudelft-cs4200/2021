@@ -127,9 +127,9 @@ title: CS4200 | Compiler Construction | 2021-2022
 
 		<div class="border-top border-grey">
 			<div class="card-body pt-3 mt-0 ">
-				  <a href="{{ "/lectures/" | relative_url }}>Lectures</a>
+				  <a href="{{site.baseurl}}/lectures/">Lectures</a>
 				| <a href="{{site.baseurl}}/project/">Project</a>
-			  | <a href="{{baseurl}}/homework/">Homework</a>
+			  | <a href="{{site.baseurl}}/homework/">Homework</a>
 				| <a href="https://weblab.tudelft.nl/cs4200/2021-2022/">WebLab</a>
 				| <a href="http://metaborg.org/">Spoofax</a>
 				| <a href="https://chocopy.org/">ChocoPy</a>
@@ -157,7 +157,7 @@ title: CS4200 | Compiler Construction | 2021-2022
 				  <li class="list-group-item">
 						{{ lecture.date }}:
 						{% if lecture.link != null %}
-						  <a href={{lecture.link}}>{{ lecture.title }}</a>
+						  <a href={{site.baseurl}}{{lecture.link}}>{{ lecture.title }}</a>
 					  {% else %}
 						  {{ lecture.title }}
 						{% endif %}
@@ -181,7 +181,7 @@ title: CS4200 | Compiler Construction | 2021-2022
         <li class="list-group-item">
           {{ lecture.date }}:
           {% if lecture.link != null %}
-            <a href={{lecture.link}}>{{ lecture.title }}</a>
+            <a href={{site.baseurl}}{{lecture.link}}>{{ lecture.title }}</a>
           {% else %}
             {{ lecture.title }}
           {% endif %}
