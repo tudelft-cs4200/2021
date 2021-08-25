@@ -7,6 +7,7 @@ permalink: pretty
 # baseurl: /2021/
 
 
+baseurl: https://tudelft-cs4200.github.io/2021/
 url: https://tudelft-cs4200.github.io/2021/
 
 production_url : https://tudelft-cs4200.github.io/2021/
