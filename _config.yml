@@ -2,7 +2,7 @@
 
 # permalink: /posts/:title
 
-permalink: "{{ site.baseurl }}pretty"
+permalink: "/:baseurl/:categories/:year/:month/:day/:title/"
 
 baseurl: /2021
 
