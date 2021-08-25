@@ -16,6 +16,7 @@ references: [KatsV10,AmorimV20-SEFM,PadhyeSH19]
 permalink: :baseurl/lectures/1
 redirect_from:
 - /lectures/1
+- :baseurl/lectures/1
 ---
 
 In the opening lecture we look at what compilers are, why you would want to study them, and how the course is organized.
