@@ -64,6 +64,7 @@ publications:
   - name: "Joost Visser"
     link: "http://www.di.uminho.pt/~joost.visser/"
   year: "2002"
+  abstract: "Strategic programming is an idiom for generic programming where the concept of a strategy plays a central role. A strategy is a generic, dataprocessing action. Strategies are first-class citizens as witnessed by a combinator style. Two important characteristics of strategies are that they can traverse into compound data, and that they can be customized by type-specific actions. We provide a general definition of strategic programming, and we demonstrate how this idiom can be realized inside several programming language paradigms."
   researchr: "https://researchr.org/publication/LaemmelVV02"
   cites: 0
   citedby: 0
@@ -134,6 +135,7 @@ publications:
     link: "http://eelcovisser.org"
   year: "2019"
   month: "October"
+  abstract: "We introduce a design approach for incremental compilers that we believe may be applicable to other languages. We demonstrate it on the critical case of Stratego, a term rewriting language with open extensibility features. After a brief overview of the open extensibility features, we show our compilation method, which is somewhere in between separate and incremental compilation. Our approach allows us to reuse almost all of the existing compiler while gaining great improvements in recompilation speed. We evaluate the new compiler with a benchmark on the version control history of a large Stratego project."
   researchr: "https://researchr.org/publication/SmitsKV19"
   cites: 0
   citedby: 0
@@ -143,7 +145,7 @@ publications:
 - title: "Intrinsically-typed definitional interpreters for linear, session-typed languages"
   author:
   - name: "Arjen Rouvoet"
-    link: "https://researchr.org/alias/arjen-rouvoet"
+    link: "https://www.linkedin.com/in/arjen-rouvoet-760347a5/"
   - name: "Casper Bach Poulsen"
     link: "http://www.casperbp.net"
   - name: "Robbert Krebbers"
@@ -152,6 +154,7 @@ publications:
     link: "http://eelcovisser.org"
   year: "2020"
   doi: "https://doi.org/10.1145/3372885.3373818"
+  abstract: "An intrinsically-typed definitional interpreter is a concise specification of dynamic semantics, that is executable and type safe by construction. Unfortunately, scaling intrinsically-typed definitional interpreters to more complicated object languages often results in definitions that are cluttered with manual proof work. For linearly-typed languages (including session-typed languages) one has to prove that the interpreter, as well as all the operations on semantic components, treat values linearly. We present new methods and tools that make it possible to implement intrinsically-typed definitional interpreters for linearly-typed languages in a way that hides the majority of the manual proof work. Inspired by separation logic, we develop reusable and composable abstractions for programming with linear operations using dependent types. Using these abstractions, we define interpreters for linear lambda calculi with strong references, concurrency, and session-typed communication in Agda."
   links:
     doi: "https://doi.org/10.1145/3372885.3373818"
     dblp: "http://dblp.uni-trier.de/rec/bibtex/conf/cpp/RouvoetPKV20"
@@ -186,11 +189,12 @@ publications:
   - name: "Daniël A. A. Pelsmaeker"
     link: "https://pelsmaeker.net/"
   - name: "Hendrik van Antwerpen"
-    link: "https://researchr.org/alias/hendrik-van-antwerpen"
+    link: "https://nl.linkedin.com/in/hendrikvanantwerpen"
   - name: "Eelco Visser"
     link: "http://eelcovisser.org"
   year: "2019"
   doi: "https://doi.org/10.1145/3359061.3362782"
+  abstract: "New programming languages often lack good IDE support, as developing advanced semantic editor services takes additional effort. In previous work we discussed the operational requirements of a constraint solver that leverages the declarative type system specification of a language to provide language-parametric semantic editor services. In this work we describe the implementation of our solver as a two stage process: inference and search. An editor-service specific search strategy determines how and where the search is conducted, and when it terminates. We are currently implementing and evaluating this idea."
   links:
     doi: "https://doi.org/10.1145/3359061.3362782"
     dblp: "http://dblp.uni-trier.de/rec/bibtex/conf/oopsla/PelsmaekerAV19"
@@ -422,6 +426,7 @@ publications:
     link: "http://eelcovisser.org"
   year: "2005"
   month: "August"
+  abstract: "Properties such as logging, persistence, debugging, tracing, distribution, performance monitoring and exception handling occur in most programming paradigms and are normally very difficult or even impossible to modularize with traditional modularization mechanisms because they are cross-cutting. Recently, aspect-oriented programming has enjoyed recognition as a practical solution for separating these concerns. In this paper we describe an extension to the Stratego term rewriting language for capturing such properties. We show our aspect language offers a concise, practical and adaptable solution for dealing with unanticipated algorithm extension for forward data-flow propagation and dynamic type checking of terms. We briefly discuss some of the challenges faced when designing and implementing an aspect extension for and in a rule-based term rewriting system."
   links:
     "techreport": "http://www.cs.uu.nl/research/techreps/UU-CS-2005-030.html"
     "pdf": "http://www.cs.uu.nl/research/techreps/repo/CS-2005/2005-030.pdf"
@@ -444,6 +449,7 @@ publications:
     link: "http://eelcovisser.org"
   year: "2004"
   month: "February"
+  abstract: "Elk eerbiedwaardig softwaresysteem biedt tegenwoordig de mogelijkheid om gedurende de levensduur de eigenschappen ervan te wijzigen. Om deze variatiepunten te modelleren wordt in het Jaquard-project TraCE gewerkt aan transparante configuratieomgevingen."
   researchr: "https://researchr.org/publication/DolstraFJV04"
   cites: 0
   citedby: 0
@@ -1051,6 +1057,25 @@ publications:
   booktitle: "ICSE"
   kind: "inproceedings"
   key: "DolstraVJ04"
+- title: "Scope States (Artifact)"
+  author:
+  - name: "Hendrik van Antwerpen"
+    link: "https://nl.linkedin.com/in/hendrikvanantwerpen"
+  - name: "Eelco Visser"
+    link: "http://eelcovisser.org"
+  year: "2021"
+  doi: "https://doi.org/10.4230/DARTS.7.2.1"
+  links:
+    doi: "https://doi.org/10.4230/DARTS.7.2.1"
+    dblp: "http://dblp.uni-trier.de/rec/bibtex/journals/darts/AntwerpenV21"
+  researchr: "https://researchr.org/publication/AntwerpenV21-artifact"
+  cites: 0
+  citedby: 0
+  journal: "darts"
+  volume: "7"
+  number: "2"
+  kind: "article"
+  key: "AntwerpenV21-artifact"
 - title: "WebDSL: A Case Study in Domain-Specific Language Engineering"
   author:
   - name: "Eelco Visser"
@@ -1216,6 +1241,23 @@ publications:
   pages: "31-37"
   kind: "article"
   key: "GroenewegenHV10"
+- title: "Scope States: Guarding Safety of Name Resolution in Parallel Type Checkers"
+  author:
+  - name: "Hendrik van Antwerpen"
+    link: "https://nl.linkedin.com/in/hendrikvanantwerpen"
+  - name: "Eelco Visser"
+    link: "http://eelcovisser.org"
+  year: "2021"
+  doi: "https://doi.org/10.4230/LIPIcs.ECOOP.2021.1"
+  links:
+    doi: "https://doi.org/10.4230/LIPIcs.ECOOP.2021.1"
+    dblp: "http://dblp.uni-trier.de/rec/bibtex/conf/ecoop/AntwerpenV21"
+  researchr: "https://researchr.org/publication/AntwerpenV21"
+  cites: 0
+  citedby: 0
+  booktitle: "ECOOP"
+  kind: "inproceedings"
+  key: "AntwerpenV21"
 - title: "FlowSpec: declarative dataflow analysis specification"
   author:
   - name: "Jeff Smits"
@@ -1235,23 +1277,6 @@ publications:
   booktitle: "SLE"
   kind: "inproceedings"
   key: "SmitsV17"
-- title: "Intrinsically-Typed Compilation with Nameless Labels"
-  author:
-  - name: "Arjen Rouvoet"
-    link: "https://www.linkedin.com/in/arjen-rouvoet-760347a5/"
-  - name: "Robbert Krebbers"
-    link: "https://robbertkrebbers.nl"
-  - name: "Eelco Visser"
-    link: "http://eelcovisser.org"
-  year: "2021"
-  researchr: "https://researchr.org/publication/RouvoetKV21-preprint"
-  cites: 0
-  citedby: 0
-  journal: "Proceedings of the ACM on Programming Languages"
-  volume: "5"
-  number: "POPL"
-  kind: "article"
-  key: "RouvoetKV21-preprint"
 - title: "A Research Agenda for Formal Methods in the Netherlands"
   author:
   - name: "Marieke Huisman"
@@ -1263,6 +1288,7 @@ publications:
   year: "2019"
   month: "July"
   doi: "http://www.staff.science.uu.nl/~swier004/publications/2019-CS-004.pdf"
+  abstract: "On September 3 and 4, 2018, we organized a meeting on formal methods research in the Netherlands. Goal of the meeting was to create a Dutch formal methods community, to increase awareness of each other’s activities, and to find common grounds for collaborations. All researchers working on formal methods in the Netherlands were invited to contribute a 2-page abstract with their vision on the future of formal methods research. This document bundles these visions."
   links:
     doi: "http://www.staff.science.uu.nl/~swier004/publications/2019-CS-004.pdf"
   researchr: "https://researchr.org/publication/HuismanSV19"
@@ -1408,10 +1434,10 @@ publications:
   - name: "Guido Wachsmuth"
     link: "https://www.linkedin.com/in/guidowachsmuth/"
   year: "2015"
-  doi: "http://dx.doi.org/10.1007/978-3-662-46669-8_9"
+  doi: "http://dx.doi.org/10.1007/978-3-662-46669-8\\_9"
   abstract: "We describe a language-independent theory for name binding and resolution, suitable for programming languages with complex scoping rules including both lexical scoping and modules. We formulate name resolution as a two-stage problem. First a language-independent scope graph is constructed using language-specific rules from an abstract syntax tree. Then references in the scope graph are resolved to corresponding declarations using a language-independent resolution process. We introduce a resolution calculus as a concise, declarative, and languageindependent specification of name resolution. We develop a resolution algorithm that is sound and complete with respect to the calculus. Based on the resolution calculus we develop language-independent definitions of α-equivalence and rename refactoring. We illustrate the approach using a small example language with modules. In addition, we show how our approach provides a model for a range of name binding patterns in existing languages."
   links:
-    doi: "http://dx.doi.org/10.1007/978-3-662-46669-8_9"
+    doi: "http://dx.doi.org/10.1007/978-3-662-46669-8\\_9"
     dblp: "http://dblp.uni-trier.de/rec/bibtex/conf/esop/NeronTVW15"
     technicalreport: "https://researchr.org/publication/TUD-SERG-2015-001"
   researchr: "https://researchr.org/publication/NeronTVW15"
@@ -1648,12 +1674,13 @@ publications:
   author:
   - name: "Jeff Smits"
     link: "https://researchr.org/profile/jeffsmits/publications"
-  - name: "Gabriël D. P. Konat"
-    link: "https://researchr.org/alias/gabri%C3%ABl-d.-p.-konat"
+  - name: "Gabriël Konat"
+    link: "http://nl.linkedin.com/in/gabrielkonat"
   - name: "Eelco Visser"
     link: "http://eelcovisser.org"
   year: "2020"
   doi: "https://doi.org/10.22152/programming-journal.org/2020/4/16"
+  abstract: "Context: Compilation time is an important factor in the adaptability of a software project. Fast recompilation enables cheap experimentation with changes to a project, as those changes can be tested quickly. Separate and incremental compilation has been a topic of interest for a long time to facilitate fast recompilation. Inquiry: Despite the benefits of an incremental compiler, such compilers are usually not the default. This is because incrementalization requires cross-cutting, complicated, and error-prone techniques such as dependency tracking, caching, cache invalidation, and change detection. Especially in compilers for languages with cross-module definitions and integration, correctly and efficiently implementing an incremental compiler can be a challenge. Retrofitting incrementality into a compiler is even harder. We address this problem by developing a compiler design approach that reuses parts of an existing non-incremental compiler to lower the cost of building an incremental compiler. It also gives an intuition into compiling difficult-to-incrementalize language features through staging. Approach: We use the compiler design approach presented in this paper to develop an incremental com- piler for the Stratego term-rewriting language. This language has a set of features that at first glance look incompatible with incremental compilation. Therefore, we treat Stratego as our critical case to demonstrate the approach on. We show how this approach decomposes the original compiler and has a solution to com- pile Stratego incrementally. The key idea on which we build our incremental compiler is to internally use an incremental build system to wire together the components we extract from the original compiler. Knowledge: The resulting compiler is already in use as a replacement of the original whole-program compiler. We find that the incremental build system inside the compiler is a crucial component of our approach. This allows a compiler writer to think in multiple steps of compilation, and combine that into a incremental compiler almost effortlessly. Normally, separate compilation à la C is facilitated by an external build system, where the programmer is responsible for managing dependencies between files. We reuse an existing sound and optimal incremental build system, and integrate its dependency tracking into the compiler. Grounding: The incremental compiler for Stratego is available as an artefact along with this article. We evaluate it on a large Stratego project to test its performance. The benchmark replays edits to the Stratego project from version control. These benchmarks are part of the artefact, packaged as a virtual machine image for easy reproducibility. Importance: Although we demonstrate our design approach on the Stratego programming language, we also describe it generally throughout this paper. Many currently used programming languages have a compiler that is much slower than necessary. Our design provides an approach to change this, by reusing an existing compiler and making it incremental within a reasonable amount of time."
   links:
     doi: "https://doi.org/10.22152/programming-journal.org/2020/4/16"
     dblp: "http://dblp.uni-trier.de/rec/bibtex/journals/programming/SmitsKV20"
@@ -1723,21 +1750,6 @@ publications:
   institution: "Department of Computer Science, K.U. Leuven"
   kind: "techreport"
   key: "MoorsPO2008"
-- title: "Gradually Typing Strategies"
-  author:
-  - name: "Jeff Smits"
-    link: "https://researchr.org/profile/jeffsmits/publications"
-  - name: "Eelco Visser"
-    link: "http://eelcovisser.org"
-  year: "2020"
-  links:
-    "url": "https://conf.researchr.org/home/sle-2020"
-  researchr: "https://researchr.org/publication/SmitsV20"
-  cites: 0
-  citedby: 0
-  booktitle: "SLE"
-  kind: "inproceedings"
-  key: "SmitsV20"
 - title: "Fusing a Transformation Language with an Open Compiler"
   author:
   - name: "Karl Trygve Kalleberg"
@@ -1817,6 +1829,7 @@ publications:
     link: "http://eelcovisser.org"
   year: "2015"
   doi: "http://dx.doi.org/10.4230/DagRep.5.2.26"
+  abstract: "This report documents the program and outcomes of Dagstuhl Seminar 15062 “Domain-Specific Languages”, which took place February 1–6, 2015. The seminar was motivated on the one hand by the high interest in domain-specific languages in academia and industry and on the other hand by the observation that the community is divided into largely disconnected subdisciplines (e.g., internal, external, visual, model-driven). The seminar included participants across these subdisciplines and included overview talks, technical talks, demos, discussion groups, and an industrial panel. This report collects the abstracts of talks and other activities at the seminar and summarizes the outcomes of the seminar."
   links:
     doi: "http://dx.doi.org/10.4230/DagRep.5.2.26"
     dblp: "http://dblp.uni-trier.de/rec/bibtex/journals/dagstuhl-reports/ErdwegEPV15"
@@ -1853,7 +1866,7 @@ publications:
 - title: "DynSem: A DSL for Dynamic Semantics Specification"
   author:
   - name: "Vlad A. Vergu"
-    link: "https://researchr.org/alias/vlad-a.-vergu"
+    link: "http://www.linkedin.com/in/vladv"
   - name: "Pierre Néron"
     link: "https://researchr.org/profile/pierrejeanmichelneron/publications"
   - name: "Eelco Visser"
@@ -2303,6 +2316,7 @@ publications:
     link: "http://eelcovisser.org"
   year: "2020"
   month: "June"
+  abstract: "Associativity and priority are well known techniques to disambiguate expression grammars. In recent work we develop a direct semantics for disambiguation by associativity and priority rules and prove that a safe and complete disambiguation relation produces a safe and complete disambiguation. The proof approach relies on a correspondence between disambiguation and term rewriting such that safety of disambiguation corresponds to termination of the rewrite system and completeness of disambiguation correspond to confluence of the rewrite system. In this extended abstract we illustrate that approach using diagrams."
   researchr: "https://researchr.org/publication/AmorimV20-IWC"
   cites: 0
   citedby: 0
@@ -2353,13 +2367,14 @@ publications:
   - name: "Adrian D. Mensing"
     link: "https://researchr.org/alias/adrian-d.-mensing"
   - name: "Hendrik van Antwerpen"
-    link: "https://researchr.org/alias/hendrik-van-antwerpen"
+    link: "https://nl.linkedin.com/in/hendrikvanantwerpen"
   - name: "Casper Bach Poulsen"
     link: "https://researchr.org/alias/casper-bach-poulsen"
   - name: "Eelco Visser"
     link: "http://eelcovisser.org"
   year: "2019"
   doi: "https://doi.org/10.1145/3358502.3361269"
+  abstract: "Symbolic execution is a technique for automatic software validation and verification. New symbolic executors regularly appear for both existing and new languages and such symbolic executors are generally manually (re)implemented each time we want to support a new language. We propose to automatically generate symbolic executors from language definitions, and present a technique for mechanically (but as yet, manually) deriving a symbolic executor from a definitional interpreter. The idea is that language designers define their language as a monadic definitional interpreter, where the monad of the interpreter defines the meaning of branch points. Developing a symbolic executor for a language is a matter of changing the monadic interpretation of branch points. In this paper, we illustrate the technique on a language with recursive functions and pattern matching, and use the derived symbolic executor to automatically generate test cases for definitional interpreters implemented in our defined language."
   links:
     doi: "https://doi.org/10.1145/3358502.3361269"
     dblp: "http://dblp.uni-trier.de/rec/bibtex/conf/oopsla/MensingAPV19"
@@ -2492,6 +2507,10 @@ publications:
     link: "http://eelcovisser.org"
   year: "2019"
   month: "July"
+  doi: "http://eelcovisser.org/blog/2019/09/29/fast-and-safe-linguistic-abstraction-for-the-masses/"
+  abstract: "Language workbenches support the high-level definition of (domain-specific) programming languages and the automatic derivation of implementations from such definitions. The mission of language workbench research is to increase the level of abstraction of language definitions and expand the range of tools that can be generated automatically from language definitions. In this note, I give an overview of research into language workbenches at TU Delft and the perspective of future research."
+  links:
+    doi: "http://eelcovisser.org/blog/2019/09/29/fast-and-safe-linguistic-abstraction-for-the-masses/"
   researchr: "https://researchr.org/publication/Visser19-0"
   cites: 0
   citedby: 0
@@ -2512,6 +2531,8 @@ publications:
   links:
     doi: "http://dx.doi.org/10.1007/s10270-010-0173-9"
     dblp: "http://dblp.uni-trier.de/rec/bibtex/journals/sosym/GroenewegenV13"
+  tags:
+  - "WebDSL"
   researchr: "https://researchr.org/publication/GroenewegenV13"
   cites: 0
   citedby: 0
@@ -2546,6 +2567,7 @@ publications:
   - name: "Eelco Visser"
     link: "http://eelcovisser.org"
   year: "2003"
+  abstract: "Transformation techniques are spreading from application in compilers to general use in generative programming and document processing. Since transformation requires operations such as pattern matching, generic structure traversal, and querying, which are not normally provided by general-purpose programming languages, many tools have been developed to provide higher-level support for the implementation of transformations. These tools come in many flavors each with their own merits and based on different paradigms, which makes comparison difficult. In this paper, we consider transformation from the point of view of mechanics and develop a classification of transformation mechanisms that provides a reference for comparing tools developed for different applications, using different implementations, and in different programming paradigms. To do so we distinguish three fundamental aspects of transformation mechanisms: scope, direction, and stages. We apply this classification in a discussion of design patterns for transformation, characterization of several typical transformations, and a systematic comparison of eleven representative transformation tools."
   tags:
   - "classification"
   - "survey"
@@ -2736,6 +2758,7 @@ publications:
     link: "http://eelcovisser.org"
   year: "2018"
   doi: "https://doi.org/10.1145/3276604.3276608"
+  abstract: "We present a tool architecture that supports migrating custom domain-specific language (DSL) implementations to a language workbench. We demonstrate an implementation of this architecture for models in the domains of defining component interfaces (IDL) and modeling system behavior (OIL) which are developed and used at a digital printer manufacturing company. Increasing complexity and the lack of DSL syntax and IDE support for existing implementations in Python based on XML syntax hindered their evolution and adoption. A reimplementation in Spoofax using modular language definition enables composition between IDL and OIL and introduces more concise DSL syntax and IDE support. The presented tool supports migrating to new implementations while being backward compatible with existing syntax and related tooling."
   links:
     doi: "https://doi.org/10.1145/3276604.3276608"
     dblp: "http://dblp.uni-trier.de/rec/bibtex/conf/sle/DenkersGV18"
@@ -3002,6 +3025,7 @@ publications:
     link: "http://eelcovisser.org"
   year: "2020"
   doi: "https://doi.org/10.1016/j.cola.2019.100924"
+  abstract: "Data-flow analysis is the static analysis of programs to estimate their approximate run-time behavior or approximate intermediate run-time values. It is an integral part of modern language specifications and compilers. In the specification of static semantics of programming languages, the concept of data-flow allows the description of well-formedness such as definite assignment of a local variable before its first use. In the implementation of compiler back-ends, data-flow analyses inform optimizations. Data-flow analysis has an established theoretical foundation. What lags behind is implementations of data-flow analysis in compilers, which are usually ad-hoc. This makes such implementations difficult to extend and maintain. In previous work researchers have proposed higher-level formalisms suitable for whole-program analysis in a separate tool, incremental analysis within editors, or bound to a specific intermediate representation. In this paper, we present FlowSpec, an executable formalism for specification of data-flow analysis. FlowSpec is a domain-specific language that enables direct and concise specification of data-flow analysis for programming languages, designed to express flow-sensitive, intra-procedural analyses. We define the formal semantics of FlowSpec in terms of monotone frameworks. We describe the design of FlowSpec using examples of standard analyses. We also include a description of our implementation of FlowSpec. In a case study we evaluate FlowSpec with the static analyses for Green-Marl, a domain-specific programming language for graph analytics."
   links:
     doi: "https://doi.org/10.1016/j.cola.2019.100924"
     dblp: "http://dblp.uni-trier.de/rec/bibtex/journals/vlc/SmitsWV20"
@@ -3160,6 +3184,29 @@ publications:
   pages: "35-43"
   kind: "article"
   key: "WachsmuthKV14"
+- title: "Intrinsically typed compilation with nameless labels"
+  author:
+  - name: "Arjen Rouvoet"
+    link: "https://www.linkedin.com/in/arjen-rouvoet-760347a5/"
+  - name: "Robbert Krebbers"
+    link: "https://researchr.org/alias/robbert-krebbers"
+  - name: "Eelco Visser"
+    link: "http://eelcovisser.org"
+  year: "2021"
+  doi: "https://doi.org/10.1145/3434303"
+  abstract: "To avoid compilation errors it is desirable to verify that a compiler is type correct—i.e., given well-typed source code, it always outputs well-typed target code. This can be done intrinsically by implementing it as a function in a dependently typed programming language, such as Agda. This function manipulates data types of well-typed source and target programs, and is therefore type correct by construction. A key challenge in implementing an intrinsically typed compiler is the representation of labels in bytecode. Because label names are global, bytecode typing appears to be inherently a non-compositional, whole-program property. The individual operations of the compiler do not preserve this property, which requires the programmer to reason about labels, which spoils the compiler definition with proof terms. In this paper, we address this problem using a new nameless and co-contextual representation of typed global label binding, which is compositional. Our key idea is to use linearity to ensure that all labels are defined exactly once. To write concise compilers that manipulate programs in our representation, we develop a linear, dependently typed, shallowly embedded language in Agda, based on separation logic. We show that this language enables the concise specification and implementation of intrinsically typed operations on bytecode, culminating in an intrinsically typed compiler for a language with structured control-flow."
+  links:
+    doi: "https://doi.org/10.1145/3434303"
+    dblp: "http://dblp.uni-trier.de/rec/bibtex/journals/pacmpl/RouvoetKV21"
+  researchr: "https://researchr.org/publication/RouvoetKV21"
+  cites: 0
+  citedby: 0
+  journal: "PACMPL"
+  volume: "5"
+  number: "POPL"
+  pages: "1-28"
+  kind: "article"
+  key: "RouvoetKV21"
 - title: "Using Filters for the Disambiguation of Context-free Grammars"
   author:
   - name: "Paul  Klint"
@@ -3186,15 +3233,15 @@ publications:
   key: "KlintV94"
 - title: "Multi-purpose Syntax Definition with SDF3"
   author:
-  - name: "Luís Eduardo de Souza Amorim"
-    link: "https://researchr.org/alias/lu%C3%ADs-eduardo-de-souza-amorim"
+  - name: "Luis Eduardo de Souza Amorim"
+    link: "https://www.linkedin.com/profile/view?id=136481548"
   - name: "Eelco Visser"
     link: "http://eelcovisser.org"
   year: "2020"
-  doi: "https://doi.org/10.1007/978-3-030-58768-0_1"
+  doi: "https://doi.org/10.1007/978-3-030-58768-0\\_1"
   abstract: "SDF3 is a syntax definition formalism that extends plain context-free grammars with features such as constructor declarations, declarative disambiguation rules, character-level grammars, permissive syntax, layout constraints, formatting templates, placeholder syntax, and modular composition. These features support the multi-purpose interpretation of syntax definitions, including derivation of type schemas for abstract syntax tree representations, scannerless generalized parsing of the full class of context-free grammars, error recovery, layout-sensitive parsing, parenthesization and formatting, and syntactic completion. This paper gives a high level overview of SDF3 by means of examples and provides a guide to the literature for further details."
   links:
-    doi: "https://doi.org/10.1007/978-3-030-58768-0_1"
+    doi: "https://doi.org/10.1007/978-3-030-58768-0\\_1"
     dblp: "http://dblp.uni-trier.de/rec/bibtex/conf/sefm/AmorimV20"
   researchr: "https://researchr.org/publication/AmorimV20"
   cites: 0
@@ -3239,7 +3286,9 @@ publications:
   year: "2020"
   month: "September"
   doi: "10.5281/zenodo.4032445"
+  abstract: "This is the artifact for the paper Gradually Typing Strategies, accepted at International Conference on Software Language Engineering."
   links:
+    successor: "https://researchr.org/publication/SmitsV20"
     "url": "https://doi.org/10.5281/zenodo.4032445"
   researchr: "https://researchr.org/publication/SmitsV20-Artifact"
   cites: 0
@@ -3564,6 +3613,30 @@ publications:
   booktitle: "SLE"
   kind: "inproceedings"
   key: "BravenboerV08"
+- title: "Knowing When to Ask: Artifact"
+  author:
+  - name: "Arjen Rouvoet"
+    link: "https://www.linkedin.com/in/arjen-rouvoet-760347a5/"
+  - name: "Hendrik van Antwerpen"
+    link: "https://researchr.org/alias/hendrik-van-antwerpen"
+  - name: "Casper Bach Poulsen"
+    link: "https://researchr.org/alias/casper-bach-poulsen"
+  - name: "Robbert Krebbers"
+    link: "https://researchr.org/alias/robbert-krebbers"
+  - name: "Eelco Visser"
+    link: "http://eelcovisser.org"
+  year: "2020"
+  month: "oct"
+  doi: "https://doi.org/10.5281/zenodo.4068065"
+  links:
+    doi: "https://doi.org/10.5281/zenodo.4068065"
+    "url": "https://doi.org/10.5281/zenodo.4068065"
+  researchr: "https://researchr.org/publication/RouvoetAPKV20-artifact"
+  cites: 0
+  citedby: 0
+  version: "1.0"
+  kind: "software"
+  key: "RouvoetAPKV20-artifact"
 - title: "Nix: A Safe and Policy-Free System for Software Deployment"
   author:
   - name: "Eelco  Dolstra"
@@ -3700,7 +3773,7 @@ publications:
   - "program transformation"
   researchr: "https://researchr.org/publication/Visser05-SCAM"
   cites: 0
-  citedby: 0
+  citedby: 1
   booktitle: "SCAM"
   kind: "inproceedings"
   key: "Visser05-SCAM"
@@ -3781,6 +3854,7 @@ publications:
     link: "http://eelcovisser.org"
   year: "2018"
   doi: "https://doi.org/10.1145/3238147.3238196"
+  abstract: "Incremental build systems are essential for fast, reproducible software builds. Incremental build systems enable short feedback cycles when they capture dependencies precisely and selectively execute build tasks efficiently. A much overlooked feature of build systems is the expressiveness of the scripting language, which directly influences the maintainability of build scripts. In this paper, we present a new incremental build algorithm that allows build engineers to use a full-fledged programming language with explicit task invocation, value and file inspection facilities, and conditional and iterative language constructs. In contrast to prior work on incrementality for such programmable builds, our algorithm scales with the number of tasks affected by a change and is independent of the size of the software project being built. Specifically, our algorithm accepts a set of changed files, transitively detects and re-executes affected build tasks, but also accounts for new task dependencies discovered during building. We have evaluated the performance of our algorithm in a real-world case study and confirm its scalability."
   links:
     doi: "https://doi.org/10.1145/3238147.3238196"
     dblp: "http://dblp.uni-trier.de/rec/bibtex/conf/kbse/KonatEV18"
@@ -3997,6 +4071,7 @@ publications:
     link: "http://eelcovisser.org"
   year: "2010"
   doi: "http://dx.doi.org/10.1007/978-3-642-16310-4_16"
+  abstract: "This paper presents the main results and conclusions of the Third Rewrite Engines Competition (REC III). This edition of the competition took place as part of the 8th Workshop on Rewriting Logic and its Applications (WRLA 2010), and the systems ASF+SDF, Maude, Stratego/XT, Tom, and TXL participated in it."
   links:
     doi: "http://dx.doi.org/10.1007/978-3-642-16310-4_16"
     dblp: "http://dblp.uni-trier.de/rec/bibtex/conf/wrla/DuranRBBBCEEJK10"
@@ -4019,8 +4094,9 @@ publications:
     link: "http://eelcovisser.org"
   year: "2018"
   month: "October"
+  abstract: "Stratego is a transformation language based on term rewriting with programmable rewriting strategies. A program in Stratego consists of named rewrite rules and strategies. When definitions have the same name, they contribute to the same rule. This works across files, thereby allowing extensibility. Due to this distribution of rules over modules, the Stratego compiler has always been a whole program compiler. Large Stratego programs are slow to compile as a result. In this work we present our approach to incremental compilation of Stratego. The approach may be useful for incremental compilation of other languages with similar cross-file features."
   researchr: "https://researchr.org/publication/SmitsV18"
-  cites: 0
+  cites: 3
   citedby: 0
   howpublished: "Poster at SPLASH"
   kind: "misc"
@@ -4035,6 +4111,7 @@ publications:
     link: "http://eelcovisser.org"
   year: "2019"
   doi: "https://doi.org/10.4230/LIPIcs.ECOOP.2019.4"
+  abstract: "DynSem is a domain-specific language for concise specification of the dynamic semantics of programming languages, aimed at rapid experimentation and evolution of language designs. To maintain a short definition-to-execution cycle, DynSem specifications are meta-interpreted. Meta-interpretation introduces runtime overhead that is difficult to remove by using interpreter optimization frameworks such as the Truffle/Graal Java tools; previous work has shown order-of-magnitude improvements from applying Truffle/Graal to a meta-interpreter, but this is still far slower than what can be achieved with a language-specific interpreter. In this paper, we show how specifying the meta-interpreter using scope graphs, which encapsulate static name binding and resolution information, produces much better optimization results from Truffle/Graal. Furthermore, we identify that JIT compilation is hindered by large numbers of calls between small polymorphic rules and we introduce rule cloning to derive larger monomorphic rules at run time as a countermeasure. Our contributions improve the performance of DynSem-derived interpreters to within an order of magnitude of a handwritten language-specific interpreter."
   links:
     doi: "https://doi.org/10.4230/LIPIcs.ECOOP.2019.4"
     dblp: "http://dblp.uni-trier.de/rec/bibtex/conf/ecoop/VerguTV19"
@@ -4140,9 +4217,12 @@ publications:
     link: "http://eelcovisser.org"
   year: "2020"
   doi: "https://doi.org/10.1145/3397537.3397553"
+  abstract: "Web applications are ideal for implementing information systems; they can organize and persist the data in a database, do not require installation on client machines, and can be instantly updated everywhere. However, web programming is complex due to its heterogeneous nature, causing web frameworks to suffer from insufficient or leaky abstraction, weak static consistency checking, and security features that are not enforced. We developed the WebDSL web programming language, which supports direct expression of intent, strong static consistency checking, linguistic abstractions for web programming concerns, and automatically enforces security features for web applications. We have used WebDSL for over 10 years to create information systems for academic workflows with thousands of users. Based on our experiences with these applications, we improved the WebDSL compiler and runtime to increase robustness, performance, and security of applications. In this experience report, we reflect on the lessons learned and improvements made to the language runtime."
   links:
     doi: "https://doi.org/10.1145/3397537.3397553"
     dblp: "http://dblp.uni-trier.de/rec/bibtex/conf/programming/GroenewegenCV20"
+  tags:
+  - "WebDSL"
   researchr: "https://researchr.org/publication/GroenewegenCV20"
   cites: 0
   citedby: 0
@@ -4178,7 +4258,7 @@ publications:
   - "transformation"
   researchr: "https://researchr.org/publication/VisserB98"
   cites: 0
-  citedby: 0
+  citedby: 1
   journal: "ENTCS"
   volume: "15"
   pages: "422-441"
@@ -4227,6 +4307,7 @@ publications:
   - name: "Eelco Visser"
     link: "http://eelcovisser.org"
   year: "2019"
+  abstract: "PIE is precise, as dependencies of build tasks are exactly tracked using dynamic dependencies, enabling correct and minimal incremental builds. PIE is efficient, only checking and executing tasks that have been affected by a change. Finally, PIE is expressive, as build engineers write their build scripts in a full-fledged programming language, without having to resort to workarounds or complicated design patterns."
   researchr: "https://researchr.org/publication/KonatSEV19"
   cites: 0
   citedby: 0
@@ -4340,8 +4421,8 @@ publications:
   key: "KatsVV11"
 - title: "Towards Zero-Overhead Disambiguation of Deep Priority Conflicts"
   author:
-  - name: "Luís Eduardo de Souza Amorim"
-    link: "https://researchr.org/alias/lu%C3%ADs-eduardo-de-souza-amorim"
+  - name: "Luis Eduardo de Souza Amorim"
+    link: "https://www.linkedin.com/profile/view?id=136481548"
   - name: "Michael J. Steindorfer"
     link: "http://michael.steindorfer.name"
   - name: "Eelco Visser"
@@ -4777,6 +4858,7 @@ publications:
     link: "http://eelcovisser.org"
   year: "2011"
   doi: "http://doi.acm.org/10.1145/2048147.2048199"
+  abstract: "SugarJ is a Java-based programming language that provides extensible surface syntax, static analyses, and IDE support. SugarJ extensions are organized as libraries; conventional import statements suffice to activate and compose language extensions. We illustrate how programmers can use SugarJ to modularly extend Java’s syntax, semantic analyses and IDE support."
   links:
     doi: "http://doi.acm.org/10.1145/2048147.2048199"
   tags:
@@ -4944,10 +5026,10 @@ publications:
   key: "Visser19-PACMPL"
 - title: "Declarative specification of indentation rules: a tooling perspective on parsing and pretty-printing layout-sensitive languages"
   author:
-  - name: "Luís Eduardo de Souza Amorim"
-    link: "https://researchr.org/alias/lu%C3%ADs-eduardo-de-souza-amorim"
+  - name: "Luis Eduardo de Souza Amorim"
+    link: "https://www.linkedin.com/profile/view?id=136481548"
   - name: "Michael J. Steindorfer"
-    link: "https://researchr.org/alias/michael-j.-steindorfer"
+    link: "http://michael.steindorfer.name"
   - name: "Sebastian Erdweg"
     link: "http://www.informatik.uni-marburg.de/~seba/"
   - name: "Eelco Visser"
@@ -5261,6 +5343,7 @@ publications:
   - name: "Eelco Visser"
     link: "http://eelcovisser.org"
   year: "2018"
+  abstract: "Code completion is an editor service that suggests keywords and identifiers that are relevant at the caret location in the editor, from which the user can choose to either insert one or continue typing. This reduces coding errors and aids in discovering the possibilities in a language or API. Providing a code completion editor service for a new programming language requires development effort in addition to the effort required for defining the language. The goal of this work is to automatically produce an intelligent editor-agnostic code completion editor service that is parameterized only by the declarative specification of the language. We implement our approach in the Spoofax language workbench, which enables language developers to provide a declarative specification of their new programming language. We will use the declarative specification to produce a platform-agnostic code completion editor service for Spoofax languages automatically"
   researchr: "https://researchr.org/publication/PelsmaekerV18"
   cites: 0
   citedby: 0
@@ -5271,13 +5354,14 @@ publications:
   author:
   - name: "Gabriël Konat"
     link: "http://nl.linkedin.com/in/gabrielkonat"
-  - name: "Luís Eduardo de Souza Amorim"
-    link: "https://researchr.org/alias/lu%C3%ADs-eduardo-de-souza-amorim"
+  - name: "Luis Eduardo de Souza Amorim"
+    link: "https://www.linkedin.com/profile/view?id=136481548"
   - name: "Sebastian Erdweg"
     link: "http://www.informatik.uni-marburg.de/~seba/"
   - name: "Eelco Visser"
     link: "http://eelcovisser.org"
   year: "2016"
+  abstract: "Language workbenches are tools that help language designers to design and implement (domain-specific) programming languages, aiming to produce a full featured programming environment from a high-level language description. A recent paper, resulting from a series of language workbench challenge workshops, describes a collection of benchmark problems for language workbench research [5]. In this paper, we describe solutions to two of these benchmark problems in the Spoofax Language Workbench [6], i.e. default formatting in Section 3 and skeleton editing in Section 4. In addition, we introduce a new benchmark problem — bootstrapping of meta-languages in a workbench — and describe the support for bootstrapping we developed for Spoofax in Section 2."
   researchr: "https://researchr.org/publication/KonatAEV16"
   cites: 0
   citedby: 0
@@ -5400,6 +5484,7 @@ publications:
     link: "http://eelcovisser.org"
   year: "2012"
   doi: "https://doi.org/10.1145/2384716.2384748"
+  abstract: "In textual software languages, names are used to identify program elements such as variables, methods, and classes. Name analysis algorithms resolve names in order to establish references between definitions and uses of names. In this poster, we present the Spoofax Name Binding Language (NBL), a declarative meta-language for the specification of name binding and scope rules, which departs from the programmatic encodings of name binding provided by regular approaches. NBL aspires to become the universal language for name binding, which can be used next to BNF definitions in reference manuals, as well as serve the generation of implementations."
   links:
     doi: "https://doi.org/10.1145/2384716.2384748"
     "url": "https://doi.org/10.1145/2384716.2384748"
@@ -5605,14 +5690,61 @@ publications:
   year: "2020"
   month: "Oct"
   doi: "http://doi.org/10.5281/zenodo.4091445"
+  abstract: "There is a large gap between the specification of type systems and the implementation of their type checkers, which impedes reasoning about the soundness of the type checker with respect to the specification. A vision to close this gap is to automatically obtain type checkers from declarative programming language specifications. This moves the burden of proving correctness from a case-by-case basis for concrete languages to a single correctness proof for the specification language. This vision is obstructed by an aspect common to all programming languages: name resolution. Naming and scoping are pervasive and complex aspects of the static semantics of programming languages. Implementations of type checkers for languages with name binding features such as modules, imports, classes, and inheritance interleave collection of binding information (i.e., declarations, scoping structure, and imports) and querying that information. This requires scheduling those two aspects in such a way that query answers are stable---i.e., they are computed only after all relevant binding structure has been collected. Type checkers for concrete languages accomplish stability using language-specific knowledge about the type system. In this paper we give a language-independent characterization of necessary and sufficient conditions to guarantee stability of name and type queries during type checking in terms of critical edges in an incomplete scope graph. We use critical edges to give a formal small-step operational semantics to a declarative specification language for type systems, that achieves soundness by delaying queries that may depend on missing information. This yields type checkers for the specified languages that are sound by construction---i.e., they schedule queries so that the answers are stable, and only accept programs that are name- and type-correct according to the declarative language specification. We implement this approach, and evaluate it against specifications of a small module and record language, as well as subsets of Java and Scala."
   links:
     doi: "http://doi.org/10.5281/zenodo.4091445"
+    successor: "https://researchr.org/publication/RouvoetAPKV20"
   researchr: "https://researchr.org/publication/RouvoetAPKV20-ext"
   cites: 0
   citedby: 0
   publisher: "Zenodo"
   kind: "inbook"
   key: "RouvoetAPKV20-ext"
+- title: "Knowing when to ask: sound scheduling of name resolution in type checkers derived from declarative specifications"
+  author:
+  - name: "Arjen Rouvoet"
+    link: "https://www.linkedin.com/in/arjen-rouvoet-760347a5/"
+  - name: "Hendrik van Antwerpen"
+    link: "https://researchr.org/alias/hendrik-van-antwerpen"
+  - name: "Casper Bach Poulsen"
+    link: "https://researchr.org/alias/casper-bach-poulsen"
+  - name: "Robbert Krebbers"
+    link: "https://researchr.org/alias/robbert-krebbers"
+  - name: "Eelco Visser"
+    link: "http://eelcovisser.org"
+  year: "2020"
+  doi: "https://doi.org/10.1145/3428248"
+  abstract: "There is a large gap between the specification of type systems and the implementation of their type checkers, which impedes reasoning about the soundness of the type checker with respect to the specification. A vision to close this gap is to automatically obtain type checkers from declarative programming language specifications. This moves the burden of proving correctness from a case-by-case basis for concrete languages to a single correctness proof for the specification language. This vision is obstructed by an aspect common to all programming languages: name resolution. Naming and scoping are pervasive and complex aspects of the static semantics of programming languages. Implementations of type checkers for languages with name binding features such as modules, imports, classes, and inheritance interleave collection of binding information (i.e., declarations, scoping structure, and imports) and querying that information. This requires scheduling those two aspects in such a way that query answers are stable—i.e., they are computed only after all relevant binding structure has been collected. Type checkers for concrete languages accomplish stability using language-specific knowledge about the type system. In this paper we give a language-independent characterization of necessary and sufficient conditions to guarantee stability of name and type queries during type checking in terms of critical edges in an incomplete scope graph. We use critical edges to give a formal small-step operational semantics to a declarative specification language for type systems, that achieves soundness by delaying queries that may depend on missing information. This yields type checkers for the specified languages that are sound by construction—i.e., they schedule queries so that the answers are stable, and only accept programs that are name- and type-correct according to the declarative language specification. We implement this approach, and evaluate it against specifications of a small module and record language, as well as subsets of Java and Scala."
+  links:
+    doi: "https://doi.org/10.1145/3428248"
+    dblp: "http://dblp.uni-trier.de/rec/bibtex/journals/pacmpl/RouvoetAPKV20"
+  researchr: "https://researchr.org/publication/RouvoetAPKV20"
+  cites: 0
+  citedby: 0
+  journal: "PACMPL"
+  volume: "4"
+  number: "OOPSLA"
+  kind: "article"
+  key: "RouvoetAPKV20"
+- title: "Gradually typing strategies"
+  author:
+  - name: "Jeff Smits"
+    link: "https://researchr.org/profile/jeffsmits/publications"
+  - name: "Eelco Visser"
+    link: "http://eelcovisser.org"
+  year: "2020"
+  doi: "https://doi.org/10.1145/3426425.3426928"
+  abstract: "The Stratego language supports program transformation by means of term rewriting with programmable rewriting strategies. Stratego's traversal primitives support concise definition of generic tree traversals. Stratego is a dynamically typed language because its features cannot be captured fully by a static type system. While dynamic typing makes for a flexible programming model, it also leads to unintended type errors, code that is harder to maintain, and missed opportunities for optimization. In this paper, we introduce a gradual type system for Stratego that combines the flexibility of dynamically typed generic programming, where needed, with the safety of statically declared and enforced types, where possible. To make sure that statically typed code cannot go wrong, all access to statically typed code from dynamically typed code is protected by dynamic type checks (casts). The type system is backwards compatible such that types can be introduced incrementally to existing Stratego programs. We formally define a type system for Core Gradual Stratego, discuss its implementation in a new type checker for Stratego, and present an evaluation of its impact on Stratego programs."
+  links:
+    doi: "https://doi.org/10.1145/3426425.3426928"
+    dblp: "http://dblp.uni-trier.de/rec/bibtex/conf/sle/SmitsV20"
+  researchr: "https://researchr.org/publication/SmitsV20"
+  cites: 0
+  citedby: 0
+  pages: "1-15"
+  booktitle: "SLE"
+  kind: "inproceedings"
+  key: "SmitsV20"
 - title: "Unifying and Generalizing Relations in Role-Based Data Modeling and Navigation"
   author:
   - name: "Daco Harkes"
@@ -5667,6 +5799,7 @@ publications:
     link: "http://eelcovisser.org"
   year: "2011"
   doi: "http://doi.acm.org/10.1145/2048066.2048121"
+  abstract: "A new generation of mobile touch devices, such as the iPhone, iPad and Android devices, are equipped with powerful, modern browsers. However, regular websites are not optimized for the specific features and constraints of these devices, such as limited screen estate, unreliable Internet access, touch-based interaction patterns, and features such as GPS. While recent advances in web technology enable web developers to build web applications that take advantage of the unique properties of mobile devices, developing such applications exposes a number of problems, specifically: developers are required to use many loosely coupled languages with limited tool support and application code is often verbose and imperative. We introduce mobl, a new language designed to declaratively construct mobile web applications. Mobl integrates languages for user interface design, styling, data modeling, querying and application logic into a single, unified language that is flexible, expressive, enables early detection of errors, and has good IDE support."
   links:
     doi: "http://doi.acm.org/10.1145/2048066.2048121"
     dblp: "http://dblp.uni-trier.de/rec/bibtex/conf/oopsla/HemelV11"
@@ -5714,6 +5847,7 @@ publications:
     link: "http://eelcovisser.org"
   year: "2016"
   doi: "http://dx.doi.org/10.4230/DARTS.2.1.10"
+  abstract: "Our paper introduces a systematic approach to the alignment of names in the static structure of a program, and memory layout and access during its execution. We develop a uniform memory model consisting of frames that instantiate the scopes in the scope graph of a program. This provides a language-independent correspondence between static scopes and run-time memory layout, and between static resolution paths and run-time memory access paths. The approach scales to a range of binding features, supports straightforward type soundness proofs, and provides the basis for a language-independent specification of sound reachability-based garbage collection. This Coq artifact showcases how our uniform model for memory layout in dynamic semantics provides structure to type soundness proofs. The artifact contains type soundness proofs mechanized in Coq for (supersets of) all languages in the paper. The type soundness proofs rely on a language-independent framework formalizing scope graphs and frame heaps."
   links:
     doi: "http://dx.doi.org/10.4230/DARTS.2.1.10"
     dblp: "http://dblp.uni-trier.de/rec/bibtex/journals/darts/PoulsenNTV16"
@@ -5756,28 +5890,6 @@ publications:
   number: "P9707"
   kind: "techreport"
   key: "Visser97-SGLR"
-- title: "Knowing When to Ask. Sound scheduling of name resolution in type checkers derived from declarative specifications"
-  author:
-  - name: "Arjen Rouvoet"
-    link: "https://www.linkedin.com/in/arjen-rouvoet-760347a5/"
-  - name: "Hendrik van Antwerpen"
-    link: "https://nl.linkedin.com/in/hendrikvanantwerpen"
-  - name: "Casper Bach Poulsen"
-    link: "http://www.casperbp.net"
-  - name: "Robbert Krebbers"
-    link: "https://robbertkrebbers.nl"
-  - name: "Eelco Visser"
-    link: "http://eelcovisser.org"
-  year: "2020"
-  abstract: "There is a large gap between the specification of type systems and the implementation of their type checkers, which impedes reasoning about the soundness of the type checker with respect to the specification. A vision to close this gap is to automatically obtain type checkers from declarative programming language specifications. This moves the burden of proving correctness from a case-by-case basis for concrete languages to a single correctness proof for the specification language. This vision is obstructed by an aspect common to all programming languages: name resolution. Naming and scoping are pervasive and complex aspects of the static semantics of programming languages. Implementations of type checkers for languages with name binding features such as modules, imports, classes, and inheritance interleave collection of binding information (i.e., declarations, scoping structure, and imports) and querying that information. This requires scheduling those two aspects in such a way that query answers are stable—i.e., they are computed only after all relevant binding structure has been collected. Type checkers for concrete languages accomplish stability using language-specific knowledge about the type system. In this paper we give a language-independent characterization of necessary and sufficient conditions to guarantee stability of name and type queries during type checking in terms of critical edges in an incomplete scope graph. We use critical edges to give a formal small-step operational semantics to a declarative specification language for type systems, that achieves soundness by delaying queries that may depend on missing information. This yields type checkers for the specified languages that are sound by construction—i.e., they schedule queries so that the answers are stable, and only accept programs that are name- and type-correct according to the declarative language specification. We implement this approach, and evaluate it against specifications of a small module and record language, as well as subsets of Java and Scala."
-  researchr: "https://researchr.org/publication/RouvoetAPKV20"
-  cites: 0
-  citedby: 0
-  journal: "Proceedings of the ACM on Programming Languages"
-  volume: "4"
-  number: "OOPSLA"
-  kind: "article"
-  key: "RouvoetAPKV20"
 - title: "Reconstructing Complex Metamodel Evolution"
   author:
   - name: "Sander Vermolen"
@@ -5808,6 +5920,7 @@ publications:
     link: "http://eelcovisser.org"
   year: "2009"
   doi: "http://dx.doi.org/10.1007/978-3-642-12107-4_13"
+  abstract: "Data validation rules constitute the constraints that data input and processing must adhere to in addition to the structural constraints imposed by a data model. Web modeling tools do not address data validation concerns explicitly, hampering full code generation and model expressivity. Web application frameworks do not offer a consistent interface for data validation. In this paper, we present a solution for the integration of declarative data validation rules with user interface models in the domain of web applications, unifying syntax, mechanisms for error handling, and semantics of validation checks, and covering value well-formedness, data invariants, input assertions, and action assertions. We have implemented the approach in WebDSL, a domain-specific language for the definition of web applications."
   links:
     doi: "http://dx.doi.org/10.1007/978-3-642-12107-4_13"
     successor: "https://researchr.org/publication/GroenewegenVisser2013"
@@ -6139,6 +6252,7 @@ publications:
     link: "http://eelcovisser.org"
   year: "2010"
   doi: "http://dx.doi.org/10.1016/j.entcs.2010.08.043"
+  abstract: "Attribute grammars are a powerful specification paradigm for many language processing tasks, particularly semantic analysis of programming languages. Recent attribute grammar systems use dynamic scheduling algorithms to evaluate attributes by need. In this paper, we show how to remove the need for a generator, by embedding a dynamic approach in a modern, object-oriented programming language to implement a small, lightweight attribute grammar library. The Kiama attribution library has similar features to current generators, including cached, uncached, circular, higher-order and parameterised attributes, and implements new techniques for dynamic extension and variation of attribute equations. We use the Scala programming language because of its combination of object-oriented and functional features, support for domain-specific notations and emphasis on scalability. Unlike generators with specialised notation, Kiama attribute grammars use standard Scala notations such as pattern-matching functions for equations and mixins for composition. A performance analysis shows that our approach is practical for realistic language processing."
   links:
     doi: "http://dx.doi.org/10.1016/j.entcs.2010.08.043"
     dblp: "http://dblp.uni-trier.de/rec/bibtex/journals/entcs/SloaneKV10"

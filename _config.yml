@@ -2,9 +2,12 @@
 
 # permalink: /posts/:title
 
+baseurl: /2021
+
+permalink: date
 # permalink: /:baseurl/:categories/:year/:month/:day/:title/
 
-baseurl: /2021
+url: https://tudelft-cs4200.github.io
 
 # baseurl: https://tudelft-cs4200.github.io/2021/
 # url: https://tudelft-cs4200.github.io/2021/
@@ -14,7 +17,7 @@ baseurl: /2021
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: rouge
 
-title : TUDelft CS4200 2020-2019
+title : TUDelft CS4200 2021-2022
 tagline:
 author :
   name : Eelco Visser
@@ -38,7 +41,7 @@ kramdown:
 future: true
 
 plugins:
-  - jekyll-paginate-v2
+  # - jekyll-paginate-v2
   - jekyll-redirect-from
   # - jekyll-tocs
 

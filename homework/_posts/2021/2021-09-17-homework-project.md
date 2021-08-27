@@ -1,0 +1,91 @@
+---
+layout: talk
+title: "Week 1.3(a): Create Homework Project for Type Assignments (2020)"
+tag: homework
+categories: []
+kind: Homework
+series: homework
+speaker: Eelco Visser
+authors:
+pdf:
+image:
+talkURL:
+eventURL:
+event:
+admin: true
+permalink: /homework/1-3-a
+---
+
+Homework assignments should be submitted in [WebLab](https://weblab.tudelft.nl/cs4200/2021-2022/assignment/87590/view).
+Homework assignments that involve Spoofax meta-languages will be automatically graded using SPT specification tests in WebLab.
+However, the programming environment on WebLab is still rather crude.
+Therefore, we recommend making these assignments in Spoofax and copying the code for the solutions to WebLab.
+This assignments guides you through setting that up.
+
+#### Installing Spoofax
+
+Follow the instructions of [Lab 1(a)]({{site.baseurl}}/lab/1a) for installling Spoofax.
+
+#### Create the Project
+
+Create a new language project use `File ‣ New ‣ Project ‣ Spoofax Language Project` and set the following configuration parameters to create the 'homework' project:
+
+* Project name: `solutionstatix`
+* Use default location: []
+* Location: some appropriate location
+* Identifier: `solution`
+* Name: `solution`
+* Version: `0.1.0-SNAPSHOT`
+* Group identifier: `org.example`
+* Extensions: `sol`
+* Syntax type: `SDF3`
+* Analysis type: `Statix`
+
+This will give you a directory `solution`.
+
+#### Configuring the Project
+
+You will use this project to make assignments on syntax definition.
+Instead of making a new language project for each assignment, you can use this project by working as follows.
+
+Create a directory `/homework/` in the root of the language project.
+
+In that directory, create directories for the individual assignments.
+For example, I have created a directory `/homework/week3/w3-type-constraints-1/` for the [Type Constraints: Simple](https://weblab.tudelft.nl/cs4200/2021-2022/assignment/87716/view) assignment.
+
+In that directory, create a file `solution.sdf3` for the syntax definition, a file `solution.stx` for the static semantics definition, and a file `test.spt` for tests.
+Copy the templates from WebLab to those files.
+The syntax definition is available as 'test data' with the assignment.
+Note that the name of the modules should correspond to the name of the file (e.g. `homework/week3/w3-type-constraints-1/solution`), while the name of the module on WebLab should always be `solution` (for the syntax definition) and `statics` for the Statix solution.
+You can add example files for the language with extension `.sol` in the directory as well.
+
+In the file `/syntax/solution.sdf3` remove everything but the module header and import all the `.sdf3` files for the assignments using imports such as
+```
+  imports homework/week3/w3-type-constraints-1/solution
+```
+While working on an assignment, comment out all the imports but the syntax definitions for that assignment.
+
+In the file `/trans/statics.stx` add an import to your statics solution in the 'homework' directory. Leave the lines
+
+```
+rules
+
+  programOk : Start
+
+  programOk(Start(e)) :- {T}
+    typeOfExp(e) == T.
+```
+
+in the main statics file and comment out the ones in your solution file. You might need to make some small modifications to the main statics file in order to use the correct rules in `programOk` that are imported from your solution file.
+
+In a similar way, make sure to build the project to generate the correct signatures, and fix the import in the solution statix file to point to them.
+
+#### Developing a Solution
+
+Use the usual Spoofax development cycle to develop the solution for an assignment.
+
+#### Submitting a Solution
+
+When you are satisfied with your solution, copy the body of the module to WebLab.
+Test that the specification tests succeed.
+Ignore the output from `Status: Done` to `Test`. At the end of the output is the result of the tests. Either `Test score: n/n` if all tests succeeded, or `Test "..." failed:` in case one or more tests failed.

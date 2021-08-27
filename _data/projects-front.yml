@@ -12,14 +12,14 @@
 - title: "CS4200-B: Back-End (Q2)"
   link: https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=55213
   image:
-  text: "In the second course we study the back-end of the compiler that performs static analysis, optimization, and code generation. [<a href=https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=55213>Study guide</a>]"
+  text: "In the second course we study the back-end of the compiler that performs static analysis, optimization, and code generation. [<a href=https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=57374>Study guide</a>]"
   categories: [front]
 
 - title: "Spoofax Language Workbench"
   link: /research/#Spoofax
   image3: /img/spoofax/logo/Spoofax_Logo.png
   image: /img/spoofax/Spoofax-Screenshot2.png
-  text: "The <a href=http://spoofax.dev>Spoofax Language Workbench</a> is an environment for the development of programming languages using high-level declarative meta-languages for syntax, static semantics, dynamic semantics, program analysis, and program transformation. We use Spoofax to implement a compiler and IDE for the project language and in homework assignments to experiment with various aspects of compilers in isolation."
+  text: "The <a href=https://www.spoofax.dev>Spoofax Language Workbench</a> is an environment for the development of programming languages using high-level declarative meta-languages for syntax, static semantics, dynamic semantics, program analysis, and program transformation. We use Spoofax to implement a compiler and IDE for the project language and in homework assignments to experiment with various aspects of compilers in isolation."
   categories: [front]
 
 
@@ -30,7 +30,7 @@
   categories: [front]
 
 - title: "WebLab: Homework Assignments and Exams"
-  link: https://weblab.tudelft.nl/cs4200/2020-2021/
+  link: https://weblab.tudelft.nl/cs4200/2021-2022/
   text: "We use the WebLab learning management system for homework assignments. In WebLab you can submit answers to exercises with grammars, type systems, and transformations, which we can automatically grade. You can even program the solutions directly in WebLab, but it is probably more convenient at this stage to do that in Spoofax and then copy the solutions. We will also use WebLab for the (online) digital exams for the course. Thus, you will be expected to program in the Spoofax meta-languages at the exam."
   image: /img/weblab/WebLabScreenshot2.png
   categories: [front]

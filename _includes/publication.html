@@ -79,7 +79,7 @@
 			{% if pub.kind == "phdthesis" %}
 			  PhD thesis, {{ pub.school }}, {{ pub.year }}
 			{% endif %}
-			[{% if pdf != null %}<a href="{{ pdf }}" class="text-secondary" target="_blank">pdf</a>, {% endif %}{% if pub.doi != null %}<a class="text-secondary" href="{{pub.doi}}" target="_blank">doi</a>, {% endif %}<a class="text-secondary" target="_blank" href="{{ pub.researchr }}/bibtex">bib</a>, <a href="{{ pub.researchr }}" class="text-secondary" target="_blank">researchr</a>{% if pub.abstract != null %}, <a class="text-secondary" data-toggle="collapse" href="#Abstract{{pub.key}}" role="button" aria-expanded="false" aria-controls="Abstract{{pub.key}}"">abstract</a>{% endif %}]
+			[{% if pdf != null %}<a href="{{site.baseurl}}{{ pdf }}" class="text-secondary" target="_blank">pdf</a>, {% endif %}{% if pub.doi != null %}<a class="text-secondary" href="{{pub.doi}}" target="_blank">doi</a>, {% endif %}<a class="text-secondary" target="_blank" href="{{ pub.researchr }}/bibtex">bib</a>, <a href="{{ pub.researchr }}" class="text-secondary" target="_blank">researchr</a>{% if pub.abstract != null %}, <a class="text-secondary" data-toggle="collapse" href="#Abstract{{pub.key}}" role="button" aria-expanded="false" aria-controls="Abstract{{pub.key}}"">abstract</a>{% endif %}]
 
 			<!-- {% if (pdf == null) and (pub.kind != "proceedings") %}{{ pub.key }}{% endif %} -->
 

@@ -2,13 +2,24 @@
 
 source "https://rubygems.org"
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+# require 'json'
+# require 'open-uri'
+# versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 
-gem "jekyll", "~> 3.8.4"
+gem 'github-pages', group: :jekyll_plugins
+# , versions['github-pages']
 
-group :jekyll_plugins do
-  gem "jekyll-paginate-v2"
-  gem "jekyll-feed"
-  gem 'jekyll-redirect-from'
-	# gem 'jekyll-toc'
-end
+# ruby versions["ruby"]
+#
+# git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+#
+gem "jekyll", "~> 3.9.0"
+#
+# group :jekyll_plugins do
+#   # gem "jekyll-paginate-v2"
+#   gem "jekyll-feed"
+#   gem 'jekyll-redirect-from'
+# 	# gem 'jekyll-toc'
+# end
+#
+# gem "webrick", "~> 1.7"

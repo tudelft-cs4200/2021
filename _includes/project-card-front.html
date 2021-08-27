@@ -6,10 +6,10 @@
 				{% if project.image != null %}
 				{% if project.link != null %}
 				<a href="{{ project.link }}">
-					<img style="border:1px solid black; width:100pt; margin-left:10px;" src="{{ project.image }}" class="float-right card-img" alt="{{ project.alt }}">
+					<img style="border:1px solid black; width:100pt; margin-left:10px;" src="{{site.baseurl}}{{ project.image }}" class="float-right card-img" alt="{{ project.alt }}">
 				</a>
 				{% else %}
-					<img style="border:1px black;" width="100pt" src="{{ project.image }}" class="float-right card-img" alt="WebDSL">
+					<img style="border:1px black;" width="100pt" src="{{site.baseurl}}{{ project.image }}" class="float-right card-img" alt="WebDSL">
 				{% endif %}
 				{% endif %}
         {{ project.text }}
@@ -17,7 +17,7 @@
 						{{ project.name }}
 				</a>
 				{% if project.image2 != null %}
-					<img style="padding-top:10px;" width="100%" src="{{ project.image2 }}" />
+					<img style="padding-top:10px;" width="100%" src="{{site.baseurl}}{{ project.image2 }}" />
 				{% endif %}
       </div>
 </div>

@@ -21,8 +21,8 @@
 <div class="row">
 		<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
 	    {% if page.image != null %}
-				<a href="{{ page.pdf }}">
-					<img class="border border-dark" width="100%" src="{{ page.image }}"/>
+				<a href="{{site.baseurl}}{{ page.pdf }}">
+					<img class="border border-dark" width="100%" src="{{site.baseurl}}{{ page.image }}"/>
 				</a>
 			{% endif %}
 
@@ -65,7 +65,7 @@
 					    {{ page.event }}
 					{% endif %}
 					{% if page.pdf != null %}
-						| <a class="text-primary" href="{{ page.pdf }}">PDF</a>
+						| <a class="text-primary" href="{{site.baseurl}}{{ page.pdf }}">PDF</a>
 					{% endif %}
 					{% if page.video != null %}
 					  | <a class="text-primary" href="{{ page.video }}">Video</a>
@@ -94,19 +94,19 @@
 				<ul class="pagination justify-content-left">
 					{% if prev != null  %}
 						<li class="page-item">
-							<a class="page-link" href="{{prev.id}}">
+							<a class="page-link" href="{{site.baseurl}}{{prev.permalink}}">
 								&laquo;
 							</a>
 						</li>
 					{% endif %}
 					<li class="page-item">
-						<a class="page-link" href="/{{page.series}}/">
+						<a class="page-link" href="{{site.baseurl}}/{{page.series}}/">
 							^
 						</a>
 					</li>
 					{% if next != null %}
 						<li class="page-item">
-							<a class="page-link"  href="{{next.id}}">&raquo;</a>
+							<a class="page-link"  href="{{site.baseurl}}{{next.permalink}}">&raquo;</a>
 						</li>
 					{% endif %}
 				</ul>
@@ -127,18 +127,18 @@
 				<ul class="pagination justify-content-center">
 					{% if prev != null  %}
 						<li class="page-item">
-							<a class="page-link" href="{{prev.id}}">
+							<a class="page-link" href="{{site.baseurl}}{{prev.id}}">
 								Previous
 							</a>
 						</li>
 					{% endif %}
 					{% if next != null %}
 						<li class="page-item">
-							<a class="page-link"  href="{{next.id}}">Next</a>
+							<a class="page-link"  href="{{site.baseurl}}{{next.id}}">Next</a>
 						</li>
 					{% endif %}
 					<li class="page-item">
-						<a class="page-link" href="/{{page.series}}/">
+						<a class="page-link" href="{{site.baseurl}}/{{page.series}}/">
 							Index
 						</a>
 					</li>

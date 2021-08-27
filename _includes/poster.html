@@ -2,7 +2,7 @@
 			<!-- <h1 class="border-top border-grey pt-3 pb-3">
 				{{ page.title }}
 			</h1> -->
-			<a href="{{ page.pdf }}">
+			<a href="{{site.baseurl}}{{ page.pdf }}">
 				<img class="border border-dark" width="100%" src="{{ page.image }}"/>
 			</a>
 
@@ -17,7 +17,7 @@
 				  {{ page.venue }}
 				{% endif %}
 				| {{ page.date | date: "%B %d, %Y"}}
-				| <a class="text-secondary" href="{{ page.pdf }}">PDF</a>
+				| <a class="text-secondary" href="{{site.baseurl}}{{ page.pdf }}">PDF</a>
 			</div>
 
 			{% assign posters = site.posts | where: "tags", ["poster"] %}
@@ -45,18 +45,18 @@
 					<ul class="pagination justify-content-center">
 						{% if prev != null  %}
 							<li class="page-item">
-								<a class="page-link" href="{{prev.id}}">
+								<a class="page-link" href="{{site.baseurl}}{{prev.id}}">
 									Previous
 								</a>
 							</li>
 						{% endif %}
 						{% if next != null %}
 							<li class="page-item">
-								<a class="page-link"  href="{{next.id}}">Next</a>
+								<a class="page-link"  href="{{site.baseurl}}{{next.id}}">Next</a>
 							</li>
 						{% endif %}
 						<li class="page-item">
-							<a class="page-link" href="/posters/">
+							<a class="page-link" href="{{site.baseurl}}/posters/">
 								Index
 							</a>
 						</li>
