@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: "Week 1.1(a): Compilers (2020)"
+title: "Week 1.1(a): Compilers"
 tag: homework
 categories: []
 kind: Homework

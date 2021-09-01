@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: "Week 1.2(b): Disambiguation (2020)"
+title: "Week 1.2(b): Disambiguation"
 tag: homework
 categories: []
 kind: Homework

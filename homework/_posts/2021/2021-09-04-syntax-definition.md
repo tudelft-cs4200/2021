@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: "Week 1.2(a): Syntax Definition (2020)"
+title: "Week 1.2(a): Syntax Definition"
 tag: homework
 categories: []
 kind: Homework
