@@ -14,6 +14,7 @@ eventURL:
 event:
 admin: true
 permalink: /lab/1d
+date: 2021-09-08 10:48
 redirect_from:
 - /lab/1d
 ---

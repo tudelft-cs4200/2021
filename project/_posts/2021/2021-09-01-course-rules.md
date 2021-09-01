@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: "Rules for the Course Project (2020)"
+title: "Rules for the Course Project"
 tag: project
 categories: []
 kind: Project Rules
