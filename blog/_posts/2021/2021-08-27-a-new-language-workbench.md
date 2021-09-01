@@ -7,7 +7,7 @@ public: true
 authors:
 ---
 
-This year will adopt last year's structure of the course, and slightly adapt it.
+This year will adopt last year's structure of the course, and adapt it.
 In particular, we will keep the ChocoPy project.
 Major changes to the course are
 
