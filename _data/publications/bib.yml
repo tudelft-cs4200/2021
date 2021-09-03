@@ -3690,10 +3690,10 @@ publications:
   - name: "Eelco Visser"
     link: "http://eelcovisser.org"
   year: "2020"
-  doi: "https://doi.org/10.1007/978-3-030-58768-0\\_1"
+  doi: "https://doi.org/10.1007/978-3-030-58768-0_1"
   abstract: "SDF3 is a syntax definition formalism that extends plain context-free grammars with features such as constructor declarations, declarative disambiguation rules, character-level grammars, permissive syntax, layout constraints, formatting templates, placeholder syntax, and modular composition. These features support the multi-purpose interpretation of syntax definitions, including derivation of type schemas for abstract syntax tree representations, scannerless generalized parsing of the full class of context-free grammars, error recovery, layout-sensitive parsing, parenthesization and formatting, and syntactic completion. This paper gives a high level overview of SDF3 by means of examples and provides a guide to the literature for further details."
   links:
-    doi: "https://doi.org/10.1007/978-3-030-58768-0\\_1"
+    doi: "https://doi.org/10.1007/978-3-030-58768-0_1"
     dblp: "http://dblp.uni-trier.de/rec/bibtex/conf/sefm/AmorimV20"
   researchr: "https://researchr.org/publication/AmorimV20"
   cites: 0
