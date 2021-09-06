@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: "Lab 1(d): Git(Lab), CI, and Submissions (2020)"
+title: "Lab 1(d): Git(Lab), CI, and Submissions"
 tag: project
 categories: []
 kind: Project
@@ -14,7 +14,7 @@ eventURL:
 event:
 admin: true
 permalink: /lab/1d
-date: 2021-09-08 10:48
+date: 2021-09-07 10:48
 redirect_from:
 - /lab/1d
 ---
@@ -38,16 +38,16 @@ On GitLab, we will create a private git repository for you, which is owned by us
 
 ### Getting started
 
-First, find your private repository in the [CS4200/2020-2021](https://gitlab.ewi.tudelft.nl/CS4200/2020-2021) group on GitLab, it should be called `student-id` where `id` is your NetID.
+First, find your private repository in the [CS4200/2021-2022](https://gitlab.ewi.tudelft.nl/CS4200/2021-2022) group on GitLab, it should be called `student-id` where `id` is your NetID.
 
 To actually do work in the Git repository, you need to make a *local* clone of the repository on your computer. You can find the URL needed to clone on the bottom right of the page, be sure to use `HTTPS`.
 
-![Clone URL](/project/2020/00-submissions/clone_url.png)
+![Clone URL](/project/2021/00-submissions/clone_url.png)
 
 Open up the command line and make a local clone with your URL:
 
 ```shell
-git clone https://gitlab.ewi.tudelft.nl/CS4200/2020-2021/student-id.git
+git clone https://gitlab.ewi.tudelft.nl/CS4200/2021-2022/student-id.git
 ```
 
 Now cd into the local clone and confirm that it works:
