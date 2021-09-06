@@ -1588,6 +1588,16 @@ publications:
   pages: "150-182"
   kind: "article"
   key: "HemelGKV11"
+- title: "Spoofax: The Language Designer's Workbench"
+  year: "2021"
+  links:
+    "url": "https://www.spoofax.dev/"
+  researchr: "https://researchr.org/publication/Spoofax2021"
+  cites: 0
+  citedby: 0
+  howpublished: "https://www.spoofax.dev/"
+  kind: "misc"
+  key: "Spoofax2021"
 - title: "Specializing a meta-interpreter: JIT compilation of Dynsem specifications on the Graal VM"
   author:
   - name: "Vlad A. Vergu"
@@ -3556,6 +3566,16 @@ publications:
   pages: "123-178"
   kind: "article"
   key: "BravenboerDOV06"
+- title: "Spoofax 3 (Documentation) "
+  year: "2021"
+  links:
+    "url": "https://www.spoofax.dev/spoofax-pie/develop/"
+  researchr: "https://researchr.org/publication/Spoofax3"
+  cites: 0
+  citedby: 0
+  howpublished: "https://www.spoofax.dev/spoofax-pie/develop/"
+  kind: "misc"
+  key: "Spoofax3"
 - title: "Migrating business logic to an incremental computing DSL: a case study"
   author:
   - name: "Daco Harkes"
