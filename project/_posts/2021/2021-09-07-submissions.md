@@ -42,7 +42,7 @@ First, find your private repository in the [CS4200/2021-2022](https://gitlab.ewi
 
 To actually do work in the Git repository, you need to make a *local* clone of the repository on your computer. You can find the URL needed to clone on the bottom right of the page, be sure to use `HTTPS`.
 
-![Clone URL](/project/2021/00-submissions/clone_url.png)
+![Clone URL](/2021/project/2021/00-submissions/clone_url.png)
 
 Open up the command line and make a local clone with your URL:
 
@@ -109,43 +109,17 @@ git push
 
 ### Continuous Integration (CI)
 
-The template contain a `.gitlab-ci.yml` file that configures continuous integration in GitLab.
-It runs `mvn verify` on each push to master.
+The template contains a `.gitlab-ci.yml` file that configures continuous integration in GitLab.
+It runs `gradle buildAll` on each push to `milestone-*-develop`. It also invokes the grader when the project is submitted using a merge request.
 
-By default, no projects are included in the Maven build.
-That is, all modules are commented out in `pom.xml` (the Maven build configuration file):
-
-```
-<modules>
-    <!--
-    <module>chocopy.syntax</module>
-    <module>chocopy.syntax.example</module>
-    <module>chocopy.syntax.test</module>
-    <module>chocopy.types</module>
-    <module>chocopy.types.example</module>
-    <module>chocopy.types.test</module>
-    -->
-</modules>
-```
-
-After creating a language project, enable it in CI by uncommenting the corresponding Maven module.
-Additionally, make sure the Maven configuration file for the project (e.g. `chocopy.syntax/pom.xml`) includes `<relativePath />` in the `<parent></parent>` section:
+By default, both language projects used for milestones 0-2 are enabled in the gradle build. If, for some reason, building of a project needs to be disabled, the following lines should be commented out in the `settings.gradle.kts` file.
 
 ```
-  <parent>
-    <groupId>org.metaborg</groupId>
-    <artifactId>parent.language</artifactId>
-    <version>2.6.0-SNAPSHOT</version>
-    <relativePath />
-  </parent>
+includeLanguageIfExists("chocopy.syntax")
+includeLanguageIfExists("chocopy.types")
 ```
 
-You can also enable the example and test projects in the build by following the same pattern: uncomment the corresponding module in the main `pom.xml` file and include `<relativePath />` in the project's `pom.xml`.
-Including the test project will activate running your tests in CI, and will make the build fail if a test fails.
-Including the example project will trigger the processing of all programs in the example project with your language, and will make the build fail if an invalid program is encountered.
-
-Enabling the build of your _language_ projects in CI is **required** when submitting your work.
-We encourage you to also include the _example_ and _test_ projects in the build, to make optimal use of CI during development.
+Enabling the build of your _language_ projects in CI is **recommended** but **not required** when submitting your work.
 
 
 ### Submitting a milestone
@@ -155,14 +129,14 @@ We encourage you to also include the _example_ and _test_ projects in the build,
 Make sure you've pushed all your changes first, then go to your repository on GitLab.
 Navigate to **Merge Requests** and click the **New merge request** button:
 
-![New merge request](/project/2020/00-submissions/new_merge_request.png)
+![New merge request](/2021/project/2021/00-submissions/new_merge_request.png)
 
 Select the *develop* branch as source and its corresponding *submission* branch as target.
 Click *Compare branches and continue*.
 
 If all is well, you can review your changes and you can press the `Submit merge request` button to submit your milestone. If not, check the troubleshooting section.
 
-![Merge request](/project/2020/00-submissions/merge_request.png)
+![Merge request](/2021/project/2021/00-submissions/merge_request.png)
 
 We will grade your milestone and post the results as an issue in your project, so check back later.
 
