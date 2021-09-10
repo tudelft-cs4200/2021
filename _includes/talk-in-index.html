@@ -6,7 +6,7 @@
   {% assign color = "border-danger" %}
 {% endif %}
 
-<div class="bd-callout {{ color }} pl-3">
+<div class="bd-callout {{ color }} pl-3 {% if post.title contains "(2020)" %}faded{% endif %}">
 	<div class="font-weight-bold text-dark" >
 	 <a class="text-dark" href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
 	</div>

@@ -47,13 +47,13 @@ To actually do work in the Git repository, you need to make a *local* clone of t
 Open up the command line and make a local clone with your URL:
 
 ```shell
-git clone https://gitlab.ewi.tudelft.nl/CS4200/2021-2022/student-id.git
+git clone https://gitlab.ewi.tudelft.nl/CS4200/2021-2022/student-netid.git
 ```
 
 Now cd into the local clone and confirm that it works:
 
 ```shell
-cd student-id
+cd student-netid
 git status
 ```
 
@@ -69,7 +69,7 @@ Your local repository is set up now! Follow the steps below to work on an assign
 
 ### Starting an assignment
 
-You work on each assignment in its own development branch, named `milestone-0-develop`, `milestone-0-develop`, etc.
+You work on each assignment in its own development branch, named `milestone-0-develop`, `milestone-1-develop`, etc.
 The correct assignment branch must be checked out in your local Git repository to be able to work on it.
 The steps to check out a branch depend on whether we provide you with a template, or if you continue with work from a previous assignment.
 

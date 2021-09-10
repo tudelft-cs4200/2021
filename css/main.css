@@ -20,6 +20,30 @@ body {
 	border-left: 3px solid;
 }
 
+.notice {
+    border-left: 4px solid lightgray;
+    padding: 0.2rem 0 0.2rem 0.4rem;
+}
+
+.notice-warning {
+	background-color: #fcf8e3;
+	border-color: #f1c40f;
+}
+
+.notice-danger {
+	background-color: #f2dede;
+	border-color: #e74c3c;
+}
+
+.notice-success {
+	background-color: #dff0d8;
+	border-color: #2ecc71;
+}
+
+.faded {
+	opacity: 0.5;
+}
+
 /* blog */
 
 .blog h1 {
