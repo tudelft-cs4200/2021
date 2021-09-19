@@ -19,7 +19,7 @@ redirect_from:
 
 In this week's homework assignments we explore program transformation using rewrite rules in Stratego.
 
-### Making Stratego Assignments in Spoofax
+<!-- ### Making Stratego Assignments in Spoofax
 
 In order to make the Stratego assignments in Spoofax, you can use the [project]({{site.baseurl}}/homework/1-3-a) you set up for Statix. Apply the following adaptations.
 
@@ -35,9 +35,9 @@ In the main syntax definition file import the `solution.sdf3` from WebLab. For e
 imports homework/week2-1/w1-01/solution-def   
 ```
 
-You may have to rename the module name.
+You may have to rename the module name. -->
 
-#### Transform Strategy
+<!-- #### Transform Strategy
 
 In the main Stratego file in the `/trans/` directory of your project import your Stratego solution, i.e. something like:
 
@@ -71,4 +71,4 @@ In `editor/Syntax.esv` extend the menus of the language with:
   menu: "Transform" (openeditor)
     action: "Transform"     = editor-transform-pp (source)
     action: "Transform AST" = editor-transform (source)
-```
+``` -->

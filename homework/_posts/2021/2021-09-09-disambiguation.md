@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: "Week 1.2(b): Disambiguation"
+title: "Week 1.2: Disambiguation"
 tag: homework
 categories: []
 kind: Homework
@@ -12,14 +12,13 @@ image:
 talkURL:
 eventURL:
 event:
-permalink: /homework/1-2-b
+permalink: /homework/1-1
 redirect_from:
-- /homework/1-2-b
 ---
 
 In this set of assignments, published on [WebLab](https://weblab.tudelft.nl/cs4200/2021-2022/assignment/87683/view), we exercise the disambiguation of grammars following the material of [Lecture 3]({{site.baseurl}}/lecture/3).
 
-You can make the assignments directly in WebLab, but we recommend following the [instructions]({{site.baseurl}}/homework/1-1-b) to set up a Spoofax project to make the assignments in Spoofax.
+<!-- You can make the assignments directly in WebLab, but we recommend following the [instructions]({{site.baseurl}}/homework/1-1-b) to set up a Spoofax project to make the assignments in Spoofax. -->
 
 The template for the assignments this week is: given this (ambiguous) context-free grammar:
 
