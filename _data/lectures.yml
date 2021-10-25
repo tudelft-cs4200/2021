@@ -31,15 +31,19 @@
   period: Q1
   link: /lecture/6
 - date: Oct 7
-  title: Parsing
+  title: More Constraints and Statix
   period: Q1
   link: /lecture/7
 - date: Oct 14
-  title: More Parsing
+  title: Parsing
   period: Q1
   link: /lecture/8
+- date: Oct 14
+  title: More Parsing
+  period: Q1
+  link: /lecture/8b
 - date: Oct 21
-  title: Exam Preparation
+  title: Summary & Further Study
   period: Q1
   link: /lecture/9
 - date: "Thu Oct 28, 13:30-16:30"
