@@ -400,6 +400,16 @@ publications:
   booktitle: "SCAM"
   kind: "inproceedings"
   key: "BaggeKHV03"
+- title: "Essentials of Compilation. An Incremental Approach in Racket "
+  author:
+  - name: "Jeremy G. Siek"
+    link: "https://researchr.org/alias/jeremy-g.-siek"
+  year: "2021"
+  researchr: "https://researchr.org/publication/Siek2021"
+  cites: 0
+  citedby: 0
+  kind: "book"
+  key: "Siek2021"
 - title: "Towards Live Language Development"
   author:
   - name: "Gabriël Konat"
@@ -2379,7 +2389,7 @@ publications:
   - name: "Hendrik van Antwerpen"
     link: "https://nl.linkedin.com/in/hendrikvanantwerpen"
   - name: "Casper Bach Poulsen"
-    link: "https://researchr.org/alias/casper-bach-poulsen"
+    link: "http://www.casperbp.net"
   - name: "Eelco Visser"
     link: "http://eelcovisser.org"
   year: "2019"
@@ -3640,7 +3650,7 @@ publications:
   - name: "Hendrik van Antwerpen"
     link: "https://researchr.org/alias/hendrik-van-antwerpen"
   - name: "Casper Bach Poulsen"
-    link: "https://researchr.org/alias/casper-bach-poulsen"
+    link: "http://www.casperbp.net"
   - name: "Robbert Krebbers"
     link: "https://researchr.org/alias/robbert-krebbers"
   - name: "Eelco Visser"
@@ -5727,7 +5737,7 @@ publications:
   - name: "Hendrik van Antwerpen"
     link: "https://researchr.org/alias/hendrik-van-antwerpen"
   - name: "Casper Bach Poulsen"
-    link: "https://researchr.org/alias/casper-bach-poulsen"
+    link: "http://www.casperbp.net"
   - name: "Robbert Krebbers"
     link: "https://researchr.org/alias/robbert-krebbers"
   - name: "Eelco Visser"
