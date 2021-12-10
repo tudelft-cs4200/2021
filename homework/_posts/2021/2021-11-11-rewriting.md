@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: "Week 2.1: Transformation with Rewrite Rules (2020)"
+title: "Week 2.1: Transformation with Rewrite Rules"
 tag: homework
 categories: []
 kind: Homework
